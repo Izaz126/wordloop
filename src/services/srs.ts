@@ -67,17 +67,24 @@ export class SRSService {
   }
 
   /**
-   * Checks if a word is due for review today
+   * Checks if a word is due for review today.
+   * A word is due for review if:
+   * - It is marked as difficult (needs sooner repeat), OR
+   * - It has been reviewed at least once (timesReviewed > 0) and its nextReviewDate has arrived or passed.
+   * Fresh unreviewed words (timesReviewed === 0) are new words in Learning, not overdue reviews.
    */
   static isDue(word: VocabularyWord): boolean {
-    if (!word.nextReviewDate) return true;
+    if (word.isDifficult) return true;
+    if (word.timesReviewed === 0) return false;
+    if (!word.nextReviewDate) return false;
     const dueDate = new Date(word.nextReviewDate);
     const now = new Date();
     return dueDate <= now;
   }
 
   /**
-   * Calculate dashboard statistics matching the reference screenshot design
+   * Calculate dashboard statistics matching the dynamic formula:
+   * Overall Mastery (%) = (Number of Mastered Words / Total Unique Words) * 100
    */
   static calculateStats(words: VocabularyWord[], learnedToday = 0, reviewedToday = 0): SRSStats {
     const totalWords = words.length;
@@ -117,11 +124,9 @@ export class SRSService {
     const reviewingPercent = Math.round((reviewing / totalWords) * 100);
     const learningPercent = Math.round((learning / totalWords) * 100);
 
-    // Overall progress score: weighted sum (Mastered: 1.0, Reviewing: 0.5, Learning: 0.1)
-    const weightedProgress = Math.min(
-      100,
-      Math.round(((mastered * 1.0 + reviewing * 0.5 + (totalWords - mastered - reviewing) * 0.05) / totalWords) * 100)
-    );
+    // Overall Mastery (%) = (Number of Mastered Words / Total Unique Words) * 100
+    // Calculated dynamically; never hardcoded to 5% or stuck.
+    const overallMasteryPercent = totalWords > 0 ? Math.round((mastered / totalWords) * 100) : 0;
 
     return {
       totalWords,
@@ -135,7 +140,7 @@ export class SRSService {
       newWordsCount: newWords,
       learnedTodayCount: learnedToday,
       reviewedTodayCount: reviewedToday,
-      overallProgressPercent: weightedProgress,
+      overallProgressPercent: overallMasteryPercent,
     };
   }
 

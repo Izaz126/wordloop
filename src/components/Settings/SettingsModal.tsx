@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Settings, Download, Upload, RotateCcw, Key, ShieldCheck, Database, Check } from 'lucide-react';
+import { Settings, Download, Upload, RotateCcw, Key, ShieldCheck, Database, Check, RefreshCw } from 'lucide-react';
 import { AppSettings } from '../../types/vocabulary';
 import { StorageService } from '../../services/storage';
 
@@ -7,13 +7,17 @@ interface SettingsModalProps {
   onExportBackup: () => void;
   onRestoreBackup: (file: File) => void;
   onResetDatabase: () => void;
+  onSyncMaster?: () => Promise<void>;
 }
 
 export const SettingsModal: React.FC<SettingsModalProps> = ({
   onExportBackup,
   onRestoreBackup,
   onResetDatabase,
+  onSyncMaster,
 }) => {
+  const [isSyncing, setIsSyncing] = useState(false);
+  const [syncSuccess, setSyncSuccess] = useState(false);
   const [settings, setSettings] = useState<AppSettings>({
     autoPronounce: false,
     questionsPerSession: 10,
@@ -91,7 +95,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
           </p>
         </div>
 
-        {/* Backup & Restore Controls */}
+                {/* Backup & Restore Controls */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
           <button
             onClick={onExportBackup}
@@ -122,6 +126,43 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
             </div>
           </label>
         </div>
+
+        {/* Sync Master Vocabulary Button */}
+        {onSyncMaster && (
+          <div className="pt-1">
+            <button
+              onClick={async () => {
+                try {
+                  setIsSyncing(true);
+                  await onSyncMaster();
+                  setSyncSuccess(true);
+                  setTimeout(() => setSyncSuccess(false), 3000);
+                } finally {
+                  setIsSyncing(false);
+                }
+              }}
+              disabled={isSyncing}
+              className="w-full p-4 rounded-2xl border border-emerald-200 bg-emerald-50/50 hover:bg-emerald-50 hover:border-emerald-300 text-left transition-all flex items-center justify-between group cursor-pointer"
+            >
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
+                  <RefreshCw className={`w-5 h-5 ${isSyncing ? 'animate-spin' : ''}`} />
+                </div>
+                <div>
+                  <span className="font-bold text-sm text-navy-900 block">
+                    {syncSuccess ? '✓ Master Vocabulary Synchronized!' : 'Sync Master Vocabulary (Safe Update)'}
+                  </span>
+                  <span className="text-xs text-stone-500">
+                    Updates word definitions & Bengali meanings from project source without losing your learning stages or progress
+                  </span>
+                </div>
+              </div>
+              <span className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-emerald-600 text-white shrink-0">
+                {isSyncing ? 'Syncing...' : syncSuccess ? 'Updated' : 'Sync Now'}
+              </span>
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Spaced Repetition System Overview */}

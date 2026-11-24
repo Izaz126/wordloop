@@ -123,6 +123,12 @@ export default function App() {
     }
   };
 
+  // Handler to manually sync master vocabulary into IndexedDB
+  const handleSyncMaster = async () => {
+    await StorageService.migrateVocabulary(true);
+    await refreshAllData();
+  };
+
   // Handler to reset database to default
   const handleResetDatabase = async () => {
     await StorageService.resetToDefault();

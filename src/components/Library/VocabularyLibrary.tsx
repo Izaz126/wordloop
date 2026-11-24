@@ -24,9 +24,9 @@ export const VocabularyLibrary: React.FC<VocabularyLibraryProps> = ({
   const [editingWord, setEditingWord] = useState<VocabularyWord | null>(null);
   const [deleteConfirmId, setDeleteConfirmId] = useState<string | null>(null);
 
-  // Filtered words
+  // Filtered and alphabetically sorted words (A to Z)
   const filteredWords = useMemo(() => {
-    return words.filter((w) => {
+    const filtered = words.filter((w) => {
       // Category filter
       if (selectedCategory === 'Difficult' && !w.isDifficult) return false;
       if (selectedCategory !== 'All' && selectedCategory !== 'Difficult' && w.category !== selectedCategory) {
@@ -43,6 +43,15 @@ export const VocabularyLibrary: React.FC<VocabularyLibraryProps> = ({
       const matchDef = w.simpleDefinition.toLowerCase().includes(q);
 
       return matchWord || matchBangla || matchSyn || matchAnt || matchDef;
+    });
+
+    // Strict case-insensitive A-Z dictionary sorting for phrases and hyphenated words
+    return filtered.sort((a, b) => {
+      const cleanA = a.word.trim();
+      const cleanB = b.word.trim();
+      const primaryComp = cleanA.localeCompare(cleanB, undefined, { sensitivity: 'base', numeric: true });
+      if (primaryComp !== 0) return primaryComp;
+      return cleanA.localeCompare(cleanB);
     });
   }, [words, searchQuery, selectedCategory]);
 

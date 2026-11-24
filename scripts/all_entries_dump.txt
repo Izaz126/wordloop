@@ -1,0 +1,1262 @@
+1	A bone to pick	রাগান্বিত হওয়া / কথা বলার মতো অভিযোগ থাকা	idiom	Grievance,Complaint,Dispute	Harmony,Agreement
+2	Abandon	ছেড়ে যাওয়া	verb	desert,forsake,relinquish,give up	keep,retain,support
+3	Abate	প্রশমিত করা / কমানো	verb	subside,diminish,lessen,decrease	intensify,increase,strengthen
+4	Abatement	কমানো	noun	reduction,decrease,lessening,mitigation	increase,intensification,rise
+5	Abeyance	স্থগিতাবস্থা	noun	suspension,dormancy,postponement,limbo	continuation,operation,revival
+6	Abhor	ঘৃণা করা / তীব্র অপছন্দ করা	verb	Detest,Loathe,Despise	Love,Adore,Cherish
+7	Abhorrence	প্রতিক্রিয়া	noun	loathing,detestation,revulsion,antipathy	admiration,fondness,affection
+8	Abolish	বিলুপ্ত করা	verb	eliminate,eradicate,annul,revoke	establish,institute,create
+9	Above board	অকপট / খোলাখুলি	noun	transparent,honest,legitimate,straightforward	secretive,dishonest,deceptive
+10	Abrasive	ঘষর্ণের মাধ্যমে তুলে ফেলা	adjective	harsh,caustic,rough,grating	smooth,gentle,pleasant
+11	Abscond	আত্মগোপন করা	verb	flee,escape,decamp,bolt	appear,stay,surrender
+12	Abstinent	সংযমী	adjective	temperate,sober,self-restrained,ascetic	indulgent,intemperate,gluttonous
+13	Abundance	আধিক্য	noun	plenty,profusion,wealth,surplus	scarcity,shortage,lack
+14	Abuse	অপব্যবহার	noun	mistreatment,misuse,exploitation,cruelty	care,respect,protection
+15	Abyss	গষ্ণর	noun	chasm,gorge,pit,void	surface,peak,summit
+16	Accidental	আকঙি্গক	adjective	unintentional,unplanned,fortuitous,chance	intentional,deliberate,planned
+17	Accretion	সংযোজনের মাধ্যমেবৃদি্ধ	noun	accumulation,buildup,growth,addition	erosion,decrease,reduction
+18	Accrue	বৃদি্ধ	verb	accumulate,gather,collect,increase	diminish,dissipate,forfeit
+19	Accumulate	একতি্রত করা বা জমানো	verb	gather,collect,amass,hoard	disperse,dissipate,spend
+20	Accuse	অভিযুক্ত	verb	blame,indict,impeach,incriminate	exonerate,absolve,clear
+21	Acquit	অভিযোগ হতে মুক্তি দেয়া	verb	exonerate,absolve,clear,vindicate	convict,condemn,incriminate
+22	Acrimonious	তিক্ত	adjective	bitter,hostile,resentful,rancorous	harmonious,friendly,cordial
+23	Acrimony	তিক্ততা / বিদ্বেষ	noun	Bitterness,Hostility,Resentment	Goodwill,Kindness,Harmony
+24	Adamant	একগুঁয়ে	adjective	unyielding,resolute,stubborn,inflexible	flexible,yielding,compliant
+25	Adapt	খাপ খাওয়ানো	verb	adjust,conform,modify,acclimate	resist,reject,maintain
+26	Adequacy	সাদৃশ্য	noun	sufficiency,suitability,competence,fitness	inadequacy,insufficiency,deficiency
+27	Adequate	পর্যাপ্ত	adjective	sufficient,suitable,ample,satisfactory	inadequate,insufficient,deficient
+28	Admits	স্বীকার করা	verb	confesses,acknowledges,permits,allows	denies,rejects,excludes
+29	Admonish	সতর্ক করা / মৃদু তিরস্কার করা / সর্তক করা	verb	Warn,Reprimand,Rebuke	Praise,Commend,Approve
+30	Adopt	গ্রহণ করা	verb	embrace,take on,choose,accept	reject,abandon,discard
+31	Adopted	গ্রহণ করা	adjective	chosen,taken in,embraced,assumed	biological,natural,rejected
+32	Adoring	পে্রমপূণর্	adjective	loving,devoted,admiring,fond	hateful,scornful,indifferent
+33	Adornment	অলংকরণ	noun	decoration,embellishment,ornament,accessory	plainness,bareness,simplicity
+34	Adverse	প্রতিহূল	adjective	unfavorable,detrimental,harmful,negative	favorable,beneficial,positive
+35	Affable	অমায়িক / বন্ধুবৎসল	adjective	Friendly,Amiable,Genial	Unfriendly,Rude,Hostile
+36	Affirm	দৃঢ়ভাবে কোন কিছু বলা	verb	assert,declare,confirm,state	deny,contradict,refute
+37	Aftermath	পরিণাম / ফলাফল	noun	consequences,repercussions,outcome,fallout	cause,origin,beginning
+38	Aggravate	অবনতি ঘটানো / উসকে দেওয়া / অধিক গুরুতর / শোচনীয় করে তোলা	verb	ও Worsen,Intensify,Exacerbate	Improve,Alleviate,Soothe
+39	Agile	তৎপর	adjective	nimble,spry,quick,flexible	clumsy,stiff,slow,awkward
+40	Agitation	অশান্ত	noun	unrest,turmoil,distress,commotion	calm,peace,tranquility
+41	Agnostic	অন্ত্রানবাদী	noun	skeptic,doubter,non-believer	believer,theist,devotee
+42	Ailment	ছোট খাটো অসুস্থতা	noun	illness,sickness,malady,complaint	health,wellness,vigor
+43	Alabaster	সাদা পাথর	noun	marble,gypsum	No common antonym
+44	Alienation	বিজে্ঞদ / বিজি্ঞন্নতা	noun	estrangement,isolation,detachment,separation	connection,belonging,integration
+45	Allay	প্রশমিত করা (কষ্ট / যপ্সণা )	verb	relieve,soothe,calm,alleviate	intensify,heighten,worsen
+46	Alleviate	উপশম করা / লাঘব করা	verb	Ease,Reduce,Relieve	Aggravate,Intensify,Worsen
+47	Alluring	লোভনীয়	adjective	tempting,enticing,captivating,charming	repulsive,unappealing,unattractive
+48	Aloof	নিস্পৃহ / দূরে থাকা / একাকী / নিলির্প্ত	adjective	Distant,Detached,Reserved	Friendly,Warm,Sociable
+49	Altruistic	পরার্থপর / নিঃস্বার্থ / পরের জন্য মণ্টলজনক	adjective	Selfless,Generous,Philanthropic	Selfish,Greedy,Self-centered
+50	Amalgamate	একসাথে করা	verb	merge,combine,unite,blend	separate,divide,split
+51	Amass	পুন্নীভূত করা	verb	accumulate,gather,collect,hoard	disperse,scatter,distribute
+52	Amateur	অপেশাদার	noun	non-professional,hobbyist,novice,beginner	professional,expert,specialist
+53	Ambidextrous	সব্যসাচী	adjective	two-handed,versatile	right-handed,left-handed
+54	Ambiguous	দ্ব্যর্থবোধক / অস্পষ্ট	adjective	Vague,Unclear,Equivocal	Clear,Definite,Explicit
+55	Ambivalent	দোদুল্যমান / দোটানায় ভোগা / বিপরীত	adjective	Undecided,Uncertain,Certain	Decisive,She
+56	Ameliorate	প্রশমিত করা (কষ্ট / যপ্সণা )	verb	improve,better,enhance,relieve	worsen,aggravate,exacerbate
+57	Amenable	ধ্বন্ধুভাবাপন্ন	adjective	cooperative,compliant,responsive,agreeable	uncooperative,resistant,stubborn
+58	Amiable	ভদ্র / মিশুক / অমায়িক	adjective	Friendly,Pleasant,Agreeable	Disagreeable,Hostile,Unfriendly
+59	Amicable person	বন্ধুভাবাপন্ন	adjective	friendly,good-natured,cordial,agreeable	hostile,unfriendly,antagonistic
+60	Amity	মিত্রতা	noun	friendship,goodwill,harmony,peace	hostility,animosity,conflict
+61	Amplification	ভাবসল্মসারণ করা	noun	enlargement,expansion,intensification,elaboration	reduction,diminution,simplification
+62	Anachronism	কালবৈষম্য / যুগের সাথে বেমানান	noun	- Incongruity,Misplacement,Archaism	Modernity,Currency,Timeliness
+63	Anarchy	নৈরাজ্য / বিশৃঙ্খলা	noun	Chaos,Disorder,Lawlessness	Order,Governance,Control
+64	Ancillary	আনুষণি্টক	adjective	supplementary,auxiliary,subordinate,supporting	primary,main,essential
+65	Anemometer	বাতাসের বেগ নিণর্ায়ক যপ্স	noun	wind gauge,wind speed indicator,air speed meter	No common antonym
+66	Animate	প্রশান্ত / সজীব	adjective	living,alive,vital,sentient	inanimate,lifeless,dead
+67	Animosity	শত্রুতা / তীব্র বিদ্বেষ	noun	Hostility,Enmity,Hatred	Friendship,Love,Goodwill
+68	Annul	বাতিল করা	verb	invalidate,revoke,cancel,abolish	validate,confirm,establish
+69	Anomalous	ব্যতিক্রমে	adjective	abnormal,irregular,atypical,unusual	normal,typical,standard
+70	Anomaly	ব্যতিক্রম / নিয়মবহির্ভূত কিছু	noun	Irregularity,Exception,Deviation	Normality,Regularity,Conformity
+71	Anonymous	নামহীন / বেনামী	adjective	unnamed,unknown,nameless,unidentified	named,known,identified
+72	Antagonism	প্রতিদ্ধন্দীতা	noun	hostility,animosity,conflict,opposition	harmony,agreement,friendship
+73	Anticipated	অনুমান বা বুঝতে পারা	verb	expected,foreseen,predicted,awaited	unexpected,unforeseen,surprised
+74	Antipathy	বিতৃষ্ণা / তীব্র অনীহা	noun	Dislike,Aversion,Hostility	Sympathy,Affection,Fondness
+75	Apathetic	উদাসীন	adjective	indifferent,unconcerned,emotionless,uninterested	enthusiastic,concerned,passionate
+76	Apathy	উদাসীনতা / নির্লিপ্ততা	noun	Indifference,Lethargy,Disinterest	Enthusiasm,Concern,Passion
+77	Aphorism	সংকি্ষপ্ত ন্ত্রানগর্ব	noun	proverb,maxim,adage,saying	No common antonym
+78	Appall	আতটি্টত করা / মর্মাহত করা	verb	horrify,shock,dismay,outrage	reassure,comfort,please
+79	Apparent	দৃশ্যমান	adjective	obvious,clear,evident,visible	hidden,unclear,obscure
+80	Appeal	আবেদন	noun	plea,request,petition,entreaty	rejection,refusal,denial
+81	Appease	শান্ত করা / তুষ্ট করা	verb	Pacify,Placate,Satisfy	Provoke,Aggravate,Irritate
+82	Applaud	প্রশংসা	verb	praise,commend,cheer,acclaim	criticize,condemn,boo
+83	Applause	সাধুবাদ	noun	clapping,ovation,acclaim,cheers	booing,criticism,disapproval
+84	Appraisal	কোন কিছুর মূল্য পরিমাপ করা.	noun	evaluation,assessment,estimation,judgment	No common antonym
+85	Arbitrary	বিধিবহিভূর্ত / বৈস্বরচারী	adjective	random,capricious,whimsical,discretionary	rational,logical,systematic
+86	Archives	নথিপত্র	noun	records,chronicles,documents,repository	No common antonym
+87	Arduous	কষ্টসাধ্য বা পরিঙ্কমসাধ্য কিছু	adjective	difficult,strenuous,laborious,demanding	easy,simple,effortless
+88	Argument	বিতর্ক	noun	debate,dispute,discussion,contention	agreement,harmony,peace
+89	Argumentative	তর্ক বিতর্ক	adjective	quarrelsome,contentious,disputatious,combative	agreeable,cooperative,peaceful
+90	Aristocrat	অভিজাত	noun	noble,patrician,blue blood,dignitary	commoner,plebeian
+91	Arouse	জাগানো / জাগ্রত করা	verb	awaken,stimulate,provoke,excite	calm,soothe,suppress
+92	Arrogance	অহংকার / দম্ভ	noun	Pride,Conceit,Haughtiness	Humility,Modesty,Meekness
+93	Arrogant	অহংকারী	adjective	haughty,conceited,proud,supercilious	humble,modest,meek
+94	Articulate	স্পষ্টভাষী / প্রাঞ্জল	adjective	Eloquent,Fluent,Expressive	Inarticulate,Mumbling,Vague
+95	Artillery	কামান	noun	ordnance,cannons,weaponry,heavy guns	No common antonym
+96	Artistic	বৈশসি্ফক	adjective	creative,imaginative,aesthetic,expressive	uncreative,inartistic,plain
+97	Ascend	আরোহণ করা	verb	climb,rise,mount,go up	descend,fall,drop
+98	Ascertain	নিশ্চিত করা / নিরূপণ করা	verb	Determine,Verify,Establish	Ignore,Overlook,Neglect
+99	Aspire	আকাঙ্ক্ষা করা / ইচ্ছা পোষণ করা	verb	Desire,Aim,Strive,Yearn	Despise,Disdain,Decline
+100	Assert	দৃঢ়ভাবে কোন কিছু বলা	verb	declare,state,affirm,insist	deny,retract,concede
+101	Assiduous	অধ্যবসায়ী	adjective	diligent,industrious,painstaking,meticulous	lazy,careless,negligent
+102	Astute	বিচক্ষণ / তীক্ষ্ণবুদ্ধি / ন্ত্রানী / বিচক্ষণ	adjective	Clever,Shrewd,Sharp	Dull,Foolish,Naive
+103	Asylum	আঙ্কয় / নিরপত্তা	noun	refuge,sanctuary,shelter,haven	danger,exposure,peril
+104	At bottom	প্রকৃতপকে্ষ	noun	essentially,fundamentally,truly,in essence	superficially,outwardly
+105	Atrocious	নৃশংস / বর্বরোচিত	adjective	Brutal,Horrible,Wicked	Kind,Gentle,Wonderful
+106	Attempts	চেষ্টা করা	noun	efforts,tries,endeavors,ventures	successes,achievements
+107	Attribute	আরোপ করা	verb	ascribe,impute,credit,assign	dissociate,detach,disconnect
+108	Audacious	দুঃসাহসী / নির্ভীক	adjective	Bold,Daring,Fearless	Cowardly,Timid,Fearful
+109	Audacity	দুঃসাহস	noun	boldness,daring,impudence,nerve	timidity,humility,caution
+110	Austere	কঠোর / আড়ম্বরহীন / উগ্র / কঠোর	adjective	Strict,Stern,Rigid	Lenient,Soft,Indulgent
+111	Autocrat	একনায়ক / বৈস্বরশাসক	noun	dictator,tyrant,despot,absolute ruler	democrat,subject,follower
+112	Avaricious	অর্থলোভী / কৃপণ	adjective	Greedy,Covetous,Grasping	Generous,Charitable,Unselfish
+113	Aversion	অনিহা / প্রতিক্রিয়া	noun	dislike,antipathy,distaste,loathing	fondness,liking,affection
+114	Awkward	বেমানান	adjective	clumsy,ungainly,uncomfortable,embarrassing	graceful,smooth,comfortable
+115	Axle	অক্ষ	noun	shaft,spindle,rod,pivot	No common antonym
+116	Backtrack	প্রত্যাখ্যান করা	verb	retreat,withdraw,recant,reverse	advance,proceed,persist
+117	Baffle	বিভ্রান্ত করা / ধাঁধায় ফেলা	verb	Confuse,Puzzle,Perplex	Enlighten,Clarify,Explain
+118	Bait	টোপ	noun	lure,decoy,enticement,trap	deterrent,discouragement
+119	Ball to the wall	পুরোদমে	noun	full throttle,all out,at full speed,intensely	slowly,cautiously,half-heartedly
+120	Balmy	সি্বঞ্ছ	adjective	mild,pleasant,gentle,temperate	harsh,severe,cold
+121	Bankrupt	দেওলিয়া	adjective	insolvent,broke,ruined,penniless	solvent,wealthy,prosperous
+122	Barren	অনুর্বর	adjective	infertile,unproductive,desolate,sterile	fertile,fruitful,productive
+123	Barrier	প্রতিবন্ধক / বাঁধা	noun	obstacle,obstruction,hindrance,impediment	opening,bridge,aid
+124	Barter	বিনিময় করা	verb	trade,exchange,swap,haggle	buy,sell,purchase
+125	Befuddled	বিভ্রান্ত	adjective	confused,bewildered,perplexed,muddled	clear-headed,lucid,enlightened
+126	Belittle	ছোট করা	verb	disparage,demean,deprecate,diminish	praise,extol,laud,magnify
+127	Belittlement	হীনতা / খর্বতা	noun	disparagement,denigration,deprecation,humiliation	praise,commendation,exaltation
+128	Bellicose	যুদ্ধংদেহী / মারমুখী	adjective	Warlike,Aggressive,Hostile	Peaceful,Gentle,Docile
+129	Bend	বাঁকানো	verb	curve,flex,stoop,incline	straighten,unbend,stiffen
+130	Benevolent	দয়ালু / হিতৈষী / হিৈতষী	adjective	Kind,Charitable,Generous	Malevolent,Cruel,Selfish
+131	Benign	সদয় / নিরীহ / ক্ষতিকর নয় এমন	adjective	Gentle,Kind,Harmless	Malign,Hostile,Dangerous
+132	Bewildering	বিভ্রান্তিকর / হতবুদ্ধিকর	adjective	ও Confusing,Puzzling,Perplexing	Clear,Simple,Understandable
+133	Biased	পক্ষপাতী / পক্ষপাতদুষ্ট	adjective	prejudiced,partial,unfair,one-sided	impartial,objective,fair,neutral
+134	Bibliography	গ্রব্দপুনি্ন	noun	References,Sources,Citations,Works cited	No common antonym
+135	Bigot	ধর্মান্ধ / গোঁড়া ব্যক্তি / অন্ধ বিশ্বাসী	noun	Fanatic,Intolerant,Prejudiced person	Tolerant,Liberal,Broad-
+136	Blatant	প্রকাশ্য / নির্লজ্জ / স্পষ্ট	adjective	(       ) Obvious,Flagrant,Glaring	Subtle,Hidden,Inconspicuous
+137	Blaze	আলোকজ্ঞটা	noun	Fire,Inferno,Conflagration,Flame	No common antonym
+138	Bleak	নিরানন্দ / মলিন	adjective	Gloomy,Dismal,Dreary,Hopeless	Cheerful,Bright,Hopeful
+139	Blight	ক্ষয় করা	verb	Ruin,Spoil,Damage,Wither	Improve,Enhance,Flourish
+140	Boaster	অহংকারী ব্যক্তি	noun	Braggart,Show-off,Egotist,Swanker	Humble person,Modest person
+141	Bohemian	ভবঘুরে ধরনের লোক	adjective	Unconventional,Nonconformist,Free-spirited,Artistic	Conventional,Traditional,Conformist
+142	Boisterous	কোলাহলপূর্ণ / উচ্ছ্বসিত	adjective	Rowdy,Noisy,Unruly	Quiet,Calm,Peaceful
+143	Bona fide	খাঁটি / প্রকৃত	adjective	Genuine,Authentic,Real,Legitimate	Bogus,Counterfeit,Fake
+144	Bondage	বন্দদশা	noun	Slavery,Captivity,Servitude,Subjection	Freedom,Liberty,Independence
+145	Boorishness	রুক্ষতা	noun	Rudeness,Crudeness,Coarseness,Vulgarity	Politeness,Refinement,Courtesy
+146	Braggart	দাশি্রক	noun	Boaster,Show-off,Egotist,Swanker	Humble person,Modest person
+147	Braking	গতিরোধ	noun	Deceleration,Halting,Stopping,Slowing	Accelerating,Speeding up
+148	Breakable	ভণ্টুর	adjective	Fragile,Delicate,Brittle,Frail	Durable,Sturdy,Unbreakable
+149	Brevity	সংক্ষিপ্ততা / স্বল্পতা / সংকি্ষপ্ত ভাবে	noun	Conciseness,Terseness,Shortness	Verbosity,Length,Prolixity
+150	Brittle	ভণ্টুর	adjective	Fragile,Breakable,Delicate,Crisp	Flexible,Pliable,Tough,Durable
+151	Broker	দালাল	noun	Agent,Dealer,Intermediary,Middleman	No common antonym
+152	Brooding	চিন্তানিমঞ্জ	adjective	Pensive,Meditative,Contemplative,Gloomy	Cheerful,Lighthearted,Joyful
+153	Bucolic	গ্রাম্য	adjective	Rural,Pastoral,Rustic,Agrarian	Urban,City,Metropolitan
+154	Build in	অন্তগর্ত	verb	Incorporate,Integrate,Embed,Include	Exclude,Remove,Separate
+155	Bureaucrat	সরকারী র্কমর্কতা	noun	Official,Administrator,Civil servant,Functionary	No common antonym
+156	Burgeon	দ্রুত বিকশিত হওয়া / ফুলে-ফেঁপে ওঠা	verb	ও Flourish,Expand,Boom	Decline,Shrink,Wither
+157	Buried	সমাহিত বা কবর দেয়া হয়েছে এমন	adjective	Interred,Concealed,Hidden,Covered	Uncovered,Exposed,Exhumed
+158	Bustling	বৈহ বৈচ পূণর্	adjective	Lively,Hectic,Busy,Vibrant	Quiet,Calm,Peaceful,Deserted
+159	Butter	মাখন	noun	Spread,Margarine,Ghee	No common antonym
+160	Bygone	বিগত	adjective	Past,Former,Previous,Olden	Present,Future,Current
+161	Cajole	মিষ্টি কথায় রাজি করানো	verb	Coax,Persuade,Flatter	Force,Compel,Intimidate
+162	Callous	নিষ্ঠুর / অনুভূতিহীন	adjective	Heartless,Cruel,Insensitive	Compassionate,Kind,Sensitive
+163	Calumny	মিথ্যা অপবাদ / কুৎসা	noun	Slander,Defamation,Libel	Praise,Commendation,Tribute
+164	Candid	অকপট / স্পষ্টভাষী	adjective	Frank,Honest,Outspoken	Dishonest,Evasive,Secretive
+165	Candour	সাধাসিধা / বিশ্বাসপ্রবণ	noun	Honesty,Frankness,Openness,Sincerity	Deceit,Dishonesty,Evasiveness
+166	Cannibal	নরখাদক	noun	Man-eater,Anthropophagite	No common antonym
+167	Capacious	সুপ্রশস্ত	adjective	Roomy,Spacious,Ample,Voluminous	Cramped,Small,Confined
+168	Capitalist	পূঁজিতাপি্সক	noun	Entrepreneur,Investor,Financier,Industrialist	Socialist,Communist
+169	Capricious	খেয়ালি / খামখেয়ালী	adjective	Fickle,Impulsive,Unpredictable	Stable,Reliable,Consistent
+170	Castigate	নিন্দা করা / তিরস্কার করা	verb	reprimand,scold,rebuke,admonish	praise,commend,laud
+171	Casual	আকস্মিক	adjective	informal,accidental,spontaneous,relaxed	formal,deliberate,serious
+172	Categorical	নিরপেক্ষ	adjective	absolute,unequivocal,definite,explicit	conditional,ambiguous,vague
+173	Caustic	তীব্র ব্যঙ্গাত্মক / ক্ষয়কারী	adjective	Corrosive,Biting,Harsh	Mild,Pleasant,Gentle
+174	Celibacy	সতীধ	noun	abstinence,chastity,virginity	promiscuity,marriage
+175	Censure	তীব্র নিন্দা করা / তিরস্কার করা	verb	Criticize,Condemn,Blame	Praise,Approve,Commend
+176	Cereal	খাদ্যশস্য	noun	grain,corn,oats,wheat	No common antonym
+177	Chagrin	বিরক্তি	noun	annoyance,embarrassment,mortification,vexation	delight,pleasure,satisfaction
+178	Chastise	কঠোর শাস্তি দেওয়া / তিরস্কার করা	verb	Punish,Scold,Reprimand	Praise,Reward,Commend
+179	Chastity	সতীধ	noun	purity,innocence,celibacy,virginity	promiscuity,immorality
+180	Chide	তিরস্কার করা	verb	scold,rebuke,admonish,reprimand	praise,commend,approve
+181	Chronic	নিয়মিত ঘটা	adjective	persistent,constant,long-standing,habitual	acute,temporary,brief
+182	Circulation	প্রচার / প্রচলন / মুদ্রণ	noun	distribution,flow,movement,dissemination	stagnation,blockage
+183	Circumspect	সতর্ক / দূরদর্শী / সাবধানী	adjective	Cautious,Careful,Prudent	Reckless,Careless,A
+184	Clandestine	গোপন / গুপ্ত	adjective	Secret,Covert,Hidden	Open,Public,Transparent
+185	Clemency	দয়া / ক্ষমা / সহানুভূতি	noun	Mercy,Leniency,Forgiveness	Harshness,Cruelty,Strictness
+186	Coerce	বাধ্য করা / জোর প্রয়োগ করা	verb	Force,Compel,Intimidate	Persuade,Allow,Free
+187	Cogent	জোরালো / অকাট্য / যুক্তিযুক্ত / প্রবল / অকাট্য	adjective	Convincing,Compelling,Persuasive	Weak,Unconvincing,Feeble
+188	Cogitate	বুঝতে পারা	verb	ponder,contemplate,deliberate,muse	ignore,disregard,forget
+189	Cogitating	চিন্তানিমঞ্জ	adjective	thoughtful,pensive,contemplative,reflective	thoughtless,unthinking
+190	Coherent	সামন্নস্যপূণর্ / সুসনি্ত্যত / যৌক্তিত	adjective	logical,consistent,clear,articulate	incoherent,illogical,confused
+191	Colossal	বিশাল	adjective	enormous,gigantic,massive,immense	tiny,miniature,minute
+192	Come round	আরোগ্য লাভ করা	noun	recover,revive,agree,concede	faint,disagree,resist
+193	Commence	শুরু করা	verb	begin,start,initiate,launch	end,finish,conclude
+194	Commencement	শুরু	noun	beginning,start,inception,inauguration	end,conclusion,finish
+195	Commend	প্রশংসা করা	verb	praise,applaud,laud,extol	criticize,condemn,censure
+196	Communism	সাম্যবাদ	noun	socialism,collectivism	capitalism,individualism
+197	Compassionate	করুণাময়	adjective	sympathetic,empathetic,caring,kind	indifferent,cruel,heartless
+198	Compensate	ক্ষতিপূরন দেয়া	verb	reimburse,recompense,atone,offset	penalize,forfeit,lose
+199	Compile	একত্র করা	verb	assemble,collect,gather,organize	disperse,separate,dismantle
+200	Complacency	আত্মতৃপি্ত	noun	self-satisfaction,smugness,contentment	dissatisfaction,concern,anxiety
+201	Complacent	আত্মসন্তুষ্ট / অসাবধান / স_ষ্টি	adjective	Self-satisfied,Smug,Unconcerned	Concerned,Anxious,Worried
+202	Complexity	জটলিতা	noun	intricacy,complication,elaborateness	simplicity,straightforwardness,ease
+203	Compliance	সম্মতি / প্রতিপালন	noun	obedience,adherence,conformity,agreement	defiance,resistance,noncompliance
+204	Composite	যৌগিক	adjective	blended,mixed,combined,compound	simple,single,unmixed
+205	Composure	বৈধর্য্য	noun	calmness,serenity,self-possession,tranquility	agitation,anxiety,discomposure
+206	Conceal	গোপন করা	verb	hide,disguise,cover,mask	reveal,expose,disclose
+207	Concede	স্বীকার করা / পরাজয় মেনে নেওয়া	verb	ও Admit,Acknowledge,Yield	Deny,Resist,Refuse
+208	Conceited	আত্মভিমানী	adjective	arrogant,vain,proud,self-important	humble,modest,unassuming
+209	Conciliate	শান্ত করা	verb	pacify,appease,mollify,placate	provoke,irritate,antagonize
+210	Conclude	শেষ করা	verb	finish,complete,end,terminate	begin,start,commence
+211	Concubine	উপস্থী	noun	mistress,paramour	wife,spouse
+212	Condemn	তিরস্কার	verb	denounce,censure,criticize,reprimand	praise,approve,commend
+213	Condiment	আচার / মশলা	noun	seasoning,spice,relish,sauce	No common antonym
+214	Condone	মার্জনা করা / অন্যায়কে উপেক্ষা করা / উপেক্ষা করা (অপরাধ )	verb	Forgive,Excuse,Overlook	Condemn,Punish,Blame
+215	Conducive	সহায়ক	adjective	favorable,helpful,beneficial,instrumental	unfavorable,detrimental,hindering
+216	Conduit	পয়ঃপ্রণালী	noun	channel,pipe,duct,passage	No common antonym
+217	Conflict	সংগ্রাম করা	noun	dispute,disagreement,struggle,clash	harmony,agreement,peace
+218	Confound	বিভ্রান্ত করা	verb	confuse,perplex,bewilder,baffle	clarify,enlighten,explain
+219	Congenial	অনুকূল / মনোরম / আন্তরিক / বন্ধুভাবাপন্ন	adjective	Pleasant,Compatible,Agreeable	Unpleasant,Incompatible,Hostile
+220	Conger	সামুদি্রক বানমাছ	noun	eel,sea eel	No common antonym
+221	Conscript	নতুন নিয়োগপ্রাপ্ত অনভিন্ত্র র্কমশী	verb	draft,enlist (compulsorily),mobilize	volunteer,discharge
+222	Consolidation	ঐক্যবদ্ধ / একসাথে	noun	unification,merger,integration,strengthening	division,separation,fragmentation
+223	Conspire	চক্রোন্ত করা	verb	plot,scheme,collude,intrigue	No common antonym
+224	Constraint	বাঁধা	noun	restriction,limitation,hindrance,impediment	freedom,liberty,allowance
+225	Contemplative	চিন্তানিমঞ্জ	adjective	thoughtful,reflective,meditative,pensive	thoughtless,unreflective,impulsive
+226	Contempt	অবজ্ঞা / ঘৃণা / তাচ্ছিল্য	noun	Scorn,Disdain,Disrespect	Respect,Admiration,Reverence
+227	Continuation	ধারাবাহিকতা	noun	progression,persistence,extension,perpetuation	cessation,halt,interruption
+228	Contradict	অস্বীকার করা	verb	deny,refute,gainsay,challenge	confirm,affirm,agree
+229	Contrary	বিপরীত	adjective	opposite,conflicting,opposing,adverse	similar,consistent,agreeable
+230	Contrast	বৈবপরিত্য	noun	difference,dissimilarity,distinction,divergence	similarity,resemblance,likeness
+231	Contravene	আইন বা রীতি লংঘন করা	verb	violate,infringe,breach,transgress	comply,obey,uphold
+232	Contrite	অনুতপ্ত / অনুশোচনাগ্রস্ত	adjective	Remorseful,Penitent,Sorry	Unrepentant,Indifferent,Arrogant
+233	Controversy	বিতর্ক / বাদ-প্রতিবাদ	noun	Dispute,Debate,Disagreement	Agreement,Harmony,Consensus
+234	Conventional	প্রচলিত / গতানুগতিক	adjective	traditional,customary,standard,orthodox	unconventional,unusual,radical,innovative
+235	Convict	দোষী সাব্যস্ত করা	verb	Condemn,Sentence,Find guilty	Acquit,Exonerate,Absolve
+236	Convicted	দোষী / অপরাধী	adjective	guilty,condemned,sentenced,culpable	acquitted,innocent,exonerated
+237	Conviction	দৃঢ় বিশ্বাস	noun	belief,certainty,assurance,confidence	doubt,uncertainty,skepticism
+238	Convolution	হৃন্মলী	noun	twist,coil,fold,intricacy	simplicity,straightness,clarity
+239	Copious	প্রচুর / বিপুল পরিমাণ	adjective	Abundant,Plentiful,Ample	Scarce,Insufficient,Meagre
+240	Cordial	আন্তরিক / হৃদ্যতাপূর্ণ	adjective	Warm,Friendly,Sincere	Cold,Hostile,Unfriendly
+241	Correspond	মিল	verb	match,agree,align,communicate	differ,disagree,clash
+242	Corroborate	দৃঢ় করা	verb	confirm,verify,validate,authenticate	contradict,disprove,refute
+243	Corrupt	দুর্নীতিগ্রস্ত / নীতিভ্রষ্ট	adjective	Dishonest,Immoral,Depraved	Honest,Upright,Moral
+244	Cosmopolitan	সার্বজনীন	adjective	global,international,worldly,sophisticated	provincial,narrow-minded,insular
+245	Cosmos	নিসগর্	noun	universe,galaxy,creation,macrocosm	microcosm,nothingness
+246	Counterfeit	ভেজাল / কৃতি্রম	adjective	fake,bogus,forged,spurious	genuine,authentic,real
+247	Courageous	সাহসী / নির্ভীক	adjective	Brave,Bold,Daring	Cowardly,Timid,Fearful
+248	Covenant	আইনসম্মত চুক্তিপত্র	noun	agreement,contract,pact,promise	disagreement,breach,refusal
+249	Craft	দক্ষতা	noun	skill,artistry,expertise,trade	clumsiness,ineptitude,amateurism
+250	Crank	বাঁকা	noun	eccentric,oddball,peculiar,weirdo	conformist,normal,conventional
+251	Craven	কাপুরুষ	adjective	cowardly,timid,fearful,faint-hearted	brave,courageous,valiant
+252	Credulous	অতিবিশ্বাসী / সহজবিশ্বাসী	adjective	Gullible,Naive,Trusting	Skeptical,Suspicious,Critical
+253	Cretin	বোকা জাতীয়	noun	idiot,fool,imbecile,dolt	genius,intellectual,sage
+254	Critique	সমালোচনামূলক নিবন্ধ	noun	analysis,evaluation,assessment,review	praise,commendation,approval
+255	Crone	বিগত যৌবনা (ঘৃণা অথের্)	noun	hag,witch,old woman	maiden,young woman,beauty
+256	Crook	বাঁকা	noun	criminal,swindler,rogue,cheat	honest person,upright citizen,law-abiding
+257	Cryptic	রহস্যময় / দুর্বোধ্য	adjective	Mysterious,Obscure,Puzzling	Clear,Obvious,Straightforward
+258	Cud chew	জাবর কাটা স্তন্যপায়ী প্রাণী	verb	ruminate,ponder,deliberate,contemplate	ignore,dismiss,forget
+259	Culpable	দোষী / অপরাধের যোগ্য / শাসি্ত পাবার যোগ্য	adjective	Guilty,Blameworthy,Responsible	Innocent,Blameless,Guiltless
+260	Cunning	দক্ষ	adjective	sly,crafty,shrewd,artful	naive,innocent,guileless
+261	Cupid	ধনসশ্মতি্তর জন্য লোভাতুর	noun	Eros,love god,cherub	No common antonym
+262	Curious	অদ্বুত	adjective	inquisitive,prying,unusual,peculiar	uninterested,indifferent,common,ordinary
+263	Currency	প্রচলিত	noun	money,cash,prevalence,acceptance	obsolescence,disuse,rarity
+264	Cursive	টানা টানা হাতের লেখা (জড়ানো )	adjective	flowing,joined,script,handwritten	print,block letters,disconnected
+265	Cursory	ভাসা-ভাসা / দ্রুত ও অগভীর / দ্রুত নিঙ্কন্ন	adjective	Superficial,Brief,Hasty	Thorough,Detailed,Careful
+266	Curved	বক্রেরেখা	adjective	bent,arched,rounded,winding	straight,linear,flat
+267	Cut and dried	রুক্ষ	noun	predetermined,settled,straightforward,simple	complex,debatable,open-ended
+268	Cynic	যে র্সবদা অপরের ভূল ধরে	noun	skeptic,pessimist,misanthrope,doubter	idealist,optimist,believer
+269	Cynical	সন্দেহবাতিক / মানববিদ্বেষী / বৈনরাশ্যবাদী	adjective	Skeptical,Pessimistic,Sarcastic	Optimistic,Trusting,Positive
+270	Darken	অন্ধকার করা	verb	dim,shade,obscure,cloud	brighten,lighten
+271	Dauntless	অকুতোভয় / নির্ভীক	adjective	Fearless,Brave,Intrepid	Fearful,Timid,Cowardly
+272	Dead and buried	পুরোপুরি থেমে যাওয়া	noun	obsolete,defunct,bygone,ended	current,active,alive
+273	Dealings	আচরণ	noun	interactions,transactions,relations,conduct	No common antonym
+274	Dearth	অভাব / স্বস্ফতা	noun	scarcity,shortage,deficiency,insufficiency	abundance,plenty,surplus
+275	Debacle	চরম বিপর্যয় / ভরাডুবি / ’ংস হওয়া / পতন হয়ে যাওয়া / মহাবিপর্যয়	noun	Disaster,Fiasco,Catastrophe	Success,Triumph,Victory
+276	Debonair	সদা হাসি খুশি	adjective	suave,sophisticated,elegant,charming	awkward,clumsy,unrefined
+277	Debris	’ংসাবশেষ	noun	rubble,wreckage,fragments,refuse	No common antonym
+278	Decay	ক্ষয় হওয়া	verb	decompose,rot,spoil,deteriorate	flourish,grow,improve
+279	Deceit	প্রতারনা	noun	deception,trickery,fraud,dishonesty	honesty,truthfulness,sincerity
+280	Deceitful	প্রতারণাপূর্ণ / বিশ্বাসঘাতক	adjective	Dishonest,Fraudulent,Deceptive	Honest,Truthful,Sincere
+281	Deceived	প্রতারিত হওয়া বা করা	verb	tricked,misled,duped,fooled	enlightened,undeceived,informed
+282	Deceptive	বিভ্রান্তিকর / প্রতারক / প্রতারণামূলক	adjective	Misleading,Fraudulent,Dishonest	Honest,Transparent,Genuine
+283	Defame	মানহানি	verb	slander,libel,malign,disparage	praise,commend,glorify
+284	Defensible	টকিানো বা টিকিয়ে রাখা যায় এমন	adjective	justifiable,supportable,valid,sound	indefensible,unjustifiable,untenable
+285	Defer	স্থগিত রাখা / বিলম্বিত করা	verb	ও Postpone,Delay,Suspend	Advance,Expedite,Hasten
+286	Deficient	অপ্রতুল / অভাবযুক্ত / ঘাটতি	adjective	Lacking,Inadequate,Insufficient	Sufficient,Adequate,Complete
+287	Deflect	ঘুরে যাওয়া	verb	divert,redirect,parry,turn aside	attract,absorb,draw
+288	Defy	বাধা দেয়া	verb	resist,challenge,disobey,flout	obey,comply,submit
+289	Degrade	মর্যাদা ক্ষুণ্ণ করা / অবনমিত করা	verb	Demote,Humiliate,Dishonour	Promote,Elevate,Honor
+290	Deleterious	ক্ষতিকর / অনিষ্টকর	adjective	harmful,detrimental,damaging,adverse	beneficial,advantageous,helpful
+291	Deliberate	ইচ্ছাকৃত / সুচিন্তিত	adjective	Intentional,Calculated,Considered	Accidental,Hasty,Unplanned
+292	Deliberately	ইজ্ঞাকৃতভাবে	verb	intentionally,purposefully,consciously,knowingly	accidentally,unintentionally,inadvertently
+293	Delicate	কোমল / উপাদেয়	adjective	fragile,dainty,subtle,fine	robust,sturdy,coarse
+294	Delirious	বিকারগ্রস্থ	adjective	feverish,incoherent,raving,ecstatic	lucid,rational,calm
+295	Delusive	ভ্রানি্ত	adjective	misleading,deceptive,illusory,false	realistic,truthful,accurate
+296	Demagogue	জননেতা	noun	agitator,rabble-rouser,instigator,firebrand	No common antonym
+297	Demise	মৃতু্য	noun	death,passing,end,expiration	birth,beginning,origin
+298	Demobilize	সামরিক দায়িধ থেকে অব্যাহতি দেয়া	verb	disband,disarm,discharge,deactivate	mobilize,enlist,recruit
+299	Demolish	চূণর্ করা	verb	destroy,raze,dismantle,flatten	build,construct,erect
+300	Demonstrative	প্রমাণদায়ক	adjective	expressive,emotional,open,effusive	reserved,unexpressive,restrained
+301	Demur	আপতি্ত / আশংকা প্রকাশ করা	verb	object,protest,hesitate,balk	agree,accept,assent
+302	Denigrate	নিন্দা করা / অপবাদ দেয়া	verb	disparage,belittle,malign,defame	praise,commend,laud
+303	Denigration	দুর্নাম	noun	defamation,disparagement,slander,vilification	praise,commendation,eulogy
+304	Denounce	প্রকাশ্যে নিন্দা করা	verb	Condemn,Criticize,Censure	Praise,Commend,Approve
+305	Deny	দৃঢ়ভাবে কোন কিছু অস্বীকার করা	verb	refute,contradict,disclaim,reject	admit,affirm,confirm
+306	Depart	স্থান ত্যাগ করা / গমন করা	verb	leave,exit,set off,go	arrive,stay,remain
+307	Deprecate	নিন্দা করা	verb	disapprove,belittle,disparage,condemn	praise,approve,commend
+308	Deprive	বঞ্চিত করা	verb	ও Deny,Rob,Strip	Provide,Grant,Give
+309	Deride	উপহাস করা / বিদ্রূপ করা	verb	Mock,Ridicule,Scoff	Praise,Admire,Respect
+310	Derrick	ভার উত্তোলন যপ্স	noun	crane,hoist,lift,boom	No common antonym
+311	Desert	ছেড়ে যাওয়া	verb	abandon,forsake,leave,ditch	support,assist,stay with
+312	Desolation	নিজর্ন	noun	bleakness,barrenness,devastation,loneliness	vibrancy,cheerfulness,joy
+313	Despair	হতাশ	noun	hopelessness,desperation,gloom,dejection	hope,optimism,joy
+314	Despicable	ঘৃণ্য / নীচ	adjective	Contemptible,Vile,Wretched	Admirable,Noble,Respectable
+315	Destitute	দরিদ্র	adjective	impoverished,penniless,indigent,needy	wealthy,affluent,rich
+316	Destruction	’ংস	noun	demolition,ruin,devastation,annihilation	creation,construction,preservation
+317	Desultory	নিয়মশৃংখলাহীন	adjective	aimless,haphazard,random,erratic	methodical,systematic,focused
+318	Deter	নিরুৎসাহিত করা	verb	discourage,hinder,prevent,dissuade	encourage,incite,persuade
+319	Devious	আঁকাবাঁকা	adjective	cunning,tricky,deceitful,circuitous	straightforward,honest,direct
+320	Devoid	বজির্ত	adjective	lacking,empty,wanting,bare	full,replete,abundant
+321	Dexterous	নিপুণ / দক্ষ	adjective	Skilled,Adroit,Nimble	Clumsy,Awkward,Inept
+322	Diagnosis	রোগ নিণর্য়	noun	identification,analysis,assessment,determination	No common antonym
+323	Dictator	একনায়ক	noun	tyrant,autocrat,absolute ruler,despot	democrat
+324	Diffident	আত্মবিশ্বাসহীন / লাজুক	adjective	Shy,Timid,Reserved	Confident,Bold,Assertive
+325	Dilemma	উভয়সংকট	noun	predicament,quandary,difficult choice,bind	solution,certainty,advantage
+326	Dilettante	অপটুর্কমশী	noun	amateur,dabbler,novice,nonprofessional	expert,professional,specialist
+327	Diligent	পরিশ্রমী / অধ্যবসায়ী	adjective	Hardworking,Industrious,Assiduous	Lazy,Idle,Negligent
+328	Discarded	বাদ দেয়া	adjective	rejected,abandoned,thrown out,disposed of	kept,retained,cherished
+329	Discern	উপলব্ধি করা / বুঝতে পারা / দৃশ্যমান হওয়া	verb	Perceive,Distinguish,Detect	Ignore,Confuse,Overlook
+330	Discontented	অস_ষ্ট / অতৃপ্ত	adjective	dissatisfied,unhappy,displeased,restless	contented,satisfied,happy
+331	Discordant	ষ্কতিকটু	adjective	clashing,jarring,dissonant,conflicting	harmonious,agreeable,consonant
+332	Discover	আবিগ্ধার করা	verb	find,uncover,detect,reveal	conceal,hide,overlook
+333	Discrepancy	গরমিল / অমিল	noun	Difference,Inconsistency,Mismatch	Consistency,Agreement,Harmony
+334	Disdain	অবজ্ঞা / ঘৃণা	noun	Contempt,Scorn,Derision	Respect,Admiration,Reverence
+335	Disgraceful	বাজে / অসুন্দর	adjective	shameful,scandalous,dishonorable,appalling	honorable,commendable,admirable
+336	Disinterested	নিলির্প্ত	adjective	impartial,unbiased,objective,neutral	biased,prejudiced,partial
+337	Dismal	বিষাদময় / হতাশাজনক	adjective	Gloomy,Dreary,Depressing	Cheerful,Bright,Optimistic
+338	Dismay	আতটি্টত করা / মর্মাহত করা	noun	alarm,shock,consternation,distress	calm,relief,happiness
+339	Disparage	কাউকে ছোট / তুজ্ঞ করা / নিন্দা করা / অপবাদ দেয়া	verb	belittle,demean,deprecate,decry	praise,commend,laud
+340	Disparate	অসদৃশ / ভিন্ন প্রকৃতির	adjective	Different,Diverse,Dissimilar	Similar,Alike,Comparable
+341	Disparity	বৈবসাদৃশ্য	noun	inequality,imbalance,discrepancy,divergence	equality,similarity,parity
+342	Dispatch	কারো উদে্দেশে কোন কিছু পাঠানো	verb	send,transmit,forward,expedite	receive,retain,withhold
+343	Disperse	ছত্রভণ্ট	verb	scatter,spread,diffuse,dissipate	gather,assemble,collect
+344	Disputation	বিতর্ক	noun	debate,argument,contention,controversy	agreement,harmony,consensus
+345	Dissipate	দূর করা / অপচয় করা	verb	vanish,scatter,squander,waste	accumulate,gather,conserve
+346	Distasteful	অপছন্দনীয়	adjective	unpleasant,offensive,objectionable,disagreeable	pleasant,agreeable,delightful
+347	Distract	বিভ্রান্ত করা	verb	divert,sidetrack,preoccupy,disturb	focus,concentrate,engage
+348	Distraught	অত্যধিক বিমষর্	adjective	agitated,distressed,frantic,overwhelmed	calm,composed,serene
+349	Divergence	কেন্দচু্যতি	noun	separation,deviation,difference,split	convergence,agreement,similarity
+350	Diversion	গতিপরিবর্তন / অপসারণ	noun	detour,distraction,entertainment,recreation	focus,directness,concentration
+351	Divine	স্বগর্শীয়	adjective	heavenly,sacred,holy,sublime	earthly,human,profane
+352	Divulge	প্রকাশ করা / ফাঁস করা	verb	Reveal,Disclose,Expose	Conceal,Hide,Suppress
+353	Docile	অনুগত / শান্ত / বাধ্য / ভদ্র	adjective	Obedient,Submissive,Compliant	Rebellious,Stubborn,Disobedient
+354	Doctrine	মতবাদ	noun	creed,dogma,principle,tenet	heresy,disbelief,doubt
+355	Dotage	ভীমরতি	noun	old age,senility,decline,feebleness	youth,prime,vigor
+356	Drowsiness	আলস্য	noun	sleepiness,lethargy,sluggishness,somnolence	alertness,wakefulness,vigor
+357	Dubious	সন্দেহজনক / অনিশ্চিত	adjective	Doubtful,Uncertain,Suspicious	Certain,Clear,Reliable
+358	Dubiousness	অনিহ্নয়তা	noun	doubt,uncertainty,skepticism,unreliability	certainty,reliability,trustworthiness
+359	Duffer	নিবের্াধ লোক	noun	bungler,amateur,incompetent,simpleton	expert,master,prodigy
+360	Dullard	বোকা জাতীয়	noun	simpleton,blockhead,dolt,dunce	genius,intellectual,prodigy
+361	Duplicity	কপটতা / দ্বিচারিতা	noun	Deception,Dishonesty,Treachery	Honesty,Sincerity,Transparency
+362	Easygoing	বাধ্য / সহজে মেনে নেয়া	adjective	relaxed,laid-back,calm,agreeable	uptight,tense,demanding
+363	Eat drink and be merry	খাও / দাও ফুতির্ করা জাতীয় ব্যক্তি	noun	live it up,celebrate,revel,indulge	worry,abstain,economize
+364	Eat into vitals	ছিন্ন করা / ব্যাঘাত করা	noun	erode,undermine,corrode,debilitate	strengthen,fortify,build up
+365	Eccentric	খামখেয়ালী / অদ্ভুত স্বভাবের	adjective	Odd,Peculiar,Unconventional	Conventional,Normal,Ordinary
+366	Efface	মুছে ফেলা / বিলোপ করা	verb	Erase,Obliterate,Delete	Create,Preserve,Retain
+367	Effeminacy	মেয়েলী স্বভাব	noun	delicacy,softness,daintiness,unmanliness	masculinity,manliness,virility
+368	Effervescent	উচ্ছ্বল / প্রাণবন্ত	adjective	Lively,Vivacious,Dull	Flat,Lifeless
+369	Effusive	উচ্ছাস প্রবণ	adjective	gushing,enthusiastic,exuberant,demonstrative	reserved,restrained,subdued
+370	Egoistic	স্বার্থপর	adjective	selfish,self-centered,conceited,narcissistic	altruistic,selfless,humble
+371	Egregious	অত্যন্ত জঘন্য / চরম খারাপ	adjective	Outrageous,Flagrant,Glaring	Minor,Trivial,Slight
+372	Elated	অত্যন্ত আনন্দত	adjective	overjoyed,thrilled,ecstatic,jubilant	depressed,dejected,miserable
+373	Elective	নির্বাচক	adjective	optional,discretionary,voluntary,non-compulsory	compulsory,mandatory,required
+374	Electorate	নির্বাচকমধ্নলী	noun	voters,constituents,body of voters	No common antonym
+375	Electrify	উতে্তজিত করা	verb	excite,thrill,invigorate,charge	bore,dull,calm
+376	Elegy	শোকগাঁথা / বিষাদসংগীত	noun	lament,dirge,threnody,requiem	No common antonym
+377	Elevate	উত্তোলন করা / উন্নীত করা	verb	raise,lift,hoist,promote	lower,depress,demote
+378	Elocution	বাচনভণি্ট	noun	articulation,diction,rhetoric,oratory	stammering,mumbling,inarticulateness
+379	Eloquent	বাগ্মী / প্রাঞ্জলভাষী	adjective	Articulate,Fluent,Expressive	Inarticulate,Tongue-tied,Mumbling
+380	Elusive	অধরা / সহজে ধরা দেয় না এমন / এড়িয়ে যায় এমন বা ধরা যায়না এমন	adjective	Evasive,Slippery,Fleeting	Clear,Obvious,Accessible
+381	Elusiveness	বুঝতে বা ষ্মরণ করতে কষ্টকর এমন	noun	evasiveness,slipperiness,intangibility,mystery	clarity,tangibility,accessibility
+382	Embezzlement	অর্থ আত্মসাৎ	noun	fraud,defalcation,misappropriation,theft	restitution,repayment,honesty
+383	Emigrant	দেশান্তরী	noun	expatriate,migrant,defector,settler	immigrant,native
+384	Eminent	বিশিষ্ট / খ্যাতনামা	adjective	Distinguished,Famous,Notable	Unknown,Obscure,Ordinary
+385	Emphatic	জোরালো / দ্ব্যর্থহীন	adjective	Forceful,Definite,Insistent	Weak,Uncertain,Vague
+386	Empirical	গবেষণামূলক	adjective	experimental,observational,practical,factual	theoretical,hypothetical,unproven
+387	Emulation	অনুকরণীয়	noun	imitation,copying,rivalry,mirroring	originality,uniqueness,divergence
+388	Enamoured	পে্রমমুঞ্ছ	adjective	captivated,charmed,smitten,infatuated	repulsed,disgusted,indifferent
+389	Encomium	উচ্চ প্রশংসা	noun	praise,tribute,eulogy,commendation	criticism,denunciation,condemnation
+390	Encumber	পথরোধ করা	verb	burden,hinder,impede,obstruct	assist,facilitate,lighten
+391	Encyclopedia	বিশ্বকোষ	noun	compendium,lexicon,thesaurus,reference work	No common antonym
+392	Endurable	সহনীয় / টেকসই	adjective	tolerable,bearable,sufferable,sustainable	unbearable,intolerable,insufferable
+393	Enduring	স্থায়ী	adjective	lasting,permanent,persistent,durable	fleeting,temporary,transient
+394	Enervate	দুর্বল করা / শক্তিহীন করা	verb	Weaken,Exhaust,Debilitate	Strengthen,Energize,Invigorate
+395	Engross	মগ্ন থাকা / নিমগ্ন রাখা / সবসময় কাজে লেগে থাকা	verb	ও   / ও Absorb,Captivate,Engage	Bore,Distract,Repel
+396	Enhance	বৃদি্ধ করা	verb	improve,boost,augment,elevate	diminish,reduce,worsen
+397	Enigmatic	রহস্যময় / বিভ্রান্তিকর / বিভ্রানি্তকর	adjective	Mysterious,Puzzling,Cryptic	Clear,Obvious,Straightforward
+398	Enlarge	দীঘর্ায়িত করা	verb	expand,extend,magnify,broaden	shrink,reduce,contract
+399	Enormous	বিশাল	adjective	huge,massive,colossal,gigantic	tiny,small,miniature
+400	Entertain	আপ্যায়ন	verb	amuse,delight,host,divert	bore,displease,neglect
+401	Enthralling	বিমুঞ্ছ	adjective	captivating,fascinating,mesmerizing,gripping	boring,dull,tedious
+402	Entrepreneur	উদে্যাক্তা	noun	businessperson,founder,innovator,capitalist	employee,worker
+403	Enumerate	একে একে গণনা করা / তালিকাভুক্ত করা	verb	List,Count,Specify	Ignore,Omit,Overlook
+404	Enunciate	উচ্চারন করা	verb	articulate,pronounce,vocalize,express	mumble,stammer,slur
+405	Ephemeral	ক্ষণস্থায়ী / অল্প সময়ের	adjective	Fleeting,Short- lived,Transitory	Permanent,Eternal,Lasting
+406	Epicurean	ইন্দয় সুখে বিশ্বাসী	adjective	hedonistic,gourmet,pleasure-seeking,sybaritic	ascetic,abstemious,austere
+407	Episodic	অনিয়মিত	adjective	intermittent,sporadic,occasional,irregular	continuous,constant,regular
+408	Epitaph	সমাধিস্তশ্র লিপি	noun	inscription,memorial,elegy,commemoration	No common antonym
+409	Epithet	ডাকনাম / উপাধি	noun	appellation,designation,label,nickname	No common antonym
+410	Epitome	সংকি্ষপ্ত	noun	embodiment,archetype,essence,model	expansion,antithesis
+411	Equanimity	প্রশানি্ত	noun	composure,serenity,tranquility,poise	agitation,anxiety,panic
+412	Equilibrate	ভারসাম্য	verb	balance,stabilize,equalize,poise	unbalance,destabilize
+413	Equip	প্রশ্চত করা / সনি্ত্যত করা	verb	furnish,supply,outfit,provide	strip,disarm,divest
+414	Equitable	ন্যায়সণ্টত	adjective	fair,just,impartial,unbiased	unfair,biased,unjust
+415	Equivocal	দ্ব্যর্থক / অস্পষ্ট	adjective	Ambiguous,Vague,Unclear	Clear,Definite,Unambiguous
+416	Eradicate	সমূলে উৎপাটিত করা / দূর করা	verb	Eliminate,Abolish,Exterminate	Create,Establish,Preserve
+417	Errant	ভ্রমণরত	adjective	wandering,straying,wayward,misbehaving	correct,proper,dutiful
+418	Erratic	অনিয়মিত / খেয়ালী / থটপিূণর্ / উস্নাপাস্না	adjective	Irregular,Unpredictable,Regular	Consistent,The
+419	Escape	পালিয়ে যাওয়া	verb	flee,evade,abscond,break free	capture,confront,remain
+420	Espy	পর্যবেক্ষণ করা	verb	discern,spot,glimpse,perceive	overlook,miss,ignore
+421	Esteem	সম্মান করা	verb	respect,admire,revere,value	disdain,scorn,despise
+422	Estimate	হিসাব	verb	calculate,approximate,gauge,assess	pinpoint,determine
+423	Eternal	চিরন্তন	adjective	everlasting,perpetual,timeless,unending	temporary,fleeting,transient
+424	Eulogistic	উচ্চ প্রশংসাযোগ্য	adjective	laudatory,complimentary,praising,adulatory	critical,condemnatory,disparaging
+425	Euphonious	সুমধুর	adjective	melodious,harmonious,dulcet,musical	cacophonous,harsh,discordant
+426	Evaluate	মূল্যায়ন করা	verb	assess,appraise,judge,gauge	ignore,neglect,disregard
+427	Evanescent	ক্ষনস্থায়ী	adjective	fleeting,transient,ephemeral,momentary	permanent,lasting,enduring
+428	Evasion	এড়িয়ে যাওয়া	noun	avoidance,dodging,circumvention,elusion	confrontation,directness,honesty
+429	Evasive	এড়িয়ে যায় এমন / কৌশলী / এড়িয়ে যায় এমন বা ধরা যায়না এমন	adjective	ও Elusive,Shifty,Deceptive	Direct,Honest,Straightforward
+430	Evenhanded	নিরপেক্ষ	adjective	impartial,fair,unbiased,objective	biased,prejudiced,unfair
+431	Evident	স্পষ্ট	adjective	obvious,apparent,clear,manifest	hidden,obscure,unclear
+432	Exacerbate	আরও শোচনীয় করা / তিক্ততর করা / শোচনীয় হওয়া	verb	/ Worsen,Aggravate,Intensify	Improve,Alleviate,Soothe
+433	Exaggeration	বাড়িয়ে বলা	noun	overstatement,hyperbole,embellishment,magnification	understatement,minimization,truth
+434	Exaltation	পর্দমযাদায় উন্নতিসাধন	noun	elevation,glorification,praise,elation	demotion,degradation,humiliation
+435	Excessive	অতিরিক্ত	adjective	immoderate,undue,extreme,superfluous	insufficient,moderate,minimal
+436	Exclusion	বজর্ন	noun	omission,rejection,barring,prohibition	inclusion,admission,acceptance
+437	Exculpate	অভিযোগ হতে মুক্তি দেয়া	verb	absolve,acquit,exonerate,vindicate	incriminate,accuse,blame
+438	Exempt	রেহাই / অব্যাহতি দেয়া	verb	excuse,release,absolve,relieve	liable,responsible,subject
+439	Exhausted	নিঃশেষ হওয়া	adjective	weary,fatigued,drained,spent	energetic,refreshed,invigorated
+440	Exhort	উ্সাহিত করা / প্রণোদিত করা / আষ্ণান করা	verb	urge,advise,encourage,persuade	deter,discourage,dissuade
+441	Exigency	জরুরী প্রয়োজন	noun	urgency,crisis,necessity,demand	leisure,comfort,luxury
+442	Exonerate	অভিযোগমুক্ত করা / নির্দোষ ঘোষণা করা / অভিযোগ হতে মুক্তি দেয়া	verb	Acquit,Clear,Absolve	Convict,Blame,Condemn
+443	Exorbitant	অতিরিক্ত	adjective	excessive,extravagant,steep,unreasonable	reasonable,cheap,moderate
+444	Expand	আয়তনে বৃদি্ধ করা / বিস্তৃত করা	verb	enlarge,broaden,extend,grow	contract,shrink,reduce
+445	Expedient	সুবিধাজনক / সময়োপযোগী	adjective	Convenient,Practical,Advantageous	Impractical,Inconvenient,Useless
+446	Expedite	অগ্রগতি ত্বরান্বিত করা	verb	Speed up,Accelerate,Hasten,Quicken	Delay,Hinder,Impede
+447	Expel	বহিগ্ধার করা	verb	eject,banish,oust,remove	admit,welcome,include
+448	Explicit	স্পষ্ট / সুনির্দিষ্ট	adjective	Clear,Direct,Specific	Implicit,Vague,Indirect
+449	Exploration	অনুসন্ধান	noun	discovery,investigation,survey,reconnaissance	No common antonym
+450	Expose	প্রকাশ করা	verb	reveal,uncover,disclose,unveil	conceal,hide,cover
+451	Expound	ব্যাখ্যা করা	verb	explain,elaborate,clarify,interpret	condense,simplify,obscure
+452	Extempore	পূর্বপ্রশ্চতি ছাড়া কোন বক্তব্য দেয়া	adjective	impromptu,spontaneous,unrehearsed,improvised	prepared,rehearsed,planned
+453	Extol	উচ্চ প্রশংসা করা	verb	Praise,Glorify,Commend	Criticize,Condemn,Belittle
+454	Extradition	আসামী হস্তান্তর	noun	deportation,rendition,transfer	No common antonym
+455	Extravagance	অমিতব্যয়ি / সীমালণ্ঠন	noun	lavishness,profligacy,wastefulness,excess	frugality,economy,moderation
+456	Extravagant	অপব্যয়ী / অমিতব্যয়ী	adjective	Wasteful,Lavish,Excessive	Frugal,Economical,Modest
+457	Extreme	চরম	adjective	intense,severe,radical,utmost	moderate,mild,slight
+458	Exuberant	উচ্ছ্বসিত / প্রাণপ্রাচুর্যময়	adjective	Enthusiastic,Lively,Vibrant	Dull,Depressed,Gloomy
+459	Exult	অত্যন্ত আনন্দত	verb	rejoice,triumph,celebrate,gloat	mourn,lament,grieve
+460	Fabricate	বানানো / মিথ্যা উদ্ভাবন করা	verb	Invent,Forge,Concoct	Reveal,Expose,Disclose
+461	Facile	সাবলীল	adjective	simplistic,superficial,effortless,glib	profound,complex,difficult
+462	Facilitate	সহজতর	verb	ease,simplify,assist,enable	hinder,impede,obstruct
+463	Faculty	অনুষদ / র্কমদক্ষতা	noun	ability,capacity,power,department	inability,incapacity
+464	Fade	বিবণর্ হওয়া	verb	diminish,vanish,wane,bleach	brighten,intensify,appear
+465	Famish	প্রচধ্ন ক্ষুধায় মৃতপ্রায় হওয়া	verb	starve,hunger,crave	satiate,satisfy,gorge
+466	Fanatical	উন্মাদ / ধর্মান্ধ / অতিগোঁড়া	adjective	Extreme,Zealous,Radical	Moderate,Tolerant,Balanced
+467	Fanciful schemes	কাস্ফনিক পরিকস্ফনা	noun	impractical plans,utopian ideas,wild dreams,pipe dreams	realistic plans,practical proposals
+468	Far-fetched	অস্বাভাবিক / সন্দেহজনক	adjective	Unlikely,Improbable,Incredible,Doubtful	Plausible,Believable,Convincing
+469	Fastidious	খুঁতখুঁতে / সহজে তুষ্ট হয় না এমন	adjective	Fussy,Particular,Meticulous	Careless,Easygoing,Tolerant
+470	Fatalist	অদৃষ্টবাদী	noun	determinist,predestinarian	free-will advocate,voluntarist
+471	Fathom	গভীরতা নিণর্য় করা	verb	comprehend,grasp,understand,decipher	misunderstand,confuse,perplex
+472	Fawn	তোষামোদ করা / তৈলমর্দন করা	verb	Flatter,Grovel,Cower,Court	Scorn,Disdain,Defy
+473	Feeble	দুর্বল	adjective	weak,frail,delicate,infirm	strong,robust,vigorous
+474	Feign	ভান করা / ভণ্ডামি করা	verb	Pretend,Simulate,Fake	Reveal,Show,Expose
+475	Fervent	আন্তরিক / প্রবল উৎসাহী	adjective	Passionate,Intense,Eager	Indifferent,Cold,Apathetic
+476	Fiasco	বড় ধরনের ব্যর্থতা	noun	failure,disaster,catastrophe,debacle	success,triumph,achievement
+477	Fiddling	তুজ্ঞ	adjective	trivial,minor,petty,insignificant	important,significant,major
+478	Finagle	প্রতারণা করা	verb	wangle,manipulate,trick,scheme	earn,obtain honestly
+479	Fire and brimstone	জাহান্নামের অনুমিত শাসি্ত	noun	hellfire,damnation,wrathful sermon	mercy,forgiveness,salvation
+480	Flagitious	নিষ্ঠুর	adjective	villainous,heinous,atrocious,wicked	virtuous,righteous,honorable
+481	Flagrant	প্রকাশ্য ও নির্লজ্জ / ঘোরতর অন্যায়	adjective	(     ) Blatant,Obvious,Glaring	Hidden,Subtle,Inconspicuous
+482	Flashy	লোক দেখানো	adjective	showy,gaudy,ostentatious,flamboyant	subtle,understated,modest
+483	Flat out	সোজা	verb	fully,completely,directly,unequivocally	slowly,partially,indirectly
+484	Flatten	সমতল হয়ে যাওয়া	verb	level,smooth,crush,demolish	raise,inflate,build
+485	Flaunt	জাহির করা / দম্ভভরে প্রদর্শন করা	verb	/ Show off,Display,Exhibit	Conceal,Hide,Suppress
+486	Fleeting	ক্ষনস্থায়ী	adjective	brief,transient,momentary,ephemeral	lasting,enduring,permanent
+487	Flexible	নমনীয়	adjective	pliable,adaptable,versatile,adjustable	rigid,stiff,inflexible
+488	Flimsy	পলকা / ঠুনকো / দুর্বল	adjective	Weak,Fragile,Insubstantial	Strong,Solid,Durable
+489	Fluctuate	ওঠানামা করা / পরিবর্তিত হওয়া	verb	ও Vary,Oscillate,Swing	Stabilize,Remain constant,Steady
+490	Forbid	নিষেধ করা / বারন করা	verb	Prohibit,Ban,Disallow	Allow,Permit,Authorize
+491	Forecast	পূর্বাভাস	noun	prediction,projection,prognosis,outlook	hindsight,retrospect
+492	Formless	আকৃতিহীন	adjective	amorphous,shapeless,unformed,unstructured	structured,defined,distinct
+493	Forsaken	পরিত্যক্ত করা	adjective	abandoned,deserted,neglected,desolate	cherished,supported,embraced
+494	Fortitude	মনের জোর / মানসিক দৃঢ়তা	noun	Courage,Bravery,Endurance	Cowardice,Weakness,Timidity
+495	Fortuitous	আকস্মিক	adjective	accidental,coincidental,serendipitous,lucky	planned,intentional,deliberate
+496	Foster	লালন-পালন করা / উৎসাহিত করা	verb	/ Encourage,Nurture,Support	Neglect,Discourage,Hinder
+497	Fragile	দুর্বল	adjective	delicate,brittle,breakable,weak	sturdy,robust,strong
+498	Fragrance	সুগন্ধী	noun	scent,aroma,perfume,odor	stench,reek,malodor
+499	Frank	অকপট / খোলাখুলি	adjective	candid,honest,direct,straightforward	secretive,evasive,reserved
+500	Frantic	নিয়প্সণহীন	adjective	desperate,frenzied,agitated,distraught	calm,composed,relaxed
+501	Fraudulent	প্রতারণাপূর্ণ / জাল	adjective	Dishonest,Deceptive,Corrupt	Honest,Genuine,Legal
+502	Freak	খামখেয়াল	noun	anomaly,oddity,quirk,enthusiast	norm,regularity,commonality
+503	Friction	বিরোধ	noun	conflict,tension,discord,antagonism	harmony,agreement,accord
+504	Frisky	চন্ধল	adjective	playful,lively,spirited,energetic	lethargic,sluggish,subdued
+505	Frivolous	হালকা / অর্থহীন / তুচ্ছ / ছেলেমানুষীপূণর্ / নগণ্য	adjective	Trivial,Silly,Petty	Serious,Important,Significant
+506	Frown	তিরস্কার করা	verb	scowl,glare,disapprove,grimace	smile,approve,grin
+507	Frugal	মিতব্যয়ী / হিসেবি / মিতব্যয়ী	adjective	Thrifty,Economical,Sparing	Wasteful,Extravagant,Lavish
+508	Fruitful	ফলপ্রসূ	adjective	productive,successful,beneficial,rewarding	barren,unproductive,futile
+509	Furtive	চুপিচুপি	adjective	secretive,stealthy,surreptitious,clandestine	open,overt,public
+510	Fussy	অতিসর্তক	adjective	particular,picky,fastidious,finicky	easygoing,unconcerned,undemanding
+511	Futile	নিরর্থক / পণ্ডশ্রম	adjective	Useless,Pointless,Fruitless,Vain	Fruitful,Useful,Productive
+512	Gargantuan	খুব বড়	adjective	enormous,colossal,immense,gigantic	tiny,miniature,minuscule
+513	Garrulous	বাচাল / অতিরিক্ত কথা বলে এমন	adjective	Talkative,Chatty,Verbose	Quiet,Concise,Taciturn
+514	Generate	উৎপাদন করা	verb	create,produce,make,form	destroy,eliminate,stop
+515	Generous	উদার	adjective	benevolent,charitable,liberal,unselfish	stingy,selfish,greedy
+516	Genesis	শুরু	noun	origin,beginning,start,inception	end,conclusion,culmination
+517	Genial	অমায়িক / হাসিখুশি / আন্তরিক	adjective	Friendly,Warm,Pleasant	Unfriendly,Cold,Hostile
+518	Genuine	খাঁটি / আসল / অকৃত্রিম	adjective	Authentic,Real,Sincere	Fake,False,Artificial
+519	Get along	দুজনের মাঝে চমৎকার বন্ধুধপূণর্ সশ্মর্ক	noun	coexist,agree,harmonize,cooperate	quarrel,clash,disagree
+520	Gifted	প্রতিভাধর	adjective	talented,brilliant,accomplished,skilled	untalented,unskilled,ordinary
+521	Gloomy	অন্ধকারাচ্ছন্ন / বিষণ্ণ / অন্ধকারাজ্ঞন্ন	adjective	Dark,Depressing,Sad	Bright,Cheerful,Happy
+522	Glorious	জমকালো	adjective	magnificent,splendid,superb,brilliant	terrible,awful,inglorious
+523	Gloss	উণ্ডল তল	noun	sheen,luster,shine,polish	dullness,matte,flatness
+524	Glow	খুশিতে ঝলমল করা	verb	shine,radiate,beam,gleam	dim,fade,darken
+525	Glut	প্রচুর আধিক্য / উপচে পড়া সরবরাহ	noun	/ Surplus,Oversupply,Excess	Shortage,Scarcity,Dearth
+526	Goad	অনুপ্রাণিত করা	verb	provoke,incite,prod,urge	deter,discourage,restrain
+527	Gourmand	পেটুক	noun	glutton,overeater,foodie,epicure	ascetic,dieter,abstainer
+528	Gourmet	পান ও ভোজন রসিক ব্যক্তি	noun	connoisseur,epicure,foodie,gastronome	No common antonym
+529	Gracious	দয়ালু / মার্জিত / সদয় / সদয়	adjective	Kind,Generous,Polite	Rude,Harsh,Ungrateful
+530	Grain	শস্য / খাদ্যশস্য	noun	kernel,seed,particle,speck	mass,whole,bulk
+531	Grandiose	জমকালো / সুবিশাল	adjective	magnificent,imposing,elaborate,ostentatious	humble,modest,simple
+532	Grant	অনুদান	noun	subsidy,allowance,donation,endowment	loan,debt,withdrawal
+533	Grasp accurately	বুঝতে পারা	noun	comprehend,understand,perceive,apprehend	misunderstand,misinterpret,confuse
+534	Grateful	কৃতন্ত্র	adjective	thankful,appreciative,obliged,indebted	ungrateful,unappreciative,thankless
+535	Gratifying	তৃপি্তদায়ক	adjective	satisfying,pleasing,rewarding,fulfilling	disappointing,frustrating,displeasing
+536	Gratitude	কৃতন্ত্রবোধ	noun	thankfulness,appreciation,gratefulness,indebtedness	ingratitude,ungratefulness
+537	Gratuitous	অহেতুক / বিনামূল্যে প্রাপ্ত	adjective	ও Unnecessary,Unwarranted,Free	Justified,Warranted,Necessary
+538	Green eye	ঈর্ষান্বিত	idiom	Jealousy,Envy,Resentment	Contentment,Goodwill
+539	Greeting	অভিবাদন	noun	salutation,welcome,hello,acknowledgment	farewell,goodbye,departure
+540	Gregarious	মিশুক / সামাজিক	adjective	Sociable,Outgoing,Friendly	Introverted,Reserved,Antisocial
+541	Grievous	মারাত্মক / অত্যন্ত বেদনাদায়ক	adjective	Severe,Serious,Painful	Minor,Trivial,Mild
+542	Grueling	কষ্টসাধ্য বা পরিঙ্কমসাধ্য কিছু	adjective	exhausting,arduous,strenuous,punishing	easy,effortless,light
+543	Haggler	যে ব্যক্তি দরকষাকষি করে	noun	bargainer,negotiator,quibbler,chaffer	No common antonym
+544	Halcyon	শান্ত / শানি্তপূণর্	adjective	peaceful,tranquil,serene,calm	turbulent,chaotic,troubled
+545	Hamper	বাধাগ্রস্ত করা / ব্যাহত করা	verb	Obstruct,Hinder,Impede	Assist,Help,Facilitate
+546	Hang in balance	সাফলে্যর জন্য কোন কিছুর উপর নিভর্র করা	noun	uncertain,precarious,undecided,critical	certain,decided,resolved
+547	Harass	হয়রান করা / ক্রমাগত উত্যক্ত করা	verb	Torment,Annoy,Bother	Help,Comfort,Support
+548	Harbinger	অগ্রদূত / পূর্বাভাস	noun	Omen,Precursor,Forerunner	Follower,Result,Consequence
+549	Harmonious	সুরেলা	adjective	melodious,tuneful,agreeable,compatible	discordant,clashing,conflicting
+550	Harmony	ঐক্য / সম্প্রীতি / সুসংগতি / সাদৃশ্য	noun	Agreement,Unity,Accord	Discord,Conflict,Disharmony
+551	Harsh	কর্কশ	adjective	abrasive,heavy,hard	No common antonym
+552	Hastening	দ্রুত চলা	noun	fast,speed,speeding	No common antonym
+553	Hasty	দ্রুতগতি	adjective	headlong,precipitate,hurried	No common antonym
+554	Haughty	উদ্ধত / অহংকারী	adjective	Arrogant,Proud,Conceited	Humble,Modest,Meek
+555	Hazardous	বিপন্ত্যনক	adjective	dangerous,venturous,venturesome	No common antonym
+556	Head and ears	পুরোপুরি	adverb	Related,Similar	No common antonym
+557	Heckle	প্রহ্মবানে জজর্রিত করা	verb	harass,hackle,hatchel	No common antonym
+558	Hedge	প্রতিবন্ধক	noun	Related,Similar	No common antonym
+559	Hefty	প্রবল / তাগড়া	adjective	heavy,brawny,powerful	No common antonym
+560	Hegemony	আধিপত্য	noun	Related,Similar	No common antonym
+561	Heinous	জগন্য	adjective	grievous,atrocious,evil	No common antonym
+562	Heresy	প্রচলিত মতের বিরোধী বিশ্বাস	noun	/ Blasphemy,Apostasy,Dissent	Orthodoxy,Conformity,Belief
+563	Hexagon	ষড়ভূজ	noun	Related,Similar	No common antonym
+564	Hidebound	সংকীণর্মনা	adjective	traditionalist,conservative	No common antonym
+565	Highbrow	বড়াইকারী	adjective	intellectual,highbrowed	No common antonym
+566	Hindrance	বাঁধা	noun	impediment,hitch,encumbrance	No common antonym
+567	Hit upon	খুঁজে পাওয়া	verb	Related,Similar	No common antonym
+568	Hoard	মজুতদারি	verb	cache,collect,amass	No common antonym
+569	Hole and corner	গোপনীয়	noun	Related,Similar	No common antonym
+570	Holocaust	ব্যাপক হত্যাকান্ম	noun	Related,Similar	No common antonym
+571	Homogeneous	সমজাতীয়	adjective	solid,uniform,consistent	heterogeneous
+572	Honorary	বিনাবেতনে	adjective	unearned	No common antonym
+573	Hook	ফাঁদ	noun	abstract,plume,draw	unhook,undercharge
+574	Horde	যাযাবর দল	noun	host,swarm,drove	No common antonym
+575	Horn	শিঙা	noun	tusk,trumpet,cornet	No common antonym
+576	Host in himself	আয়োজক	idiom	all-rounder,self-reliant person	dependent person
+577	Hostile	শত্রুভাবাপন্ন / প্রতিকূল / প্রতিহূল / বিরোধী	adjective	Unfriendly,Aggressive,Antagonistic	Friendly,Amicable,Welcoming
+578	Humble	বিনীত	adjective	base,chagrin,modest	proud
+579	Humidity	আদ্রতা	noun	humidness	No common antonym
+580	Hyperbolic	অতিরনি্নত করে বলা	adjective	exaggerated,inflated,increased	No common antonym
+581	Hypocrite	ভণ্ড / কপট ব্যক্তি / ভধ্ন	noun	Deceiver,Pretender,Fake	Sincere,Honest,Genuine
+582	Hypothetical	অনুমান কৃত / প্রকসি্ফত	adjective	theoretical,theoretic,hypothetic	No common antonym
+583	Idealistic	আদশর্বাদী	adjective	noble,lofty,exalted	No common antonym
+584	Identical	সমজাতীয়	adjective	congruent,same,indistinguishable	fraternal,biovular
+585	Idolatrous	পরম ভক্তিশীল	adjective	loving	No common antonym
+586	Idyllic	শান্ত	adjective	pleasant,pastoral,perfect	No common antonym
+587	Illusive	মায়াময়	adjective	unreal,illusory	No common antonym
+588	Imbecile	বোকা জাতীয়	noun	cretin,stupid,idiot	No common antonym
+589	Imbecility	মূখর্তা	noun	folly,foolishness,betise	No common antonym
+590	Immigrant	অভিবাসী	noun	Related,Similar	No common antonym
+591	Impair	দুর্বল করা	noun	Related,Similar	No common antonym
+592	Impeccable	ত্রুটিহীন / নিখুঁত	adjective	Perfect,Flawless,Blameless	Imperfect,Flawed,Faulty
+593	Impede	বাধা দেওয়া / বিঘ্ন সৃষ্টি করা / ব্যাহত করা	verb	Hinder,Obstruct,Block	Aid,Assist,Facilitate
+594	Impel	অনুপ্রাণিত করা	verb	propel,force	No common antonym
+595	Impertinence	অপ্রাসণি্টকতা	noun	gall,insolence,cheek	No common antonym
+596	Impertinent	অপ্রাসঙ্গিক / বেয়াদব / ধৃষ্ট	adjective	Rude,Insolent,Impudent	Polite,Respectful,Relevant
+597	Impetuous	হঠকারী / আবেগপ্রবণ	adjective	Impulsive,Rash,Hasty	Calm,Deliberate,Cautious
+598	Impetus	আবেগ / প্রেরণা	noun	impulse,drift,impulsion	No common antonym
+599	Impinge	আঘাত হানা	verb	encroach,infringe,trench	No common antonym
+600	Implacable	নির্দয় / ক্ষমাশীল	adjective	inexorable,grim,stern	placable
+601	Implicit	অন্তর্নিহিত / প্রত্যক্ষ নয় এমন	adjective	Implied,Unstated,Indirect	Explicit,Direct,Clear
+602	Impostor	ভধ্ন	noun	sham,pretender,fraud	No common antonym
+603	Imprison	শৃড্ডলাবদ্ধ করা	verb	gaol,jug,incarcerate	No common antonym
+604	Imprudent	অবিবেচক	adjective	rash,blind,improvident	prudent
+605	Impulsive	আবেগপ্রবণ	adjective	capricious,dynamic,arbitrary	No common antonym
+606	Impute	আরোপ করা	verb	attribute,ascribe,assign	No common antonym
+607	In deep water	বিপদে থাকা	idiom	in trouble,in distress	safe,out of trouble
+608	Inadvertent	অনিচ্ছাকৃত / অনবধানতাবশত / অনিজ্ঞাকৃত	adjective	Accidental,Unintentional,Careless	Deliberate,Intentional,Planned
+609	Inamorata	প্রণয়ী	noun	Related,Similar	No common antonym
+610	Inaudible	যা শোনা যায় না	adjective	silent,voiceless,unheard	audible,hearable
+611	Inauspicious	অশুভ / অকল্যাণসূচক	adjective	ominous,harmful,unfortunate	auspicious
+612	Incapacitate	অযোগ্য করা	verb	invalid,disable,handicap	enable
+613	Incautious	অবিবেচক	adjective	impetuous,impulsive,careless	cautious
+614	Incite	উসকে দেওয়া / প্ররোচিত করা / উৎসাহিত করা	verb	Provoke,Stir up,Instigate	Calm,Pacify,Discourage
+615	Inclusive	অন্তভুর্ক্তিমূলক	adjective	comprehensive	exclusive
+616	Incongruous	বেমানান	adjective	Related,Similar	No common antonym
+617	Inconsiderate	অবিবেচক	adjective	thoughtless,careless,uncaring	considerate
+618	Inculcate	চিত্তনিষ্ঠ	verb	infuse,instill	No common antonym
+619	Indebted	কৃতন্ত্র	adjective	Related,Similar	No common antonym
+620	Indelible	অমোচনীয়	adjective	unerasable,ineradicable	No common antonym
+621	Indict	অভিযুক্ত করা	verb	Related to indict,Similar	No common antonym
+622	Indictment	অভিযোগ	noun	bill of indictment	No common antonym
+623	Indifferent	উদাসীন / নির্লিপ্ত	adjective	Apathetic,Uninterested,Unconcerned	Interested,Enthusiastic,Passionate
+624	Indigent	অত্যন্ত গরীব	adjective	destitute,impoverished,needy	No common antonym
+625	Indispensable	অপরিহার্য	adjective	critical,essential,necessary	dispensable
+626	Indolent	অলস / নিষ্ক্রিয়	adjective	Lazy,Idle,Slothful	Industrious,Hardworking,The
+627	Indulgent	প্রঙ্কয় / ক্ষমাশীল	adjective	soft,voluptuous,gay	nonindulgent
+628	Inebriated	মদ্যপ	adjective	mellow,besotted,stiff	sober
+629	Inertia	জড়তা	noun	inactivity,inactiveness	activity,activeness
+630	Inevitable	অনিবার্য / অবশ্যম্ভাবী	adjective	Unavoidable,Certain,Inescapable	Avoidable,Preventable,Uncertain
+631	Inexplicable	বণর্নাতীত	adjective	inscrutable,cryptic,incomprehensible	explicable
+632	Infallible	অভ্রান্ত / নির্ভুল	adjective	Perfect,Flawless,Unerring	Fallible,Imperfect,Unreliable
+633	Inflated	অত্যধিক	adjective	pretentious,hyperbolic,exaggerated	deflated
+634	Influence	প্রভাব	noun	charm,shape,determine	No common antonym
+635	Infrared	অবলোহিত	noun	invisible,unseeable,infrared radiation	No common antonym
+636	Infuriate	কে্রোধে কি্ষপ্ত হওয়া	verb	outrage,incense,exasperate	No common antonym
+637	Ingenious	প্রতিভাবান / উদ্ভাবনী ক্ষমতাসম্পন্ন	adjective	Clever,Creative,Inventive	Dull,Unimaginative,Stupid
+638	Ingenuous	অকপট	adjective	candid,naive,naif	artful,disingenuous
+639	Ingest	গলাধঃকরণ করা	verb	assimilate,have,take	refrain,abstain,desist
+640	Inherent	স্বাভাবিক	adjective	intrinsic,implicit,intrinsical	No common antonym
+641	Inimical	ক্ষতিকর / প্রতিকূল / শথভাবাপন্ন	adjective	Hostile,Harmful,Unfriendly	Friendly,Beneficial,Helpful
+642	Initiate	সূচনা করা	verb	enlightened,novice,tyro	uninitiate
+643	Innate	সহজাত / জন্মগত	adjective	Inborn,Natural,Inherent	Acquired,Learned,Developed
+644	Innovate	আবিগ্ধার করা	verb	introduce	No common antonym
+645	Inquisitive	সন্ধানী	adjective	curious,inquiring,questioning	No common antonym
+646	Inscribe	অন্তলির্খিত	verb	cipher,enroll,cypher	decode
+647	Insectivorous	পতণ্টভূক	adjective	apivorous,myrmecophagous	carnivorous,omnivorous,herbivorous
+648	Insidious	গুপ্তঘাতী / ধূর্ত	adjective	Deceptive,Treacherous,Cunning	Straightforward,Harmless,Honest
+649	Insolent	বেয়াদব / ধৃষ্ট / অপমানজনক	adjective	Rude,Impertinent,Impudent	Polite,Respectful,Courteous
+650	Insouciance	ঔদাসীন্য	noun	lightheartedness,carefreeness,lightsomeness	No common antonym
+651	Instability	অস্থায়ীধ	noun	imbalance,unbalance,unstableness	balance,stability,stableness
+652	Instigation	উতে্তজনা	noun	abetment,mounting,fomentation	No common antonym
+653	Intake	পানাহার	noun	consumption,uptake,ingestion	No common antonym
+654	Integral	অপরিহার্য অংশ	adjective	intrinsic,inherent,intact	No common antonym
+655	Integrity	সততা / নীতিপরায়ণতা	noun	Honesty,Uprightness,Virtue	Dishonesty,Corruption,Immorality
+656	Intellectual	বুদি্ধবৃতি্তক সংস্কৃতিবান	adjective	good,rational,serious	emotional,nonintellectual
+657	Intense	তীজ্ঞ	adjective	profound,vehement,keen	mild
+658	Intentional	ইজ্ঞাকৃতভাবে	adjective	deliberate,wilful,knowing	unintentional,undesigned
+659	Interminable	থামেনা এমন / অন্তহীন	adjective	eternal,long,endless	No common antonym
+660	Intermittent	অনিয়মিতভাবে	adjective	sporadic,periodic,periodical	No common antonym
+661	Interpret	ব্যাখ্যা করা	verb	render,understand,construe	No common antonym
+662	Interrupt	ছিন্ন করা / ব্যাঘাত করা	verb	break,disrupt,disturb	No common antonym
+663	Intimacy	গভীর সুসশ্মর্ক	noun	liaison,affair,familiarity	No common antonym
+664	Intimate	অন্তরণ্ট	noun	bosom buddy,bosom friend,cater-cousin	No common antonym
+665	Intimidate	ভয় দেখানো / তটস্থ করা	verb	Threaten,Frighten,Bully	Encourage,Comfort,Reassure
+666	Intolerant	অসহনীয়	adjective	rigid,strict,narrow	tolerant
+667	Intoxicated	মদ্যপ	adjective	mellow,besotted,stiff	sober
+668	Intractable	অবাধ্য	adjective	stubborn,recalcitrant,refractory	tractable
+669	Intrepid	নির্ভীক / অকুতোভয়	adjective	Fearless,Dauntless,Bold	Fearful,Cowardly,Timid
+670	Intrinsic	স্বকীয় / জল্কগত	adjective	intimate,inherent,intrinsical	extrinsic
+671	Introverted	অন্তমুর্খী ব্যক্তি (আত্মকেন্দ্রিক চিন্তা চেতনা )	adjective	introspective,introvert,introversive	extroverted,extrospective
+672	Inundate	ল্গাবিত হওয়া	verb	flood,swamp,submerge	No common antonym
+673	Inveigle	চাটুকারিতায় মুঞ্ছ করা	verb	cajole,palaver,coax	No common antonym
+674	Invisible	অদৃশ্য	adjective	obscure,inconspicuous,concealed	conspicuous,obvious,visible
+675	Irk	বিরক্তি	verb	gall	No common antonym
+676	Irresistible	অপ্রতিরোধ্য	adjective	attractive,overwhelming,overpowering	resistible
+677	Irrevocable	অপরিবর্তনীয় / যা রদ করা যায় না	adjective	Permanent,Final,Irreversible	Reversible,Changeable,Temporary
+678	Irritate	বিরক্ত করা	verb	nettle,vex,nark	soothe
+679	Isolation	বিজি্ঞন্নতা	noun	reclusiveness,closing off	No common antonym
+680	Jaunt	লঘু প্রমোদ ভ্রমণ	noun	excursion,expedition,trip	No common antonym
+681	Jeopardize	বিপন্ন করা / ঝুঁকিতে ফেলা	verb	Endanger,Risk,Threaten	Protect,Safeguard,Secure
+682	Jovial	হাসিখুশি / প্রফুল্ল / প্রমোদপ্রিয়	adjective	Cheerful,Merry,Jolly	Sad,Gloomy,Sullen
+683	Jubilant	উল্লসিত / জয়োল্লাসে মত্ত	adjective	Joyful,Elated,Triumphant	Sad,Disappointed,Sorrowful
+684	Jubilate	আনন্দ করা	verb	rejoice,exult,triumph	No common antonym
+685	Judiciary	আইন বিভাগ	noun	judicature,bench,judicatory	No common antonym
+686	Judicious	সুবিচক্ষণ / বুদ্ধিমান	adjective	Wise,Prudent,Sensible	Foolish,Imprudent,Reckless
+687	Jurisdiction	আইনগত অধিকার	noun	legal power	No common antonym
+688	Jury	নিণর্ায়ক সভা	noun	Related to jury,Similar	No common antonym
+689	Keen	তীজ্ঞ	adjective	lament,exquisite,sharp	No common antonym
+690	Kindle	জ্বালানো / উদ্দীপিত করা	verb	Ignite,Arouse,Stimulate	Extinguish,Quench,Dampen
+691	Kleptomania	চৌর্য উল্কাদ	noun	Related,Similar	No common antonym
+692	Knotty	ঝামেলাযুক্ত	adjective	byzantine,intricate,convoluted	No common antonym
+693	Laborious	কষ্টসাধ্য বা পরিঙ্কমসাধ্য কিছু	adjective	arduous,heavy,hard	No common antonym
+694	Laconic	স্বস্ফভাষী	adjective	concise,pithy,terse	bombastic,long-winded,loquacious
+695	Laggard	পিছিয়ে পড়া ব্যক্তি	noun	Related to laggard,Similar	No common antonym
+696	Laid back	অলস	adjective	easygoing,relaxed,unhurried	tense,anxious,uptight
+697	Lament	বিলাপ করা / শোক প্রকাশ করা	verb	Mourn,Grieve,Regret	Celebrate,Rejoice,Exult
+698	Landscape	প্রাকৃতিক ভূ –দৃশ্য	noun	landscape painting	No common antonym
+699	Languor	অলস	noun	lethargy,lassitude,listlessness	No common antonym
+700	Lassitude	অলস	noun	languor,lethargy,inanition	No common antonym
+701	Lawn	বনভূমি	noun	Related,Similar	No common antonym
+702	Leaning	ঝোঁক	noun	inclination,proclivity,propensity	No common antonym
+703	Legible	সহজপাঠ্য	adjective	clear,fair,clean	illegible
+704	Legitimate	আইনসম্মত	adjective	established,valid,logical	illegitimate,outlaw,criminalize
+705	Lenient	কোমল / সহানুভূতিশীল / শিথিল / দয়ামায়া প্রবণ	adjective	Merciful,Gentle,Indulgent	Strict,Harsh,Severe
+706	Lethal	প্রাণঘাতী / মারাত্মক	adjective	Fatal,Deadly,Mortal	Harmless,Safe,Benign
+707	Lethargic	অলস	adjective	lazy,torpid,unmoving	No common antonym
+708	Lexicographer	অভিধান রচয়িতা	noun	lexicologist	No common antonym
+709	Licentious	দুহ্নরিত্র লোক	adjective	unchaste	No common antonym
+710	Limpid	স্পষ্ট	adjective	pellucid,clear,luculent	No common antonym
+711	Linguistic	ভাষাবিন্ত্রান	adjective	linguistical	No common antonym
+712	Lively	প্রশান্ত / সজীব	adjective	effusive,brisk,effervescent	dull
+713	Lodge a complaint	অফিসিয়ালি অভিযোগ করা	noun	Related,Similar	No common antonym
+714	Loquacious	বাচাল / বাকপটু	adjective	Talkative,Garrulous,Verbose	Quiet,Taciturn,Reserved
+715	Lowest point	র্সবনিল্ড বিন্দু	noun	Related,Similar	No common antonym
+716	Lucid	স্পষ্ট / প্রাঞ্জল	adjective	Clear,Transparent,Comprehensible	Vague,Confusing,Obscure
+717	Lucrative	লাভজনক	adjective	remunerative,profitable,moneymaking	No common antonym
+718	Lukewarm	উদাসীন	adjective	tepid,warm,unenthusiastic	No common antonym
+719	Lumber	খুব কষ্ট করে হাঁটা	noun	timber,pound,bat	No common antonym
+720	Luminous	উণ্ডল	adjective	lucent,bright,lambent	No common antonym
+721	Magnanimous	দয়ালু	adjective	noble,large,big	No common antonym
+722	Malicious	বিদ্বেষপরায়ণ / হিংসুক	adjective	Spiteful,Hostile,Vicious	Kind,Benevolent,Friendly
+723	Malign	কুৎসা রটানো / অপবাদ দেওয়া / ক্ষতিকর	verb	Defame,Slander,Vilify	Praise,Extol,Commend
+724	Malingerer	যে ব্যক্তি র্কতব্য এড়ানোর জন্য অসুস্থতার ভান করে	noun	skulker	No common antonym
+725	Mammoth	বিশাল	noun	large,big,gigantic	No common antonym
+726	Manifest	স্পষ্ট	adjective	demonstrate,plain,evident	No common antonym
+727	Manifold	নানা প্রকার / বহুমুখী	adjective	Multiple,Diverse,Various	Single,Simple,Uniform
+728	Manliness	সাহসিকতা	noun	Related,Similar	No common antonym
+729	Martinet	নিয়মনিষ্ঠ	noun	disciplinarian,moralist	No common antonym
+730	Massive	বিশাল	adjective	heavy,large,big	No common antonym
+731	Masterful	দক্ষ	adjective	Related,Similar	No common antonym
+732	Materialistic	প্রকৃতিবাদী	adjective	mercenary,worldly,middle-class	No common antonym
+733	Materialize	দৃষ্টি গোচর হওয়া / বাস্তবে পরিণত হওয়া	verb	happen	dematerialize
+734	Matrimony	বিবাহিত	noun	wedlock,marriage,union	No common antonym
+735	Meager	অপ্রতুল / অতি সামান্য / স্বস্ফ	adjective	Scanty,Insufficient,Sparse	Abundant,Plentiful,Adequate
+736	Mean	নীচ	verb	base,spiteful,skilled	No common antonym
+737	Meddle	হস্তক্ষেপ করা	verb	tamper	No common antonym
+738	Meditative	চিন্তাশীল	adjective	pensive,musing,thoughtful	No common antonym
+739	Melancholy	বিষাদ / বিষণ্ণতা / দুঃখ	noun	Sadness,Gloom,Sorrow	Joy,Happiness,Cheerfulness
+740	Memento	ষ্মারকচিস্র / অভিন্ত্র	noun	souvenir	No common antonym
+741	Menace	হুমকি / বিপদ	noun	Threat,Danger,Hazard	Protection,Safety,Security
+742	Mercenary	ভাড়াটে বৈসনিক	noun	commercial,mercantile,worldly	No common antonym
+743	Merchandise	মালপত্র	noun	product,trade,wares	No common antonym
+744	Merchant prince	মহা ধনবান বণিক	noun	tycoon,magnate,baron	pauper
+745	Mercury	পারদ / বুধগ্রহ / দেবরাজের দেবতা	noun	quicksilver,atomic number 80,hg	No common antonym
+746	Meritorious	প্রশংসনীয় / গুণবান / গুণী	adjective	Worthy,Deserving,Admirable	Unworthy,Mediocre,Inferior
+747	Methodical	সুশৃঙ্খল	adjective	organized	No common antonym
+748	Meticulous	খুঁতখুঁতে / অতি সতর্ক / অতিসর্তক	adjective	Careful,Precise,Thorough	Careless,Sloppy,Negligent
+749	Mild	শান্ত / হালকা / কোমল	adjective	modest,balmy,moderate	intense
+750	Militant	সংগ্রামী / আক্রমণাত্মক	adjective	Aggressive,Radical,Combative	Peaceful,Passive,Moderate
+751	Mine	খনি	noun	Related,Similar	No common antonym
+752	Misanthrope	মানববিদে্ধষ	noun	Related,Similar	No common antonym
+753	Misconstrue	ভূল বোঝা	verb	misunderstand,misinterpret,misconceive	No common antonym
+754	Miserable	শোচনীয়	adjective	hapless,wretched,abject	No common antonym
+755	Misogyny	নারীদের ঘৃণা করে যে	noun	misogynism	No common antonym
+756	Mitigate	প্রশমিত করা / লাঘব করা / প্রশমিত করা (কষ্ট / যপ্সণা )	verb	Reduce,Lessen,Alleviate	Aggravate,Intensify,Worsen
+757	Mockery	উপহাস / বিদ্রূপ / প্রহসন	noun	Ridicule,Derision,Scorn	Respect,Praise,Admiration
+758	Modest	বিনয়ী	adjective	coy,demure,plain	immodest
+759	Monopoly	একচেটয়িা অধিকার	noun	Related,Similar	No common antonym
+760	Monotheist	একেশ্বরবাদী	noun	Related,Similar	No common antonym
+761	Monotonous	একঘেয়ে	adjective	dull,humdrum,monotone	No common antonym
+762	Morose	বিষণ্ণ / গোমড়ামুখো	adjective	Gloomy,Sullen,Sulky	Cheerful,Happy,Bright
+763	Motionless	নিহ্নল	adjective	static,unmoving,inactive	No common antonym
+764	Mountebank	যে ব্যক্তি চটকদার কথা বলে মানুষকে ঠকানোর চেষ্টা করে	noun	charlatan	No common antonym
+765	Muddle	বিষ্ণলতা	verb	hole,welter,addle	No common antonym
+766	Multiple	বস্থবিধ	adjective	aggregate,treble,multiplex	No common antonym
+767	Mundane	পার্থিব / সাধারণ	adjective	Ordinary,Routine,Commonplace	Extraordinary,Unusual,Exciting
+768	Murky	আবছা / অস্পষ্ট	adjective	turbid,opaque,cloudy	No common antonym
+769	Muster	সমবেশ	noun	rally	No common antonym
+770	Mutation	পরিবর্তন	noun	sport,mutant	No common antonym
+771	Myopic	ক্ষীনদৃষ্টি / সংকীণর্মনা	adjective	impaired,shortsighted,nearsighted	No common antonym
+772	Myriad	অসংখ্য	noun	innumerable,multitudinous,infinite	No common antonym
+773	Nadir	র্সবনিল্ড বিন্দু	noun	Related,Similar	No common antonym
+774	Naive	সরল / সাদাসিধে / আনাড়ি / সাধাসিধা / বিশ্বাসপ্রবণ	adjective	Innocent,Simple,Unsophisticated	Experienced,Worldly,Shrewd
+775	Namesake	মিতা / অনে্যর নামের সাথে মিল	noun	Related,Similar	No common antonym
+776	Nefarious	ঘৃণ্য / অত্যন্ত কুখ্যাত	adjective	Wicked,Villainous,Criminal	Virtuous,Honest,Righteous
+777	Negligent	অসাবধান / গাফিলতিপূর্ণ	adjective	Careless,Remiss,Inattentive	Careful,Attentive,Responsible
+778	Negligible	অবহেলার যোগ্য	adjective	paltry,trifling,minimal	No common antonym
+779	Negotiation	আলাপালোচনা	noun	talks	No common antonym
+780	Newborn	নবজাত	noun	immature,new,neonate	No common antonym
+781	Niggardly	মিতব্যয়ী / কিপটে	adjective	grudging,stingy,ungenerous	No common antonym
+782	Ninny	বোকা জাতীয়	noun	poop,nincompoop	No common antonym
+783	Nonchalant	উদাসীন / ভাবলেশহীন	adjective	Indifferent,Casual,Unconcerned	Anxious,Concerned,Attentive
+784	Notion	ধারণা	noun	feeling,belief,impression	No common antonym
+785	Notorious	কুখ্যাত / দুর্নামধারী / ভয়ংকর	adjective	Infamous,Disreputable,Scandalous	Reputable,Honourable,Famous
+786	Notwithstanding	তথাপি / যদিও	adverb	nonetheless,nevertheless,withal	No common antonym
+787	Nourishing	পুষ্টিকর	noun	Related,Similar	No common antonym
+788	Novice	শিক্ষানবিস / আনাড়ি / নতুন নিয়োগপ্রাপ্ত অনভিন্ত্র র্কমশী	noun	Beginner,Learner,Amateur	Expert,Professional,Veteran
+789	Nugatory	বাদ দেয়া	adjective	void,null,invalid	No common antonym
+790	Oath	শপথ করা	noun	Related,Similar	No common antonym
+791	Obdurate	অনমনীয়	adjective	obstinate,heartless,stony	No common antonym
+792	Obese	মোটা / স্থূলকায়	adjective	corpulent,weighty,rotund	No common antonym
+793	Obliged	বাধিত বা ঋণী হয়েছে এমন	verb	obligated	No common antonym
+794	Oblique	তির্যক / অপ্রত্যক্ষ	adjective	Indirect,Slanting,Devious	Direct,Straight,Honest
+795	Obliquity	বক্রতো	noun	deceptiveness,asynclitism	No common antonym
+796	Oblivious	অসচেতন / উদাসীন	adjective	Unaware,Ignorant,Aware	Conscious,He
+797	Obscure	অস্পষ্ট / অন্ধকারাচ্ছন্ন	adjective	Unknown,Vague,Dark	Famous,Clear,Obvious
+798	Observant	দৃষ্টিশীল / মনোযোগী	adjective	perceptive,attentive,observing	No common antonym
+799	Obsolescence	অপ্রচলিত	noun	obsoleteness,superannuation	No common antonym
+800	Obsolete	পুরাতন / অপ্রচলিত	adjective	outdated,superannuated,disused	No common antonym
+801	Obstinate	একগুঁয়ে / জেদি / একগুঁয়ে	adjective	Stubborn,Headstrong,Persistent	Flexible,Compliant,Yielding
+802	Obstruct	বাধা দেওয়া / পথ আটকে দেওয়া	verb	Block,Hinder,Impede	Assist,Facilitate,Allow
+803	Occupy	দখলে রাখা	verb	concern,engage,worry	No common antonym
+804	Odds and ends	ছোটখাট জিনিস	noun	bits and pieces,sundries,miscellanea	complete set
+805	Offended	বিক্ষুল্ট	adjective	displeased,pained	No common antonym
+806	Offshore	সাগরমুখী	adjective	Related,Similar	onshore,inshore,seaward
+807	Ominous	অমঙ্গলজনক / অশুভ / ভয়ংকর	adjective	Threatening,Sinister,Menacing	Promising,Favourable,Positive
+808	Omission	ভ্রানি্ত	noun	deletion,skip	No common antonym
+809	Omnipotent	র্সবশক্তিমান (আহ্ণাহ )	adjective	powerful,almighty,all-powerful	No common antonym
+810	On their toes	সজাগ সর্তক হওয়া	idiom	alert,vigilant,watchful	complacent,inattentive
+811	Onerous	কষ্টসাধ্য বা পরিঙ্কমসাধ্য কিছু	adjective	heavy,burdensome,taxing	No common antonym
+812	Opaque	অস্বচ্ছ / দুর্ভেদ্য / অস্বজ্ঞ	adjective	Dark,Unclear,Murky	Transparent,Clear,Lucid
+813	Opportunist	সুবিধাবাদী	noun	Self-seeker,Schemer,Exploiter	Principled,Honourable,Idealist
+814	Optimist	আশাবাদী	noun	Related,Similar	pessimist
+815	Oracular	ন্ত্রানবিশিষ্ট	adjective	Related,Similar	No common antonym
+816	Orchestrate	সমন্বিত করা / কৌশলে পরিকল্পনা করা	verb	Organize,Coordinate,Plan,Arrange	Disorganize,Derange,Botch
+817	Orderly	গোছালো	adjective	Related,Similar	disorderly
+818	Ore	আকরিক	noun	Related,Similar	No common antonym
+819	Ostracize	সমাজচ্যুত করা / বর্জন করা	verb	/ Exclude,Banish,Reject	Include,Accept,Welcome
+820	Outshine	ঔস্থলে্য ছাপিয়ে যাওয়া	verb	Related,Similar	No common antonym
+821	Override	অগ্রাহ্য করা	verb	reverse,overturn,overrule	No common antonym
+822	Overt	প্রকাশ্য	adjective	obvious,open,raw	covert
+823	Owe	ঋণী থাকা	verb	Related,Similar	No common antonym
+824	Pacify	শান্ত করা / প্রশমিত করা	verb	Calm,Appease,Soothe	Provoke,Agitate,Disturb
+825	Pact	চুক্তি	noun	accord,treaty	No common antonym
+826	Painstaking	পরিঙ্কমী	adjective	conscientious,scrupulous,careful	No common antonym
+827	Paleontology	জীবাহ্ল বিন্ত্রান	noun	Related to paleontology,Similar	No common antonym
+828	Palliate	উপশম করা / তীব্রতা কমানো	verb	Ease,Reduce,Alleviate	Worsen,Aggravate,Increase
+829	Pampered	অত্যাধিক প্রঙ্কয়	adjective	soft,coddled,spoiled	No common antonym
+830	Panic	ভয় পাওয়া	noun	scare,terror	No common antonym
+831	Pantheist	সবের্শ্বরবাদী	noun	pantheistic	No common antonym
+832	Parallelism	সমান্তরাল	noun	correspondence	No common antonym
+833	Paramount	সর্বপ্রধান / সবচেয়ে গুরুত্বপূর্ণ	adjective	Supreme,Foremost,Chief	Minor,Trivial,Secondary
+834	Parsimonious	কৃপণ / মিতব্যয়ী / মিতব্যয়ী / মিতব্যয়ী / কিপটে	adjective	Stingy,Miserly,Cheap	Generous,Lavish,Liberal
+835	Partial	পক্ষপাতী	adjective	fond,slanted,biased	fair,impartial
+836	Partisan	পক্ষপাতী	noun	irregular,aligned,sectarian	nonpartisan,nonpartizan
+837	Pathetic	করুন / মর্মস্পশর্শী	adjective	hapless,wretched,pitiful	No common antonym
+838	Patronage	সহযোগিতা	noun	disdain,support,condescension	No common antonym
+839	Paucity	অভাব	noun	dearth	No common antonym
+840	Pay off old scores	প্রতিশোধ নেয়া	idiom	take revenge,settle scores,retaliate	forgive,pardon
+841	Peak	সবের্াচ্চ চূড়া	noun	flush,crest,point	off-peak
+842	Pedantic	পাণ্ডিত্যভিমানী / খুঁটিনাটি নিয়মে অন্ধ	adjective	/ Fussy,Overscrupulous,Flexible	Practical,Broad-
+843	Pedestal	স্তশে্রর পাদভূমি	noun	Related to pedestal,Similar	No common antonym
+844	Pedestrian	পথচারী	noun	Related,Similar	No common antonym
+845	Pensive	চিন্তানিমঞ্জ	adjective	wistful,musing,sad	No common antonym
+846	Perjury	শপথভাণ্ট	noun	false,testimony,oathbreach	No common antonym
+847	Pernicious	মারাত্মক ক্ষতিকর / অনিষ্টকর	adjective	Harmful,Deadly,Destructive	Beneficial,Harmless,Safe
+848	Perplex	জটলি করা	verb	trounce,beat,get	simplify
+849	Persevering	পরিঙ্কমী	adjective	diligent,patient	No common antonym
+850	Persistent	নাছোড়বান্দা	adjective	relentless,continual,unrelenting	shed,caducous
+851	Pertinent	প্রাসঙ্গিক / যথার্থ	adjective	Relevant,Applicable,Fitting	Irrelevant,Unrelated,Inappropriate
+852	Pessimist	হতাশাবাদী	noun	Related,Similar	optimist
+853	Petrology	শিলাতধ	noun	Related,Similar	No common antonym
+854	Philanthropist	মানবহিৈতষী ব্যক্তি (বিশ্বপে্রমিক)	noun	altruist	No common antonym
+855	Philatelist	ডাকটকিেট সংগ্রহকারী	noun	stamp collector	No common antonym
+856	Pilferer	ছিঁচকে চোর	noun	sneak thief	No common antonym
+857	Piquant	তীজ্ঞ / কটু	adjective	Related,Similar	No common antonym
+858	Pitfall	ফাঁদ	noun	pit	No common antonym
+859	Pithy	সংকি্ষপ্ত	adjective	concise,sententious,sententiously	No common antonym
+860	Pittance	সামান্য বেতন	noun	Related,Similar	No common antonym
+861	Placatory	আপোস	adjective	appeasing,conciliatory,placating	No common antonym
+862	Placid	প্রশান্ত / শান্তশিষ্ট	adjective	Calm,Peaceful,Serene	Agitated,Angry,Turbulent
+863	Plainness	সরলতা	noun	perspicuity,homeliness,perspicuousness	No common antonym
+864	Plaintiff	বাদী	noun	complainant	accused,defendant,suspect
+865	Plausibility	বিশ্বাসযোগ্যতা	noun	plausibleness	implausibility,implausibleness
+866	Plausible	বিশ্বাসযোগ্য / আপাতদৃষ্টিতে সঠিক	adjective	Believable,Reasonable,Credible	Implausible,Unlikely,Incredible
+867	Plenty	প্রচুর	noun	slew,spate,mass	No common antonym
+868	Plethora	আধিক্য বা প্রচুর পরিমাণ	noun	nimiety,superfluity,embarrassment	No common antonym
+869	Plucky	সাহসী	adjective	spirited,spunky,feisty	No common antonym
+870	Poignant	জ্ঞানিকর / দুঃখ উদে্রককারী	adjective	Related,Similar	No common antonym
+871	Polity	রাজ্ঞ ব্যবস্থা	noun	Related to polity,Similar	No common antonym
+872	Polyglot	বস্থভাষী	noun	Related to polyglot,Similar	No common antonym
+873	Pompous	আত্মম্ভরী / দেমাগী	adjective	Arrogant,Boastful,Pretentious	Humble,Modest,Simple
+874	Ponder	গভীরভাবে চিন্তা করা	verb	ruminate,contemplate,speculate	No common antonym
+875	Pose	জাহির করা	noun	present,set,model	No common antonym
+876	Possess	করায়ধ করা	verb	have,own	No common antonym
+877	Possessed	অধিকারী	adjective	berserk,amok,amuck	No common antonym
+878	Postscript	অতিরিক্ত বা র্সবশেষ তথ্য	noun	supplement,addendum,ps	No common antonym
+879	Postulate	স্বীকার্য	noun	contend,posit	No common antonym
+880	Potty	তুজ্ঞ	noun	besotted,stiff,wet	No common antonym
+881	Pout	বিরক্তিভাব / ঠোঁট ফুলিয়ে রাগ দেখানো	verb	brood,moue,sulk	No common antonym
+882	Pragmatic	বাস্তবধর্মশী প্রয়োগবাদী	adjective	practical,realistic,hard-nosed	No common antonym
+883	Preamble	প্রস্তাবনা	noun	Related,Similar	No common antonym
+884	Precarious	অনিশ্চিত / ঝুঁকিপূর্ণ	adjective	Unstable,Risky,Dangerous	Stable,Safe,Secure
+885	Precise	সংকি্ষপ্ত করা / অতিসর্তক	adjective	meticulous,dead,fine	imprecise
+886	Predominance	আধিপত্য	noun	predomination	No common antonym
+887	Preface	প্রস্তাবনা	noun	premise,introduce,foreword	No common antonym
+888	Prejudice	কুসংস্কার / পক্ষপাতিত্ব	noun	Bias,Discrimination,Partiality	Fairness,Impartiality,Justice
+889	Prejudiced	পক্ষপাতী	adjective	subjective,loaded,jaundiced	impartial,unprejudiced
+890	Preponderance	ভারাধিক্য	noun	prevalence	No common antonym
+891	Pressing	জরুরী	adjective	imperative,press,pressure	No common antonym
+892	Pressurizing	চাপ প্রয়োগ	noun	Related,Similar	No common antonym
+893	Pretend	সাজা / মিথ্যা বণর্না করা	verb	Related,Similar	No common antonym
+894	Pretentious	ভণ্ডামিযুক্ত / আত্মম্ভরী / দাশি্রক	adjective	Pompous,Showy,Affected	Humble,Simple,Genuine
+895	Pretty penny	অত্যন্ত ব্যয় বস্থল	noun	fortune,large sum,tidy sum	pittance,small change
+896	Prevalent	প্রচলিত	adjective	rife,prevailing,current	No common antonym
+897	Prevaricator	সতে্যর আলাপকারী	noun	liar	straight arrow,square shooter
+898	Prick	ছিদ্র করা	noun	Related to prick,Similar	No common antonym
+899	Prima facie	প্রথম দশর্নে	adjective	apparent,evident,at first sight	doubtful,unproven
+900	Procession	মিছিল বা শোভাযাত্র	noun	Related,Similar	No common antonym
+901	Prodigal	বেহিসাবী ভাবে ব্যয় করা	adjective	profligate,lavish,extravagant	No common antonym
+902	Prodigy	বৈদত্য	noun	Related,Similar	No common antonym
+903	Profane	অপবিত্র করা	adjective	vitiate,blue,outrage	sacred
+904	Profligate	লশ্মট	adjective	libertine,extravagant,degenerate	No common antonym
+905	Proliferate	সংখ্যায় বৃদি্ধ পাওয়া	verb	Related,Similar	No common antonym
+906	Prolific	উর্বর / বিপুল উৎপাদনশীল	adjective	/ Productive,Fertile,Creative	Unproductive,Barren,Infertile
+907	Prolong	দীর্ঘায়িত করা / বাড়ানো	verb	Extend,Lengthen,Stretch	Shorten,Curtail,Reduce
+908	Promiscuous	বাছবিচারহীন / বাছবিচারহীন মেলামেশা	adjective	/ Indiscriminate,Loose,Immoral	Selective,Moral,Chaste
+909	Prompt	দ্রুত	adjective	incite,propel,instigate	No common antonym
+910	Propensity	প্রবণতা	noun	proclivity,tendency,leaning	No common antonym
+911	Propitious	অনুকূল / মঙ্গলময়	adjective	Favourable,Auspicious,Promising	Unfavourable,Inauspicious,Ominous
+912	Proportionate	আনুপাতিক	adjective	harmonious,corresponding,relative	disproportionate,disproportional
+913	Protract	দীঘর্ায়িত করা	verb	extend,prolong,draw out	No common antonym
+914	Provincial	সীমাবদ্ধ	adjective	bucolic,rustic,parochial	cosmopolitan
+915	Provocation	প্ররোচনা	noun	aggravation,irritation,incitement	No common antonym
+916	Proximate	নিকটতম	adjective	close,immediate	ultimate
+917	Prudent	দূরদর্শী / সুবিচক্ষণ	adjective	Wise,Careful,Sensible	Reckless,Foolish,A
+918	Pseudonym	ছদ্মনাম	noun	anonym,nom de guerre	No common antonym
+919	Publicize	প্রচার করা	verb	bare,air,advertize	No common antonym
+920	Puerile	তুজ্ঞ	noun	Related,Similar	No common antonym
+921	Punctilious	খুঁটনিাটি ব্যাপারে অতি সর্তক	adjective	meticulous,precise	No common antonym
+922	Pungent	তীব্র / ঝাঁঝালো	adjective	(  ) Sharp,Strong,Acrid	Mild,Bland,Tasteless
+923	Push sale	জোর করে বিকি্রে করা	verb	promote,market,boost sales	discourage sales
+924	Pusillanimous	ভীতু	adjective	fearful,cowardly,unmanly	No common antonym
+925	Put up with	সহ্য করা	verb	tolerate,bear,stand	reject,forbid
+926	Puzzling	বিভ্রানি্তকর	adjective	enigmatic,incomprehensible,perplexing	No common antonym
+927	Quandary	দোটানা / কিংকর্তব্যবিমূঢ় অবস্থা	noun	Dilemma,Predicament,Difficulty	Certainty,Solution,Clarity
+928	Quarrelsome	ঝগড়াটে	adjective	argumentative,arguing	No common antonym
+929	Quash	বাতিল করা	verb	void,subjugate,subdue	validate,formalize
+930	Queer	অদ্বুত	adjective	peculiar,thwart,strange	No common antonym
+931	Querulous	খিটখিটে / অনুযোগকারী	adjective	Complaining,Whining,Grumbling	Content,Satisfied,Cheerful
+932	Queue	লাইন	noun	line up,waiting line,queue up	No common antonym
+933	Raconteur	গস্ফকথক	noun	anecdotist	No common antonym
+934	Rampage	উতে্তজিত অবস্থা	noun	Related to rampage,Similar	No common antonym
+935	Rancour	তিক্ত বিদ্বেষ / শত্রুতা	noun	Bitterness,Resentment,Malice	Goodwill,Kindness,Forgiveness
+936	Rank and file	সাধারণ জনগণ	noun	Related,Similar	No common antonym
+937	Rash	হঠকারী / অবিবেচক	adjective	Impulsive,Reckless,Hasty	Cautious,Careful,Thoughtful
+938	Rational	যুক্তিসণ্টত / বিবেকী / যুক্তিসম্মত	adjective	intelligent,mental,reasonable	irrational
+939	Ravages	’ংস বা নষ্ট করা	noun	Related,Similar	No common antonym
+940	Reasonable	যৌক্তিক	adjective	sensible,rational,intelligent	unreasonable
+941	Reasoning	যুক্তিতর্ক	noun	intelligent,thinking,abstract thought	No common antonym
+942	Reassurance	পুনরায় নিহি্নত করা	noun	Related,Similar	No common antonym
+943	Rebuke	তিরস্কার করা / ধমক দেওয়া	verb	ও Reprimand,Scold,Criticize	Praise,Commend,Approve
+944	Recapitulate	আলোচনা করা	verb	reprise,repeat,recap	No common antonym
+945	Recapture	পুনরুদ্ধার করা	noun	retake,retaking	No common antonym
+946	Recidivist	অপরাধপ্রবণ	noun	reversionist,repeater,backslider	No common antonym
+947	Reckless	বেপরোয়া / অসাবধান	adjective	Careless,Irresponsible,Impetuous	Careful,Responsible,Cautious
+948	Recluse	সন্নাসী	noun	withdrawn,reclusive,troglodyte	No common antonym
+949	Reclusive	সন্ন্যাসী	adjective	sequestered,recluse,secluded	No common antonym
+950	Reconcile	মিলনসাধন করা	verb	conciliate,accommodate,settle	No common antonym
+951	Recruit	নতুন নিয়োগপ্রাপ্ত অনভিন্ত্র র্কমশী	verb	raise,enroll,inscribe	No common antonym
+952	Recuperative	আরোগ্য হয় এমন / পুনরুদ্ধার হয় এমন	adjective	restorative,healthful	No common antonym
+953	Redirect	পুননিদের্শ	verb	airt	No common antonym
+954	Redundant	অপ্রয়োজনীয় / বাড়তি / বাড়তি / অনাবশ্যক	adjective	Unnecessary,Superfluous,Excess	Necessary,Essential,Required
+955	Reel	নাটাই	noun	lurch,stagger,careen	No common antonym
+956	Refinery	পরিশোধনাগার	noun	Related,Similar	No common antonym
+957	Refugees	শরণার্থী	adjective	Related,Similar	No common antonym
+958	Refute	খণ্ডন করা / ভুল প্রমাণ করা / যুক্তি / তর্ক খধ্নন করা / অস্বীকার করা	verb	Disprove,Deny,Rebut	Confirm,Prove,Verify
+959	Regicide	রাজহত্যা	noun	kingslayer	No common antonym
+960	Regime	শাসন	noun	regimen,government,authorities	No common antonym
+961	Regret	অনুশোচনা করা	verb	lament,bemoan,repent	No common antonym
+962	Reimburse	পরিশোধ করা	verb	Related,Similar	No common antonym
+963	Reinstate	পুনর্বহাল করা	verb	Related to reinstate,Similar	No common antonym
+964	Relevant	প্রাসণি্টক	adjective	crucial,pertinent,related	irrelevant
+965	Relics	পুরাতাতি্রক নিদশর্ন	noun	halidom,lave,remainder	No common antonym
+966	Remnants	’ংসাবশেষ	noun	Related,Similar	No common antonym
+967	Renowned	বিখ্যাত	noun	illustrious,notable,noted	No common antonym
+968	Reparation	ক্ষতিপূরণ	noun	repair,fix,amends	No common antonym
+969	Repast	আহার	noun	Related,Similar	No common antonym
+970	Repeal	বাতিল করা	verb	annul,lift,rescind	No common antonym
+971	Repent	অনুশোচনা করা	verb	regret,atone,rue	No common antonym
+972	Repercussion	প্রতিক্রিয়া	noun	recoil,rebound,backlash	No common antonym
+973	Represent	চিতি্রত করা	verb	constitute,exemplify,comprise	prosecute
+974	Repression	দমন / নিপীড়ন	noun	Related,Similar	No common antonym
+975	Reprimand	তিরস্কার	verb	rebuke,chide,berate	No common antonym
+976	Reproach	তিরস্কার করা	verb	upbraid	No common antonym
+977	Reproof	অর্সমথন	noun	Related,Similar	No common antonym
+978	Repugnance	প্রতিক্রিয়া	noun	revulsion,repulsion,horror	No common antonym
+979	Repute	সুখ্যাতি	noun	Related to repute,Similar	No common antonym
+980	Rescind	বাতিল করা	verb	annul,lift,revoke	No common antonym
+981	Resemble	অনু°প	noun	Related,Similar	No common antonym
+982	Resentment	আকে্রোশ	adjective	Related,Similar	No common antonym
+983	Resilient	বিপদে ঘুরে দাঁড়ায় এমন / স্থিতিস্থাপক	adjective	Tough,Strong,Adaptable	Fragile,Weak,Vulnerable
+984	Resist	প্রতিরোধ করা	verb	dissent,refuse,defy	apply,surrender,give up
+985	Resolute	দৃঢ়সংকল্প / অনড়	adjective	Determined,Firm,Steadfast	Irresolute,Hesitant,Weak
+986	Restless	অস্থির	adjective	uneasy,fretful,moving	No common antonym
+987	Restrain	নিয়ন্ত্রণ করা / সংযত রাখা	verb	Control,Limit,Suppress	Release,Free,Allow
+988	Retail	খুচরা	noun	Related,Similar	explain,wholesale
+989	Reticent	স্বল্পভাষী / চাপা স্বভাবের	adjective	Quiet,Reserved,Taciturn	Talkative,Communicative,Outgoing
+990	Retractable	সংকোচনীয়	adjective	retractile	No common antonym
+991	Retribution	প্রতিশোধ / প্রতিফল / উপযুক্ত শাস্তি	noun	Punishment,Revenge,Penalty	Forgiveness,Pardon,Mercy
+992	Revamp	পুনগর্ঠন	noun	vamp	No common antonym
+993	Reveal	প্রকাশ করা	verb	impart,display,break	No common antonym
+994	Revealing	প্রকাশ করা	adjective	disclosure,informative,telltale	concealing
+995	Reverence	গভীর শ্রদ্ধা / ভক্তি	noun	Respect,Esteem,Veneration	Disrespect,Contempt,Mockery
+996	Reverential	ঙ্কদ্ধামিঙি্কত	adjective	reverent,venerating,respectful	No common antonym
+997	Revert	ফিরে আসা	noun	regress,return,turn back	No common antonym
+998	Revolution	বিল্গব	noun	Related,Similar	No common antonym
+999	Revulsion	প্রতিক্রিয়া	noun	repulsion,repugnance,horror	No common antonym
+1000	Rhetoric	বক্তৃতাশিল্প / বাগ্মিতা	noun	Oratory,Eloquence,Bombast	Simplicity,Silence,Plainness
+1001	Ridiculous	হাস্যকর	adjective	ludicrous,derisory,silly	No common antonym
+1002	Rightfully	বৈবধ ভাবে	adverb	truly	No common antonym
+1003	Rigid	শক্ত	adjective	set,stiff,strict	nonrigid
+1004	Rigorous	কঠোর / পুঙ্খানুপুঙ্খ	adjective	Strict,Thorough,Demanding	Lenient,Easy,Lax
+1005	Rise rapidly	দ্রুততার সাথে বৃদি্ধ	verb	soar,surge,rocket	plummet,fall
+1006	Rite	রীতিনীতি / প্রথা	noun	ritual,religious rite	No common antonym
+1007	Robbery	ডাকাতি	noun	looting	No common antonym
+1008	Rookie	নতুন নিয়োগপ্রাপ্ত অনভিন্ত্র র্কমশী	noun	cub,greenhorn	No common antonym
+1009	Rotund	গোলাকার	noun	Related,Similar	No common antonym
+1010	Ruminative	চিন্তানিমঞ্জ	adjective	pensive,musing,thoughtful	No common antonym
+1011	Rush	দ্রুত ধাবন	noun	induce,surge,flush	dawdle,detain,hold up
+1012	Ruthless	নির্মম / নির্দয়	adjective	Cruel,Merciless,Heartless	Merciful,Kind,Compassionate
+1013	Sacrilegious	পবিত্র ব্যক্তির অসম্মানকারী	adjective	Related,Similar	No common antonym
+1014	Sacrosanct	অলণ্ঠনীয়	noun	Related,Similar	No common antonym
+1015	Sagacity	প্রখর ন্ত্রান	noun	discernment,judgment,judgement	No common antonym
+1016	Sage	ন্ত্রানী	noun	chromatic,wise,guru	No common antonym
+1017	Salient	প্রধান বৈবশিষ্ট	adjective	conspicuous,prominent,obvious	reentrant,re-entrant
+1018	Salubrious	স্বাস্থ্যকর	adjective	healthy,wholesome,good for you	No common antonym
+1019	Sanatorium	স্বাস্থ্যনিবাস	noun	madhouse,loony bin,nuthouse	No common antonym
+1020	Sanction	অনুমোদন / নিষেধাজ্ঞা	noun	Approve,Authorize,Penalize	Disapprove,Ban,Prohibit
+1021	Sane	বিবেকী / যুক্তিসম্মত	adjective	rational,reasonable,lucid	insane
+1022	Sardonic	বিদ্রূপাত্মক / তাচ্ছিল্যপূর্ণ / ঘৃণাপূণর্	adjective	Sarcastic,Mocking,Cynical	Sincere,Kind,Warm
+1023	Saw	করাত	noun	adage,proverb,byword	No common antonym
+1024	Scam	জালিয়াতি করা	noun	con game,confidence trick,swindle	No common antonym
+1025	Scanty	স্বস্ফ	adjective	bare,meager,meagre	No common antonym
+1026	Scarcity	স্বস্ফ	noun	scarceness	abundance,copiousness
+1027	Scatter	ছড়িয়ে যাওয়া	verb	disperse,dissipate,sprinkle	No common antonym
+1028	Scenic	দৃশ্যময়	adjective	beautiful	No common antonym
+1029	Scissors	কাঁচি	noun	pair of scissors	No common antonym
+1030	Scold	তিরস্কার করা	verb	grumble,rebuke,reprimand	No common antonym
+1031	Screams	আর্তনাদ করা	noun	Related,Similar	No common antonym
+1032	Scrutinize	নিবিড়ভাবে পরীক্ষা করা	verb	Examine,Inspect,Analyze	Ignore,Overlook,Neglect
+1033	Scurrilous	অমাজির্ত / অপমান করা	adjective	scornful,opprobrious,offensive	No common antonym
+1034	Seething	ফুটে উপচে পড়া এমন	verb	Related to seething,Similar	No common antonym
+1035	Segregate	পৃথক করা	verb	Related,Similar	integrate,mix,desegregate
+1036	Senility	বাধর্ক্য	noun	second childhood,dotage	No common antonym
+1037	Serene	শান্ত / প্রশান্ত	adjective	Calm,Peaceful,Tranquil	Agitated,Turbulent,Disturbed
+1038	Sermon	বৈনতিক বক্তৃ তা	noun	discourse,preaching	No common antonym
+1039	Servile	ক্রেীতদাস সুলভ	adjective	obsequious,subservient,submissive	unsubmissive,unservile
+1040	Severe	প্রকট / মারাত্মক	adjective	austere,grievous,critical	No common antonym
+1041	Shaky	দুর্বল	adjective	precarious,unsteady,unstable	No common antonym
+1042	Shallow	ভাসাভাসা	adjective	light,superficial,shoal	deep
+1043	Shore	তীরভূমি / হূল	noun	land,seashore,set ashore	No common antonym
+1044	Shortcoming	থটি / সীমাবদ্ধতা	noun	defect	No common antonym
+1045	Shortcomings	থটি	noun	Related,Similar	No common antonym
+1046	Shove	ধাঞ্চা মারা	verb	thrust,jostle,squeeze	No common antonym
+1047	Shrewd	চতুর / বিচক্ষণ	adjective	Clever,Astute,Cunning	Naive,Foolish,Simple
+1048	Shrink	সংহৃচিত করা	verb	recoil,cringe,reduce	stretch
+1049	Simplicity	সরল	noun	ease,restraint,chasteness	complexity,difficulty,complexness
+1050	Sinister	অপকারী / অশুভ	adjective	baleful,evil,wicked	No common antonym
+1051	Skeptical	সংশয়বাদী / সন্দেহপ্রবণ	adjective	Doubtful,Cynical,Questioning	Trusting,Credulous,Believing
+1052	Skepticism	সংশয়বাদ	noun	incredulity,disbelief,scepticism	No common antonym
+1053	Skinflint	মিতব্যয়ী / কিপটে	noun	churl,niggard,grabber	No common antonym
+1054	Slackening	ঝিমুনি	noun	relaxation,loosening	No common antonym
+1055	Slip	পলায়ন / এড়িয়ে যাওয়া	verb	shift,case,slew	No common antonym
+1056	Slothful	নিকি্ষ্ময়	adjective	otiose,indolent,faineant	No common antonym
+1057	Sluggish	মন্থর / অলস / ধীরগতির / আলস্যপরায়ণ / হৃড়ে	adjective	Slow,Lazy,Lethargic	Active,Energetic,Brisk
+1058	Slumber	তন্দা	verb	kip,sleep	wake
+1059	Sneer	বিদ্রুপ করা	noun	Related to sneer,Similar	No common antonym
+1060	Snob	উন্নাসিক লোক (যে ব্যক্তি নিল্ডতর সামাজিক ঙে্কণীর মানুষকে অবন্ত্রার	noun	prig,snot	No common antonym
+1061	Sober	গাশ্রীর্যপূণর্	adjective	solemn,sombre,somber	playful,inebriated,intoxicated
+1062	Solace	সাপ্তনা	noun	consolation,comfort,console	No common antonym
+1063	Solemn	আনুষ্ঠানিক	adjective	earnest,sedate,serious	No common antonym
+1064	Solvent	দেনা পরিশোধে সক্ষম	noun	Related,Similar	No common antonym
+1065	Somber	বিষাদময় / অন্ধকারাচ্ছন্ন	adjective	Dark,Gloomy,Depressing	Bright,Cheerful,Lively
+1066	Soothe	প্রশমিত করা / কমানো	verb	solace,comfort,console	irritate
+1067	Sophisticated	কৃতি্রম	adjective	refined,svelte,blase	naive,naif
+1068	Sophistry	কূটতর্ক / প্রতারণাপূর্ণ যুক্তি	noun	Fallacy,Deception,Trickery	Logic,Truth,Honesty
+1069	Sparkle	স্থলস্থল করা	noun	light,spark,scintillation	No common antonym
+1070	Splendid	জমকালো	adjective	beautiful,glorious,resplendent	No common antonym
+1071	Spool	নাটাই	noun	bobbin,reel	No common antonym
+1072	Spunky	সাহসী	adjective	spirited,brave,feisty	No common antonym
+1073	Spurious	ভেজাল	adjective	specious,natural,counterfeit	No common antonym
+1074	Squalor	নোংরা / অস্বসি্তকর অবস্থা	noun	sordidness,squalidness	No common antonym
+1075	Squander	অপচয় করা / বৃথা নষ্ট করা	verb	Waste,Misuse,Fritter away	Save,Conserve,Preserve
+1076	Square meal	সুষম খাদ্য	noun	Related,Similar	No common antonym
+1077	Stale	টাটকা নয় (বাসি )	adjective	cold,hard,bad	fresh
+1078	State of shock	কিংর্কতব্যবিমূঢ়	noun	Related,Similar	No common antonym
+1079	Stated	প্রকাশিত হওয়া	verb	Related to stated,Similar	No common antonym
+1080	Statesman	হূটনীতিন্ত্র ব্যক্তি	noun	national leader,solon	No common antonym
+1081	Steadfast	দৃঢ় / অবিচল / নিষ্ঠাবান / অবিচলিত	adjective	Loyal,Firm,Unwavering	Unsteady,Disloyal,Wavering
+1082	Steal a march	ঔস্থলে্য ছাপিয়ে যাওয়া	noun	Related,Similar	No common antonym
+1083	Step on somebodys toes	অনুভূতি বা সংস্কারে আঘাত হানা	idiom	offend,encroach,intrude	respect boundaries
+1084	Stern	কঠোর	adjective	austere,inexorable,grim	No common antonym
+1085	Stifle	দমিয়ে রাখা / শ্বাসরোধ করা	verb	Suppress,Smother,Extinguish	Encourage,Promote,Release
+1086	Stimulus	আবেগ / প্রেরণা	noun	stimulant,stimulation,input	No common antonym
+1087	Stir	আলোড়িত করা	verb	turmoil,shift,touch	No common antonym
+1088	Stout	শক্তিশালী / নিভর্শীক	adjective	robust,fat,portly	No common antonym
+1089	Stream	জলপ্রবাহ	noun	flow,pelt,swarm	No common antonym
+1090	Strict	কঠোর	adjective	stern,severe,rigid	No common antonym
+1091	Strident	কর্কশ	noun	Related to strident,Similar	No common antonym
+1092	Stringent	কঠোর / অনমনীয়	adjective	Strict,Severe,Rigorous	Lenient,Loose,Easy
+1093	Stubborn	একগুঁয়ে	adjective	dour,tenacious,obstinate	docile
+1094	Subdue	বশীভূত করা / দমন করা	verb	Overcome,Suppress,Control	Liberate,Release,Encourage
+1095	Subordination	অধীনস্থ	noun	mastery,hyponymy	insubordination
+1096	Subpoena	আদালতে ডাকা	noun	subpoena ad testificandum	No common antonym
+1097	Subterfuge	প্রতারনা	noun	blind	No common antonym
+1098	Subtle	সূক্ষ্ম / জটিল / কৌশলী	adjective	Delicate,Refined,Indirect	Obvious,Blunt,Blatant
+1099	Subtlety	অস্পষ্ট	noun	nuance,refinement,niceness	No common antonym
+1100	Subtraction	বিয়োগ	noun	deduction,minus	addition
+1101	Subvert	ক্ষমতা ’ংস করা	verb	undermine,counteract,sabotage	No common antonym
+1102	Succinct	সংক্ষিপ্ত / প্রাঞ্জল	adjective	Concise,Brief,Compact,Terse	Verbose,Wordy,Lengthy
+1103	Suffrage	ভোটাধিকার	noun	right to vote,vote	No common antonym
+1104	Sullen	চাপা কে্রোধযুক্ত	adjective	dour,morose,heavy	No common antonym
+1105	Summons	ডেকে পাঠানো	noun	process,summon,call for	No common antonym
+1106	Sumptuous	মহাধনী / জমকালো / বিলাসবহুল	adjective	Lavish,Luxurious,Grand	Plain,Simple,Modest
+1107	Superannuate	কাজ বা ব্যবহারের জন্য অতি প্রাচীন / বয়স উত্তীর্ন	verb	Related,Similar	No common antonym
+1108	Supercilious	অহংকৃত / গবির্ত	adjective	Related,Similar	No common antonym
+1109	Superficial	ভাসা-ভাসা / অগভীর	adjective	Shallow,Surface-level,Cursory	Deep,Thorough,Profound
+1110	Superior	ঙে্কষ্ঠ	adjective	eminent,good,patronizing	inferior,adscript,subscript
+1111	Supplant	স্থানচু্যত	verb	Related,Similar	No common antonym
+1112	Suppress	দমন করা / চেপে রাখা	verb	Restrain,Quell,Subdue	Release,Allow,Encourage
+1113	Surreal	পরাবাস্তব	adjective	unreal,phantasmagoric,dreamlike	No common antonym
+1114	Susceptible	স্পশর্কাতর	noun	Related to susceptible,Similar	No common antonym
+1115	Suspect	সনে্দহভাজন	verb	surmise,queer,doubt	trust,bank,complainant
+1116	Sustain	টিকিয়ে রাখা / সমর্থন জোগানো	verb	Maintain,Support,Uphold	Neglect,Abandon,Destroy
+1117	Swindle	প্রতারণা করা	verb	Related,Similar	No common antonym
+1118	Swollen	ফোলা বা ফুলে যাওয়া	verb	Related to swollen,Similar	No common antonym
+1119	Sycophancy	তোষামুদি	noun	Related,Similar	No common antonym
+1120	Sycophant	চাটুকার / তোষামোদকারী	noun	Flatterer,Yes- man,Fawner	Critic,Opponent,Detractor
+1121	Synopsis	সারাংশ	noun	abstract,outline,precis	No common antonym
+1122	Taciturn	স্বস্ফভাষী	adjective	reticent,buttoned-up,untalkative	voluble
+1123	Tactful	কৌশলী / বিচক্ষণ	adjective	Diplomatic,Prudent,Discreet	Tactless,Blunt,Insensitive
+1124	Tantamount	সমপরিমাণ	adjective	Related,Similar	No common antonym
+1125	Taunting	বিদ্রুপ	verb	Related to taunting,Similar	No common antonym
+1126	Telepathy	অনে্যর চিন্তার অনুভূতি দ্রুত বুঝে নেয়ার ক্ষমতা	noun	thought transference	No common antonym
+1127	Teller	ব্যাংকের ক্যাশিয়ার	noun	cashier,bank clerk,vote counter	No common antonym
+1128	Temperate	পরিমিত / সংযমী / নাতিশীতোষ্ণ	adjective	Moderate,Restrained,Mild	Extreme,Excessive,Immoderate
+1129	Tenacious	নাছোড়বান্দা / দৃঢ়প্রতিজ্ঞ	adjective	Persistent,Determined,Resolute	Weak,Irresolute,Yielding
+1130	Tenacity	কোন কিছুর প্রতি আগ্রহ / জিদ	noun	doggedness,tenaciousness,perseverence	No common antonym
+1131	Tenant	ভাড়াটয়িা	noun	renter	No common antonym
+1132	Tender	কোমল / পেশা / প্রস্তাব	adjective	delicate,soft,crisp	tough,toughened
+1133	Tentative	অনিহি্নত / দোদুল্যমান	adjective	unsettled,doubtful,provisionary	No common antonym
+1134	Tenterhooks	উদে্ধগপূণর্ অনিহি্নত অবস্থা	noun	Related,Similar	No common antonym
+1135	Tenure	কার্যকাল	noun	incumbency,land tenure,term of office	No common antonym
+1136	Tepid	অস্ফ গরম বা হৃসুম হৃসুম গরম	adjective	lukewarm,uninterested	No common antonym
+1137	Thankless	অকৃতন্ত্র	adjective	ungrateful,unappreciated,unrewarding	grateful,thankful
+1138	Theist	আসি্তক	noun	Related to theist,Similar	atheist
+1139	Theologist	ধর্মতত্রবিৎ	noun	theologian,theologizer	No common antonym
+1140	Thorough	পুড্ডানুপুড্ড	adjective	complete,careful,exhaustive	No common antonym
+1141	Thread	সুতা	noun	yarn,weave,string	No common antonym
+1142	Thrifty	মিতব্যয়ী / কিপটে	adjective	provident,careful,economical	wasteful
+1143	Timid	ভীরু / লাজুক	adjective	Shy,Fearful,Cowardly	Brave,Bold,Courageous
+1144	Tiny in size	খুব ছোট	adjective	miniature,microscopic,minute	massive,huge,gigantic
+1145	Tipped	একপাশ বা প্রানে্ত উঠানো	adjective	inclined,canted,atilt	untipped
+1146	Tirade	তিরস্কারপূণর্ দীঘর্ বক্তৃ তা	noun	broadside,philippic	No common antonym
+1147	Titanic	বিশাল	adjective	large,big	No common antonym
+1148	To blow hot and cold	অসামন্নস্যপূণর্ হওয়া	idiom	vacillate,waver,hesitate	remain steadfast,commit
+1149	To do away with	পরিহার করা	verb	abolish,eliminate,discard	retain,preserve,keep
+1150	To drive off	পরিহার করা	verb	repel,chase away,disperse	welcome,attract
+1151	Tomb	কবর	noun	grave	No common antonym
+1152	Toot your own horn	গর্ব করা	idiom	brag,boast,show off	humble oneself,be modest
+1153	Toppling	ডিগবাজি খাইয়ে পড়া	noun	falling	No common antonym
+1154	Torment	চরম যন্ত্রণা / মানসিক পীড়ন	noun	ও Torture,Agonize,Afflict	Comfort,Soothe,Relieve
+1155	Torpor	অলস	noun	listlessness,torpidity,torpidness	No common antonym
+1156	Tough	শক্ত	adjective	hard,difficult,rugged	tender,untoughened
+1157	Towered high	মাথা উঁচু করে দাড়ানো	noun	Related,Similar	No common antonym
+1158	Tract	ধর্ম বা বৈনতিকতা বিষয়ে পুসি্তকা	noun	parcel,pathway,pamphlet	No common antonym
+1159	Traduce	নিন্দা করা / অপবাদ দেয়া	verb	malign,badmouth,drag through the mud	No common antonym
+1160	Traitor	বিশ্বাসঘাতক	noun	treasonist,double-dealer,double-crosser	No common antonym
+1161	Tranquil	প্রশান্ত / শান্ত	adjective	Peaceful,Calm,Serene	Agitated,Noisy,Troubled
+1162	Transient	অস্থায়ী	adjective	ephemeral,transitory,fugacious	immanent,subjective
+1163	Transmission	ছড়ানো / প্রচার	noun	contagion,infection,transmitting	No common antonym
+1164	Transmit	প্রেরণ বা হস্তান্তর করা	verb	convey,conduct,beam	No common antonym
+1165	Trapped	আটকা পরা	adjective	treed,unfree,cornered	No common antonym
+1166	Treacherous	বিশ্বাসঘাতক / বিপজ্জনক	adjective	Disloyal,Deceptive,Dangerous	Loyal,Trustworthy,Reliable
+1167	Treatise	গবেষণামূলক আলোচনা গ্রব্দ	noun	Related,Similar	No common antonym
+1168	Trespass	পাপ / সীমালণ্টন	verb	encroachment,transgress,intrusion	No common antonym
+1169	Trial	চেষ্টা	noun	model,run,test	No common antonym
+1170	Trick	প্রতারনা	noun	legerdemain,deception,antic	maladroit
+1171	Trickery	প্রতারনা	noun	chicanery,skulduggery,jiggery-pokery	No common antonym
+1172	Triumph	বিজয়	noun	prevail,wallow,rejoice	defeat,licking
+1173	Trivial	তুচ্ছ / নগণ্য / নগণ্য / তুজ্ঞ	adjective	Unimportant,Minor,Petty	Important,Significant,Major
+1174	Troops	দল বা পাল	noun	Related to troops,Similar	No common antonym
+1175	Truant	যে ব্যক্তি তার র্কমস্থল হতে পালায়	adjective	absent,awol,no-show	No common antonym
+1176	Trustworthy	বিশ্বস্ত	adjective	reliable,authentic,sure	untrustworthy,untrusty
+1177	Turbid	ঘোলাটে	adjective	ambiguous,equivocal,cloudy	No common antonym
+1178	Ubiquitous	সর্বব্যাপী / সর্বত্র বিদ্যমান	adjective	Omnipresent,Pervasive,Widespread,Universal	Rare,Scarce,Seldom
+1179	Ulterior	গোপন বা অপ্রকাশিত	adjective	Related to ulterior,Similar	prior,ostensible,citerior
+1180	Uncover	প্রকাশ করা	verb	reveal,unveil,expose	cover
+1181	Understatement	কমিয়ে বলা	noun	Related,Similar	exaggeration,overstatement,magnification
+1182	Undertake	দায়িধভার গ্রহণকরা	verb	contract,attempt,guarantee	No common antonym
+1183	Unearth	প্রকাশ করা	verb	Related,Similar	No common antonym
+1184	Unequivocal	সুস্পষ্ট	adjective	definitive,univocal,conclusive	ambiguous,equivocal
+1185	Unfathomable	অতল / গভীর	adjective	fathomless,bottomless,unsoundable	comprehensible,fathomable
+1186	Unforeseen	অপ্রত্যাশিত	adjective	unexpected,sudden,unanticipated	No common antonym
+1187	Uniform	সমজাতীয়	noun	regular,homogeneous,consistent	multiform,differentiated
+1188	Unimaginable	অকস্ফনীয়	adjective	impossible,inconceivable,unthinkable	No common antonym
+1189	Uninfluenced	প্রভাবমুক্ত	adjective	unaffected,untouched,unswayed	No common antonym
+1190	Unintended	অনিজ্ঞাকৃত	adjective	inadvertent,fortuitous,unwitting	intended
+1191	Unruly	অবাধ্য	adjective	boisterous,disorderly,insubordinate	No common antonym
+1192	Unscrupulous	বিবেকহীন / নীতিহীন	adjective	Dishonest,Immoral,Unprincipled	Honest,Moral,Principled
+1193	Unstable	অস্থির	adjective	tender,precarious,volatile	stable
+1194	Untamed	অশান্ত / বন্য	adjective	wild,feral,unbroken	tamed,tame
+1195	Untenable	টিকিয়ে রাখা যায়না এমন	adjective	unreasonable,indefensible	No common antonym
+1196	Unwitting	অনিজ্ঞাকৃত	adjective	Related,Similar	No common antonym
+1197	Upheld	উপরের দিকে নেওয়া	verb	Related,Similar	No common antonym
+1198	Urban	শস্থরে	adjective	citified,urbanized,cityfied	rural
+1199	Urgency	জরুরী	noun	Related,Similar	No common antonym
+1200	Usurp	জবরদখল	verb	arrogate,assume,take over	No common antonym
+1201	Utopia	কস্ফরাজ্য	noun	zion,new latin utopia	dystopia
+1202	Vacillate	দি্ধধা করা	verb	hover,fluctuate,waver	No common antonym
+1203	Vague	অস্পষ্ট	adjective	obscure,indistinct,dim	defined
+1204	Valiant	সাহসী	noun	orped,valorous	No common antonym
+1205	Valley	উপত্যকা	noun	vale	No common antonym
+1206	Valorous	সাহসী	adjective	valiant,brave,courageous	No common antonym
+1207	Vehement	প্রবল / তীব্র / প্রচণ্ড	adjective	Intense,Forceful,Passionate	Mild,Gentle,Calm
+1208	Vehemently	তীজ্ঞভাবে	adverb	Related,Similar	No common antonym
+1209	Velocity	বেগ	noun	speed	No common antonym
+1210	Vendor	বিকে্রতো	noun	trafficker,vender,seller	No common antonym
+1211	Venerate	সম্মান করা / ঙ্কদ্ধা করা	verb	reverence,fear,revere	No common antonym
+1212	Venture	উদে্যাগ	noun	brave,jeopardize,adventure	No common antonym
+1213	Venturesome	সাহসী	adjective	audacious,bold,dangerous	No common antonym
+1214	Verbose	শব্দবহুল / বাগাড়ম্বরপূর্ণ / বার্কসবস্ব	adjective	/ Wordy,Long- winded,Concise	Terse,Brief
+1215	Versatility	বস্থমুখী	noun	Related,Similar	No common antonym
+1216	Vicious	ঘৃণ্য	adjective	malevolent,evil,wicked	No common antonym
+1217	Vicissitudes	উত্থান-পতন / জীবনের পরিবর্তন ও চড়াই-উতরাই	noun	Ups and downs,Fluctuations,Changes,Variations	Stability,Constancy,Uniformity
+1218	Vigilant	জাগ্রত / সদা সতর্ক / সজাগ	adjective	Watchful,Alert,Careful	Careless,Inattentive,Negligent
+1219	Vigor	শারীরিক বা মানসিক শক্তি	noun	vigour,energy,vim	No common antonym
+1220	Vigorous	সবল	adjective	robust,energetic	No common antonym
+1221	Vilify	কুৎসা রটনা করা / মানহানি করা / নিন্দা করা / অপবাদ দেয়া	verb	ও   / Defame,Slander,Malign	Praise,Commend,Glorify
+1222	Vindicate	অভিযোগমুক্ত করা / সঠিক প্রমাণ করা	verb	/ Justify,Exonerate,Clear	Blame,Convict,Condemn
+1223	Virulent	বিষাক্ত / মারাত্মক ক্ষতিকর	adjective	Deadly,Toxic,Malignant	Harmless,Mild,Benign
+1224	Visible	দৃশ্যমান	adjective	conspicuous,overt,apparent	invisible,unseeable
+1225	Visionary	কাস্ফনিক	adjective	airy,seer,impractical	No common antonym
+1226	Vital	অত্যাবশ্যক / সজীব	adjective	critical,essential,indispensable	No common antonym
+1227	Vocation	বৃতি্ত / ব্যবসায়	noun	calling,career,occupation	No common antonym
+1228	Vociferous	শল্পবস্থল / গোলমালকারী	adjective	blatant,clamorous,strident	No common antonym
+1229	Void	বাতিল	adjective	vitiate,nugatory,nullify	validate,formalize
+1230	Volatile	উদ্বায়ী / দ্রুত পরিবর্তনশীল	adjective	Unstable,Unpredictable,Explosive	Stable,Calm,Predictable
+1231	Voluptuous	আনন্দবাদী	adjective	Related,Similar	No common antonym
+1232	Vow	শপথ করা	noun	Related,Similar	No common antonym
+1233	Voyage	সমুদ্র যাত্রা	noun	navigate,sail,ocean trip	No common antonym
+1234	Vulgarity	অহ্বীলতা	noun	vulgarism,coarseness,commonness	No common antonym
+1235	Vulnerable	অরক্ষিত / ঝুঁকিপূর্ণ	adjective	Exposed,Susceptible,Defenceless	Protected,Secure,Strong
+1236	Wagon	মালবাহী গাড়ি	noun	waggon,beach wagon,police van	No common antonym
+1237	Waive	মওহৃফ করা	verb	render,relinquish,forgo	arrogate,claim,lay claim
+1238	Wallet	মানি ব্যাগ	noun	billfold,notecase	No common antonym
+1239	Wander	উদ্দেশ্যহীনভাবে ভ্রমণ করা	verb	cast,drift,ramble	No common antonym
+1240	Wane	হ্রাস পাওয়া / ক্ষয় হওয়া	verb	Decline,Diminish,Fade	Increase,Grow,Strengthen
+1241	Warehouse	মালপত্র রাখার স্থান	noun	storage warehouse	No common antonym
+1242	Warlock	মায়াবী	noun	Related,Similar	No common antonym
+1243	Wary	সতর্ক / সাবধানী	adjective	Cautious,Vigilant,Alert	Careless,Reckless,Inattentive
+1244	Wayward	সে্বজ্ঞাচারী	adjective	obstinate,contrary,perverse	No common antonym
+1245	Wear out	ব্যবহারের ধারা ক্ষয় হওয়া	verb	Related,Similar	No common antonym
+1246	Whimsical	অদ্ভুত / খামখেয়ালী	adjective	Fanciful,Capricious,Playful	Serious,Practical,Logical
+1247	Wholesale	পাইকারী	noun	sweeping,indiscriminate,in large quantities	retail
+1248	Wicked	দুহ্নরিত্র	noun	awesome,bad,cool	No common antonym
+1249	Windy	ঝড়ো	noun	blowy,blustery,breezy	calm,windless
+1250	Withhold	পেছনে টেনে রাখা বা আটকিয়ে রাখা	verb	deduct,recoup,keep back	No common antonym
+1251	Worsen	শোচনীয় হওয়া	verb	decline,exacerbate,aggravate	ameliorate,improve,meliorate
+1252	Worship	পূজা	noun	adoration,idolize,hero-worship	No common antonym
+1253	Worth yours	দক্ষ	adjective	worthwhile,valuable,beneficial	worthless
+1254	Worthy of	যোগ্য	adjective	deserving of,meriting,eligible for	unworthy of
+1255	Wrath	প্রচণ্ড রাগ / ক্রোধ	noun	Anger,Fury,Rage	Calm,Peace,Pleasure
+1256	Writ	কোন বিষয় সশ্মকের্ কোটের্র লিখিত অডর্ার	noun	judicial writ	No common antonym
+1257	Xenophobia	বিদেশি-বিদ্বেষ	noun	Intolerance,Chauvinism,Prejudice,Bias	Tolerance,Hospitality,Acceptance
+1258	Yearn	তীব্র আকাঙ্ক্ষা করা / ব্যাকুল হওয়া	verb	Long,Desire,Crave	Detest,Hate,Dislike
+1259	Yield	বশ্যতা স্বীকার করা	verb	render,concede,issue	stand,survive,make it
+1260	Zeal	প্রবল উৎসাহ / উদ্দীপনা	noun	Enthusiasm,Passion,Fervor	Apathy,Indifference,Laziness
+1261	Zenith	শীর্ষবিন্দু / সর্বোচ্চ চূড়া / চূড়া	noun	Peak,Summit,Pinnacle	Nadir,Bottom,Lowest
+1262	Zest	রুচি / প্রানবন্ততা	noun	gusto,relish,punch	No common antonym

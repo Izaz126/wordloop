@@ -22,7 +22,6 @@ export const ActionButtons: React.FC<ActionButtonsProps> = ({
       >
         <Check className="w-5 h-5 stroke-[2.5] group-hover:scale-110 transition-transform" />
         <span>I knew</span>
-        <span className="hidden sm:inline-block text-[11px] font-normal opacity-70 ml-1">(2)</span>
       </button>
 
       {/* Red Button: "✕ I didn't know" */}
@@ -33,7 +32,6 @@ export const ActionButtons: React.FC<ActionButtonsProps> = ({
       >
         <X className="w-5 h-5 stroke-[2.5] group-hover:scale-110 transition-transform" />
         <span>I didn't know</span>
-        <span className="hidden sm:inline-block text-[11px] font-normal opacity-70 ml-1">(1)</span>
       </button>
     </div>
   );

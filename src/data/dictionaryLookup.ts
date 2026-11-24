@@ -1,4 +1,4 @@
-// Comprehensive Offline Dictionary for Vocabulary Enrichment (1262 entries)
+// Comprehensive Offline Dictionary for Vocabulary Enrichment (1264 entries)
 export interface WordEnrichmentData {
   word: string;
   pos: string;
@@ -15,75 +15,91 @@ export interface WordEnrichmentData {
 export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "a bone to pick": {
     "word": "A bone to pick",
-    "pos": "noun",
-    "simpleDefinition": "A grievance or dispute that needs to be settled",
-    "banglaMeaning": "রাগাি:ত হওয়া",
+    "pos": "idiom",
+    "simpleDefinition": "A complaint or dispute that you want to discuss and settle with someone.",
+    "banglaMeaning": "রাগান্বিত হওয়া / কথা বলার মতো অভিযোগ থাকা",
     "synonyms": [
-      "complaint",
-      "dispute"
+      "Grievance",
+      "Complaint",
+      "Dispute"
     ],
     "antonyms": [
-      "agreement"
+      "Harmony",
+      "Agreement"
     ],
-    "example": "He had a bone to pick with his colleague about the report."
+    "example": "I have a bone to pick with you regarding yesterday's canceled meeting."
   },
   "abandon": {
     "word": "Abandon",
     "pos": "verb",
-    "simpleDefinition": "To give up or relinquish control of, to surrender or to give oneself over, or to yield to one's emotions.",
+    "simpleDefinition": "To leave a place, person, or thing permanently, especially when you should stay.",
     "banglaMeaning": "ছেড়ে যাওয়া",
     "synonyms": [
-      "desolate",
-      "lurch",
-      "give"
+      "desert",
+      "forsake",
+      "relinquish",
+      "give up"
     ],
     "antonyms": [
-      "No common antonym"
+      "keep",
+      "retain",
+      "support"
     ],
-    "example": "The student learned how to use abandon correctly in a sentence."
+    "example": "The crew had to abandon the sinking ship."
   },
   "abate": {
     "word": "Abate",
     "pos": "verb",
-    "simpleDefinition": "To lessen (something) in force or intensity; to moderate.",
+    "simpleDefinition": "To become less intense or widespread, or to make something less intense.",
     "banglaMeaning": "প্রশমিত করা / কমানো",
     "synonyms": [
-      "slack",
-      "slake",
-      "let up"
+      "subside",
+      "diminish",
+      "lessen",
+      "decrease"
     ],
     "antonyms": [
-      "No common antonym"
+      "intensify",
+      "increase",
+      "strengthen"
     ],
-    "example": "The student learned how to use abate correctly in a sentence."
+    "example": "The storm finally began to abate after hours of heavy rain."
   },
   "abatement": {
     "word": "Abatement",
     "pos": "noun",
-    "simpleDefinition": "The act of abating, or the state of being abated; a lessening, diminution, or reduction; a moderation; removal or putting an end to; the suppression.",
+    "simpleDefinition": "The process of reducing or making something less intense or severe.",
     "banglaMeaning": "কমানো",
     "synonyms": [
-      "respite",
-      "reprieve",
-      "hiatus"
+      "reduction",
+      "decrease",
+      "lessening",
+      "mitigation"
     ],
     "antonyms": [
-      "No common antonym"
+      "increase",
+      "intensification",
+      "rise"
     ],
-    "example": "The student learned how to use abatement correctly in a sentence."
+    "example": "The city council approved a tax abatement for new businesses."
   },
   "abeyance": {
     "word": "Abeyance",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being abeyance.",
+    "simpleDefinition": "A state of temporary disuse or suspension.",
     "banglaMeaning": "স্থগিতাবস্থা",
     "synonyms": [
-      "suspension"
+      "suspension",
+      "dormancy",
+      "postponement",
+      "limbo"
     ],
     "antonyms": [
-      "No common antonym"
+      "continuation",
+      "operation",
+      "revival"
     ],
-    "example": "The student learned how to use abeyance correctly in a sentence."
+    "example": "The project was held in abeyance until funding could be secured."
   },
   "abhor": {
     "word": "Abhor",
@@ -105,236 +121,290 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "abhorrence": {
     "word": "Abhorrence",
     "pos": "noun",
-    "simpleDefinition": "Extreme aversion or detestation; the feeling of utter dislike or loathing.",
-    "banglaMeaning": "প্রতিকি্রয়ো",
+    "simpleDefinition": "A feeling of intense disgust and hatred.",
+    "banglaMeaning": "প্রতিক্রিয়া",
     "synonyms": [
-      "odium",
       "loathing",
-      "execration"
+      "detestation",
+      "revulsion",
+      "antipathy"
     ],
     "antonyms": [
-      "No common antonym"
+      "admiration",
+      "fondness",
+      "affection"
     ],
-    "example": "The student learned how to use abhorrence correctly in a sentence."
+    "example": "She felt an intense abhorrence for violence of any kind."
   },
   "abolish": {
     "word": "Abolish",
     "pos": "verb",
-    "simpleDefinition": "To end a law, system, institution, custom or practice.",
-    "banglaMeaning": "বিলুপ্তকরা",
+    "simpleDefinition": "To formally put an end to a system, practice, or institution.",
+    "banglaMeaning": "বিলুপ্ত করা",
     "synonyms": [
-      "get rid of"
+      "eliminate",
+      "eradicate",
+      "annul",
+      "revoke"
     ],
     "antonyms": [
       "establish",
-      "set up",
-      "launch"
+      "institute",
+      "create"
     ],
-    "example": "The student learned how to use abolish correctly in a sentence."
+    "example": "Many countries have worked to abolish the death penalty."
   },
   "above board": {
     "word": "Above board",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being above board.",
+    "pos": "idiom",
+    "simpleDefinition": "Open, honest, and legitimate, without any secrecy or deception.",
     "banglaMeaning": "অকপট / খোলাখুলি",
     "synonyms": [
-      "Related",
-      "Similar"
+      "transparent",
+      "honest",
+      "legitimate",
+      "straightforward"
     ],
     "antonyms": [
-      "No common antonym"
+      "secretive",
+      "dishonest",
+      "deceptive"
     ],
-    "example": "The student learned how to use above board correctly in a sentence."
+    "example": "All their business dealings were completely above board."
   },
   "abrasive": {
     "word": "Abrasive",
     "pos": "adjective",
-    "simpleDefinition": "Producing abrasion; rough enough to wear away the outer surface.",
-    "banglaMeaning": "ঘষর্ণের মাধ্যমে তুলে ফেলা",
+    "simpleDefinition": "Causing irritation or annoyance; also, capable of polishing or cleaning a hard surface by rubbing or grinding.",
+    "banglaMeaning": "ঘর্ষণকারী, ঘষে পরিষ্কার বা মসৃণ করার উপযোগী",
     "synonyms": [
-      "rough",
       "harsh",
-      "disagreeable"
+      "caustic",
+      "rough",
+      "grating"
     ],
     "antonyms": [
-      "No common antonym"
+      "smooth",
+      "gentle",
+      "pleasant"
     ],
-    "example": "The student learned how to use abrasive correctly in a sentence."
+    "example": "His abrasive comments often offended people, even when he didn't mean to."
   },
   "abscond": {
     "word": "Abscond",
     "pos": "verb",
-    "simpleDefinition": "To flee, often secretly; to steal away.",
+    "simpleDefinition": "To leave secretly and suddenly, often to avoid arrest or punishment.",
     "banglaMeaning": "আত্মগোপন করা",
     "synonyms": [
-      "bolt",
-      "absquatulate",
-      "go off"
+      "flee",
+      "escape",
+      "decamp",
+      "bolt"
     ],
     "antonyms": [
-      "No common antonym"
+      "appear",
+      "stay",
+      "surrender"
     ],
-    "example": "The student learned how to use abscond correctly in a sentence."
+    "example": "The suspect absconded with the stolen money before the police arrived."
   },
   "abstinent": {
     "word": "Abstinent",
     "pos": "adjective",
-    "simpleDefinition": "Refraining from indulgence, especially from the indulgence of appetite.",
+    "simpleDefinition": "Choosing not to do something, especially not to drink alcohol or engage in certain pleasures.",
     "banglaMeaning": "সংযমী",
     "synonyms": [
-      "abstemious",
-      "abstentious",
-      "abstainer"
+      "temperate",
+      "sober",
+      "self-restrained",
+      "ascetic"
     ],
     "antonyms": [
-      "No common antonym"
+      "indulgent",
+      "intemperate",
+      "gluttonous"
     ],
-    "example": "The student learned how to use abstinent correctly in a sentence."
+    "example": "She remained abstinent from sugar for a month as part of her diet."
   },
   "abundance": {
     "word": "Abundance",
     "pos": "noun",
-    "simpleDefinition": "A large quantity; many.",
+    "simpleDefinition": "A very large quantity of something; plentifulness.",
     "banglaMeaning": "আধিক্য",
     "synonyms": [
-      "copiousness"
+      "plenty",
+      "profusion",
+      "wealth",
+      "surplus"
     ],
     "antonyms": [
       "scarcity",
-      "scarceness"
+      "shortage",
+      "lack"
     ],
-    "example": "The student learned how to use abundance correctly in a sentence."
+    "example": "The region enjoys an abundance of natural resources."
   },
   "abuse": {
     "word": "Abuse",
     "pos": "noun",
-    "simpleDefinition": "Improper treatment or usage; application to a wrong or bad purpose; an unjust, corrupt or wrongful practice or custom.",
+    "simpleDefinition": "The improper, harmful, or cruel treatment of a person, animal, or thing.",
     "banglaMeaning": "অপব্যবহার",
     "synonyms": [
-      "pervert",
-      "shout",
-      "blackguard"
+      "mistreatment",
+      "misuse",
+      "exploitation",
+      "cruelty"
     ],
     "antonyms": [
-      "No common antonym"
+      "care",
+      "respect",
+      "protection"
     ],
-    "example": "The student learned how to use abuse correctly in a sentence."
+    "example": "The charity works to prevent child abuse and neglect."
   },
   "abyss": {
     "word": "Abyss",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being abyss.",
-    "banglaMeaning": "গষ্ণর",
+    "simpleDefinition": "A deep or seemingly bottomless chasm or pit.",
+    "banglaMeaning": "গহ্বর",
     "synonyms": [
-      "Related",
-      "Similar"
+      "chasm",
+      "gorge",
+      "pit",
+      "void"
     ],
     "antonyms": [
-      "No common antonym"
+      "surface",
+      "peak",
+      "summit"
     ],
-    "example": "The student learned how to use abyss correctly in a sentence."
+    "example": "The climbers looked down into the dark abyss below them."
   },
   "accidental": {
     "word": "Accidental",
     "pos": "adjective",
-    "simpleDefinition": "Happening by chance, or unexpectedly; taking place not according to the usual course of things; by accident, unintentional.",
-    "banglaMeaning": "আকঙি্গক",
+    "simpleDefinition": "Happening by chance or unexpectedly, without being planned or intended.",
+    "banglaMeaning": "আকস্মিক",
     "synonyms": [
-      "inadvertent",
-      "casual",
+      "unintentional",
+      "unplanned",
+      "fortuitous",
       "chance"
     ],
     "antonyms": [
-      "No common antonym"
+      "intentional",
+      "deliberate",
+      "planned"
     ],
-    "example": "The student learned how to use accidental correctly in a sentence."
+    "example": "The spilled coffee was a purely accidental mishap."
   },
   "accretion": {
     "word": "Accretion",
     "pos": "noun",
-    "simpleDefinition": "The act of increasing by natural growth; especially the increase of organic bodies by the internal accession of parts; organic growth.",
-    "banglaMeaning": "সংযোজনের মাধ্যমেবৃদি্ধ",
+    "simpleDefinition": "The process of growth or increase by gradual accumulation of additional layers or matter.",
+    "banglaMeaning": "সংযোজনের মাধ্যমে বৃদ্ধি",
     "synonyms": [
-      "growth"
+      "accumulation",
+      "buildup",
+      "growth",
+      "addition"
     ],
     "antonyms": [
-      "attrition",
-      "decay",
-      "erosion"
+      "erosion",
+      "decrease",
+      "reduction"
     ],
-    "example": "The teacher gave an insightful explanation of accretion."
+    "example": "The island grew larger over time due to the accretion of sand and sediment."
   },
   "accrue": {
     "word": "Accrue",
     "pos": "verb",
-    "simpleDefinition": "To reach or come to by way of increase; to arise or spring up because of growth or result, especially as the produce of money lent.",
-    "banglaMeaning": "বৃদি্ধ",
+    "simpleDefinition": "To accumulate or receive something, especially payments or benefits, over time.",
+    "banglaMeaning": "বৃদ্ধি",
     "synonyms": [
-      "fall"
+      "accumulate",
+      "gather",
+      "collect",
+      "increase"
     ],
     "antonyms": [
-      "No common antonym"
+      "diminish",
+      "dissipate",
+      "forfeit"
     ],
-    "example": "The student learned how to use accrue correctly in a sentence."
+    "example": "Interest will accrue on the savings account over the next year."
   },
   "accumulate": {
     "word": "Accumulate",
     "pos": "verb",
-    "simpleDefinition": "To gradually grow or increase in quantity or number.",
-    "banglaMeaning": "একতি্রত করা বা জমানো",
+    "simpleDefinition": "To gather or acquire an increasing number or quantity of something over a period of time.",
+    "banglaMeaning": "একত্রিত করা বা জমানো",
     "synonyms": [
-      "conglomerate",
       "gather",
-      "collect"
+      "collect",
+      "amass",
+      "hoard"
     ],
     "antonyms": [
-      "No common antonym"
+      "disperse",
+      "dissipate",
+      "spend"
     ],
-    "example": "The student learned how to use accumulate correctly in a sentence."
+    "example": "Dust began to accumulate on the old furniture in the empty house."
   },
   "accuse": {
     "word": "Accuse",
     "pos": "verb",
-    "simpleDefinition": "To charge with having committed a crime or offence.",
+    "simpleDefinition": "To charge someone with an offense or crime.",
     "banglaMeaning": "অভিযুক্ত",
     "synonyms": [
-      "charge",
+      "blame",
+      "indict",
       "impeach",
       "incriminate"
     ],
     "antonyms": [
-      "No common antonym"
+      "exonerate",
+      "absolve",
+      "clear"
     ],
-    "example": "The student learned how to use accuse correctly in a sentence."
+    "example": "The police accused him of theft after finding the stolen goods in his car."
   },
   "acquit": {
     "word": "Acquit",
     "pos": "verb",
-    "simpleDefinition": "To declare or find innocent or not guilty.",
+    "simpleDefinition": "To free someone from a criminal charge by a verdict of not guilty.",
     "banglaMeaning": "অভিযোগ হতে মুক্তি দেয়া",
     "synonyms": [
+      "exonerate",
+      "absolve",
       "clear",
-      "conduct",
-      "discharge"
+      "vindicate"
     ],
     "antonyms": [
-      "convict"
+      "convict",
+      "condemn",
+      "incriminate"
     ],
-    "example": "The student learned how to use acquit correctly in a sentence."
+    "example": "The jury decided to acquit the defendant due to lack of evidence."
   },
   "acrimonious": {
     "word": "Acrimonious",
     "pos": "adjective",
-    "simpleDefinition": "Angry, acid, and sharp in delivering argumentative replies: bitter, mean-spirited, sharp in language or tone.",
+    "simpleDefinition": "(Typically of a speech or debate) angry and bitter.",
     "banglaMeaning": "তিক্ত",
     "synonyms": [
+      "bitter",
+      "hostile",
       "resentful",
-      "bitter"
+      "rancorous"
     ],
     "antonyms": [
-      "No common antonym"
+      "harmonious",
+      "friendly",
+      "cordial"
     ],
-    "example": "The student learned how to use acrimonious correctly in a sentence."
+    "example": "Their divorce was marked by a series of acrimonious arguments over property."
   },
   "acrimony": {
     "word": "Acrimony",
@@ -356,83 +426,98 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "adamant": {
     "word": "Adamant",
     "pos": "adjective",
-    "simpleDefinition": "Firm; unshakeable; unyielding; determined.",
+    "simpleDefinition": "Refusing to be persuaded or to change one's mind.",
     "banglaMeaning": "একগুঁয়ে",
     "synonyms": [
-      "inexorable",
-      "intransigent",
-      "adamantine"
+      "unyielding",
+      "resolute",
+      "stubborn",
+      "inflexible"
     ],
     "antonyms": [
-      "No common antonym"
+      "flexible",
+      "yielding",
+      "compliant"
     ],
-    "example": "The student learned how to use adamant correctly in a sentence."
+    "example": "She was adamant that she would not change her decision."
   },
   "adapt": {
     "word": "Adapt",
     "pos": "verb",
-    "simpleDefinition": "To fit by alteration; to modify or remodel for a different purpose; to adjust.",
+    "simpleDefinition": "To adjust to new conditions or to make something suitable for a new use or purpose.",
     "banglaMeaning": "খাপ খাওয়ানো",
     "synonyms": [
-      "embrace",
-      "accommodate",
-      "conform"
+      "adjust",
+      "conform",
+      "modify",
+      "acclimate"
     ],
     "antonyms": [
-      "No common antonym"
+      "resist",
+      "reject",
+      "maintain"
     ],
-    "example": "The student learned how to use adapt correctly in a sentence."
+    "example": "It took some time for the new employees to adapt to the company culture."
   },
   "adequacy": {
     "word": "Adequacy",
     "pos": "noun",
-    "simpleDefinition": "The quality of being sufficient, adequate or able to meet the needs.",
+    "simpleDefinition": "The state or quality of being enough or suitable for a particular purpose.",
     "banglaMeaning": "সাদৃশ্য",
     "synonyms": [
       "sufficiency",
-      "adequateness"
+      "suitability",
+      "competence",
+      "fitness"
     ],
     "antonyms": [
-      "deficiency",
       "inadequacy",
-      "insufficiency"
+      "insufficiency",
+      "deficiency"
     ],
-    "example": "The student learned how to use adequacy correctly in a sentence."
+    "example": "They questioned the adequacy of the safety measures in place."
   },
   "adequate": {
     "word": "Adequate",
     "pos": "adjective",
-    "simpleDefinition": "Equal to or fulfilling some requirement.",
+    "simpleDefinition": "Enough or satisfactory for a particular purpose.",
     "banglaMeaning": "পর্যাপ্ত",
     "synonyms": [
-      "competent",
       "sufficient",
-      "decent"
+      "suitable",
+      "ample",
+      "satisfactory"
     ],
     "antonyms": [
-      "inadequate"
+      "inadequate",
+      "insufficient",
+      "deficient"
     ],
-    "example": "The student learned how to use adequate correctly in a sentence."
+    "example": "The small budget was barely adequate for the project's needs."
   },
   "admits": {
     "word": "Admits",
     "pos": "verb",
-    "simpleDefinition": "To allow to enter; to grant entrance (to), whether into a place, into the mind, or into consideration.",
+    "simpleDefinition": "To confess to be true or to allow someone to enter a place.",
     "banglaMeaning": "স্বীকার করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "confesses",
+      "acknowledges",
+      "permits",
+      "allows"
     ],
     "antonyms": [
-      "No common antonym"
+      "denies",
+      "rejects",
+      "excludes"
     ],
-    "example": "The student learned how to use admits correctly in a sentence."
+    "example": "The suspect finally admits his involvement in the crime."
   },
   "admonish": {
     "word": "Admonish",
     "pos": "verb",
     "simpleDefinition": "To warn or criticize someone gently",
-    "banglaMeaning": "সতর্ক করা / মৃদু তিরস্কার করা / সর্তক করা",
+    "banglaMeaning": "সতর্ক করা / মৃদু তিরস্কার করা / সতর্ক করা",
     "synonyms": [
       "Warn",
       "Reprimand",
@@ -447,74 +532,93 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "adopt": {
     "word": "Adopt",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being adopt.",
+    "pos": "verb",
+    "simpleDefinition": "To legally take another person's child into your family and raise them as your own, or to choose to take up or follow an idea, plan, or method.",
     "banglaMeaning": "গ্রহণ করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "embrace",
+      "take on",
+      "choose",
+      "accept"
     ],
     "antonyms": [
-      "No common antonym"
+      "reject",
+      "abandon",
+      "discard"
     ],
-    "example": "The student learned how to use adopt correctly in a sentence."
+    "example": "The city council decided to adopt a new policy to improve public transportation."
   },
   "adopted": {
     "word": "Adopted",
     "pos": "adjective",
-    "simpleDefinition": "A 2009 American independent mockumentary film starring comedian Pauly Shore as himself, \"going to Africa to adopt a child, à la Madonna and Angelina Jolie.\".",
+    "simpleDefinition": "Having been legally taken into another family to be raised as their child, or having been chosen and taken up as a new idea or method.",
     "banglaMeaning": "গ্রহণ করা",
     "synonyms": [
-      "adoptive"
+      "chosen",
+      "taken in",
+      "embraced",
+      "assumed"
     ],
     "antonyms": [
-      "native"
+      "biological",
+      "natural",
+      "rejected"
     ],
-    "example": "The student learned how to use adopted correctly in a sentence."
+    "example": "The adopted child quickly felt at home with her new parents."
   },
   "adoring": {
     "word": "Adoring",
     "pos": "adjective",
-    "simpleDefinition": "Showing adoration or admiration.",
-    "banglaMeaning": "পে্রমপূণর্",
+    "simpleDefinition": "Showing deep love, admiration, or worship for someone or something.",
+    "banglaMeaning": "প্রেমপূর্ণ",
     "synonyms": [
-      "fond",
-      "doting",
-      "reverent"
+      "loving",
+      "devoted",
+      "admiring",
+      "fond"
     ],
     "antonyms": [
-      "No common antonym"
+      "hateful",
+      "scornful",
+      "indifferent"
     ],
-    "example": "The student learned how to use adoring correctly in a sentence."
+    "example": "The adoring fans cheered loudly when their favorite band appeared on stage."
   },
   "adornment": {
     "word": "Adornment",
     "pos": "noun",
-    "simpleDefinition": "A decoration; that which adorns.",
+    "simpleDefinition": "Something that is used to decorate or make something more attractive.",
     "banglaMeaning": "অলংকরণ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "decoration",
+      "embellishment",
+      "ornament",
+      "accessory"
     ],
     "antonyms": [
-      "No common antonym"
+      "plainness",
+      "bareness",
+      "simplicity"
     ],
-    "example": "The student learned how to use adornment correctly in a sentence."
+    "example": "The ancient queen wore elaborate gold adornments on her hair and clothing."
   },
   "adverse": {
     "word": "Adverse",
     "pos": "adjective",
-    "simpleDefinition": "Unfavorable; antagonistic in purpose or effect; hostile; actively opposing one's interests or wishes; contrary to one's welfare; acting against; working in an opposing direction.",
-    "banglaMeaning": "প্রতিহূল",
+    "simpleDefinition": "Causing problems or difficulties; unfavorable or harmful.",
+    "banglaMeaning": "প্রতিকূল",
     "synonyms": [
-      "contrary",
+      "unfavorable",
+      "detrimental",
       "harmful",
-      "untoward"
+      "negative"
     ],
     "antonyms": [
-      "No common antonym"
+      "favorable",
+      "beneficial",
+      "positive"
     ],
-    "example": "The student learned how to use adverse correctly in a sentence."
+    "example": "The team faced adverse weather conditions during their mountain climb."
   },
   "affable": {
     "word": "Affable",
@@ -536,33 +640,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "affirm": {
     "word": "Affirm",
     "pos": "verb",
-    "simpleDefinition": "To assert positively; to tell with confidence; to aver; to maintain as true.",
+    "simpleDefinition": "To state something as true or to show a strong belief in something.",
     "banglaMeaning": "দৃঢ়ভাবে কোন কিছু বলা",
     "synonyms": [
       "assert",
-      "sustain",
-      "support"
+      "declare",
+      "confirm",
+      "state"
     ],
     "antonyms": [
-      "negate",
-      "contradict"
+      "deny",
+      "contradict",
+      "refute"
     ],
-    "example": "The student learned how to use affirm correctly in a sentence."
+    "example": "She affirmed her commitment to the project by working extra hours."
   },
   "aftermath": {
     "word": "Aftermath",
     "pos": "noun",
-    "simpleDefinition": "That which happens after, that which follows, usually of strongly negative connotation in most contexts, implying a preceding catastrophe.",
+    "simpleDefinition": "The consequences or results of an unpleasant event, especially a disaster or accident.",
     "banglaMeaning": "পরিণাম / ফলাফল",
     "synonyms": [
-      "consequence",
-      "wake",
-      "backwash"
+      "consequences",
+      "repercussions",
+      "outcome",
+      "fallout"
     ],
     "antonyms": [
-      "No common antonym"
+      "cause",
+      "origin",
+      "beginning"
     ],
-    "example": "The student learned how to use aftermath correctly in a sentence."
+    "example": "The city struggled to rebuild in the aftermath of the devastating earthquake."
   },
   "aggravate": {
     "word": "Aggravate",
@@ -584,105 +693,124 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "agile": {
     "word": "Agile",
     "pos": "adjective",
-    "simpleDefinition": "Of or relating to agile software development, a technique for iterative and incremental development of software involving collaboration between teams.",
+    "simpleDefinition": "Able to move quickly and easily, or able to think and understand quickly.",
     "banglaMeaning": "তৎপর",
     "synonyms": [
-      "intelligent",
       "nimble",
-      "active"
+      "spry",
+      "quick",
+      "flexible"
     ],
     "antonyms": [
-      "No common antonym"
+      "clumsy",
+      "stiff",
+      "slow",
+      "awkward"
     ],
-    "example": "The student learned how to use agile correctly in a sentence."
+    "example": "The agile gymnast performed a series of impressive flips and twists."
   },
   "agitation": {
     "word": "Agitation",
     "pos": "noun",
-    "simpleDefinition": "A disturbance of personal tranquillity; disturbance of someone's peace of mind.",
+    "simpleDefinition": "A state of anxiety or nervous excitement, or the act of stirring or shaking something.",
     "banglaMeaning": "অশান্ত",
     "synonyms": [
+      "unrest",
       "turmoil",
-      "upheaval",
-      "excitement"
+      "distress",
+      "commotion"
     ],
     "antonyms": [
-      "calmness"
+      "calm",
+      "peace",
+      "tranquility"
     ],
-    "example": "The student learned how to use agitation correctly in a sentence."
+    "example": "There was considerable public agitation over the proposed new tax."
   },
   "agnostic": {
     "word": "Agnostic",
-    "pos": "adjective",
-    "simpleDefinition": "Doubtful or uncertain about the existence or demonstrability of God or other deity.",
-    "banglaMeaning": "অন্ত্রানবাদী",
+    "pos": "noun",
+    "simpleDefinition": "A person who believes that it is impossible to know whether God exists or not.",
+    "banglaMeaning": "অজ্ঞেয়বাদী",
     "synonyms": [
-      "nescient",
-      "unbelieving",
-      "undogmatic"
+      "skeptic",
+      "doubter",
+      "non-believer"
     ],
     "antonyms": [
-      "No common antonym"
+      "believer",
+      "theist",
+      "devotee"
     ],
-    "example": "The student learned how to use agnostic correctly in a sentence."
+    "example": "As an agnostic, he was open to different spiritual ideas but didn't claim to know the ultimate truth."
   },
   "ailment": {
     "word": "Ailment",
     "pos": "noun",
-    "simpleDefinition": "Something which ails one; a disease; sickness.",
+    "simpleDefinition": "A minor illness or sickness, often one that is not very serious.",
     "banglaMeaning": "ছোট খাটো অসুস্থতা",
     "synonyms": [
-      "ill",
+      "illness",
+      "sickness",
+      "malady",
       "complaint"
     ],
     "antonyms": [
-      "No common antonym"
+      "health",
+      "wellness",
+      "vigor"
     ],
-    "example": "The student learned how to use ailment correctly in a sentence."
+    "example": "She visited the doctor for a common ailment, a persistent cough."
   },
   "alabaster": {
     "word": "Alabaster",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being alabaster.",
+    "simpleDefinition": "A soft, white, translucent stone, often used for carving ornaments or statues.",
     "banglaMeaning": "সাদা পাথর",
     "synonyms": [
-      "alabastrine",
-      "onyx marble",
-      "oriental alabaster"
+      "marble",
+      "gypsum"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use alabaster correctly in a sentence."
+    "example": "The sculptor carved a delicate figure from a block of alabaster."
   },
   "alienation": {
     "word": "Alienation",
     "pos": "noun",
-    "simpleDefinition": "The state of being alienated.",
-    "banglaMeaning": "বিজে্ঞদ / বিজি্ঞন্নতা",
+    "simpleDefinition": "The feeling of being isolated or separated from a group, society, or one's own feelings.",
+    "banglaMeaning": "বিচ্ছেদ / বিচ্ছিন্নতা",
     "synonyms": [
       "estrangement",
-      "disaffection"
+      "isolation",
+      "detachment",
+      "separation"
     ],
     "antonyms": [
-      "No common antonym"
+      "connection",
+      "belonging",
+      "integration"
     ],
-    "example": "The student learned how to use alienation correctly in a sentence."
+    "example": "The new employee felt a sense of alienation from her colleagues because of their different interests."
   },
   "allay": {
     "word": "Allay",
     "pos": "verb",
-    "simpleDefinition": "To make quiet or put at rest; to pacify or appease; to quell; to calm.",
-    "banglaMeaning": "প্রশমিত করা (কষ্ট / যপ্সণা )",
+    "simpleDefinition": "To make a strong feeling, such as fear, concern, or suspicion, less intense or severe.",
+    "banglaMeaning": "প্রশমিত করা (কষ্ট / যন্ত্রণা )",
     "synonyms": [
-      "assuage",
-      "ease",
-      "slake"
+      "relieve",
+      "soothe",
+      "calm",
+      "alleviate"
     ],
     "antonyms": [
-      "No common antonym"
+      "intensify",
+      "heighten",
+      "worsen"
     ],
-    "example": "The student learned how to use allay correctly in a sentence."
+    "example": "The doctor tried to allay the patient's fears about the upcoming surgery."
   },
   "alleviate": {
     "word": "Alleviate",
@@ -704,23 +832,26 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "alluring": {
     "word": "Alluring",
     "pos": "adjective",
-    "simpleDefinition": "Having the power to allure.",
+    "simpleDefinition": "Powerfully attractive or fascinating; tempting.",
     "banglaMeaning": "লোভনীয়",
     "synonyms": [
-      "beguiling",
+      "tempting",
       "enticing",
-      "seductive"
+      "captivating",
+      "charming"
     ],
     "antonyms": [
-      "No common antonym"
+      "repulsive",
+      "unappealing",
+      "unattractive"
     ],
-    "example": "The student learned how to use alluring correctly in a sentence."
+    "example": "The alluring scent of freshly baked bread drew customers into the bakery."
   },
   "aloof": {
     "word": "Aloof",
     "pos": "adjective",
     "simpleDefinition": "Not friendly or willing to take part in things; detached",
-    "banglaMeaning": "নিস্পৃহ / দূরে থাকা / একাকী / নিলির্প্ত",
+    "banglaMeaning": "দূরত্ব বজায় রাখা, নির্লিপ্ত, উদাসীন বা বিচ্ছিন্ন",
     "synonyms": [
       "Distant",
       "Detached",
@@ -737,7 +868,7 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
     "word": "Altruistic",
     "pos": "adjective",
     "simpleDefinition": "Showing a selfless concern for the well-being of others",
-    "banglaMeaning": "পরার্থপর / নিঃস্বার্থ / পরের জন্য মণ্টলজনক",
+    "banglaMeaning": "পরার্থপর / নিঃস্বার্থ / পরের জন্য মঙ্গলজনক",
     "synonyms": [
       "Selfless",
       "Generous",
@@ -753,64 +884,71 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "amalgamate": {
     "word": "Amalgamate",
     "pos": "verb",
-    "simpleDefinition": "To merge, to combine, to blend, to join.",
+    "simpleDefinition": "To combine or unite to form one larger organization or structure.",
     "banglaMeaning": "একসাথে করা",
     "synonyms": [
-      "amalgamated",
-      "coalesced",
-      "consolidated"
+      "merge",
+      "combine",
+      "unite",
+      "blend"
     ],
     "antonyms": [
-      "No common antonym"
+      "separate",
+      "divide",
+      "split"
     ],
-    "example": "The student learned how to use amalgamate correctly in a sentence."
+    "example": "The two small companies decided to amalgamate to create a stronger business."
   },
   "amass": {
     "word": "Amass",
     "pos": "verb",
-    "simpleDefinition": "To gather a great quantity of; to accumulate.",
-    "banglaMeaning": "পুন্নীভূত করা",
+    "simpleDefinition": "To gather or collect a large amount of something, especially money or information, over a period of time.",
+    "banglaMeaning": "জমা করা, সঞ্চয় করা, পুঞ্জীভূত করা বা প্রচুর পরিমাণে সংগ্রহ করা",
     "synonyms": [
-      "conglomerate",
+      "accumulate",
       "gather",
-      "collect"
+      "collect",
+      "hoard"
     ],
     "antonyms": [
-      "No common antonym"
+      "disperse",
+      "scatter",
+      "distribute"
     ],
-    "example": "The student learned how to use amass correctly in a sentence."
+    "example": "She managed to amass a considerable fortune through shrewd investments."
   },
   "amateur": {
     "word": "Amateur",
     "pos": "noun",
-    "simpleDefinition": "A person attached to a particular pursuit, study, science, or art (such as music or painting), especially one who cultivates any study, interest, taste, or attachment without engaging in it professionally.",
+    "simpleDefinition": "A person who engages in an activity for pleasure rather than for financial gain or professional reasons.",
     "banglaMeaning": "অপেশাদার",
     "synonyms": [
-      "unskilled",
-      "inexpert",
-      "amateurish"
+      "non-professional",
+      "hobbyist",
+      "novice",
+      "beginner"
     ],
     "antonyms": [
       "professional",
-      "pro"
+      "expert",
+      "specialist"
     ],
-    "example": "The student learned how to use amateur correctly in a sentence."
+    "example": "He was an amateur photographer, but his pictures were often stunning."
   },
   "ambidextrous": {
     "word": "Ambidextrous",
     "pos": "adjective",
-    "simpleDefinition": "Having equal or comparable ability in both hands; in particular, able to write well with both hands.",
+    "simpleDefinition": "Able to use both the right and left hands equally well.",
     "banglaMeaning": "সব্যসাচী",
     "synonyms": [
-      "duplicitous",
-      "deceitful",
-      "dishonorable"
+      "two-handed",
+      "versatile"
     ],
     "antonyms": [
-      "left-handed",
-      "right-handed"
+      "right-handed",
+      "left-handed"
     ],
-    "example": "The student learned how to use ambidextrous correctly in a sentence."
+    "example": "The ambidextrous artist could draw intricate details with either hand."
   },
   "ambiguous": {
     "word": "Ambiguous",
@@ -848,34 +986,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "ameliorate": {
     "word": "Ameliorate",
     "pos": "verb",
-    "simpleDefinition": "To make better, or improve, something perceived to be in a negative condition.",
-    "banglaMeaning": "প্রশমিত করা (কষ্ট / যপ্সণা )",
+    "simpleDefinition": "To make something bad or unsatisfactory better or more tolerable.",
+    "banglaMeaning": "প্রশমিত করা (কষ্ট / যন্ত্রণা )",
     "synonyms": [
       "improve",
-      "meliorate",
-      "better"
+      "better",
+      "enhance",
+      "relieve"
     ],
     "antonyms": [
-      "decline",
-      "exacerbate",
-      "aggravate"
+      "worsen",
+      "aggravate",
+      "exacerbate"
     ],
-    "example": "The student learned how to use ameliorate correctly in a sentence."
+    "example": "Efforts were made to ameliorate the harsh living conditions in the refugee camp."
   },
   "amenable": {
     "word": "Amenable",
     "pos": "adjective",
-    "simpleDefinition": "Willing to respond to persuasion or suggestions.",
-    "banglaMeaning": "ধ্বন্ধুভাবাপন্ন",
+    "simpleDefinition": "Willing to accept or be influenced by a suggestion, or easily controlled.",
+    "banglaMeaning": "সহজে রাজি বা সম্মত হয় এমন, নমনীয়",
     "synonyms": [
+      "cooperative",
       "compliant",
-      "tractable",
-      "willing"
+      "responsive",
+      "agreeable"
     ],
     "antonyms": [
-      "unamenable"
+      "uncooperative",
+      "resistant",
+      "stubborn"
     ],
-    "example": "The student learned how to use amenable correctly in a sentence."
+    "example": "The team leader was amenable to suggestions for improving the project workflow."
   },
   "amiable": {
     "word": "Amiable",
@@ -896,44 +1038,57 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "amicable person": {
     "word": "Amicable person",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being amicable person.",
+    "pos": "adjective",
+    "simpleDefinition": "Characterized by friendliness and good will, especially between people or groups.",
     "banglaMeaning": "বন্ধুভাবাপন্ন",
     "synonyms": [
-      "Related",
-      "Similar"
+      "friendly",
+      "good-natured",
+      "cordial",
+      "agreeable"
     ],
     "antonyms": [
-      "No common antonym"
+      "hostile",
+      "unfriendly",
+      "antagonistic"
     ],
-    "example": "The student learned how to use amicable person correctly in a sentence."
+    "example": "Despite their disagreements, they managed to reach an amicable settlement."
   },
   "amity": {
     "word": "Amity",
     "pos": "noun",
-    "simpleDefinition": "Friendship; friendliness.",
+    "simpleDefinition": "A friendly relationship, especially between countries or groups.",
     "banglaMeaning": "মিত্রতা",
     "synonyms": [
-      "cordiality"
+      "friendship",
+      "goodwill",
+      "harmony",
+      "peace"
     ],
     "antonyms": [
-      "No common antonym"
+      "hostility",
+      "animosity",
+      "conflict"
     ],
-    "example": "The student learned how to use amity correctly in a sentence."
+    "example": "The two nations worked to foster amity after years of tension."
   },
   "amplification": {
     "word": "Amplification",
     "pos": "noun",
-    "simpleDefinition": "The act, or result of amplifying, enlarging, extending or adding.",
-    "banglaMeaning": "ভাবসল্মসারণ করা",
+    "simpleDefinition": "The process of making something larger, stronger, or more intense, especially sound, or providing more details about something.",
+    "banglaMeaning": "সম্প্রসারণ বা কোনো কিছু বৃদ্ধি করা",
     "synonyms": [
-      "elaboration",
-      "gain"
+      "enlargement",
+      "expansion",
+      "intensification",
+      "elaboration"
     ],
     "antonyms": [
-      "No common antonym"
+      "reduction",
+      "diminution",
+      "simplification"
     ],
-    "example": "The student learned how to use amplification correctly in a sentence."
+    "example": "The concert hall required sound amplification so that everyone could hear the music clearly."
   },
   "anachronism": {
     "word": "Anachronism",
@@ -972,47 +1127,53 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "ancillary": {
     "word": "Ancillary",
     "pos": "adjective",
-    "simpleDefinition": "Subordinate; secondary; auxiliary.",
-    "banglaMeaning": "আনুষণি্টক",
+    "simpleDefinition": "Providing necessary support to the primary activities or operation of an organization, system, or process.",
+    "banglaMeaning": "আনুষঙ্গিক",
     "synonyms": [
-      "adjunct",
+      "supplementary",
       "auxiliary",
-      "adjuvant"
+      "subordinate",
+      "supporting"
     ],
     "antonyms": [
-      "No common antonym"
+      "primary",
+      "main",
+      "essential"
     ],
-    "example": "The student learned how to use ancillary correctly in a sentence."
+    "example": "The company provides ancillary services like cleaning and security for its main clients."
   },
   "anemometer": {
     "word": "Anemometer",
     "pos": "noun",
-    "simpleDefinition": "An instrument for measuring and recording the speed of the wind, a windmeter.",
-    "banglaMeaning": "বাতাসের বেগ নিণর্ায়ক যপ্স",
+    "simpleDefinition": "A device used to measure the speed of the wind.",
+    "banglaMeaning": "বাতাসের বেগ নির্ণায়ক যন্ত্র",
     "synonyms": [
-      "wind gauge"
+      "wind gauge",
+      "wind speed indicator",
+      "air speed meter"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use anemometer correctly in a sentence."
+    "example": "The weather station installed a new anemometer to get more accurate wind readings."
   },
   "animate": {
     "word": "Animate",
     "pos": "adjective",
-    "simpleDefinition": "That lives.",
+    "simpleDefinition": "Having life; alive or lively.",
     "banglaMeaning": "প্রশান্ত / সজীব",
     "synonyms": [
-      "exalt",
-      "sentient",
-      "invigorate"
+      "living",
+      "alive",
+      "vital",
+      "sentient"
     ],
     "antonyms": [
-      "insensate",
-      "blunt",
+      "inanimate",
+      "lifeless",
       "dead"
     ],
-    "example": "The student learned how to use animate correctly in a sentence."
+    "example": "Children often imagine their toys are animate and talk to them."
   },
   "animosity": {
     "word": "Animosity",
@@ -1034,31 +1195,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "annul": {
     "word": "Annul",
     "pos": "verb",
-    "simpleDefinition": "To formally revoke the validity of.",
+    "simpleDefinition": "To declare something, like a law or marriage, no longer valid or legally binding.",
     "banglaMeaning": "বাতিল করা",
     "synonyms": [
-      "void",
-      "nullify",
-      "avoid"
+      "invalidate",
+      "revoke",
+      "cancel",
+      "abolish"
     ],
     "antonyms": [
       "validate",
-      "formalize"
+      "confirm",
+      "establish"
     ],
-    "example": "The student learned how to use annul correctly in a sentence."
+    "example": "The court decided to annul the contract due to a technical error."
   },
   "anomalous": {
     "word": "Anomalous",
     "pos": "adjective",
-    "simpleDefinition": "Deviating from the normal; marked by incongruity or contradiction; aberrant or abnormal.",
+    "simpleDefinition": "Different from what is normal, expected, or standard; unusual.",
     "banglaMeaning": "ব্যতিক্রমে",
     "synonyms": [
-      "abnormal"
+      "abnormal",
+      "irregular",
+      "atypical",
+      "unusual"
     ],
     "antonyms": [
-      "No common antonym"
+      "normal",
+      "typical",
+      "standard"
     ],
-    "example": "The student learned how to use anomalous correctly in a sentence."
+    "example": "The scientist observed an anomalous reading on the instrument, which required further investigation."
   },
   "anomaly": {
     "word": "Anomaly",
@@ -1080,46 +1248,56 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "anonymous": {
     "word": "Anonymous",
     "pos": "adjective",
-    "simpleDefinition": "Without any name acknowledged of a person responsible.",
+    "simpleDefinition": "Not identified by name; unknown or unnamed.",
     "banglaMeaning": "নামহীন / বেনামী",
     "synonyms": [
+      "unnamed",
       "unknown",
       "nameless",
-      "faceless"
+      "unidentified"
     ],
     "antonyms": [
-      "onymous"
+      "named",
+      "known",
+      "identified"
     ],
-    "example": "The student learned how to use anonymous correctly in a sentence."
+    "example": "An anonymous donor contributed a large sum of money to the charity."
   },
   "antagonism": {
     "word": "Antagonism",
     "pos": "noun",
-    "simpleDefinition": "A strong natural dislike or hatred; antipathy.",
-    "banglaMeaning": "প্রতিদ্ধন্দীতা",
+    "simpleDefinition": "Active hostility or opposition between two people or groups.",
+    "banglaMeaning": "প্রতিদ্বন্দ্বিতা",
     "synonyms": [
-      "enmity",
-      "hostility"
+      "hostility",
+      "animosity",
+      "conflict",
+      "opposition"
     ],
     "antonyms": [
-      "No common antonym"
+      "harmony",
+      "agreement",
+      "friendship"
     ],
-    "example": "The student learned how to use antagonism correctly in a sentence."
+    "example": "There was a strong antagonism between the rival teams before the championship game."
   },
   "anticipated": {
     "word": "Anticipated",
-    "pos": "adjective",
-    "simpleDefinition": "Expected to arrive; scheduled.",
+    "pos": "verb",
+    "simpleDefinition": "Expected or predicted something to happen; looked forward to.",
     "banglaMeaning": "অনুমান বা বুঝতে পারা",
     "synonyms": [
       "expected",
-      "due",
+      "foreseen",
+      "predicted",
       "awaited"
     ],
     "antonyms": [
-      "No common antonym"
+      "unexpected",
+      "unforeseen",
+      "surprised"
     ],
-    "example": "The student learned how to use anticipated correctly in a sentence."
+    "example": "Everyone anticipated the arrival of the new product with great excitement."
   },
   "antipathy": {
     "word": "Antipathy",
@@ -1141,17 +1319,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "apathetic": {
     "word": "Apathetic",
     "pos": "adjective",
-    "simpleDefinition": "Void of feeling; not susceptible of deep emotion.",
+    "simpleDefinition": "Showing or feeling no interest, enthusiasm, or concern.",
     "banglaMeaning": "উদাসীন",
     "synonyms": [
       "indifferent",
-      "uninterested",
-      "spiritless"
+      "unconcerned",
+      "emotionless",
+      "uninterested"
     ],
     "antonyms": [
-      "No common antonym"
+      "enthusiastic",
+      "concerned",
+      "passionate"
     ],
-    "example": "The student learned how to use apathetic correctly in a sentence."
+    "example": "The students became apathetic about the lesson because the teacher made it very boring."
   },
   "apathy": {
     "word": "Apathy",
@@ -1173,62 +1354,72 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "aphorism": {
     "word": "Aphorism",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being aphorism.",
-    "banglaMeaning": "সংকি্ষপ্ত ন্ত্রানগর্ব",
+    "simpleDefinition": "A short, clever saying that expresses a general truth or principle.",
+    "banglaMeaning": "সংক্ষিপ্ত জ্ঞানগর্ভ উক্তি",
     "synonyms": [
-      "apothegm",
-      "apophthegm"
+      "proverb",
+      "maxim",
+      "adage",
+      "saying"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use aphorism correctly in a sentence."
+    "example": "\"Actions speak louder than words\" is a well-known aphorism."
   },
   "appall": {
     "word": "Appall",
     "pos": "verb",
-    "simpleDefinition": "To fill with horror or indignation; to dismay.",
-    "banglaMeaning": "আতটি্টত করা / মর্মাহত করা",
+    "simpleDefinition": "To greatly shock or horrify someone.",
+    "banglaMeaning": "আতঙ্কিত করা / মর্মাহত করা",
     "synonyms": [
+      "horrify",
+      "shock",
       "dismay",
-      "outrage",
-      "shock"
+      "outrage"
     ],
     "antonyms": [
-      "No common antonym"
+      "reassure",
+      "comfort",
+      "please"
     ],
-    "example": "The student learned how to use appall correctly in a sentence."
+    "example": "The news of the natural disaster appalled people around the world."
   },
   "apparent": {
     "word": "Apparent",
     "pos": "adjective",
-    "simpleDefinition": "Clear or manifest to the understanding; plain; evident; obvious; known; palpable; indubitable.",
+    "simpleDefinition": "Clearly visible or understood; obvious.",
     "banglaMeaning": "দৃশ্যমান",
     "synonyms": [
-      "ostensible",
-      "manifest",
-      "plain"
+      "obvious",
+      "clear",
+      "evident",
+      "visible"
     ],
     "antonyms": [
-      "No common antonym"
+      "hidden",
+      "unclear",
+      "obscure"
     ],
-    "example": "The student learned how to use apparent correctly in a sentence."
+    "example": "It was apparent from her expression that she was unhappy with the decision."
   },
   "appeal": {
     "word": "Appeal",
     "pos": "noun",
-    "simpleDefinition": "A call to a person or an authority for a decision, help, or proof; an entreaty, an invocation.",
+    "simpleDefinition": "A serious or urgent request for something, often help or support.",
     "banglaMeaning": "আবেদন",
     "synonyms": [
-      "charm",
-      "invoke",
-      "collection"
+      "plea",
+      "request",
+      "petition",
+      "entreaty"
     ],
     "antonyms": [
-      "repel",
-      "repulse"
+      "rejection",
+      "refusal",
+      "denial"
     ],
-    "example": "The student learned how to use appeal correctly in a sentence."
+    "example": "The charity launched an appeal for donations to help the flood victims."
   },
   "appease": {
     "word": "Appease",
@@ -1250,153 +1441,177 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "applaud": {
     "word": "Applaud",
     "pos": "verb",
-    "simpleDefinition": "To express approval (of something) by clapping the hands.",
+    "simpleDefinition": "To show approval or praise by clapping hands or shouting.",
     "banglaMeaning": "প্রশংসা",
     "synonyms": [
-      "acclaim",
-      "clap",
-      "spat"
+      "praise",
+      "commend",
+      "cheer",
+      "acclaim"
     ],
     "antonyms": [
-      "hiss",
+      "criticize",
+      "condemn",
       "boo"
     ],
-    "example": "The student learned how to use applaud correctly in a sentence."
+    "example": "The audience began to applaud loudly after the amazing performance."
   },
   "applause": {
     "word": "Applause",
     "pos": "noun",
-    "simpleDefinition": "The act of applauding; approbation and praise publicly expressed by the clapping of hands, stamping or tapping of the feet, acclamation, huzzas, or other means; marked commendation.",
+    "simpleDefinition": "The sound of people clapping their hands to show approval or praise.",
     "banglaMeaning": "সাধুবাদ",
     "synonyms": [
       "clapping",
-      "hand clapping"
+      "ovation",
+      "acclaim",
+      "cheers"
     ],
     "antonyms": [
-      "No common antonym"
+      "booing",
+      "criticism",
+      "disapproval"
     ],
-    "example": "The student learned how to use applause correctly in a sentence."
+    "example": "The actor received a standing ovation and thunderous applause at the end of the play."
   },
   "appraisal": {
     "word": "Appraisal",
     "pos": "noun",
-    "simpleDefinition": "A judgment or assessment of the value of something, especially a formal one.",
+    "simpleDefinition": "An act of assessing the value, quality, or performance of something or someone.",
     "banglaMeaning": "কোন কিছুর মূল্য পরিমাপ করা.",
     "synonyms": [
+      "evaluation",
       "assessment",
-      "estimate",
-      "estimation"
+      "estimation",
+      "judgment"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use appraisal correctly in a sentence."
+    "example": "The annual appraisal helps employees understand their strengths and areas for improvement."
   },
   "arbitrary": {
     "word": "Arbitrary",
     "pos": "adjective",
-    "simpleDefinition": "Based on individual discretion or judgment; not based on any objective distinction, perhaps even made at random.",
-    "banglaMeaning": "বিধিবহিভূর্ত / বৈস্বরচারী",
+    "simpleDefinition": "Based on random choice or personal whim, rather than any reason or system.",
+    "banglaMeaning": "বিধিবহির্ভূত / স্বৈরাচারী",
     "synonyms": [
+      "random",
       "capricious",
       "whimsical",
-      "impulsive"
+      "discretionary"
     ],
     "antonyms": [
-      "nonarbitrary",
-      "unarbitrary"
+      "rational",
+      "logical",
+      "systematic"
     ],
-    "example": "The student learned how to use arbitrary correctly in a sentence."
+    "example": "The judge's decision seemed arbitrary, as it wasn't based on any clear legal precedent."
   },
   "archives": {
     "word": "Archives",
-    "pos": "adjective",
-    "simpleDefinition": "A compilation album by Darkest Hour, released on October 3, 2006 through A-F Records.",
+    "pos": "noun",
+    "simpleDefinition": "A collection of historical documents or records providing information about a place, institution, or group of people.",
     "banglaMeaning": "নথিপত্র",
     "synonyms": [
-      "Related",
-      "Similar"
+      "records",
+      "chronicles",
+      "documents",
+      "repository"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use archives correctly in a sentence."
+    "example": "Researchers spent hours in the city archives looking for old maps and historical letters."
   },
   "arduous": {
     "word": "Arduous",
     "pos": "adjective",
-    "simpleDefinition": "Needing or using up much energy; testing powers of endurance.",
-    "banglaMeaning": "কষ্টসাধ্য বা পরিঙ্কমসাধ্য কিছু",
+    "simpleDefinition": "Involving or requiring strenuous effort; difficult and tiring.",
+    "banglaMeaning": "কষ্টসাধ্য বা পরিশ্রমসাধ্য কিছু",
     "synonyms": [
-      "heavy",
-      "hard",
-      "difficult"
+      "difficult",
+      "strenuous",
+      "laborious",
+      "demanding"
     ],
     "antonyms": [
-      "No common antonym"
+      "easy",
+      "simple",
+      "effortless"
     ],
-    "example": "The student learned how to use arduous correctly in a sentence."
+    "example": "Climbing to the summit of the mountain was an arduous task."
   },
   "argument": {
     "word": "Argument",
     "pos": "noun",
-    "simpleDefinition": "A fact or statement used to support a proposition; a reason.",
+    "simpleDefinition": "A reason or set of reasons given with the aim of persuading others that an action or idea is right or wrong. Also, a disagreement.",
     "banglaMeaning": "বিতর্ক",
     "synonyms": [
-      "contention",
-      "tilt",
-      "contestation"
+      "debate",
+      "dispute",
+      "discussion",
+      "contention"
     ],
     "antonyms": [
-      "No common antonym"
+      "agreement",
+      "harmony",
+      "peace"
     ],
-    "example": "The student learned how to use argument correctly in a sentence."
+    "example": "The lawyers presented their arguments to the jury."
   },
   "argumentative": {
     "word": "Argumentative",
     "pos": "adjective",
-    "simpleDefinition": "Prone to argue or dispute.",
+    "simpleDefinition": "Tending to argue or disagree; fond of arguing.",
     "banglaMeaning": "তর্ক বিতর্ক",
     "synonyms": [
+      "quarrelsome",
       "contentious",
-      "litigious",
-      "disputatious"
+      "disputatious",
+      "combative"
     ],
     "antonyms": [
-      "unargumentative"
+      "agreeable",
+      "cooperative",
+      "peaceful"
     ],
-    "example": "The student learned how to use argumentative correctly in a sentence."
+    "example": "He was known for his argumentative nature, always ready to challenge someone's opinion."
   },
   "aristocrat": {
     "word": "Aristocrat",
     "pos": "noun",
-    "simpleDefinition": "One of the aristocracy, nobility, or people of rank in a community; one of a ruling class; a noble (originally in Revolutionary France).",
+    "simpleDefinition": "A person belonging to the highest class in certain societies, often with special social or political status.",
     "banglaMeaning": "অভিজাত",
     "synonyms": [
+      "noble",
+      "patrician",
       "blue blood",
-      "patrician"
+      "dignitary"
     ],
     "antonyms": [
-      "No common antonym"
+      "commoner",
+      "plebeian"
     ],
-    "example": "The student learned how to use aristocrat correctly in a sentence."
+    "example": "The old aristocrat lived in a grand mansion with many servants."
   },
   "arouse": {
     "word": "Arouse",
     "pos": "verb",
-    "simpleDefinition": "To stimulate or induce (feelings); pique.",
+    "simpleDefinition": "To awaken a feeling, emotion, or response; to stir up.",
     "banglaMeaning": "জাগানো / জাগ্রত করা",
     "synonyms": [
-      "elicit",
-      "evoke",
-      "conjure"
+      "awaken",
+      "stimulate",
+      "provoke",
+      "excite"
     ],
     "antonyms": [
-      "sedate",
       "calm",
-      "tranquillize"
+      "soothe",
+      "suppress"
     ],
-    "example": "The student learned how to use arouse correctly in a sentence."
+    "example": "The speaker's powerful words aroused strong emotions in the audience."
   },
   "arrogance": {
     "word": "Arrogance",
@@ -1418,17 +1633,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "arrogant": {
     "word": "Arrogant",
     "pos": "adjective",
-    "simpleDefinition": "Having excessive pride in oneself, often with contempt or disrespect for others.",
+    "simpleDefinition": "Having or revealing an exaggerated sense of one's own importance or abilities.",
     "banglaMeaning": "অহংকারী",
     "synonyms": [
+      "haughty",
+      "conceited",
       "proud",
-      "chesty",
-      "self-important"
+      "supercilious"
     ],
     "antonyms": [
-      "No common antonym"
+      "humble",
+      "modest",
+      "meek"
     ],
-    "example": "The student learned how to use arrogant correctly in a sentence."
+    "example": "His arrogant attitude made it difficult for him to work well with others."
   },
   "articulate": {
     "word": "Articulate",
@@ -1450,47 +1668,54 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "artillery": {
     "word": "Artillery",
     "pos": "noun",
-    "simpleDefinition": "Large projectile weapons, in modern usage usually large guns, but also rocket artillery.",
+    "simpleDefinition": "Large-caliber guns used in warfare, such as cannons, or the branch of an army that uses them.",
     "banglaMeaning": "কামান",
     "synonyms": [
       "ordnance",
-      "gun",
-      "weapon"
+      "cannons",
+      "weaponry",
+      "heavy guns"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use artillery correctly in a sentence."
+    "example": "The army used heavy artillery to defend their position against the enemy attack."
   },
   "artistic": {
     "word": "Artistic",
     "pos": "adjective",
-    "simpleDefinition": "Relating to or characteristic of art or artists.",
-    "banglaMeaning": "বৈশসি্ফক",
+    "simpleDefinition": "Relating to art or artists; having or showing creative skill.",
+    "banglaMeaning": "বৈশিষ্ট্যসূচক",
     "synonyms": [
+      "creative",
+      "imaginative",
       "aesthetic",
-      "pleasing",
-      "tasteful"
+      "expressive"
     ],
     "antonyms": [
-      "No common antonym"
+      "uncreative",
+      "inartistic",
+      "plain"
     ],
-    "example": "The student learned how to use artistic correctly in a sentence."
+    "example": "She has a very artistic eye and can turn everyday objects into beautiful decorations."
   },
   "ascend": {
     "word": "Ascend",
     "pos": "verb",
-    "simpleDefinition": "To move upward, to fly, to soar.",
+    "simpleDefinition": "To move upwards or climb to a higher position.",
     "banglaMeaning": "আরোহণ করা",
     "synonyms": [
+      "climb",
+      "rise",
+      "mount",
       "go up"
     ],
     "antonyms": [
-      "fall",
       "descend",
-      "go down"
+      "fall",
+      "drop"
     ],
-    "example": "The student learned how to use ascend correctly in a sentence."
+    "example": "The hikers began to ascend the steep mountain path at dawn."
   },
   "ascertain": {
     "word": "Ascertain",
@@ -1512,51 +1737,62 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "aspire": {
     "word": "Aspire",
     "pos": "verb",
-    "simpleDefinition": "To direct one's hopes and ambitions toward achieving a goal",
+    "simpleDefinition": "To direct one's hopes, dreams, or ambitions towards achieving something grand.",
     "banglaMeaning": "আকাঙ্ক্ষা করা / ইচ্ছা পোষণ করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Desire",
+      "Aim",
+      "Strive",
+      "Yearn"
     ],
     "antonyms": [
-      "No common antonym"
+      "Despise",
+      "Disdain",
+      "Decline"
     ],
-    "example": "The candidate understood the meaning of aspire."
+    "example": "She aspired to become a dedicated doctor helping rural communities."
   },
   "assert": {
     "word": "Assert",
     "pos": "verb",
-    "simpleDefinition": "To declare with assurance or plainly and strongly; to state positively.",
+    "simpleDefinition": "To state something confidently and forcefully, or to behave in a way that shows you have power.",
     "banglaMeaning": "দৃঢ়ভাবে কোন কিছু বলা",
     "synonyms": [
+      "declare",
+      "state",
       "affirm",
-      "aver",
-      "maintain"
+      "insist"
     ],
     "antonyms": [
-      "No common antonym"
+      "deny",
+      "retract",
+      "concede"
     ],
-    "example": "The student learned how to use assert correctly in a sentence."
+    "example": "She needed to assert her authority in the meeting to get her point across."
   },
   "assiduous": {
     "word": "Assiduous",
     "pos": "adjective",
-    "simpleDefinition": "Hard-working, diligent or regular (in attendance or work); industrious.",
+    "simpleDefinition": "Showing great care, attention, and effort in one's work or duties.",
     "banglaMeaning": "অধ্যবসায়ী",
     "synonyms": [
       "diligent",
-      "sedulous"
+      "industrious",
+      "painstaking",
+      "meticulous"
     ],
     "antonyms": [
-      "No common antonym"
+      "lazy",
+      "careless",
+      "negligent"
     ],
-    "example": "The student learned how to use assiduous correctly in a sentence."
+    "example": "The assiduous student spent hours in the library preparing for the exam."
   },
   "astute": {
     "word": "Astute",
     "pos": "adjective",
     "simpleDefinition": "Quick to understand situations and take advantage of them",
-    "banglaMeaning": "বিচক্ষণ / তীক্ষ্ণবুদ্ধি / ন্ত্রানী / বিচক্ষণ",
+    "banglaMeaning": "বিচক্ষণ / তীক্ষ্ণবুদ্ধি / জ্ঞানী / বিচক্ষণ",
     "synonyms": [
       "Clever",
       "Shrewd",
@@ -1572,31 +1808,37 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "asylum": {
     "word": "Asylum",
     "pos": "noun",
-    "simpleDefinition": "A place of safety or refuge.",
-    "banglaMeaning": "আঙ্কয় / নিরপত্তা",
+    "simpleDefinition": "Protection or safety given by a government to someone who has left their own country because they are in danger. It can also mean a place of refuge.",
+    "banglaMeaning": "আশ্রয়, নিরাপত্তা",
     "synonyms": [
-      "sanctuary",
       "refuge",
-      "psychiatric hospital"
+      "sanctuary",
+      "shelter",
+      "haven"
     ],
     "antonyms": [
-      "No common antonym"
+      "danger",
+      "exposure",
+      "peril"
     ],
-    "example": "The student learned how to use asylum correctly in a sentence."
+    "example": "Many people seek political asylum in other countries to escape persecution."
   },
   "at bottom": {
     "word": "At bottom",
-    "pos": "adverb",
-    "simpleDefinition": "In reality.",
-    "banglaMeaning": "প্রকৃতপকে্ষ",
+    "pos": "idiom",
+    "simpleDefinition": "Used to say what is the true or fundamental nature of something or someone, despite appearances.",
+    "banglaMeaning": "প্রকৃতপক্ষে",
     "synonyms": [
-      "Related",
-      "Similar"
+      "essentially",
+      "fundamentally",
+      "truly",
+      "in essence"
     ],
     "antonyms": [
-      "No common antonym"
+      "superficially",
+      "outwardly"
     ],
-    "example": "The student learned how to use at bottom correctly in a sentence."
+    "example": "He seems gruff, but at bottom, he's a very kind and compassionate person."
   },
   "atrocious": {
     "word": "Atrocious",
@@ -1617,32 +1859,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "attempts": {
     "word": "Attempts",
-    "pos": "verb",
-    "simpleDefinition": "To try.",
+    "pos": "noun",
+    "simpleDefinition": "Efforts made to achieve or do something.",
     "banglaMeaning": "চেষ্টা করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "efforts",
+      "tries",
+      "endeavors",
+      "ventures"
     ],
     "antonyms": [
-      "No common antonym"
+      "successes",
+      "achievements"
     ],
-    "example": "The student learned how to use attempts correctly in a sentence."
+    "example": "Despite several attempts, they couldn't solve the complex puzzle."
   },
   "attribute": {
     "word": "Attribute",
-    "pos": "noun",
-    "simpleDefinition": "A characteristic or quality of a thing.",
+    "pos": "verb",
+    "simpleDefinition": "To regard something as being caused by or belonging to someone or something.",
     "banglaMeaning": "আরোপ করা",
     "synonyms": [
       "ascribe",
-      "assign",
-      "impute"
+      "impute",
+      "credit",
+      "assign"
     ],
     "antonyms": [
-      "No common antonym"
+      "dissociate",
+      "detach",
+      "disconnect"
     ],
-    "example": "The student learned how to use attribute correctly in a sentence."
+    "example": "She attributed her success to hard work and dedication."
   },
   "audacious": {
     "word": "Audacious",
@@ -1664,17 +1912,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "audacity": {
     "word": "Audacity",
     "pos": "noun",
-    "simpleDefinition": "Insolent boldness, especially when imprudent or unconventional.",
+    "simpleDefinition": "The willingness to take bold risks, or rude or disrespectful behavior.",
     "banglaMeaning": "দুঃসাহস",
     "synonyms": [
-      "temerity",
-      "chutzpah",
-      "audaciousness"
+      "boldness",
+      "daring",
+      "impudence",
+      "nerve"
     ],
     "antonyms": [
-      "No common antonym"
+      "timidity",
+      "humility",
+      "caution"
     ],
-    "example": "The student learned how to use audacity correctly in a sentence."
+    "example": "He had the audacity to ask for a raise after being late every day for a month."
   },
   "austere": {
     "word": "Austere",
@@ -1696,16 +1947,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "autocrat": {
     "word": "Autocrat",
     "pos": "noun",
-    "simpleDefinition": "An absolute ruler with infinite power.",
+    "simpleDefinition": "A ruler who has absolute power and makes decisions without consulting anyone else.",
     "banglaMeaning": "একনায়ক / বৈস্বরশাসক",
     "synonyms": [
+      "dictator",
       "tyrant",
-      "despot"
+      "despot",
+      "absolute ruler"
     ],
     "antonyms": [
-      "No common antonym"
+      "democrat",
+      "subject",
+      "follower"
     ],
-    "example": "The student learned how to use autocrat correctly in a sentence."
+    "example": "The country was governed by an autocrat who tolerated no dissent."
   },
   "avaricious": {
     "word": "Avaricious",
@@ -1727,59 +1982,72 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "aversion": {
     "word": "Aversion",
     "pos": "noun",
-    "simpleDefinition": "Opposition or repugnance of mind; fixed dislike often without any conscious reasoning.",
-    "banglaMeaning": "অনিহা / প্রতিকি্রয়ো",
+    "simpleDefinition": "A strong feeling of dislike or opposition towards something.",
+    "banglaMeaning": "অনীহা / প্রতিক্রিয়া",
     "synonyms": [
+      "dislike",
       "antipathy",
-      "distaste"
+      "distaste",
+      "loathing"
     ],
     "antonyms": [
-      "No common antonym"
+      "fondness",
+      "liking",
+      "affection"
     ],
-    "example": "The student learned how to use aversion correctly in a sentence."
+    "example": "She had a strong aversion to public speaking, always feeling nervous before presentations."
   },
   "awkward": {
     "word": "Awkward",
     "pos": "adjective",
-    "simpleDefinition": "Lacking social skills, or uncomfortable with social interaction.",
+    "simpleDefinition": "Difficult to use or handle; causing embarrassment or discomfort.",
     "banglaMeaning": "বেমানান",
     "synonyms": [
-      "uneasy",
-      "cumbersome",
-      "inept"
+      "clumsy",
+      "ungainly",
+      "uncomfortable",
+      "embarrassing"
     ],
     "antonyms": [
-      "graceful"
+      "graceful",
+      "smooth",
+      "comfortable"
     ],
-    "example": "The student learned how to use awkward correctly in a sentence."
+    "example": "There was an awkward silence after he made the inappropriate comment."
   },
   "axle": {
     "word": "Axle",
     "pos": "noun",
-    "simpleDefinition": "The pin or spindle on which a wheel revolves, or which revolves with a wheel.",
+    "simpleDefinition": "A rod or spindle (either fixed or rotating) passing through the center of a wheel or group of wheels.",
     "banglaMeaning": "অক্ষ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "shaft",
+      "spindle",
+      "rod",
+      "pivot"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use axle correctly in a sentence."
+    "example": "The car's axle broke, leaving it stranded on the side of the road."
   },
   "backtrack": {
     "word": "Backtrack",
     "pos": "verb",
-    "simpleDefinition": "To retrace one's steps.",
+    "simpleDefinition": "To go back along the same path one has just taken, or to withdraw from a position or statement previously made.",
     "banglaMeaning": "প্রত্যাখ্যান করা",
     "synonyms": [
-      "double back",
-      "turn back"
+      "retreat",
+      "withdraw",
+      "recant",
+      "reverse"
     ],
     "antonyms": [
-      "No common antonym"
+      "advance",
+      "proceed",
+      "persist"
     ],
-    "example": "The student learned how to use backtrack correctly in a sentence."
+    "example": "After realizing his mistake, he had to backtrack on his earlier statement."
   },
   "baffle": {
     "word": "Baffle",
@@ -1801,149 +2069,182 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "bait": {
     "word": "Bait",
     "pos": "noun",
-    "simpleDefinition": "Any substance, especially food, used in catching fish, or other animals, by alluring them to a hook, snare, trap, or net.",
+    "simpleDefinition": "Food or other enticement used to attract fish or other animals, or something used to tempt someone to do something.",
     "banglaMeaning": "টোপ",
     "synonyms": [
-      "cod",
-      "tease",
-      "twit"
+      "lure",
+      "decoy",
+      "enticement",
+      "trap"
     ],
     "antonyms": [
-      "No common antonym"
+      "deterrent",
+      "discouragement"
     ],
-    "example": "The student learned how to use bait correctly in a sentence."
+    "example": "The detective used a fake diamond as bait to catch the thief."
   },
   "ball to the wall": {
     "word": "Ball to the wall",
-    "pos": "adverb",
-    "simpleDefinition": "Full throttle; (at) maximum speed.",
+    "pos": "idiom",
+    "simpleDefinition": "To do something with maximum effort, speed, or intensity.",
     "banglaMeaning": "পুরোদমে",
     "synonyms": [
-      "Related",
-      "Similar"
+      "full throttle",
+      "all out",
+      "at full speed",
+      "intensely"
     ],
     "antonyms": [
-      "No common antonym"
+      "slowly",
+      "cautiously",
+      "half-heartedly"
     ],
-    "example": "The student learned how to use ball to the wall correctly in a sentence."
+    "example": "With only an hour left, they went ball to the wall to finish the project on time."
   },
   "balmy": {
     "word": "Balmy",
     "pos": "adjective",
-    "simpleDefinition": "Of weather, mild and pleasant.",
-    "banglaMeaning": "সি্বঞ্ছ",
+    "simpleDefinition": "(Of weather) pleasantly warm and mild; also, slightly crazy or foolish.",
+    "banglaMeaning": "স্নিগ্ধ",
     "synonyms": [
       "mild",
-      "loony",
-      "insane"
+      "pleasant",
+      "gentle",
+      "temperate"
     ],
     "antonyms": [
-      "No common antonym"
+      "harsh",
+      "severe",
+      "cold"
     ],
-    "example": "The student learned how to use balmy correctly in a sentence."
+    "example": "We enjoyed a balmy evening stroll along the beach."
   },
   "bankrupt": {
     "word": "Bankrupt",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being bankrupt.",
+    "pos": "adjective",
+    "simpleDefinition": "Unable to pay one's debts; legally declared to be financially ruined.",
     "banglaMeaning": "দেওলিয়া",
     "synonyms": [
-      "break",
-      "ruin",
-      "insolvent"
+      "insolvent",
+      "broke",
+      "ruined",
+      "penniless"
     ],
     "antonyms": [
-      "No common antonym"
+      "solvent",
+      "wealthy",
+      "prosperous"
     ],
-    "example": "The student learned how to use bankrupt correctly in a sentence."
+    "example": "The company went bankrupt after several years of financial losses."
   },
   "barren": {
     "word": "Barren",
     "pos": "adjective",
-    "simpleDefinition": "Of poor fertility, infertile; not producing vegetation; desert, waste.",
+    "simpleDefinition": "(Of land) too poor to produce vegetation; (of a female animal or woman) unable to have children; unproductive or empty.",
     "banglaMeaning": "অনুর্বর",
     "synonyms": [
+      "infertile",
+      "unproductive",
       "desolate",
-      "bleak",
-      "stark"
+      "sterile"
     ],
     "antonyms": [
-      "No common antonym"
+      "fertile",
+      "fruitful",
+      "productive"
     ],
-    "example": "The student learned how to use barren correctly in a sentence."
+    "example": "The barren landscape stretched for miles, devoid of any trees or plants."
   },
   "barrier": {
     "word": "Barrier",
     "pos": "noun",
-    "simpleDefinition": "A structure that bars passage.",
+    "simpleDefinition": "A fence or other obstacle that prevents movement or access; anything that prevents progress or communication.",
     "banglaMeaning": "প্রতিবন্ধক / বাঁধা",
     "synonyms": [
-      "roadblock"
+      "obstacle",
+      "obstruction",
+      "hindrance",
+      "impediment"
     ],
     "antonyms": [
-      "No common antonym"
+      "opening",
+      "bridge",
+      "aid"
     ],
-    "example": "The student learned how to use barrier correctly in a sentence."
+    "example": "Language can often be a barrier to effective communication between cultures."
   },
   "barter": {
     "word": "Barter",
-    "pos": "noun",
-    "simpleDefinition": "An exchange of goods or services without the use of money.",
+    "pos": "verb",
+    "simpleDefinition": "To exchange goods or services for other goods or services without using money.",
     "banglaMeaning": "বিনিময় করা",
     "synonyms": [
-      "bargain",
       "trade",
-      "quid pro quo"
+      "exchange",
+      "swap",
+      "haggle"
     ],
     "antonyms": [
-      "No common antonym"
+      "buy",
+      "sell",
+      "purchase"
     ],
-    "example": "The student learned how to use barter correctly in a sentence."
+    "example": "In ancient times, people would barter goods like salt for spices."
   },
   "befuddled": {
     "word": "Befuddled",
     "pos": "adjective",
-    "simpleDefinition": "Confused or perplexed.",
+    "simpleDefinition": "Confused or perplexed, often by alcohol or a complex situation.",
     "banglaMeaning": "বিভ্রান্ত",
     "synonyms": [
-      "perplexed",
+      "confused",
       "bewildered",
-      "bemused"
+      "perplexed",
+      "muddled"
     ],
     "antonyms": [
-      "No common antonym"
+      "clear-headed",
+      "lucid",
+      "enlightened"
     ],
-    "example": "The student learned how to use befuddled correctly in a sentence."
+    "example": "The old man seemed befuddled by the sudden changes in technology."
   },
   "belittle": {
     "word": "Belittle",
     "pos": "verb",
-    "simpleDefinition": "To knowingly say that something is smaller or less important than it actually is, especially as a way of showing contempt or deprecation.",
+    "simpleDefinition": "To make someone or something seem unimportant or of less value.",
     "banglaMeaning": "ছোট করা",
     "synonyms": [
-      "diminish",
       "disparage",
-      "denigrate"
+      "demean",
+      "deprecate",
+      "diminish"
     ],
     "antonyms": [
-      "blandish",
-      "flatter"
+      "praise",
+      "extol",
+      "laud",
+      "magnify"
     ],
-    "example": "The student learned how to use belittle correctly in a sentence."
+    "example": "It's never right to belittle someone's efforts, even if they fail."
   },
   "belittlement": {
     "word": "Belittlement",
-    "pos": "adjective",
-    "simpleDefinition": "Having the qualities or characteristics of belittlement.",
+    "pos": "noun",
+    "simpleDefinition": "The act of making someone or something seem unimportant or of less value.",
     "banglaMeaning": "হীনতা / খর্বতা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "disparagement",
+      "denigration",
+      "deprecation",
+      "humiliation"
     ],
     "antonyms": [
-      "No common antonym"
+      "praise",
+      "commendation",
+      "exaltation"
     ],
-    "example": "The student learned how to use belittlement correctly in a sentence."
+    "example": "Constant belittlement from his boss eroded his self-confidence."
   },
   "bellicose": {
     "word": "Bellicose",
@@ -1965,24 +2266,26 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "bend": {
     "word": "Bend",
     "pos": "verb",
-    "simpleDefinition": "To cause (something) to change its shape into a curve, by physical force, chemical action, or any other means.",
+    "simpleDefinition": "To force something straight into a curve or angle; to move your body downwards and forwards.",
     "banglaMeaning": "বাঁকানো",
     "synonyms": [
-      "bow",
-      "twist",
-      "stoop"
+      "curve",
+      "flex",
+      "stoop",
+      "incline"
     ],
     "antonyms": [
       "straighten",
-      "unbend"
+      "unbend",
+      "stiffen"
     ],
-    "example": "The student learned how to use bend correctly in a sentence."
+    "example": "You need to bend your knees slightly when lifting heavy objects."
   },
   "benevolent": {
     "word": "Benevolent",
     "pos": "adjective",
     "simpleDefinition": "Kind, generous, and caring for others",
-    "banglaMeaning": "দয়ালু / হিতৈষী / হিৈতষী",
+    "banglaMeaning": "দয়ালু / হিতৈষী",
     "synonyms": [
       "Kind",
       "Charitable",
@@ -2032,31 +2335,37 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "biased": {
     "word": "Biased",
     "pos": "adjective",
-    "simpleDefinition": "Exhibiting bias; prejudiced.",
+    "simpleDefinition": "Showing an unfair preference for or against something or someone.",
     "banglaMeaning": "পক্ষপাতী / পক্ষপাতদুষ্ট",
     "synonyms": [
-      "partisan",
+      "prejudiced",
       "partial",
-      "slanted"
+      "unfair",
+      "one-sided"
     ],
     "antonyms": [
-      "No common antonym"
+      "impartial",
+      "objective",
+      "fair",
+      "neutral"
     ],
-    "example": "The student learned how to use biased correctly in a sentence."
+    "example": "The news report was criticized for being biased towards one political party."
   },
   "bibliography": {
     "word": "Bibliography",
     "pos": "noun",
-    "simpleDefinition": "A section of a written work containing citations, not quotations, to all the books referred to in the work.",
-    "banglaMeaning": "গ্রব্দপুনি্ন",
+    "simpleDefinition": "A list of books, articles, and other sources used when writing a research paper or book.",
+    "banglaMeaning": "গ্রন্থপঞ্জি",
     "synonyms": [
-      "Related",
-      "Similar"
+      "References",
+      "Sources",
+      "Citations",
+      "Works cited"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use bibliography correctly in a sentence."
+    "example": "The student included a comprehensive bibliography at the end of her thesis."
   },
   "bigot": {
     "word": "Bigot",
@@ -2095,73 +2404,89 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "blaze": {
     "word": "Blaze",
     "pos": "noun",
-    "simpleDefinition": "A fire, especially a fast-burning fire producing a lot of flames and light.",
-    "banglaMeaning": "আলোকজ্ঞটা",
+    "simpleDefinition": "A very large or fiercely burning fire.",
+    "banglaMeaning": "প্রজ্জ্বলিত আগুন, অগ্নিশিখা, বা উজ্জ্বল আলো/দীপ্তি",
     "synonyms": [
-      "glare",
-      "blazing",
-      "hell"
+      "Fire",
+      "Inferno",
+      "Conflagration",
+      "Flame"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use blaze correctly in a sentence."
+    "example": "Firefighters quickly responded to the blaze that engulfed the old warehouse."
   },
   "bleak": {
     "word": "Bleak",
     "pos": "adjective",
-    "simpleDefinition": "Unhappy; cheerless; miserable; emotionally desolate.",
+    "simpleDefinition": "Lacking warmth, cheer, or hope; cold and miserable.",
     "banglaMeaning": "নিরানন্দ / মলিন",
     "synonyms": [
-      "desolate",
-      "stark",
-      "cold"
+      "Gloomy",
+      "Dismal",
+      "Dreary",
+      "Hopeless"
     ],
     "antonyms": [
-      "No common antonym"
+      "Cheerful",
+      "Bright",
+      "Hopeful"
     ],
-    "example": "The student learned how to use bleak correctly in a sentence."
+    "example": "The future looked bleak for the company after the major financial loss."
   },
   "blight": {
     "word": "Blight",
-    "pos": "noun",
-    "simpleDefinition": "Any of many plant diseases causing damage to, or the death of, leaves, fruit or other parts.",
+    "pos": "verb",
+    "simpleDefinition": "To spoil, harm, or destroy something, especially plants or a positive situation.",
     "banglaMeaning": "ক্ষয় করা",
     "synonyms": [
-      "Related to blight",
-      "Similar"
+      "Ruin",
+      "Spoil",
+      "Damage",
+      "Wither"
     ],
     "antonyms": [
-      "No common antonym"
+      "Improve",
+      "Enhance",
+      "Flourish"
     ],
-    "example": "The teacher gave an insightful explanation of blight."
+    "example": "A severe frost can blight an entire crop of fruit in one night."
   },
   "boaster": {
     "word": "Boaster",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being boaster.",
+    "simpleDefinition": "A person who talks with excessive pride and self-satisfaction about their achievements or possessions.",
     "banglaMeaning": "অহংকারী ব্যক্তি",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Braggart",
+      "Show-off",
+      "Egotist",
+      "Swanker"
     ],
     "antonyms": [
-      "No common antonym"
+      "Humble person",
+      "Modest person"
     ],
-    "example": "The student learned how to use boaster correctly in a sentence."
+    "example": "Nobody likes to listen to a boaster who constantly talks about how great they are."
   },
   "bohemian": {
     "word": "Bohemian",
     "pos": "adjective",
-    "simpleDefinition": "Unconventional, especially in habit or dress.",
+    "simpleDefinition": "Living an unconventional lifestyle, often associated with artists, writers, or musicians, with few permanent ties.",
     "banglaMeaning": "ভবঘুরে ধরনের লোক",
     "synonyms": [
-      "unconventional"
+      "Unconventional",
+      "Nonconformist",
+      "Free-spirited",
+      "Artistic"
     ],
     "antonyms": [
-      "No common antonym"
+      "Conventional",
+      "Traditional",
+      "Conformist"
     ],
-    "example": "The student learned how to use bohemian correctly in a sentence."
+    "example": "She lived a bohemian life, traveling the world and creating art wherever she went."
   },
   "boisterous": {
     "word": "Boisterous",
@@ -2180,97 +2505,116 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
     ],
     "example": "The boisterous crowd cheered for the home team."
   },
-  "bona": {
-    "word": "Bona",
+  "bona-fide": {
+    "word": "Bona-fide",
     "pos": "adjective",
-    "simpleDefinition": "Good.",
-    "banglaMeaning": "fide – খাঁটি",
+    "simpleDefinition": "Genuine, real, and made or done in good faith without deceit.",
+    "banglaMeaning": "আসল,খাঁটি",
     "synonyms": [
-      "Related",
-      "Similar"
+      "genuine",
+      "authentic"
     ],
     "antonyms": [
-      "No common antonym"
+      "fraudulent",
+      "deceitful",
+      "fake",
+      "counterfeit"
     ],
-    "example": "The student learned how to use bona correctly in a sentence."
+    "example": "He is a bona fide expert with decades of research experience."
   },
   "bondage": {
     "word": "Bondage",
     "pos": "noun",
-    "simpleDefinition": "The state of being enslaved or the practice of slavery.",
-    "banglaMeaning": "বন্দদশা",
+    "simpleDefinition": "The state of being a slave or being held captive; lack of freedom.",
+    "banglaMeaning": "দাসত্ব, বন্দিত্ব, নিয়ন্ত্রণ, সীমাবদ্ধতা",
     "synonyms": [
-      "slavery",
-      "thralldom",
-      "thraldom"
+      "Slavery",
+      "Captivity",
+      "Servitude",
+      "Subjection"
     ],
     "antonyms": [
-      "No common antonym"
+      "Freedom",
+      "Liberty",
+      "Independence"
     ],
-    "example": "The student learned how to use bondage correctly in a sentence."
+    "example": "Many people fought for centuries to escape from the bondage of oppression."
   },
   "boorishness": {
     "word": "Boorishness",
     "pos": "noun",
-    "simpleDefinition": "The state or characteristic of being a boor or of being boorish; boorish behaviour.",
+    "simpleDefinition": "Rude, crude, or insensitive behavior; a lack of refinement or good manners.",
     "banglaMeaning": "রুক্ষতা",
     "synonyms": [
-      "uncouthness"
+      "Rudeness",
+      "Crudeness",
+      "Coarseness",
+      "Vulgarity"
     ],
     "antonyms": [
-      "No common antonym"
+      "Politeness",
+      "Refinement",
+      "Courtesy"
     ],
-    "example": "The student learned how to use boorishness correctly in a sentence."
+    "example": "His boorishness at the dinner table offended all the guests."
   },
   "braggart": {
     "word": "Braggart",
     "pos": "noun",
-    "simpleDefinition": "Someone who constantly brags or boasts.",
-    "banglaMeaning": "দাশি্রক",
+    "simpleDefinition": "A person who boasts about their achievements or possessions in an arrogant way.",
+    "banglaMeaning": "দাম্ভিক",
     "synonyms": [
-      "big",
-      "self-aggrandizing",
-      "cock-a-hoop"
+      "Boaster",
+      "Show-off",
+      "Egotist",
+      "Swanker"
     ],
     "antonyms": [
-      "No common antonym"
+      "Humble person",
+      "Modest person"
     ],
-    "example": "The student learned how to use braggart correctly in a sentence."
+    "example": "The braggart couldn't stop telling everyone about his expensive new car."
   },
   "braking": {
     "word": "Braking",
     "pos": "noun",
-    "simpleDefinition": "The act of applying brakes.",
+    "simpleDefinition": "The act of slowing down or stopping a vehicle or machine using a brake.",
     "banglaMeaning": "গতিরোধ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Deceleration",
+      "Halting",
+      "Stopping",
+      "Slowing"
     ],
     "antonyms": [
-      "No common antonym"
+      "Accelerating",
+      "Speeding up"
     ],
-    "example": "The student learned how to use braking correctly in a sentence."
+    "example": "Smooth braking is essential for safe driving, especially in heavy traffic."
   },
   "breakable": {
     "word": "Breakable",
     "pos": "adjective",
-    "simpleDefinition": "Able to break or be broken.",
-    "banglaMeaning": "ভণ্টুর",
+    "simpleDefinition": "Easily broken or shattered.",
+    "banglaMeaning": "ভঙ্গুর",
     "synonyms": [
-      "delicate",
-      "frail",
-      "fragile"
+      "Fragile",
+      "Delicate",
+      "Brittle",
+      "Frail"
     ],
     "antonyms": [
-      "unbreakable"
+      "Durable",
+      "Sturdy",
+      "Unbreakable"
     ],
-    "example": "The student learned how to use breakable correctly in a sentence."
+    "example": "Please handle the package with care; it contains breakable items."
   },
   "brevity": {
     "word": "Brevity",
     "pos": "noun",
     "simpleDefinition": "The quality of using few words to say something",
-    "banglaMeaning": "সংক্ষিপ্ততা / স্বল্পতা / সংকি্ষপ্ত ভাবে",
+    "banglaMeaning": "সংক্ষিপ্ততা / স্বল্পতা / সংক্ষিপ্তভাবে",
     "synonyms": [
       "Conciseness",
       "Terseness",
@@ -2286,90 +2630,107 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "brittle": {
     "word": "Brittle",
     "pos": "adjective",
-    "simpleDefinition": "Inflexible; liable to break, snap, or shatter easily under stress, pressure, or impact; crackly.",
-    "banglaMeaning": "ভণ্টুর",
+    "simpleDefinition": "Hard but liable to break or shatter easily.",
+    "banglaMeaning": "ভঙ্গুর",
     "synonyms": [
-      "breakable",
-      "coldhearted",
-      "toffy"
+      "Fragile",
+      "Breakable",
+      "Delicate",
+      "Crisp"
     ],
     "antonyms": [
-      "No common antonym"
+      "Flexible",
+      "Pliable",
+      "Tough",
+      "Durable"
     ],
-    "example": "The student learned how to use brittle correctly in a sentence."
+    "example": "The old plastic had become brittle and cracked easily when touched."
   },
   "broker": {
     "word": "Broker",
     "pos": "noun",
-    "simpleDefinition": "A mediator between a buyer and seller.",
+    "simpleDefinition": "A person who buys and sells goods or assets for others, often for a commission.",
     "banglaMeaning": "দালাল",
     "synonyms": [
-      "agent",
-      "factor"
+      "Agent",
+      "Dealer",
+      "Intermediary",
+      "Middleman"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use broker correctly in a sentence."
+    "example": "She hired a real estate broker to help her find a new apartment."
   },
   "brooding": {
     "word": "Brooding",
     "pos": "adjective",
-    "simpleDefinition": "Deeply or seriously thoughtful.",
-    "banglaMeaning": "চিন্তানিমঞ্জ",
+    "simpleDefinition": "Deeply thoughtful and serious, often in a way that suggests sadness or worry.",
+    "banglaMeaning": "চিন্তানিমগ্ন",
     "synonyms": [
-      "pensive",
-      "brood",
-      "musing"
+      "Pensive",
+      "Meditative",
+      "Contemplative",
+      "Gloomy"
     ],
     "antonyms": [
-      "No common antonym"
+      "Cheerful",
+      "Lighthearted",
+      "Joyful"
     ],
-    "example": "The student learned how to use brooding correctly in a sentence."
+    "example": "He sat in the corner, a brooding expression on his face, lost in thought."
   },
   "bucolic": {
     "word": "Bucolic",
     "pos": "adjective",
-    "simpleDefinition": "Rustic, pastoral, country-styled.",
+    "simpleDefinition": "Relating to the pleasant aspects of the countryside and country life.",
     "banglaMeaning": "গ্রাম্য",
     "synonyms": [
-      "pastoral",
-      "rustic",
-      "idyll"
+      "Rural",
+      "Pastoral",
+      "Rustic",
+      "Agrarian"
     ],
     "antonyms": [
-      "No common antonym"
+      "Urban",
+      "City",
+      "Metropolitan"
     ],
-    "example": "The student learned how to use bucolic correctly in a sentence."
+    "example": "The painting depicted a peaceful bucolic scene with sheep grazing in a meadow."
   },
   "build in": {
     "word": "Build in",
     "pos": "verb",
-    "simpleDefinition": "To incorporate something as a permanent feature",
+    "simpleDefinition": "To include something as a permanent or integral part of a larger structure or system.",
     "banglaMeaning": "অন্তগর্ত",
     "synonyms": [
-      "incorporate",
-      "integrate",
-      "include"
+      "Incorporate",
+      "Integrate",
+      "Embed",
+      "Include"
     ],
     "antonyms": [
-      "exclude",
-      "remove"
+      "Exclude",
+      "Remove",
+      "Separate"
     ],
-    "example": "We should build in extra time for quality checks."
+    "example": "The new software has a security feature built in to protect user data."
   },
   "bureaucrat": {
     "word": "Bureaucrat",
     "pos": "noun",
-    "simpleDefinition": "An official who is part of a bureaucracy.",
+    "simpleDefinition": "An official in a government department or public institution, often seen as being concerned with official rules and procedures.",
     "banglaMeaning": "সরকারী র্কমর্কতা",
     "synonyms": [
-      "administrative official"
+      "Official",
+      "Administrator",
+      "Civil servant",
+      "Functionary"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use bureaucrat correctly in a sentence."
+    "example": "Dealing with the city's bureaucrats can sometimes be a slow and frustrating process."
   },
   "burgeon": {
     "word": "Burgeon",
@@ -2391,58 +2752,72 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "buried": {
     "word": "Buried",
     "pos": "adjective",
-    "simpleDefinition": "Concealed, hidden.",
+    "simpleDefinition": "Placed or hidden underground, or covered completely.",
     "banglaMeaning": "সমাহিত বা কবর দেয়া হয়েছে এমন",
     "synonyms": [
-      "concealed",
-      "interred",
-      "belowground"
+      "Interred",
+      "Concealed",
+      "Hidden",
+      "Covered"
     ],
     "antonyms": [
-      "unburied"
+      "Uncovered",
+      "Exposed",
+      "Exhumed"
     ],
-    "example": "The student learned how to use buried correctly in a sentence."
+    "example": "The ancient treasure was buried deep beneath the old oak tree."
   },
   "bustling": {
     "word": "Bustling",
     "pos": "adjective",
-    "simpleDefinition": "Busy; full of energy and noisy activity.",
-    "banglaMeaning": "বৈহ বৈচ পূণর্",
+    "simpleDefinition": "Full of activity, movement, and noise.",
+    "banglaMeaning": "কোলাহলপূর্ণ",
     "synonyms": [
-      "active"
+      "Lively",
+      "Hectic",
+      "Busy",
+      "Vibrant"
     ],
     "antonyms": [
-      "No common antonym"
+      "Quiet",
+      "Calm",
+      "Peaceful",
+      "Deserted"
     ],
-    "example": "The student learned how to use bustling correctly in a sentence."
+    "example": "The market was bustling with shoppers preparing for the holiday season."
   },
   "butter": {
     "word": "Butter",
     "pos": "noun",
-    "simpleDefinition": "A soft, fatty foodstuff made by churning the cream of milk (generally cow's milk).",
+    "simpleDefinition": "A pale yellow edible fatty substance made by churning cream and used as a spread or in cooking.",
     "banglaMeaning": "মাখন",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Spread",
+      "Margarine",
+      "Ghee"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use butter correctly in a sentence."
+    "example": "She spread butter generously on her toast every morning."
   },
   "bygone": {
     "word": "Bygone",
-    "pos": "noun",
-    "simpleDefinition": "An event that happened in the past.",
+    "pos": "adjective",
+    "simpleDefinition": "Belonging to an earlier time; past.",
     "banglaMeaning": "বিগত",
     "synonyms": [
-      "foregone",
-      "historical"
+      "Past",
+      "Former",
+      "Previous",
+      "Olden"
     ],
     "antonyms": [
-      "No common antonym"
+      "Present",
+      "Future",
+      "Current"
     ],
-    "example": "The teacher gave an insightful explanation of bygone."
+    "example": "They often reminisced about the bygone days of their youth."
   },
   "cajole": {
     "word": "Cajole",
@@ -2515,33 +2890,34 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "candour": {
     "word": "Candour",
     "pos": "noun",
-    "simpleDefinition": "British and Canada standard spelling of candor. [The state of being sincere and open in speech; honesty in expression.].",
+    "simpleDefinition": "The quality of being open, honest, and straightforward in speech or behavior.",
     "banglaMeaning": "সাধাসিধা / বিশ্বাসপ্রবণ",
     "synonyms": [
-      "candor",
-      "frankness",
-      "candidness"
+      "Honesty",
+      "Frankness",
+      "Openness",
+      "Sincerity"
     ],
     "antonyms": [
-      "inequity",
-      "unfairness"
+      "Deceit",
+      "Dishonesty",
+      "Evasiveness"
     ],
-    "example": "The student learned how to use candour correctly in a sentence."
+    "example": "Her candour was refreshing; she always spoke her mind without hesitation."
   },
   "cannibal": {
     "word": "Cannibal",
     "pos": "noun",
-    "simpleDefinition": "An organism which eats others of its own or similar species or kind, especially a human or other human-like creature such as a zombie who consumes human flesh.",
+    "simpleDefinition": "A person who eats the flesh of other human beings, or an animal that eats others of its own kind.",
     "banglaMeaning": "নরখাদক",
     "synonyms": [
-      "man-eater",
-      "anthropophagus",
-      "anthropophagite"
+      "Man-eater",
+      "Anthropophagite"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use cannibal correctly in a sentence."
+    "example": "In some animal species, a female may become a cannibal and eat her own young."
   },
   "capacious": {
     "word": "Capacious",
@@ -2549,29 +2925,34 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
     "simpleDefinition": "Having a lot of space inside; roomy.",
     "banglaMeaning": "সুপ্রশস্ত",
     "synonyms": [
-      "large",
-      "big"
+      "Roomy",
+      "Spacious",
+      "Ample",
+      "Voluminous"
     ],
     "antonyms": [
-      "No common antonym"
+      "Cramped",
+      "Small",
+      "Confined"
     ],
-    "example": "The student learned how to use capacious correctly in a sentence."
+    "example": "The capacious backpack could hold all her camping gear for the week."
   },
   "capitalist": {
     "word": "Capitalist",
-    "pos": "adjective",
-    "simpleDefinition": "Of, or pertaining to, capitalism.",
-    "banglaMeaning": "পূঁজিতাপি্সক",
+    "pos": "noun",
+    "simpleDefinition": "A person who supports or practices capitalism, especially one who owns a lot of capital and uses it to generate wealth.",
+    "banglaMeaning": "পুঁজিবাদী",
     "synonyms": [
-      "individualistic",
-      "competitive",
-      "capitalistic"
+      "Entrepreneur",
+      "Investor",
+      "Financier",
+      "Industrialist"
     ],
     "antonyms": [
-      "socialistic",
-      "socialist"
+      "Socialist",
+      "Communist"
     ],
-    "example": "The student learned how to use capitalist correctly in a sentence."
+    "example": "As a successful capitalist, he invested his profits back into new businesses."
   },
   "capricious": {
     "word": "Capricious",
@@ -2593,47 +2974,56 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "castigate": {
     "word": "Castigate",
     "pos": "verb",
-    "simpleDefinition": "To punish or reprimand someone severely.",
+    "simpleDefinition": "To criticize someone severely or punish them for something they have done wrong.",
     "banglaMeaning": "নিন্দা করা / তিরস্কার করা",
     "synonyms": [
-      "chastise",
-      "correct",
-      "chasten"
+      "reprimand",
+      "scold",
+      "rebuke",
+      "admonish"
     ],
     "antonyms": [
-      "No common antonym"
+      "praise",
+      "commend",
+      "laud"
     ],
-    "example": "The student learned how to use castigate correctly in a sentence."
+    "example": "The coach had to castigate the team for their poor performance in the first half."
   },
   "casual": {
     "word": "Casual",
     "pos": "adjective",
-    "simpleDefinition": "Informal; relaxed.",
+    "simpleDefinition": "Happening by chance, without planning, or not serious or formal.",
     "banglaMeaning": "আকস্মিক",
     "synonyms": [
-      "insouciant",
-      "light",
-      "nonchalant"
+      "informal",
+      "accidental",
+      "spontaneous",
+      "relaxed"
     ],
     "antonyms": [
-      "No common antonym"
+      "formal",
+      "deliberate",
+      "serious"
     ],
-    "example": "The student learned how to use casual correctly in a sentence."
+    "example": "She made a casual remark about moving, but I think she was serious."
   },
   "categorical": {
     "word": "Categorical",
     "pos": "adjective",
-    "simpleDefinition": "Absolute; having no exception.",
+    "simpleDefinition": "Absolutely and completely clear, without any doubt or conditions.",
     "banglaMeaning": "নিরপেক্ষ",
     "synonyms": [
-      "flat",
-      "unconditional",
-      "unqualified"
+      "absolute",
+      "unequivocal",
+      "definite",
+      "explicit"
     ],
     "antonyms": [
-      "No common antonym"
+      "conditional",
+      "ambiguous",
+      "vague"
     ],
-    "example": "The student learned how to use categorical correctly in a sentence."
+    "example": "The manager gave a categorical denial of any wrongdoing."
   },
   "caustic": {
     "word": "Caustic",
@@ -2655,16 +3045,18 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "celibacy": {
     "word": "Celibacy",
     "pos": "noun",
-    "simpleDefinition": "Abstinence from sexual relations.",
+    "simpleDefinition": "The state of abstaining from marriage and sexual relations, often for religious reasons.",
     "banglaMeaning": "সতীধ",
     "synonyms": [
-      "sexual abstention",
-      "chastity"
+      "abstinence",
+      "chastity",
+      "virginity"
     ],
     "antonyms": [
-      "No common antonym"
+      "promiscuity",
+      "marriage"
     ],
-    "example": "The student learned how to use celibacy correctly in a sentence."
+    "example": "Many religious orders require their members to practice celibacy."
   },
   "censure": {
     "word": "Censure",
@@ -2686,32 +3078,36 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "cereal": {
     "word": "Cereal",
     "pos": "noun",
-    "simpleDefinition": "Breakfast cereal.",
+    "simpleDefinition": "A grain used for food, such as wheat, oats, or rice, or a breakfast food made from these grains.",
     "banglaMeaning": "খাদ্যশস্য",
     "synonyms": [
       "grain",
-      "food grain",
-      "cereal grass"
+      "corn",
+      "oats",
+      "wheat"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use cereal correctly in a sentence."
+    "example": "For breakfast, I usually have a bowl of cereal with milk."
   },
   "chagrin": {
     "word": "Chagrin",
     "pos": "noun",
-    "simpleDefinition": "Distress of mind caused by a failure of aims or plans, want of appreciation, mistakes etc; vexation or mortification.",
+    "simpleDefinition": "A feeling of strong annoyance, embarrassment, or disappointment, often caused by a failure or mistake.",
     "banglaMeaning": "বিরক্তি",
     "synonyms": [
+      "annoyance",
+      "embarrassment",
       "mortification",
-      "humble",
-      "mortify"
+      "vexation"
     ],
     "antonyms": [
-      "No common antonym"
+      "delight",
+      "pleasure",
+      "satisfaction"
     ],
-    "example": "The student learned how to use chagrin correctly in a sentence."
+    "example": "To her chagrin, she realized she had forgotten her wallet at home."
   },
   "chastise": {
     "word": "Chastise",
@@ -2733,62 +3129,72 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "chastity": {
     "word": "Chastity",
     "pos": "noun",
-    "simpleDefinition": "The quality of being chaste: the state of abstaining from any sexual activity considered immoral; avoidance of sexual sins.",
-    "banglaMeaning": "সতীধ",
+    "simpleDefinition": "The state of being pure and virtuous, especially by refraining from sexual activity.",
+    "banglaMeaning": "সতীত্ব বা চারিত্রিক বিশুদ্ধতা",
     "synonyms": [
+      "purity",
+      "innocence",
       "celibacy",
-      "sexual abstention",
-      "sexual morality"
+      "virginity"
     ],
     "antonyms": [
-      "No common antonym"
+      "promiscuity",
+      "immorality"
     ],
-    "example": "The student learned how to use chastity correctly in a sentence."
+    "example": "The knight swore an oath of chastity and loyalty."
   },
   "chide": {
     "word": "Chide",
     "pos": "verb",
-    "simpleDefinition": "To admonish in blame; to reproach angrily.",
+    "simpleDefinition": "To speak to someone in a way that expresses mild disapproval or gentle criticism.",
     "banglaMeaning": "তিরস্কার করা",
     "synonyms": [
+      "scold",
       "rebuke",
-      "reprimand",
-      "berate"
+      "admonish",
+      "reprimand"
     ],
     "antonyms": [
-      "No common antonym"
+      "praise",
+      "commend",
+      "approve"
     ],
-    "example": "The student learned how to use chide correctly in a sentence."
+    "example": "She chided her son for leaving his toys all over the floor."
   },
   "chronic": {
     "word": "Chronic",
     "pos": "adjective",
-    "simpleDefinition": "Of a problem, that continues over an extended period of time.",
-    "banglaMeaning": "নিয়মিত ঘটা",
+    "simpleDefinition": "Lasting for a long time or constantly recurring, especially a disease or problem.",
+    "banglaMeaning": "দীর্ঘকাল ধরে চলে আসছে এমন কোনো অবস্থা, রোগ বা অভ্যাসকে বোঝাতে এই শব্দটি ব্যবহৃত হয়",
     "synonyms": [
-      "prolonged",
-      "habitual",
-      "inveterate"
+      "persistent",
+      "constant",
+      "long-standing",
+      "habitual"
     ],
     "antonyms": [
-      "acute"
+      "acute",
+      "temporary",
+      "brief"
     ],
-    "example": "The student learned how to use chronic correctly in a sentence."
+    "example": "He suffers from chronic back pain that never seems to go away."
   },
   "circulation": {
     "word": "Circulation",
     "pos": "noun",
-    "simpleDefinition": "The act of passing from place to place or person to person; free diffusion; transmission.",
+    "simpleDefinition": "The movement of something, such as blood in the body, air, or money, or the number of copies of a newspaper or magazine distributed.",
     "banglaMeaning": "প্রচার / প্রচলন / মুদ্রণ",
     "synonyms": [
-      "dissemination",
-      "spreading",
-      "airing"
+      "distribution",
+      "flow",
+      "movement",
+      "dissemination"
     ],
     "antonyms": [
-      "No common antonym"
+      "stagnation",
+      "blockage"
     ],
-    "example": "The student learned how to use circulation correctly in a sentence."
+    "example": "The newspaper has a daily circulation of over 100,000 copies."
   },
   "circumspect": {
     "word": "Circumspect",
@@ -2878,203 +3284,237 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "cogitate": {
     "word": "Cogitate",
     "pos": "verb",
-    "simpleDefinition": "To meditate, to ponder, to think deeply.",
+    "simpleDefinition": "To think deeply and carefully about something; to ponder.",
     "banglaMeaning": "বুঝতে পারা",
     "synonyms": [
+      "ponder",
+      "contemplate",
       "deliberate",
-      "think",
-      "cerebrate"
+      "muse"
     ],
     "antonyms": [
-      "No common antonym"
+      "ignore",
+      "disregard",
+      "forget"
     ],
-    "example": "The student learned how to use cogitate correctly in a sentence."
+    "example": "He needed a quiet place to cogitate on the complex problem."
   },
   "cogitating": {
     "word": "Cogitating",
-    "pos": "verb",
-    "simpleDefinition": "To meditate, to ponder, to think deeply.",
-    "banglaMeaning": "চিন্তানিমঞ্জ",
+    "pos": "adjective",
+    "simpleDefinition": "Deep in thought; thinking carefully and deeply about something.",
+    "banglaMeaning": "চিন্তানিমগ্ন",
     "synonyms": [
-      "Related",
-      "Similar"
+      "thoughtful",
+      "pensive",
+      "contemplative",
+      "reflective"
     ],
     "antonyms": [
-      "No common antonym"
+      "thoughtless",
+      "unthinking"
     ],
-    "example": "The student learned how to use cogitating correctly in a sentence."
+    "example": "She sat in her chair, a cogitating expression on her face."
   },
   "coherent": {
     "word": "Coherent",
     "pos": "adjective",
-    "simpleDefinition": "Orderly, logical and consistent.",
-    "banglaMeaning": "সামন্নস্যপূণর্ / সুসনি্ত্যত / যৌক্তিত",
+    "simpleDefinition": "Logical and consistent, making sense, or able to speak clearly and understandably.",
+    "banglaMeaning": "সামঞ্জস্যপূর্ণ / সুসংগত / যৌক্তিক",
     "synonyms": [
-      "tenacious",
-      "rational",
-      "orderly"
+      "logical",
+      "consistent",
+      "clear",
+      "articulate"
     ],
     "antonyms": [
-      "incoherent"
+      "incoherent",
+      "illogical",
+      "confused"
     ],
-    "example": "The student learned how to use coherent correctly in a sentence."
+    "example": "The speaker presented a coherent argument that was easy to follow."
   },
   "colossal": {
     "word": "Colossal",
     "pos": "adjective",
-    "simpleDefinition": "Extremely large or on a great scale.",
+    "simpleDefinition": "Extremely large or great in size, extent, or degree.",
     "banglaMeaning": "বিশাল",
     "synonyms": [
-      "prodigious",
-      "large",
-      "big"
+      "enormous",
+      "gigantic",
+      "massive",
+      "immense"
     ],
     "antonyms": [
-      "No common antonym"
+      "tiny",
+      "miniature",
+      "minute"
     ],
-    "example": "The student learned how to use colossal correctly in a sentence."
+    "example": "The company made a colossal profit last quarter."
   },
   "come round": {
     "word": "Come round",
-    "pos": "verb",
-    "simpleDefinition": "To change one's opinion to a prevailing one.",
+    "pos": "idiom",
+    "simpleDefinition": "To regain consciousness after fainting, or to change one's opinion to agree with someone else's.",
     "banglaMeaning": "আরোগ্য লাভ করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "recover",
+      "revive",
+      "agree",
+      "concede"
     ],
     "antonyms": [
-      "No common antonym"
+      "faint",
+      "disagree",
+      "resist"
     ],
-    "example": "The student learned how to use come round correctly in a sentence."
+    "example": "After a few minutes, she started to come round and open her eyes."
   },
   "commence": {
     "word": "Commence",
     "pos": "verb",
-    "simpleDefinition": "To begin, start.",
+    "simpleDefinition": "To begin or start something.",
     "banglaMeaning": "শুরু করা",
     "synonyms": [
+      "begin",
       "start",
-      "get",
-      "begin"
-    ],
-    "antonyms": [
-      "terminate",
-      "cease",
-      "end"
-    ],
-    "example": "The student learned how to use commence correctly in a sentence."
-  },
-  "commencement": {
-    "word": "Commencement",
-    "pos": "noun",
-    "simpleDefinition": "The day when degrees are conferred by colleges and universities upon students and others.",
-    "banglaMeaning": "শুরু",
-    "synonyms": [
-      "offset",
-      "start",
-      "first"
+      "initiate",
+      "launch"
     ],
     "antonyms": [
       "end",
       "finish",
-      "middle"
+      "conclude"
     ],
-    "example": "The student learned how to use commencement correctly in a sentence."
+    "example": "The ceremony will commence at exactly 10 o'clock."
+  },
+  "commencement": {
+    "word": "Commencement",
+    "pos": "noun",
+    "simpleDefinition": "The beginning or start of something, or a ceremony where degrees are awarded.",
+    "banglaMeaning": "শুরু",
+    "synonyms": [
+      "beginning",
+      "start",
+      "inception",
+      "inauguration"
+    ],
+    "antonyms": [
+      "end",
+      "conclusion",
+      "finish"
+    ],
+    "example": "The commencement of the new project is scheduled for next month."
   },
   "commend": {
     "word": "Commend",
     "pos": "verb",
-    "simpleDefinition": "To praise or acclaim.",
+    "simpleDefinition": "To praise someone or something officially or publicly.",
     "banglaMeaning": "প্রশংসা করা",
     "synonyms": [
-      "remember",
-      "recommend"
+      "praise",
+      "applaud",
+      "laud",
+      "extol"
     ],
     "antonyms": [
-      "No common antonym"
+      "criticize",
+      "condemn",
+      "censure"
     ],
-    "example": "The student learned how to use commend correctly in a sentence."
+    "example": "The police officer was commended for his bravery."
   },
   "communism": {
     "word": "Communism",
     "pos": "noun",
-    "simpleDefinition": "Any far-left political ideology or philosophy advocating holding the production of resources collectively, especially by seizing it through revolution.",
+    "simpleDefinition": "A political and economic system where all property is publicly owned, and each person works and is paid according to their abilities and needs.",
     "banglaMeaning": "সাম্যবাদ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "socialism",
+      "collectivism"
     ],
     "antonyms": [
-      "No common antonym"
+      "capitalism",
+      "individualism"
     ],
-    "example": "The student learned how to use communism correctly in a sentence."
+    "example": "The theory of communism advocates for a classless society."
   },
   "compassionate": {
     "word": "Compassionate",
     "pos": "adjective",
-    "simpleDefinition": "Having, feeling or showing compassion (to or toward someone).",
+    "simpleDefinition": "Feeling or showing sympathy and concern for the suffering or misfortunes of others.",
     "banglaMeaning": "করুণাময়",
     "synonyms": [
-      "sorry",
+      "sympathetic",
+      "empathetic",
       "caring",
-      "pity"
+      "kind"
     ],
     "antonyms": [
-      "uncompassionate"
+      "indifferent",
+      "cruel",
+      "heartless"
     ],
-    "example": "The student learned how to use compassionate correctly in a sentence."
+    "example": "The compassionate nurse comforted the worried patient."
   },
   "compensate": {
     "word": "Compensate",
     "pos": "verb",
-    "simpleDefinition": "To pay or reward someone in exchange for work done or some other consideration.",
+    "simpleDefinition": "To give someone something, typically money, in recognition of loss, suffering, or injury incurred; to make up for something.",
     "banglaMeaning": "ক্ষতিপূরন দেয়া",
     "synonyms": [
-      "right",
+      "reimburse",
       "recompense",
-      "correct"
+      "atone",
+      "offset"
     ],
     "antonyms": [
-      "wrong"
+      "penalize",
+      "forfeit",
+      "lose"
     ],
-    "example": "The student learned how to use compensate correctly in a sentence."
+    "example": "The company had to compensate customers for the faulty product."
   },
   "compile": {
     "word": "Compile",
     "pos": "verb",
-    "simpleDefinition": "To use a compiler to process source code and produce executable code.",
+    "simpleDefinition": "To produce something, especially a list, book, or report, by assembling information collected from different sources.",
     "banglaMeaning": "একত্র করা",
     "synonyms": [
-      "compose",
+      "assemble",
       "collect",
-      "amass"
+      "gather",
+      "organize"
     ],
     "antonyms": [
-      "No common antonym"
+      "disperse",
+      "separate",
+      "dismantle"
     ],
-    "example": "The student learned how to use compile correctly in a sentence."
+    "example": "She spent hours compiling a list of potential clients."
   },
   "complacency": {
     "word": "Complacency",
     "pos": "noun",
-    "simpleDefinition": "A feeling of contented self-satisfaction, especially when unaware of upcoming trouble.",
-    "banglaMeaning": "আত্মতৃপি্ত",
+    "simpleDefinition": "A feeling of smug or uncritical satisfaction with oneself or one's achievements.",
+    "banglaMeaning": "আত্মতৃপ্তি",
     "synonyms": [
-      "complacence",
-      "self-complacency",
-      "self-satisfaction"
+      "self-satisfaction",
+      "smugness",
+      "contentment"
     ],
     "antonyms": [
-      "No common antonym"
+      "dissatisfaction",
+      "concern",
+      "anxiety"
     ],
-    "example": "The student learned how to use complacency correctly in a sentence."
+    "example": "Their complacency led them to underestimate the competition."
   },
   "complacent": {
     "word": "Complacent",
     "pos": "adjective",
     "simpleDefinition": "Smug and overly satisfied with oneself, unaware of potential dangers",
-    "banglaMeaning": "আত্মসন্তুষ্ট / অসাবধান / স_ষ্টি",
+    "banglaMeaning": "আত্মসন্তুষ্ট / আত্মতৃপ্ত",
     "synonyms": [
       "Self-satisfied",
       "Smug",
@@ -3090,78 +3530,91 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "complexity": {
     "word": "Complexity",
     "pos": "noun",
-    "simpleDefinition": "The state of being complex; intricacy; entanglement.",
-    "banglaMeaning": "জটলিতা",
+    "simpleDefinition": "The state of being complicated or intricate; the quality of having many interconnected parts.",
+    "banglaMeaning": "জটিলতা",
     "synonyms": [
-      "complexness"
+      "intricacy",
+      "complication",
+      "elaborateness"
     ],
     "antonyms": [
       "simplicity",
-      "simpleness"
+      "straightforwardness",
+      "ease"
     ],
-    "example": "The student learned how to use complexity correctly in a sentence."
+    "example": "The complexity of the legal case required many expert witnesses."
   },
   "compliance": {
     "word": "Compliance",
     "pos": "noun",
-    "simpleDefinition": "The state of being compliant.",
+    "simpleDefinition": "The act of obeying a rule, request, or law, or acting in accordance with an agreement.",
     "banglaMeaning": "সম্মতি / প্রতিপালন",
     "synonyms": [
-      "deference",
-      "submission",
-      "conformity"
+      "obedience",
+      "adherence",
+      "conformity",
+      "agreement"
     ],
     "antonyms": [
-      "noncompliance",
-      "disobedience",
-      "nonconformity"
+      "defiance",
+      "resistance",
+      "noncompliance"
     ],
-    "example": "The student learned how to use compliance correctly in a sentence."
+    "example": "The company must ensure full compliance with environmental regulations."
   },
   "composite": {
     "word": "Composite",
     "pos": "adjective",
-    "simpleDefinition": "Made up of multiple components; compound or complex.",
-    "banglaMeaning": "যৌগিক",
+    "simpleDefinition": "Made up of several different parts or elements combined together.",
+    "banglaMeaning": "যৌগিক",
     "synonyms": [
-      "complex",
-      "corinthian",
-      "impure"
+      "blended",
+      "mixed",
+      "combined",
+      "compound"
     ],
     "antonyms": [
-      "No common antonym"
+      "simple",
+      "single",
+      "unmixed"
     ],
-    "example": "The student learned how to use composite correctly in a sentence."
+    "example": "The new material is a composite of plastic and metal, making it both light and strong."
   },
   "composure": {
     "word": "Composure",
     "pos": "noun",
-    "simpleDefinition": "Calmness of mind or temperament.",
-    "banglaMeaning": "বৈধর্য্য",
+    "simpleDefinition": "The state of being calm and in control of your feelings, especially in a difficult situation.",
+    "banglaMeaning": "মানসিক স্থিরতা, আত্মসংযম, ধীরস্থির ভাব",
     "synonyms": [
-      "equanimity",
-      "calm",
-      "calmness"
+      "calmness",
+      "serenity",
+      "self-possession",
+      "tranquility"
     ],
     "antonyms": [
+      "agitation",
+      "anxiety",
       "discomposure"
     ],
-    "example": "The student learned how to use composure correctly in a sentence."
+    "example": "Despite the sudden emergency, she maintained her composure and quickly called for help."
   },
   "conceal": {
     "word": "Conceal",
     "pos": "verb",
-    "simpleDefinition": "To hide something from view or from public knowledge, to try to keep something secret.",
+    "simpleDefinition": "To hide something or someone from view or from being known.",
     "banglaMeaning": "গোপন করা",
     "synonyms": [
       "hide",
-      "hold back",
-      "hold in"
+      "disguise",
+      "cover",
+      "mask"
     ],
     "antonyms": [
-      "show"
+      "reveal",
+      "expose",
+      "disclose"
     ],
-    "example": "The student learned how to use conceal correctly in a sentence."
+    "example": "He tried to conceal his excitement, but a small smile gave him away."
   },
   "concede": {
     "word": "Concede",
@@ -3183,91 +3636,105 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "conceited": {
     "word": "Conceited",
     "pos": "adjective",
-    "simpleDefinition": "Having an excessively favourable opinion of one's abilities, appearance, etc.; egotistical and vain.",
+    "simpleDefinition": "Having an excessively high opinion of oneself or one's abilities.",
     "banglaMeaning": "আত্মভিমানী",
     "synonyms": [
+      "arrogant",
+      "vain",
       "proud",
-      "egotistical",
-      "self-conceited"
+      "self-important"
     ],
     "antonyms": [
-      "No common antonym"
+      "humble",
+      "modest",
+      "unassuming"
     ],
-    "example": "The student learned how to use conceited correctly in a sentence."
+    "example": "Her conceited attitude made it difficult for others to work with her on the team."
   },
   "conciliate": {
     "word": "Conciliate",
     "pos": "verb",
-    "simpleDefinition": "To make calm and content, or regain the goodwill of; to placate; to propitiate.",
+    "simpleDefinition": "To stop someone from being angry or discontented; to pacify or make peace.",
     "banglaMeaning": "শান্ত করা",
     "synonyms": [
-      "assuage",
-      "placate",
-      "accommodate"
+      "pacify",
+      "appease",
+      "mollify",
+      "placate"
     ],
     "antonyms": [
-      "No common antonym"
+      "provoke",
+      "irritate",
+      "antagonize"
     ],
-    "example": "The student learned how to use conciliate correctly in a sentence."
+    "example": "The mediator tried to conciliate the two opposing parties to reach an agreement."
   },
   "conclude": {
     "word": "Conclude",
     "pos": "verb",
-    "simpleDefinition": "To bring to an end; to close; to finish.",
+    "simpleDefinition": "To bring something to an end; to finish. It can also mean to arrive at a judgment or opinion by reasoning.",
     "banglaMeaning": "শেষ করা",
     "synonyms": [
-      "resolve",
-      "reason out",
-      "reason"
+      "finish",
+      "complete",
+      "end",
+      "terminate"
     ],
     "antonyms": [
-      "No common antonym"
+      "begin",
+      "start",
+      "commence"
     ],
-    "example": "The student learned how to use conclude correctly in a sentence."
+    "example": "After a long discussion, the committee decided to conclude the meeting and vote on the proposal next week."
   },
   "concubine": {
     "word": "Concubine",
     "pos": "noun",
-    "simpleDefinition": "A sexual partner, especially a woman, to whom one is not or cannot be married.",
-    "banglaMeaning": "উপস্থী",
+    "simpleDefinition": "A woman who lives with a man but has lower status than his wife or wives.",
+    "banglaMeaning": "উপপত্নী; একজন পুরুষের সাথে বৈবাহিক সম্পর্কের বাইরে থাকা নারী",
     "synonyms": [
-      "paramour",
-      "courtesan",
-      "odalisque"
+      "mistress",
+      "paramour"
     ],
     "antonyms": [
-      "No common antonym"
+      "wife",
+      "spouse"
     ],
-    "example": "The student learned how to use concubine correctly in a sentence."
+    "example": "In ancient societies, it was not uncommon for powerful men to have concubines in addition to their legal wives."
   },
   "condemn": {
     "word": "Condemn",
     "pos": "verb",
-    "simpleDefinition": "To strongly criticise or denounce; to excoriate.",
+    "simpleDefinition": "To express strong disapproval of something; to officially declare something to be wrong or evil.",
     "banglaMeaning": "তিরস্কার",
     "synonyms": [
-      "decry",
-      "excoriate",
-      "objurgate"
+      "denounce",
+      "censure",
+      "criticize",
+      "reprimand"
     ],
     "antonyms": [
-      "No common antonym"
+      "praise",
+      "approve",
+      "commend"
     ],
-    "example": "The student learned how to use condemn correctly in a sentence."
+    "example": "Many international organizations condemned the violence against innocent civilians."
   },
   "condiment": {
     "word": "Condiment",
-    "pos": "adjective",
-    "simpleDefinition": "Having the qualities or characteristics of condiment.",
+    "pos": "noun",
+    "simpleDefinition": "A substance such as salt, mustard, or spice that is added to food to improve its flavor.",
     "banglaMeaning": "আচার / মশলা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "seasoning",
+      "spice",
+      "relish",
+      "sauce"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use condiment correctly in a sentence."
+    "example": "Ketchup and mustard are popular condiments served with hot dogs and hamburgers."
   },
   "condone": {
     "word": "Condone",
@@ -3289,60 +3756,72 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "conducive": {
     "word": "Conducive",
     "pos": "adjective",
-    "simpleDefinition": "Tending to contribute to, encourage, or bring about some result.",
+    "simpleDefinition": "Making a certain situation or outcome likely or possible; helpful.",
     "banglaMeaning": "সহায়ক",
     "synonyms": [
-      "causative",
-      "contributory",
-      "contributing"
+      "favorable",
+      "helpful",
+      "beneficial",
+      "instrumental"
     ],
     "antonyms": [
-      "No common antonym"
+      "unfavorable",
+      "detrimental",
+      "hindering"
     ],
-    "example": "The student learned how to use conducive correctly in a sentence."
+    "example": "A quiet environment is conducive to studying and concentration."
   },
   "conduit": {
     "word": "Conduit",
     "pos": "noun",
-    "simpleDefinition": "A channel or pathway through which something is conducted, carried, etc.",
-    "banglaMeaning": "পয়ঃপ্রণালী",
+    "simpleDefinition": "A channel or pipe for conveying water or other fluids. It can also refer to a person or organization that acts as a channel for transmitting something.",
+    "banglaMeaning": "নালী বা মাধ্যম যার মধ্য দিয়ে জল, গ্যাস, বিদ্যুৎবাহী তার বা কোনো তথ্য ও সম্পদ এক স্থান থেকে অন্য স্থানে প্রবাহিত হয়",
     "synonyms": [
-      "channel"
+      "channel",
+      "pipe",
+      "duct",
+      "passage"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use conduit correctly in a sentence."
+    "example": "The city installed a new underground conduit to improve the drainage system."
   },
   "conflict": {
     "word": "Conflict",
     "pos": "noun",
-    "simpleDefinition": "A clash or disagreement, often violent, between two or more opposing groups or individuals.",
+    "simpleDefinition": "A serious disagreement or argument, often prolonged. It can also refer to a struggle or battle.",
     "banglaMeaning": "সংগ্রাম করা",
     "synonyms": [
       "dispute",
+      "disagreement",
       "struggle",
-      "engagement"
+      "clash"
     ],
     "antonyms": [
-      "No common antonym"
+      "harmony",
+      "agreement",
+      "peace"
     ],
-    "example": "The student learned how to use conflict correctly in a sentence."
+    "example": "There was a clear conflict of interest when the judge ruled on a case involving his own company."
   },
   "confound": {
     "word": "Confound",
     "pos": "verb",
-    "simpleDefinition": "To perplex or puzzle.",
+    "simpleDefinition": "To cause surprise or confusion in someone, especially by acting against their expectations.",
     "banglaMeaning": "বিভ্রান্ত করা",
     "synonyms": [
-      "throw",
       "confuse",
-      "fox"
+      "perplex",
+      "bewilder",
+      "baffle"
     ],
     "antonyms": [
-      "No common antonym"
+      "clarify",
+      "enlighten",
+      "explain"
     ],
-    "example": "The student learned how to use confound correctly in a sentence."
+    "example": "The sudden change in plans confounded everyone, leaving them unsure of what to do next."
   },
   "congenial": {
     "word": "Congenial",
@@ -3364,88 +3843,102 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "conger": {
     "word": "Conger",
     "pos": "noun",
-    "simpleDefinition": "Any of several scaleless marine eels, of the genus Conger, found in coastal waters.",
-    "banglaMeaning": "সামুদি্রক বানমাছ",
+    "simpleDefinition": "A large, predatory marine eel, often found in rocky areas of the Atlantic and Mediterranean.",
+    "banglaMeaning": "সামুদ্রিক বানমাছ",
     "synonyms": [
-      "conger eel"
+      "eel",
+      "sea eel"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use conger correctly in a sentence."
+    "example": "Divers spotted a large conger eel hiding among the rocks on the seabed."
   },
   "conscript": {
     "word": "Conscript",
-    "pos": "noun",
-    "simpleDefinition": "One who is compulsorily enrolled, often into a military service; a draftee.",
-    "banglaMeaning": "নতুন নিয়োগপ্রাপ্ত অনভিন্ত্র র্কমশী",
+    "pos": "verb",
+    "simpleDefinition": "To enroll someone compulsorily into military service.",
+    "banglaMeaning": "নতুন নিয়োগপ্রাপ্ত অনভিজ্ঞ কর্মী",
     "synonyms": [
-      "raise",
-      "levy",
-      "recruit"
+      "draft",
+      "enlist (compulsorily)",
+      "mobilize"
     ],
     "antonyms": [
-      "voluntary",
       "volunteer",
-      "military volunteer"
+      "discharge"
     ],
-    "example": "The student learned how to use conscript correctly in a sentence."
+    "example": "During wartime, many young men were conscripted into the army."
   },
   "consolidation": {
     "word": "Consolidation",
     "pos": "noun",
-    "simpleDefinition": "The act or process of consolidating, making firm, or uniting; the state of being consolidated.",
+    "simpleDefinition": "The process of combining several things into a single, more effective, or coherent whole.",
     "banglaMeaning": "ঐক্যবদ্ধ / একসাথে",
     "synonyms": [
-      "integration"
+      "unification",
+      "merger",
+      "integration",
+      "strengthening"
     ],
     "antonyms": [
-      "No common antonym"
+      "division",
+      "separation",
+      "fragmentation"
     ],
-    "example": "The student learned how to use consolidation correctly in a sentence."
+    "example": "The consolidation of the two small companies resulted in a much larger and more competitive business."
   },
   "conspire": {
     "word": "Conspire",
     "pos": "verb",
-    "simpleDefinition": "To secretly plot or make plans together, often with the intention to bring bad or illegal results; to collude, to connive, to plot.",
-    "banglaMeaning": "চক্রোন্ত করা",
+    "simpleDefinition": "To make secret plans jointly to commit an unlawful or harmful act.",
+    "banglaMeaning": "চক্রান্ত করা",
     "synonyms": [
+      "plot",
+      "scheme",
       "collude",
-      "complot",
-      "cabal"
+      "intrigue"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use conspire correctly in a sentence."
+    "example": "The two rivals conspired to overthrow the current leader of the organization."
   },
   "constraint": {
     "word": "Constraint",
     "pos": "noun",
-    "simpleDefinition": "Something that constrains; a restriction.",
+    "simpleDefinition": "A limitation or restriction.",
     "banglaMeaning": "বাঁধা",
     "synonyms": [
-      "restraint"
+      "restriction",
+      "limitation",
+      "hindrance",
+      "impediment"
     ],
     "antonyms": [
-      "No common antonym"
+      "freedom",
+      "liberty",
+      "allowance"
     ],
-    "example": "The student learned how to use constraint correctly in a sentence."
+    "example": "Budgetary constraints prevented the team from hiring additional staff."
   },
   "contemplative": {
     "word": "Contemplative",
     "pos": "adjective",
-    "simpleDefinition": "Inclined to contemplate; introspective and thoughtful; meditative.",
-    "banglaMeaning": "চিন্তানিমঞ্জ",
+    "simpleDefinition": "Expressing or involving prolonged thought; thoughtful and reflective.",
+    "banglaMeaning": "চিন্তানিমগ্ন",
     "synonyms": [
-      "pensive",
-      "musing",
-      "thoughtful"
+      "thoughtful",
+      "reflective",
+      "meditative",
+      "pensive"
     ],
     "antonyms": [
-      "No common antonym"
+      "thoughtless",
+      "unreflective",
+      "impulsive"
     ],
-    "example": "The student learned how to use contemplative correctly in a sentence."
+    "example": "She spent a contemplative afternoon sitting by the lake, lost in her thoughts."
   },
   "contempt": {
     "word": "Contempt",
@@ -3467,79 +3960,92 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "continuation": {
     "word": "Continuation",
     "pos": "noun",
-    "simpleDefinition": "The act or state of continuing or being continued; uninterrupted extension or succession.",
+    "simpleDefinition": "The action of carrying something on over time or the state of being carried on.",
     "banglaMeaning": "ধারাবাহিকতা",
     "synonyms": [
-      "sequel",
-      "continuance"
+      "progression",
+      "persistence",
+      "extension",
+      "perpetuation"
     ],
     "antonyms": [
-      "discontinuance",
-      "discontinuation"
+      "cessation",
+      "halt",
+      "interruption"
     ],
-    "example": "The student learned how to use continuation correctly in a sentence."
+    "example": "The author promised a continuation of the story in a new book next year."
   },
   "contradict": {
     "word": "Contradict",
     "pos": "verb",
-    "simpleDefinition": "To deny the truth or validity of (a statement or statements).",
+    "simpleDefinition": "To deny the truth of a statement, especially by asserting the opposite.",
     "banglaMeaning": "অস্বীকার করা",
     "synonyms": [
-      "negate",
-      "contravene",
-      "oppose"
+      "deny",
+      "refute",
+      "gainsay",
+      "challenge"
     ],
     "antonyms": [
-      "sustain",
+      "confirm",
       "affirm",
-      "support"
+      "agree"
     ],
-    "example": "The student learned how to use contradict correctly in a sentence."
+    "example": "His actions often contradict his words, making it hard to trust him."
   },
   "contrary": {
     "word": "Contrary",
     "pos": "adjective",
-    "simpleDefinition": "Opposite; in an opposite direction; in opposition; adverse.",
+    "simpleDefinition": "Opposite in nature, direction, or meaning.",
     "banglaMeaning": "বিপরীত",
     "synonyms": [
-      "obstinate",
-      "perverse",
+      "opposite",
+      "conflicting",
+      "opposing",
       "adverse"
     ],
     "antonyms": [
-      "No common antonym"
+      "similar",
+      "consistent",
+      "agreeable"
     ],
-    "example": "The student learned how to use contrary correctly in a sentence."
+    "example": "Despite the forecast, the weather turned out to be quite contrary to what was predicted."
   },
   "contrast": {
     "word": "Contrast",
     "pos": "noun",
-    "simpleDefinition": "A difference between two objects, people or concepts.",
-    "banglaMeaning": "বৈবপরিত্য",
+    "simpleDefinition": "The state of being strikingly different from something else in close conjunction.",
+    "banglaMeaning": "বৈপরীত্য",
     "synonyms": [
-      "line",
-      "demarcation",
-      "counterpoint"
+      "difference",
+      "dissimilarity",
+      "distinction",
+      "divergence"
     ],
     "antonyms": [
-      "No common antonym"
+      "similarity",
+      "resemblance",
+      "likeness"
     ],
-    "example": "The student learned how to use contrast correctly in a sentence."
+    "example": "The stark contrast between the old and new buildings was quite noticeable."
   },
   "contravene": {
     "word": "Contravene",
     "pos": "verb",
-    "simpleDefinition": "To act contrary to an order; to fail to conform to a regulation or obligation.",
+    "simpleDefinition": "To violate or go against a law, rule, or custom.",
     "banglaMeaning": "আইন বা রীতি লংঘন করা",
     "synonyms": [
-      "conflict",
-      "negate",
-      "contradict"
+      "violate",
+      "infringe",
+      "breach",
+      "transgress"
     ],
     "antonyms": [
-      "No common antonym"
+      "comply",
+      "obey",
+      "uphold"
     ],
-    "example": "The student learned how to use contravene correctly in a sentence."
+    "example": "Building without a permit would contravene local planning regulations."
   },
   "contrite": {
     "word": "Contrite",
@@ -3578,77 +4084,92 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "conventional": {
     "word": "Conventional",
     "pos": "adjective",
-    "simpleDefinition": "Pertaining to a convention, as in following generally accepted principles, methods and behaviour.",
+    "simpleDefinition": "Based on or in accordance with what is generally done or believed; traditional.",
     "banglaMeaning": "প্রচলিত / গতানুগতিক",
     "synonyms": [
-      "established",
-      "square",
-      "customary"
+      "traditional",
+      "customary",
+      "standard",
+      "orthodox"
     ],
     "antonyms": [
       "unconventional",
-      "atomic",
-      "nuclear"
+      "unusual",
+      "radical",
+      "innovative"
     ],
-    "example": "The student learned how to use conventional correctly in a sentence."
+    "example": "She preferred a conventional approach to problem-solving rather than trying new, untested methods."
   },
   "convict": {
     "word": "Convict",
     "pos": "verb",
-    "simpleDefinition": "To declare someone guilty of a criminal offense in court",
+    "simpleDefinition": "To officially declare someone guilty of a criminal offense in a court of law.",
     "banglaMeaning": "দোষী সাব্যস্ত করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Condemn",
+      "Sentence",
+      "Find guilty"
     ],
     "antonyms": [
-      "No common antonym"
+      "Acquit",
+      "Exonerate",
+      "Absolve"
     ],
-    "example": "The candidate understood the meaning of convict."
+    "example": "The jury had sufficient evidence to convict the corrupt official."
   },
   "convicted": {
     "word": "Convicted",
     "pos": "adjective",
-    "simpleDefinition": "A 1950 American crime film noir directed by Henry Levin and starring Glenn Ford and Broderick Crawford.",
+    "simpleDefinition": "Found guilty of a crime by a court of law.",
     "banglaMeaning": "দোষী / অপরাধী",
     "synonyms": [
+      "guilty",
       "condemned",
-      "guilty"
+      "sentenced",
+      "culpable"
     ],
     "antonyms": [
-      "No common antonym"
+      "acquitted",
+      "innocent",
+      "exonerated"
     ],
-    "example": "The student learned how to use convicted correctly in a sentence."
+    "example": "The jury found the suspect convicted of theft after reviewing all the evidence."
   },
   "conviction": {
     "word": "Conviction",
     "pos": "noun",
-    "simpleDefinition": "A firmly held belief.",
+    "simpleDefinition": "A strong belief or opinion; also, the act of proving someone guilty of a crime.",
     "banglaMeaning": "দৃঢ় বিশ্বাস",
     "synonyms": [
-      "sentence",
-      "strong belief",
-      "judgment of conviction"
+      "belief",
+      "certainty",
+      "assurance",
+      "confidence"
     ],
     "antonyms": [
-      "acquittal"
+      "doubt",
+      "uncertainty",
+      "skepticism"
     ],
-    "example": "The student learned how to use conviction correctly in a sentence."
+    "example": "She spoke with great conviction about the importance of environmental protection."
   },
   "convolution": {
     "word": "Convolution",
     "pos": "noun",
-    "simpleDefinition": "A mathematical operation on two functions that produces a third that expresses how the shape of one is modified by the other; the integral of the product of the two functions after one is reflected about the y-axis and shifted along the x-axis.",
-    "banglaMeaning": "হৃন্মলী",
+    "simpleDefinition": "A coil or twist, especially one of many; something complex and difficult to follow.",
+    "banglaMeaning": "কুণ্ডলী",
     "synonyms": [
-      "vortex",
-      "whirl",
-      "swirl"
+      "twist",
+      "coil",
+      "fold",
+      "intricacy"
     ],
     "antonyms": [
-      "No common antonym"
+      "simplicity",
+      "straightness",
+      "clarity"
     ],
-    "example": "The student learned how to use convolution correctly in a sentence."
+    "example": "The plot of the novel was full of unexpected convolutions, making it hard to predict the ending."
   },
   "copious": {
     "word": "Copious",
@@ -3687,35 +4208,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "correspond": {
     "word": "Correspond",
     "pos": "verb",
-    "simpleDefinition": "To be equivalent or similar in character, quantity, quality, origin, structure, function etc.",
+    "simpleDefinition": "To be in agreement or harmony; to communicate by exchanging letters or emails.",
     "banglaMeaning": "মিল",
     "synonyms": [
-      "fit",
-      "check",
-      "represent"
+      "match",
+      "agree",
+      "align",
+      "communicate"
     ],
     "antonyms": [
-      "disaccord",
+      "differ",
       "disagree",
-      "discord"
+      "clash"
     ],
-    "example": "The student learned how to use correspond correctly in a sentence."
+    "example": "The numbers in the report do not correspond with the figures from the previous quarter."
   },
   "corroborate": {
     "word": "Corroborate",
     "pos": "verb",
-    "simpleDefinition": "To confirm or support something with additional evidence; to attest or vouch for.",
+    "simpleDefinition": "To confirm or give support to a statement, theory, or finding.",
     "banglaMeaning": "দৃঢ় করা",
     "synonyms": [
-      "sustain",
-      "affirm",
-      "support"
+      "confirm",
+      "verify",
+      "validate",
+      "authenticate"
     ],
     "antonyms": [
-      "negate",
-      "contradict"
+      "contradict",
+      "disprove",
+      "refute"
     ],
-    "example": "The student learned how to use corroborate correctly in a sentence."
+    "example": "The witness's testimony helped to corroborate the victim's account of the incident."
   },
   "corrupt": {
     "word": "Corrupt",
@@ -3737,47 +4261,55 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "cosmopolitan": {
     "word": "Cosmopolitan",
     "pos": "adjective",
-    "simpleDefinition": "Inclusive; affecting the whole world.",
+    "simpleDefinition": "Familiar with and at ease in many different countries and cultures; having a worldwide scope.",
     "banglaMeaning": "সার্বজনীন",
     "synonyms": [
-      "comprehensive",
-      "sophisticated",
-      "general"
+      "global",
+      "international",
+      "worldly",
+      "sophisticated"
     ],
     "antonyms": [
-      "endemic",
-      "provincial"
+      "provincial",
+      "narrow-minded",
+      "insular"
     ],
-    "example": "The student learned how to use cosmopolitan correctly in a sentence."
+    "example": "The city's diverse population gives it a truly cosmopolitan atmosphere."
   },
   "cosmos": {
     "word": "Cosmos",
     "pos": "noun",
-    "simpleDefinition": "The universe regarded as a system with harmony and order.",
-    "banglaMeaning": "নিসগর্",
+    "simpleDefinition": "The universe seen as a well-ordered whole.",
+    "banglaMeaning": "মহাবিশ্ব, মহাজাগতিক",
     "synonyms": [
-      "existence",
-      "macrocosm",
-      "world"
+      "universe",
+      "galaxy",
+      "creation",
+      "macrocosm"
     ],
     "antonyms": [
-      "No common antonym"
+      "microcosm",
+      "nothingness"
     ],
-    "example": "The student learned how to use cosmos correctly in a sentence."
+    "example": "Scientists continue to explore the vastness and mysteries of the cosmos."
   },
   "counterfeit": {
     "word": "Counterfeit",
     "pos": "adjective",
-    "simpleDefinition": "False, especially of money; intended to deceive or carry appearance of being genuine.",
-    "banglaMeaning": "ভেজাল / কৃতি্রম",
+    "simpleDefinition": "Made in exact imitation of something valuable or important with the intention to deceive or defraud.",
+    "banglaMeaning": "ভেজাল / কৃত্রিম",
     "synonyms": [
-      "Related",
-      "Similar"
+      "fake",
+      "bogus",
+      "forged",
+      "spurious"
     ],
     "antonyms": [
-      "genuine"
+      "genuine",
+      "authentic",
+      "real"
     ],
-    "example": "The student learned how to use counterfeit correctly in a sentence."
+    "example": "The police seized a large shipment of counterfeit designer handbags."
   },
   "courageous": {
     "word": "Courageous",
@@ -3799,60 +4331,74 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "covenant": {
     "word": "Covenant",
     "pos": "noun",
-    "simpleDefinition": "A pact or binding agreement between two or more parties.",
+    "simpleDefinition": "A formal, solemn, and binding agreement or promise.",
     "banglaMeaning": "আইনসম্মত চুক্তিপত্র",
     "synonyms": [
-      "compact",
-      "concordat"
+      "agreement",
+      "contract",
+      "pact",
+      "promise"
     ],
     "antonyms": [
-      "No common antonym"
+      "disagreement",
+      "breach",
+      "refusal"
     ],
-    "example": "The student learned how to use covenant correctly in a sentence."
+    "example": "The two nations signed a covenant to maintain peace and mutual cooperation."
   },
   "craft": {
     "word": "Craft",
     "pos": "noun",
-    "simpleDefinition": "A branch of skilled work or trade, especially one requiring manual dexterity or artistic skill, but sometimes applied equally to any business, calling or profession; the skilled practice of a practical occupation .",
+    "simpleDefinition": "An activity involving skill in making things by hand; skill or expertise, especially in a particular profession or trade.",
     "banglaMeaning": "দক্ষতা",
     "synonyms": [
-      "cunning",
-      "trade",
-      "craftsmanship"
+      "skill",
+      "artistry",
+      "expertise",
+      "trade"
     ],
     "antonyms": [
-      "No common antonym"
+      "clumsiness",
+      "ineptitude",
+      "amateurism"
     ],
-    "example": "The student learned how to use craft correctly in a sentence."
+    "example": "Her beautiful pottery demonstrated her exceptional craft and attention to detail."
   },
   "crank": {
     "word": "Crank",
-    "pos": "adjective",
-    "simpleDefinition": "Hard; difficult.",
-    "banglaMeaning": "বাঁকা",
+    "pos": "noun",
+    "simpleDefinition": "An eccentric person, especially one who holds strange beliefs or behaves oddly.",
+    "banglaMeaning": "অদ্ভুত স্বভাবের মানুষ, বা কোনো যন্ত্রকে সচল করার জন্য ব্যবহৃত হাতল বা দণ্ড",
     "synonyms": [
-      "tender",
-      "churl",
-      "unstable"
+      "eccentric",
+      "oddball",
+      "peculiar",
+      "weirdo"
     ],
     "antonyms": [
-      "No common antonym"
+      "conformist",
+      "normal",
+      "conventional"
     ],
-    "example": "The student learned how to use crank correctly in a sentence."
+    "example": "He's a bit of a crank when it comes to his theories about alien life."
   },
   "craven": {
     "word": "Craven",
-    "pos": "noun",
-    "simpleDefinition": "A coward.",
+    "pos": "adjective",
+    "simpleDefinition": "Lacking courage; cowardly.",
     "banglaMeaning": "কাপুরুষ",
     "synonyms": [
-      "Related to craven",
-      "Similar"
+      "cowardly",
+      "timid",
+      "fearful",
+      "faint-hearted"
     ],
     "antonyms": [
-      "No common antonym"
+      "brave",
+      "courageous",
+      "valiant"
     ],
-    "example": "The teacher gave an insightful explanation of craven."
+    "example": "The craven soldier deserted his post during the battle."
   },
   "credulous": {
     "word": "Credulous",
@@ -3874,61 +4420,72 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "cretin": {
     "word": "Cretin",
     "pos": "noun",
-    "simpleDefinition": "An idiot.",
+    "simpleDefinition": "A foolish or unintelligent person.",
     "banglaMeaning": "বোকা জাতীয়",
     "synonyms": [
-      "imbecile",
       "idiot",
-      "retard"
+      "fool",
+      "imbecile",
+      "dolt"
     ],
     "antonyms": [
-      "No common antonym"
+      "genius",
+      "intellectual",
+      "sage"
     ],
-    "example": "The student learned how to use cretin correctly in a sentence."
+    "example": "Only a cretin would believe such an obvious lie."
   },
   "critique": {
     "word": "Critique",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being critique.",
+    "simpleDefinition": "A detailed analysis and assessment of something, especially a literary, artistic, or philosophical work.",
     "banglaMeaning": "সমালোচনামূলক নিবন্ধ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "analysis",
+      "evaluation",
+      "assessment",
+      "review"
     ],
     "antonyms": [
-      "No common antonym"
+      "praise",
+      "commendation",
+      "approval"
     ],
-    "example": "The student learned how to use critique correctly in a sentence."
+    "example": "The art critic published a detailed critique of the new exhibition."
   },
   "crone": {
     "word": "Crone",
     "pos": "noun",
-    "simpleDefinition": "An ugly, evil-looking, or frightening old woman; a hag.",
-    "banglaMeaning": "বিগত যৌবনা (ঘৃণা অথের্)",
+    "simpleDefinition": "An old woman who is thin, ugly, or disagreeable (used derogatorily).",
+    "banglaMeaning": "বৃদ্ধা; কুৎসিত বৃদ্ধা নারী, ডাইনি",
     "synonyms": [
-      "beldam",
-      "witch",
-      "beldame"
+      "Hag",
+      "Witch",
+      "Old woman"
     ],
     "antonyms": [
-      "No common antonym"
+      "Maiden",
+      "Youth"
     ],
-    "example": "The student learned how to use crone correctly in a sentence."
+    "example": "The folklore tale warned travelers of a wicked crone living alone deep in the forest."
   },
   "crook": {
     "word": "Crook",
     "pos": "noun",
-    "simpleDefinition": "A bend; turn; curve; curvature; a flexure.",
+    "simpleDefinition": "A dishonest person or a criminal; also, a bend or curve in something.",
     "banglaMeaning": "বাঁকা",
     "synonyms": [
-      "curve",
-      "malefactor",
-      "bend"
+      "criminal",
+      "swindler",
+      "rogue",
+      "cheat"
     ],
     "antonyms": [
-      "No common antonym"
+      "honest person",
+      "upright citizen",
+      "law-abiding"
     ],
-    "example": "The student learned how to use crook correctly in a sentence."
+    "example": "The police arrested the crook who had been stealing from local shops."
   },
   "cryptic": {
     "word": "Cryptic",
@@ -3949,23 +4506,27 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "cud chew": {
     "word": "Cud chew",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being cud chew.",
+    "pos": "verb phrase",
+    "simpleDefinition": "To repeatedly chew food that has been regurgitated from the stomach, as done by ruminant animals; figuratively, to ponder or think deeply about something.",
     "banglaMeaning": "জাবর কাটা স্তন্যপায়ী প্রাণী",
     "synonyms": [
-      "Related",
-      "Similar"
+      "ruminate",
+      "ponder",
+      "deliberate",
+      "contemplate"
     ],
     "antonyms": [
-      "No common antonym"
+      "ignore",
+      "dismiss",
+      "forget"
     ],
-    "example": "The student learned how to use cud chew correctly in a sentence."
+    "example": "After dinner, the cows would often cud chew peacefully in the field."
   },
   "culpable": {
     "word": "Culpable",
     "pos": "adjective",
     "simpleDefinition": "Deserving blame, censure, or punishment; guilty",
-    "banglaMeaning": "দোষী / অপরাধের যোগ্য / শাসি্ত পাবার যোগ্য",
+    "banglaMeaning": "দোষী / অপরাধের যোগ্য / শাস্তি পাবার যোগ্য",
     "synonyms": [
       "Guilty",
       "Blameworthy",
@@ -3981,74 +4542,88 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "cunning": {
     "word": "Cunning",
     "pos": "adjective",
-    "simpleDefinition": "Sly; crafty; clever in surreptitious behaviour.",
-    "banglaMeaning": "দক্ষ",
+    "simpleDefinition": "Having or showing skill in achieving one's ends by deceit or evasion; also, skillful or clever.",
+    "banglaMeaning": "ধূর্ত, চতুর, চালাক",
     "synonyms": [
-      "artful",
-      "adroit",
-      "clever"
+      "sly",
+      "crafty",
+      "shrewd",
+      "artful"
     ],
     "antonyms": [
-      "No common antonym"
+      "naive",
+      "innocent",
+      "guileless"
     ],
-    "example": "The student learned how to use cunning correctly in a sentence."
+    "example": "The cunning fox managed to steal the chickens without being seen."
   },
   "cupid": {
     "word": "Cupid",
     "pos": "noun",
-    "simpleDefinition": "The god of love, son of Venus; sometimes depicted as a putto (a naked, winged boy with bow and arrow). The Roman counterpart of Eros.",
-    "banglaMeaning": "ধনসশ্মতি্তর জন্য লোভাতুর",
+    "simpleDefinition": "The Roman god of love, often depicted as a winged boy with a bow and arrow.",
+    "banglaMeaning": "প্রেমের প্রতীক; প্রেমের অনুভূতি",
     "synonyms": [
-      "amor"
+      "Eros",
+      "love god",
+      "cherub"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use cupid correctly in a sentence."
+    "example": "According to myth, Cupid's arrows could make anyone fall deeply in love."
   },
   "curious": {
     "word": "Curious",
     "pos": "adjective",
-    "simpleDefinition": "Tending to ask questions, or to want to explore or investigate; inquisitive; (with a negative connotation) nosy, prying.",
-    "banglaMeaning": "অদ্বুত",
+    "simpleDefinition": "Eager to know or learn something; inquisitive.",
+    "banglaMeaning": "কৌতূহলী / জানতে আগ্রহী",
     "synonyms": [
-      "peculiar",
-      "inquisitive",
-      "strange"
+      "Inquisitive",
+      "Interested",
+      "Eager to know"
     ],
     "antonyms": [
-      "incurious"
+      "Indifferent",
+      "Uninterested",
+      "Apathetic"
     ],
-    "example": "The student learned how to use curious correctly in a sentence."
+    "example": "The curious young student asked insightful questions after the science lecture."
   },
   "currency": {
     "word": "Currency",
     "pos": "noun",
-    "simpleDefinition": "Money or other items used to facilitate transactions.",
-    "banglaMeaning": "প্রচলিত",
+    "simpleDefinition": "A system of money in general use in a particular country; also, the state of being generally accepted or in use.",
+    "banglaMeaning": "মুদ্রা, গ্রহণযোগ্যতা,প্রচলন",
     "synonyms": [
-      "vogue",
-      "currentness",
-      "up-to-dateness"
+      "money",
+      "cash",
+      "prevalence",
+      "acceptance"
     ],
     "antonyms": [
-      "No common antonym"
+      "obsolescence",
+      "disuse",
+      "rarity"
     ],
-    "example": "The student learned how to use currency correctly in a sentence."
+    "example": "The euro is the official currency in many European countries."
   },
   "cursive": {
     "word": "Cursive",
     "pos": "adjective",
-    "simpleDefinition": "Having successive letters joined together.",
+    "simpleDefinition": "Written with the letters joined together in a flowing style.",
     "banglaMeaning": "টানা টানা হাতের লেখা (জড়ানো )",
     "synonyms": [
-      "written",
-      "longhand"
+      "flowing",
+      "joined",
+      "script",
+      "handwritten"
     ],
     "antonyms": [
-      "No common antonym"
+      "print",
+      "block letters",
+      "disconnected"
     ],
-    "example": "The student learned how to use cursive correctly in a sentence."
+    "example": "She wrote a beautiful letter in elegant cursive handwriting."
   },
   "cursory": {
     "word": "Cursory",
@@ -4070,51 +4645,62 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "curved": {
     "word": "Curved",
     "pos": "adjective",
-    "simpleDefinition": "Having a curve or curves; curving.",
-    "banglaMeaning": "বক্রেরেখা",
+    "simpleDefinition": "Having a rounded or bent shape rather than a straight line.",
+    "banglaMeaning": "বাঁকা, বক্র, ধনুকাকৃতি",
     "synonyms": [
-      "sinuous",
-      "sinuate",
-      "bowed"
+      "bent",
+      "arched",
+      "rounded",
+      "winding"
     ],
     "antonyms": [
-      "straight"
+      "straight",
+      "linear",
+      "flat"
     ],
-    "example": "The student learned how to use curved correctly in a sentence."
+    "example": "The road curved gently around the side of the mountain."
   },
   "cut and dried": {
     "word": "Cut and dried",
-    "pos": "adjective",
-    "simpleDefinition": "Simple, straightforward, clear, or certain.",
+    "pos": "idiom",
+    "simpleDefinition": "Already decided and therefore not open to discussion; simple and straightforward.",
     "banglaMeaning": "রুক্ষ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "predetermined",
+      "settled",
+      "straightforward",
+      "simple"
     ],
     "antonyms": [
-      "No common antonym"
+      "complex",
+      "debatable",
+      "open-ended"
     ],
-    "example": "The student learned how to use cut and dried correctly in a sentence."
+    "example": "The solution to the problem was not as cut and dried as they initially thought."
   },
   "cynic": {
     "word": "Cynic",
     "pos": "noun",
-    "simpleDefinition": "A person who believes that all people are motivated by selfishness.",
+    "simpleDefinition": "A person who believes that people are motivated purely by self-interest rather than acting for honorable or unselfish reasons.",
     "banglaMeaning": "যে র্সবদা অপরের ভূল ধরে",
     "synonyms": [
-      "Related to cynic",
-      "Similar"
+      "skeptic",
+      "pessimist",
+      "misanthrope",
+      "doubter"
     ],
     "antonyms": [
-      "No common antonym"
+      "idealist",
+      "optimist",
+      "believer"
     ],
-    "example": "The teacher gave an insightful explanation of cynic."
+    "example": "The cynic always found fault with every new proposal, believing it was driven by hidden agendas."
   },
   "cynical": {
     "word": "Cynical",
     "pos": "adjective",
     "simpleDefinition": "Believing that people are motivated solely by self-interest; distrustful",
-    "banglaMeaning": "সন্দেহবাতিক / মানববিদ্বেষী / বৈনরাশ্যবাদী",
+    "banglaMeaning": "অবিশ্বাসী, সন্দেহপ্রবণ, নৈরাশ্যবাদী",
     "synonyms": [
       "Skeptical",
       "Pessimistic",
@@ -4130,17 +4716,19 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "darken": {
     "word": "Darken",
     "pos": "verb",
-    "simpleDefinition": "To make dark or darker by reducing light.",
+    "simpleDefinition": "To make or become dark or darker.",
     "banglaMeaning": "অন্ধকার করা",
     "synonyms": [
-      "dim"
+      "dim",
+      "shade",
+      "obscure",
+      "cloud"
     ],
     "antonyms": [
-      "lighten",
-      "lighten up",
-      "brighten"
+      "brighten",
+      "lighten"
     ],
-    "example": "The student learned how to use darken correctly in a sentence."
+    "example": "The heavy clouds began to darken the sky before the storm."
   },
   "dauntless": {
     "word": "Dauntless",
@@ -4161,53 +4749,61 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "dead and buried": {
     "word": "Dead and buried",
-    "pos": "adjective",
-    "simpleDefinition": "Of an issue, moot, passed, irrelevant, forgotten.",
+    "pos": "idiom",
+    "simpleDefinition": "Completely finished, forgotten, or no longer relevant.",
     "banglaMeaning": "পুরোপুরি থেমে যাওয়া",
     "synonyms": [
-      "Related",
-      "Similar"
+      "obsolete",
+      "defunct",
+      "bygone",
+      "ended"
     ],
     "antonyms": [
-      "No common antonym"
+      "current",
+      "active",
+      "alive"
     ],
-    "example": "The student learned how to use dead and buried correctly in a sentence."
+    "example": "The old proposal for the new bridge is now dead and buried; they've chosen a different plan."
   },
   "dealings": {
     "word": "Dealings",
     "pos": "noun",
-    "simpleDefinition": "Business transactions.",
+    "simpleDefinition": "The way a person or organization behaves towards others in business or personal relationships.",
     "banglaMeaning": "আচরণ",
     "synonyms": [
-      "transaction",
+      "interactions",
+      "transactions",
       "relations",
-      "traffic"
+      "conduct"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use dealings correctly in a sentence."
+    "example": "His honest dealings with clients earned him a good reputation in the community."
   },
   "dearth": {
     "word": "Dearth",
     "pos": "noun",
-    "simpleDefinition": "Scarcity; a lack or short supply.",
-    "banglaMeaning": "অভাব / স্বস্ফতা",
+    "simpleDefinition": "A scarcity or lack of something.",
+    "banglaMeaning": "অভাব / স্বল্পতা",
     "synonyms": [
-      "paucity",
+      "scarcity",
       "shortage",
-      "famine"
+      "deficiency",
+      "insufficiency"
     ],
     "antonyms": [
-      "No common antonym"
+      "abundance",
+      "plenty",
+      "surplus"
     ],
-    "example": "The student learned how to use dearth correctly in a sentence."
+    "example": "There was a dearth of fresh water in the village after the long drought."
   },
   "debacle": {
     "word": "Debacle",
     "pos": "noun",
     "simpleDefinition": "A sudden, disastrous collapse or humiliating failure",
-    "banglaMeaning": "চরম বিপর্যয় / ভরাডুবি / ’ংস হওয়া / পতন হয়ে যাওয়া / মহাবিপর্যয়",
+    "banglaMeaning": "চরম বিপর্যয় / ভরাডুবি / পতন",
     "synonyms": [
       "Disaster",
       "Fiasco",
@@ -4223,61 +4819,72 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "debonair": {
     "word": "Debonair",
     "pos": "adjective",
-    "simpleDefinition": "Charming, confident, and carefully dressed.",
+    "simpleDefinition": "Confident, stylish, and charming.",
     "banglaMeaning": "সদা হাসি খুশি",
     "synonyms": [
-      "refined",
       "suave",
-      "cheerful"
+      "sophisticated",
+      "elegant",
+      "charming"
     ],
     "antonyms": [
-      "No common antonym"
+      "awkward",
+      "clumsy",
+      "unrefined"
     ],
-    "example": "The student learned how to use debonair correctly in a sentence."
+    "example": "The actor played a debonair secret agent who always looked impeccable."
   },
   "debris": {
     "word": "Debris",
     "pos": "noun",
-    "simpleDefinition": "Rubble, wreckage, scattered remains of something destroyed.",
-    "banglaMeaning": "’ংসাবশেষ",
+    "simpleDefinition": "Scattered pieces of waste or remains, especially after something has been destroyed.",
+    "banglaMeaning": "ধ্বংসাবশেষ",
     "synonyms": [
-      "Related to debris",
-      "Similar"
+      "rubble",
+      "wreckage",
+      "fragments",
+      "refuse"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The teacher gave an insightful explanation of debris."
+    "example": "After the earthquake, the streets were covered in debris from collapsed buildings."
   },
   "decay": {
     "word": "Decay",
-    "pos": "noun",
-    "simpleDefinition": "The process or result of being gradually decomposed; rot, decomposition.",
+    "pos": "verb",
+    "simpleDefinition": "To rot or decompose through the action of bacteria and fungi.",
     "banglaMeaning": "ক্ষয় হওয়া",
     "synonyms": [
-      "decline",
-      "disintegration",
-      "disintegrate"
+      "decompose",
+      "rot",
+      "spoil",
+      "deteriorate"
     ],
     "antonyms": [
-      "No common antonym"
+      "flourish",
+      "grow",
+      "improve"
     ],
-    "example": "The student learned how to use decay correctly in a sentence."
+    "example": "Without proper preservation, organic materials will quickly decay."
   },
   "deceit": {
     "word": "Deceit",
     "pos": "noun",
-    "simpleDefinition": "An act or practice intended to deceive; a trick.",
-    "banglaMeaning": "প্রতারনা",
+    "simpleDefinition": "The action or practice of deceiving someone by concealing or misrepresenting the truth.",
+    "banglaMeaning": "প্রতারণা",
     "synonyms": [
       "deception",
-      "misrepresentation",
-      "dissimulation"
+      "trickery",
+      "fraud",
+      "dishonesty"
     ],
     "antonyms": [
-      "No common antonym"
+      "honesty",
+      "truthfulness",
+      "sincerity"
     ],
-    "example": "The student learned how to use deceit correctly in a sentence."
+    "example": "The company was accused of deceit in its advertising claims."
   },
   "deceitful": {
     "word": "Deceitful",
@@ -4298,17 +4905,21 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "deceived": {
     "word": "Deceived",
-    "pos": "adjective",
-    "simpleDefinition": "A 1991 American psychological thriller film directed by Damian Harris.",
+    "pos": "verb",
+    "simpleDefinition": "To make someone believe something that is not true, often to gain an advantage.",
     "banglaMeaning": "প্রতারিত হওয়া বা করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "tricked",
+      "misled",
+      "duped",
+      "fooled"
     ],
     "antonyms": [
-      "No common antonym"
+      "enlightened",
+      "undeceived",
+      "informed"
     ],
-    "example": "The student learned how to use deceived correctly in a sentence."
+    "example": "She felt completely deceived when she found out he had been lying to her for months."
   },
   "deceptive": {
     "word": "Deceptive",
@@ -4330,31 +4941,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "defame": {
     "word": "Defame",
     "pos": "verb",
-    "simpleDefinition": "To harm or diminish the reputation of; to disparage.",
+    "simpleDefinition": "To damage the good reputation of someone by saying or writing bad things about them.",
     "banglaMeaning": "মানহানি",
     "synonyms": [
-      "denigrate",
       "slander",
-      "smirch"
+      "libel",
+      "malign",
+      "disparage"
     ],
     "antonyms": [
-      "No common antonym"
+      "praise",
+      "commend",
+      "glorify"
     ],
-    "example": "The student learned how to use defame correctly in a sentence."
+    "example": "He threatened to sue the newspaper for trying to defame his character."
   },
   "defensible": {
     "word": "Defensible",
     "pos": "adjective",
-    "simpleDefinition": "Capable of being justified.",
-    "banglaMeaning": "টকিানো বা টিকিয়ে রাখা যায় এমন",
+    "simpleDefinition": "Able to be protected against attack or criticism; justifiable.",
+    "banglaMeaning": "টিকিয়ে রাখা যায় এমন / সমর্থনযোগ্য",
     "synonyms": [
-      "invulnerable",
-      "defendable"
+      "justifiable",
+      "supportable",
+      "valid",
+      "sound"
     ],
     "antonyms": [
-      "No common antonym"
+      "indefensible",
+      "unjustifiable",
+      "untenable"
     ],
-    "example": "The student learned how to use defensible correctly in a sentence."
+    "example": "Her argument was well-researched and logically defensible."
   },
   "defer": {
     "word": "Defer",
@@ -4393,33 +5011,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "deflect": {
     "word": "Deflect",
     "pos": "verb",
-    "simpleDefinition": "To make (something) deviate from its original path or position.",
+    "simpleDefinition": "To cause something to change direction, especially after hitting something.",
     "banglaMeaning": "ঘুরে যাওয়া",
     "synonyms": [
-      "obviate",
-      "avert",
-      "avoid"
+      "divert",
+      "redirect",
+      "parry",
+      "turn aside"
     ],
     "antonyms": [
-      "No common antonym"
+      "attract",
+      "absorb",
+      "draw"
     ],
-    "example": "The student learned how to use deflect correctly in a sentence."
+    "example": "The goalkeeper managed to deflect the ball away from the goal."
   },
   "defy": {
     "word": "Defy",
     "pos": "verb",
-    "simpleDefinition": "To refuse to obey.",
+    "simpleDefinition": "To openly resist or refuse to obey.",
     "banglaMeaning": "বাধা দেয়া",
     "synonyms": [
-      "hold",
-      "refuse",
-      "resist"
+      "resist",
+      "challenge",
+      "disobey",
+      "flout"
     ],
     "antonyms": [
-      "apply",
-      "lend oneself"
+      "obey",
+      "comply",
+      "submit"
     ],
-    "example": "The student learned how to use defy correctly in a sentence."
+    "example": "The small nation continued to defy the demands of the larger power."
   },
   "degrade": {
     "word": "Degrade",
@@ -4441,17 +5064,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "deleterious": {
     "word": "Deleterious",
     "pos": "adjective",
-    "simpleDefinition": "Harmful, often in a subtle or unexpected way.",
+    "simpleDefinition": "Causing harm or damage.",
     "banglaMeaning": "ক্ষতিকর / অনিষ্টকর",
     "synonyms": [
       "harmful",
-      "noxious",
-      "injurious"
+      "detrimental",
+      "damaging",
+      "adverse"
     ],
     "antonyms": [
-      "No common antonym"
+      "beneficial",
+      "advantageous",
+      "helpful"
     ],
-    "example": "The student learned how to use deleterious correctly in a sentence."
+    "example": "Smoking has many deleterious effects on health."
   },
   "deliberate": {
     "word": "Deliberate",
@@ -4473,177 +5099,216 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "deliberately": {
     "word": "Deliberately",
     "pos": "adverb",
-    "simpleDefinition": "Intentionally, or after deliberation; not accidentally.",
+    "simpleDefinition": "Done on purpose, intentionally.",
     "banglaMeaning": "ইজ্ঞাকৃতভাবে",
     "synonyms": [
       "intentionally",
-      "purposely",
-      "measuredly"
+      "purposefully",
+      "consciously",
+      "knowingly"
     ],
     "antonyms": [
-      "unexpectedly",
+      "accidentally",
       "unintentionally",
-      "accidentally"
+      "inadvertently"
     ],
-    "example": "The student learned how to use deliberately correctly in a sentence."
+    "example": "He deliberately ignored her calls because he was angry."
   },
   "delicate": {
     "word": "Delicate",
     "pos": "adjective",
-    "simpleDefinition": "Easily damaged or requiring careful handling.",
+    "simpleDefinition": "Easily broken or damaged; fragile.",
     "banglaMeaning": "কোমল / উপাদেয়",
     "synonyms": [
-      "tender",
-      "exquisite",
-      "ethereal"
+      "fragile",
+      "dainty",
+      "subtle",
+      "fine"
     ],
     "antonyms": [
-      "rugged"
+      "robust",
+      "sturdy",
+      "coarse"
     ],
-    "example": "The student learned how to use delicate correctly in a sentence."
+    "example": "The antique vase was so delicate that she handled it with extreme care."
   },
   "delirious": {
     "word": "Delirious",
     "pos": "adjective",
-    "simpleDefinition": "Having uncontrolled excitement; ecstatic.",
+    "simpleDefinition": "In an extremely excited state, often due to illness or fever, causing confusion and incoherent speech.",
     "banglaMeaning": "বিকারগ্রস্থ",
     "synonyms": [
-      "wild",
-      "frantic",
-      "excited"
+      "feverish",
+      "incoherent",
+      "raving",
+      "ecstatic"
     ],
     "antonyms": [
-      "No common antonym"
+      "lucid",
+      "rational",
+      "calm"
     ],
-    "example": "The student learned how to use delirious correctly in a sentence."
+    "example": "After hours of high fever, the patient became delirious and started talking nonsense."
   },
   "delusive": {
     "word": "Delusive",
     "pos": "adjective",
-    "simpleDefinition": "Inappropriate to reality; forming part of a delusion.",
-    "banglaMeaning": "ভ্রানি্ত",
+    "simpleDefinition": "Giving a false or misleading impression.",
+    "banglaMeaning": "ভ্রান্তি",
     "synonyms": [
-      "false",
-      "unrealistic"
+      "misleading",
+      "deceptive",
+      "illusory",
+      "false"
     ],
     "antonyms": [
-      "No common antonym"
+      "realistic",
+      "truthful",
+      "accurate"
     ],
-    "example": "The student learned how to use delusive correctly in a sentence."
+    "example": "He held a delusive belief that he could win the lottery without buying a ticket."
   },
   "demagogue": {
     "word": "Demagogue",
     "pos": "noun",
-    "simpleDefinition": "A political orator or leader, especially in a democratic system, who gains favor by pandering to or exciting the passions and prejudices of the audience rather than by using rational argument.",
+    "simpleDefinition": "A political leader who seeks support by appealing to popular desires and prejudices rather than by using rational argument.",
     "banglaMeaning": "জননেতা",
     "synonyms": [
+      "agitator",
       "rabble-rouser",
-      "demagog"
+      "instigator",
+      "firebrand"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use demagogue correctly in a sentence."
+    "example": "The demagogue stirred up the crowd with promises of easy solutions to complex problems."
   },
   "demise": {
     "word": "Demise",
     "pos": "noun",
-    "simpleDefinition": "Death; decease.",
-    "banglaMeaning": "মৃতু্য",
+    "simpleDefinition": "The death of a person.",
+    "banglaMeaning": "মৃত্যু, অবসান",
     "synonyms": [
       "death",
-      "dying"
+      "passing",
+      "end",
+      "expiration"
     ],
     "antonyms": [
-      "birth"
+      "birth",
+      "beginning",
+      "origin"
     ],
-    "example": "The student learned how to use demise correctly in a sentence."
+    "example": "We were saddened to hear of the sudden demise of the beloved author."
   },
   "demobilize": {
     "word": "Demobilize",
     "pos": "verb",
-    "simpleDefinition": "To release someone from military duty, especially after a war.",
-    "banglaMeaning": "সামরিক দায়িধ থেকে অব্যাহতি দেয়া",
+    "simpleDefinition": "To release soldiers from military service and send them home.",
+    "banglaMeaning": "সামরিক দায়িত্ব থেকে অব্যাহতি দেয়া",
     "synonyms": [
-      "Related to demobilize",
-      "Similar"
+      "disband",
+      "disarm",
+      "discharge",
+      "deactivate"
     ],
     "antonyms": [
-      "No common antonym"
+      "mobilize",
+      "enlist",
+      "recruit"
     ],
-    "example": "The teacher gave an insightful explanation of demobilize."
+    "example": "After the war ended, the government began to demobilize thousands of troops."
   },
   "demolish": {
     "word": "Demolish",
     "pos": "verb",
-    "simpleDefinition": "To destroy (buildings, etc.), especially in a planned or intentional fashion.",
-    "banglaMeaning": "চূণর্ করা",
+    "simpleDefinition": "To completely destroy a building or other structure.",
+    "banglaMeaning": "চূর্ণ করা",
     "synonyms": [
-      "destroy"
+      "destroy",
+      "raze",
+      "dismantle",
+      "flatten"
     ],
     "antonyms": [
-      "No common antonym"
+      "build",
+      "construct",
+      "erect"
     ],
-    "example": "The student learned how to use demolish correctly in a sentence."
+    "example": "The old factory was demolished to make way for a new shopping center."
   },
   "demonstrative": {
     "word": "Demonstrative",
     "pos": "adjective",
-    "simpleDefinition": "That specifies the thing or person referred to.",
-    "banglaMeaning": "প্রমাণদায়ক",
+    "simpleDefinition": "Openly emotional or expressive, especially of affection.",
+    "banglaMeaning": "নির্দেশনামূলক, অনুভূতিপ্রবণ",
     "synonyms": [
-      "effusive",
+      "expressive",
       "emotional",
-      "informative"
+      "open",
+      "effusive"
     ],
     "antonyms": [
-      "undemonstrative"
+      "reserved",
+      "unexpressive",
+      "restrained"
     ],
-    "example": "The student learned how to use demonstrative correctly in a sentence."
+    "example": "She was a very demonstrative person, always hugging her friends and family."
   },
   "demur": {
     "word": "Demur",
     "pos": "verb",
-    "simpleDefinition": "Chiefly followed by to, and sometimes by at or on: to object or be reluctant; to balk, to take exception.",
-    "banglaMeaning": "আপতি্ত / আশংকা প্রকাশ করা",
+    "simpleDefinition": "To raise doubts or objections, or show reluctance.",
+    "banglaMeaning": "আপত্তি / আশংকা প্রকাশ করা",
     "synonyms": [
-      "demurrer",
-      "demurral",
-      "except"
+      "object",
+      "protest",
+      "hesitate",
+      "balk"
     ],
     "antonyms": [
-      "No common antonym"
+      "agree",
+      "accept",
+      "assent"
     ],
-    "example": "The student learned how to use demur correctly in a sentence."
+    "example": "She demurred at the suggestion that she should work extra hours without pay."
   },
   "denigrate": {
     "word": "Denigrate",
     "pos": "verb",
-    "simpleDefinition": "To criticise so as to besmirch; traduce, disparage or defame.",
+    "simpleDefinition": "To criticize unfairly; to disparage.",
     "banglaMeaning": "নিন্দা করা / অপবাদ দেয়া",
     "synonyms": [
+      "disparage",
       "belittle",
-      "derogate",
-      "slander"
+      "malign",
+      "defame"
     ],
     "antonyms": [
-      "No common antonym"
+      "praise",
+      "commend",
+      "laud"
     ],
-    "example": "The student learned how to use denigrate correctly in a sentence."
+    "example": "It's unfair to denigrate someone's efforts without understanding their challenges."
   },
   "denigration": {
     "word": "Denigration",
     "pos": "noun",
-    "simpleDefinition": "An unfair criticism.",
+    "simpleDefinition": "The act of saying negative and unfair things about someone or something to damage their reputation.",
     "banglaMeaning": "দুর্নাম",
     "synonyms": [
-      "belittling",
-      "deprecation"
+      "defamation",
+      "disparagement",
+      "slander",
+      "vilification"
     ],
     "antonyms": [
-      "No common antonym"
+      "praise",
+      "commendation",
+      "eulogy"
     ],
-    "example": "The student learned how to use denigration correctly in a sentence."
+    "example": "The politician faced denigration from his opponents during the election campaign."
   },
   "denounce": {
     "word": "Denounce",
@@ -4665,48 +5330,56 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "deny": {
     "word": "Deny",
     "pos": "verb",
-    "simpleDefinition": "To assert that something is not true.",
+    "simpleDefinition": "To state that something is not true, or to refuse to admit or accept something.",
     "banglaMeaning": "দৃঢ়ভাবে কোন কিছু অস্বীকার করা",
     "synonyms": [
-      "refuse",
-      "traverse"
+      "refute",
+      "contradict",
+      "disclaim",
+      "reject"
     ],
     "antonyms": [
-      "acknowledge",
       "admit",
-      "allow"
+      "affirm",
+      "confirm"
     ],
-    "example": "The student learned how to use deny correctly in a sentence."
+    "example": "She chose to deny the accusations, claiming she was innocent."
   },
   "depart": {
     "word": "Depart",
     "pos": "verb",
-    "simpleDefinition": "To leave.",
+    "simpleDefinition": "To leave a place, especially to start a journey.",
     "banglaMeaning": "স্থান ত্যাগ করা / গমন করা",
     "synonyms": [
-      "part",
-      "deviate",
-      "start"
+      "leave",
+      "exit",
+      "set off",
+      "go"
     ],
     "antonyms": [
-      "conform",
-      "come",
-      "stay"
+      "arrive",
+      "stay",
+      "remain"
     ],
-    "example": "The student learned how to use depart correctly in a sentence."
+    "example": "The train is scheduled to depart from platform 5 at 10:00 AM."
   },
   "deprecate": {
     "word": "Deprecate",
     "pos": "verb",
-    "simpleDefinition": "To express disapproval of, protest or plead against.",
+    "simpleDefinition": "To express disapproval of something, or to make something seem unimportant.",
     "banglaMeaning": "নিন্দা করা",
     "synonyms": [
-      "depreciate"
+      "disapprove",
+      "belittle",
+      "disparage",
+      "condemn"
     ],
     "antonyms": [
-      "No common antonym"
+      "praise",
+      "approve",
+      "commend"
     ],
-    "example": "The student learned how to use deprecate correctly in a sentence."
+    "example": "He tended to deprecate his own achievements, even when they were significant."
   },
   "deprive": {
     "word": "Deprive",
@@ -4745,59 +5418,72 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "derrick": {
     "word": "Derrick",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being derrick.",
-    "banglaMeaning": "ভার উত্তোলন যপ্স",
+    "simpleDefinition": "A type of crane used for lifting and moving heavy objects, often found on ships or oil rigs.",
+    "banglaMeaning": "ভার উত্তোলন যন্ত্র",
     "synonyms": [
-      "Related",
-      "Similar"
+      "crane",
+      "hoist",
+      "lift",
+      "boom"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use derrick correctly in a sentence."
+    "example": "Workers used a large derrick to lift the heavy machinery onto the ship."
   },
   "desert": {
     "word": "Desert",
-    "pos": "noun",
-    "simpleDefinition": "A barren area of land or desolate terrain, especially one with little water or vegetation; a wasteland.",
+    "pos": "verb",
+    "simpleDefinition": "To leave someone or something without help or support, especially when they need it.",
     "banglaMeaning": "ছেড়ে যাওয়া",
     "synonyms": [
-      "desolate",
-      "wild",
-      "lurch"
+      "abandon",
+      "forsake",
+      "leave",
+      "ditch"
     ],
     "antonyms": [
-      "No common antonym"
+      "support",
+      "assist",
+      "stay with"
     ],
-    "example": "The student learned how to use desert correctly in a sentence."
+    "example": "The soldiers were ordered not to desert their posts during the battle."
   },
   "desolation": {
     "word": "Desolation",
     "pos": "noun",
-    "simpleDefinition": "The state of being desolated or laid waste.",
+    "simpleDefinition": "A state of complete emptiness or destruction, or a feeling of great sadness and loneliness.",
     "banglaMeaning": "নিজর্ন",
     "synonyms": [
+      "bleakness",
+      "barrenness",
       "devastation",
-      "ruin",
-      "forlornness"
+      "loneliness"
     ],
     "antonyms": [
-      "No common antonym"
+      "vibrancy",
+      "cheerfulness",
+      "joy"
     ],
-    "example": "The student learned how to use desolation correctly in a sentence."
+    "example": "After the fire, the forest was a scene of utter desolation."
   },
   "despair": {
     "word": "Despair",
-    "pos": "verb",
-    "simpleDefinition": "To be hopeless; to have no hope; to give up all hope or expectation. [(often) with of].",
+    "pos": "noun",
+    "simpleDefinition": "The complete loss or absence of hope.",
     "banglaMeaning": "হতাশ",
     "synonyms": [
-      "desperation"
+      "hopelessness",
+      "desperation",
+      "gloom",
+      "dejection"
     ],
     "antonyms": [
-      "hope"
+      "hope",
+      "optimism",
+      "joy"
     ],
-    "example": "The student learned how to use despair correctly in a sentence."
+    "example": "Faced with so many challenges, she felt a deep sense of despair."
   },
   "despicable": {
     "word": "Despicable",
@@ -4819,86 +5505,110 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "destitute": {
     "word": "Destitute",
     "pos": "adjective",
-    "simpleDefinition": "Lacking money, poor, impoverished; especially, extremely so.",
+    "simpleDefinition": "Without money, food, a home, or possessions; extremely poor.",
     "banglaMeaning": "দরিদ্র",
     "synonyms": [
       "impoverished",
+      "penniless",
       "indigent",
       "needy"
     ],
     "antonyms": [
-      "No common antonym"
+      "wealthy",
+      "affluent",
+      "rich"
     ],
-    "example": "The student learned how to use destitute correctly in a sentence."
+    "example": "The war left thousands of people destitute and without shelter."
   },
   "destruction": {
     "word": "Destruction",
     "pos": "noun",
-    "simpleDefinition": "The act of destroying.",
-    "banglaMeaning": "’ংস",
+    "simpleDefinition": "The act of causing so much damage to something that it no longer exists or cannot be repaired.",
+    "banglaMeaning": "ধ্বংস",
     "synonyms": [
+      "demolition",
+      "ruin",
       "devastation",
-      "death",
-      "demolition"
+      "annihilation"
     ],
     "antonyms": [
-      "No common antonym"
+      "creation",
+      "construction",
+      "preservation"
     ],
-    "example": "The student learned how to use destruction correctly in a sentence."
+    "example": "The earthquake caused widespread destruction across the city."
   },
   "desultory": {
     "word": "Desultory",
     "pos": "adjective",
-    "simpleDefinition": "Jumping, or passing, from one thing or subject to another, without order, planning, or rational connection; lacking logical sequence.",
+    "simpleDefinition": "Lacking a plan, purpose, or enthusiasm; jumping from one thing to another without a clear focus.",
     "banglaMeaning": "নিয়মশৃংখলাহীন",
     "synonyms": [
-      "purposeless"
+      "aimless",
+      "haphazard",
+      "random",
+      "erratic"
     ],
     "antonyms": [
-      "No common antonym"
+      "methodical",
+      "systematic",
+      "focused"
     ],
-    "example": "The student learned how to use desultory correctly in a sentence."
+    "example": "He made a few desultory attempts to clean the room before giving up."
   },
   "deter": {
     "word": "Deter",
     "pos": "verb",
-    "simpleDefinition": "To prevent something from happening.",
+    "simpleDefinition": "To discourage someone from doing something, often by making them afraid or doubtful.",
     "banglaMeaning": "নিরুৎসাহিত করা",
     "synonyms": [
+      "discourage",
+      "hinder",
+      "prevent",
       "dissuade"
     ],
     "antonyms": [
-      "No common antonym"
+      "encourage",
+      "incite",
+      "persuade"
     ],
-    "example": "The teacher gave an insightful explanation of deter."
+    "example": "The high fences were meant to deter intruders from entering the property."
   },
   "devious": {
     "word": "Devious",
     "pos": "adjective",
-    "simpleDefinition": "Cunning or deceiving, not straightforward or honest, not frank.",
+    "simpleDefinition": "Using dishonest or indirect methods to achieve a goal, or not straightforward.",
     "banglaMeaning": "আঁকাবাঁকা",
     "synonyms": [
-      "oblique",
-      "circuitous",
-      "shifty"
+      "cunning",
+      "tricky",
+      "deceitful",
+      "circuitous"
     ],
     "antonyms": [
-      "No common antonym"
+      "straightforward",
+      "honest",
+      "direct"
     ],
-    "example": "The student learned how to use devious correctly in a sentence."
+    "example": "He used devious tactics to get what he wanted, often misleading others."
   },
   "devoid": {
     "word": "Devoid",
     "pos": "adjective",
-    "simpleDefinition": "Completely without; having none of.",
+    "simpleDefinition": "Completely lacking in something important or essential.",
     "banglaMeaning": "বজির্ত",
     "synonyms": [
-      "absent"
+      "lacking",
+      "empty",
+      "wanting",
+      "bare"
     ],
     "antonyms": [
-      "No common antonym"
+      "full",
+      "replete",
+      "abundant"
     ],
-    "example": "The student learned how to use devoid correctly in a sentence."
+    "example": "The speech was devoid of any real substance or new ideas."
   },
   "dexterous": {
     "word": "Dexterous",
@@ -4920,29 +5630,34 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "diagnosis": {
     "word": "Diagnosis",
     "pos": "noun",
-    "simpleDefinition": "The process of, or an instance of, identification of the nature and cause of a medical condition or illness.",
-    "banglaMeaning": "রোগ নিণর্য়",
+    "simpleDefinition": "The process of identifying the nature of an illness or other problem by examining the symptoms.",
+    "banglaMeaning": "রোগ নির্ণয়",
     "synonyms": [
-      "diagnosing"
+      "identification",
+      "analysis",
+      "assessment",
+      "determination"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use diagnosis correctly in a sentence."
+    "example": "The doctor's diagnosis confirmed that she had a common cold."
   },
   "dictator": {
     "word": "Dictator",
     "pos": "noun",
-    "simpleDefinition": "A totalitarian leader of a country, nation, or government.",
+    "simpleDefinition": "A ruler who has complete power over a country, typically one who has obtained control by force and allows no opposition.",
     "banglaMeaning": "একনায়ক",
     "synonyms": [
-      "potentate",
-      "authoritarian"
+      "tyrant",
+      "autocrat",
+      "absolute ruler",
+      "despot"
     ],
     "antonyms": [
-      "No common antonym"
+      "democrat"
     ],
-    "example": "The student learned how to use dictator correctly in a sentence."
+    "example": "The country suffered under the harsh rule of a military dictator for decades."
   },
   "diffident": {
     "word": "Diffident",
@@ -4964,30 +5679,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "dilemma": {
     "word": "Dilemma",
     "pos": "noun",
-    "simpleDefinition": "A circumstance in which a choice must be made between two or more alternatives that seem equally undesirable.",
+    "simpleDefinition": "A situation in which a difficult choice has to be made between two or more alternatives, especially equally undesirable ones.",
     "banglaMeaning": "উভয়সংকট",
     "synonyms": [
-      "quandary"
+      "predicament",
+      "quandary",
+      "difficult choice",
+      "bind"
     ],
     "antonyms": [
-      "No common antonym"
+      "solution",
+      "certainty",
+      "advantage"
     ],
-    "example": "The student learned how to use dilemma correctly in a sentence."
+    "example": "She faced a dilemma: either miss her friend's wedding or lose her job."
   },
   "dilettante": {
     "word": "Dilettante",
     "pos": "noun",
-    "simpleDefinition": "An amateur, someone who dabbles in a field out of casual interest rather than as a profession or serious interest.",
-    "banglaMeaning": "অপটুর্কমশী",
+    "simpleDefinition": "A person who cultivates an area of interest, such as art or music, without real commitment or knowledge.",
+    "banglaMeaning": "অপটুকর্মী",
     "synonyms": [
-      "superficial",
-      "dilettanteish",
-      "dilettantish"
+      "amateur",
+      "dabbler",
+      "novice",
+      "nonprofessional"
     ],
     "antonyms": [
-      "No common antonym"
+      "expert",
+      "professional",
+      "specialist"
     ],
-    "example": "The student learned how to use dilettante correctly in a sentence."
+    "example": "He was a dilettante in painting, enjoying it as a hobby but never mastering it."
   },
   "diligent": {
     "word": "Diligent",
@@ -5009,17 +5732,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "discarded": {
     "word": "Discarded",
     "pos": "adjective",
-    "simpleDefinition": "Disposed of as useless.",
+    "simpleDefinition": "Thrown away or gotten rid of because it is no longer wanted or useful.",
     "banglaMeaning": "বাদ দেয়া",
     "synonyms": [
-      "waste",
-      "useless",
-      "cast-off"
+      "rejected",
+      "abandoned",
+      "thrown out",
+      "disposed of"
     ],
     "antonyms": [
-      "No common antonym"
+      "kept",
+      "retained",
+      "cherished"
     ],
-    "example": "The student learned how to use discarded correctly in a sentence."
+    "example": "The children played with the discarded toys they found in the attic."
   },
   "discern": {
     "word": "Discern",
@@ -5041,47 +5767,56 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "discontented": {
     "word": "Discontented",
     "pos": "adjective",
-    "simpleDefinition": "Experiencing discontent, dissatisfaction.",
-    "banglaMeaning": "অস_ষ্ট / অতৃপ্ত",
+    "simpleDefinition": "Not satisfied or happy with your situation or with things as they are.",
+    "banglaMeaning": "অসন্তুষ্ট / অতৃপ্ত",
     "synonyms": [
-      "discontent",
-      "disgruntled",
-      "malcontent"
+      "dissatisfied",
+      "unhappy",
+      "displeased",
+      "restless"
     ],
     "antonyms": [
-      "contented"
+      "contented",
+      "satisfied",
+      "happy"
     ],
-    "example": "The student learned how to use discontented correctly in a sentence."
+    "example": "The workers became increasingly discontented with their low wages and long hours."
   },
   "discordant": {
     "word": "Discordant",
     "pos": "adjective",
-    "simpleDefinition": "Not in accord or harmony; conflicting, incompatible.",
-    "banglaMeaning": "ষ্কতিকটু",
+    "simpleDefinition": "Not in agreement or harmony; producing a harsh or unpleasant sound.",
+    "banglaMeaning": "শ্রুতিকটু",
     "synonyms": [
+      "clashing",
+      "jarring",
       "dissonant",
-      "discrepant",
-      "factious"
+      "conflicting"
     ],
     "antonyms": [
-      "accordant"
+      "harmonious",
+      "agreeable",
+      "consonant"
     ],
-    "example": "The student learned how to use discordant correctly in a sentence."
+    "example": "The discordant notes from the orchestra made the audience wince."
   },
   "discover": {
     "word": "Discover",
     "pos": "verb",
-    "simpleDefinition": "To find or learn something for the first time.",
-    "banglaMeaning": "আবিগ্ধার করা",
+    "simpleDefinition": "To find something unexpectedly or in the course of a search, or to learn about something for the first time.",
+    "banglaMeaning": "আবিষ্কার করা",
     "synonyms": [
-      "impart",
-      "break",
-      "strike"
+      "find",
+      "uncover",
+      "detect",
+      "reveal"
     ],
     "antonyms": [
-      "No common antonym"
+      "conceal",
+      "hide",
+      "overlook"
     ],
-    "example": "The student learned how to use discover correctly in a sentence."
+    "example": "Scientists hope to discover new planets capable of supporting life."
   },
   "discrepancy": {
     "word": "Discrepancy",
@@ -5120,31 +5855,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "disgraceful": {
     "word": "Disgraceful",
     "pos": "adjective",
-    "simpleDefinition": "Bringing or warranting disgrace; shameful.",
+    "simpleDefinition": "Very bad or unacceptable, causing shame or a loss of respect.",
     "banglaMeaning": "বাজে / অসুন্দর",
     "synonyms": [
-      "black",
-      "immoral",
-      "opprobrious"
+      "shameful",
+      "scandalous",
+      "dishonorable",
+      "appalling"
     ],
     "antonyms": [
-      "No common antonym"
+      "honorable",
+      "commendable",
+      "admirable"
     ],
-    "example": "The student learned how to use disgraceful correctly in a sentence."
+    "example": "His behavior at the party was absolutely disgraceful."
   },
   "disinterested": {
     "word": "Disinterested",
     "pos": "adjective",
-    "simpleDefinition": "Having no stake or interest in the outcome, and no conflicts of interest; free of bias, impartial.",
-    "banglaMeaning": "নিলির্প্ত",
+    "simpleDefinition": "Not influenced by personal feelings, opinions, or advantages; impartial.",
+    "banglaMeaning": "নিরপেক্ষ, পক্ষপাতহীন, নিঃস্বার্থ",
     "synonyms": [
-      "fair",
-      "impartial"
+      "impartial",
+      "unbiased",
+      "objective",
+      "neutral"
     ],
     "antonyms": [
-      "No common antonym"
+      "biased",
+      "prejudiced",
+      "partial"
     ],
-    "example": "The student learned how to use disinterested correctly in a sentence."
+    "example": "A judge must remain disinterested to ensure a fair trial."
   },
   "dismal": {
     "word": "Dismal",
@@ -5166,35 +5908,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "dismay": {
     "word": "Dismay",
     "pos": "noun",
-    "simpleDefinition": "A sudden or complete loss of courage and firmness in the face of trouble or danger; overwhelming and disabling terror; a sinking of the spirits.",
-    "banglaMeaning": "আতটি্টত করা / মর্মাহত করা",
+    "simpleDefinition": "A feeling of shock and unhappiness, often caused by something unexpected.",
+    "banglaMeaning": "আতঙ্কিত করা / মর্মাহত করা",
     "synonyms": [
-      "appall",
+      "alarm",
+      "shock",
       "consternation",
-      "alarm"
+      "distress"
     ],
     "antonyms": [
-      "elate",
-      "uplift",
-      "lift up"
+      "calm",
+      "relief",
+      "happiness"
     ],
-    "example": "The student learned how to use dismay correctly in a sentence."
+    "example": "To her dismay, the package she was expecting never arrived."
   },
   "disparage": {
     "word": "Disparage",
     "pos": "verb",
-    "simpleDefinition": "To dishonor by a comparison with what is inferior; to lower in rank or estimation by actions or words; to speak slightingly of; to depreciate; to undervalue.",
+    "simpleDefinition": "To speak about someone or something in a way that shows you do not respect them or that makes them seem less important.",
     "banglaMeaning": "কাউকে ছোট / তুজ্ঞ করা / নিন্দা করা / অপবাদ দেয়া",
     "synonyms": [
       "belittle",
-      "pick at",
-      "find fault with"
+      "demean",
+      "deprecate",
+      "decry"
     ],
     "antonyms": [
-      "blandish",
-      "flatter"
+      "praise",
+      "commend",
+      "laud"
     ],
-    "example": "The student learned how to use disparage correctly in a sentence."
+    "example": "It's unfair to disparage someone's efforts without understanding the challenges they faced."
   },
   "disparate": {
     "word": "Disparate",
@@ -5216,163 +5961,200 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "disparity": {
     "word": "Disparity",
     "pos": "noun",
-    "simpleDefinition": "The state of being unequal; difference.",
-    "banglaMeaning": "বৈবসাদৃশ্য",
+    "simpleDefinition": "A great difference between two or more things, especially an unfair difference.",
+    "banglaMeaning": "অসাম্য, বৈষম্য, পার্থক্য",
     "synonyms": [
-      "Related",
-      "Similar"
+      "inequality",
+      "imbalance",
+      "discrepancy",
+      "divergence"
     ],
     "antonyms": [
-      "No common antonym"
+      "equality",
+      "similarity",
+      "parity"
     ],
-    "example": "The student learned how to use disparity correctly in a sentence."
+    "example": "The disparity in wealth between the rich and the poor continues to grow."
   },
   "dispatch": {
     "word": "Dispatch",
     "pos": "verb",
-    "simpleDefinition": "To send (a shipment) with promptness.",
-    "banglaMeaning": "কারো উদে্দেশে কোন কিছু পাঠানো",
+    "simpleDefinition": "To send someone or something quickly to a particular place for a specific purpose.",
+    "banglaMeaning": "কারো উদ্দেশ্যে কোন কিছু পাঠানো",
     "synonyms": [
-      "discharge",
-      "complete",
-      "expedition"
+      "send",
+      "transmit",
+      "forward",
+      "expedite"
     ],
     "antonyms": [
-      "No common antonym"
+      "receive",
+      "retain",
+      "withhold"
     ],
-    "example": "The student learned how to use dispatch correctly in a sentence."
+    "example": "The emergency services were dispatched to the scene of the accident immediately."
   },
   "disperse": {
     "word": "Disperse",
     "pos": "verb",
-    "simpleDefinition": "To scatter in different directions.",
-    "banglaMeaning": "ছত্রভণ্ট",
+    "simpleDefinition": "To spread out over a wide area, or to cause something to spread out.",
+    "banglaMeaning": "ছত্রভঙ্গ",
     "synonyms": [
-      "disseminate",
-      "propagate",
+      "scatter",
+      "spread",
+      "diffuse",
       "dissipate"
     ],
     "antonyms": [
-      "No common antonym"
+      "gather",
+      "assemble",
+      "collect"
     ],
-    "example": "The student learned how to use disperse correctly in a sentence."
+    "example": "The police used tear gas to disperse the crowd of protesters."
   },
   "disputation": {
     "word": "Disputation",
     "pos": "noun",
-    "simpleDefinition": "The act of disputing; a dispute or argument.",
+    "simpleDefinition": "A formal argument or debate, especially one that is public or academic.",
     "banglaMeaning": "বিতর্ক",
     "synonyms": [
       "debate",
-      "public debate"
+      "argument",
+      "contention",
+      "controversy"
     ],
     "antonyms": [
-      "No common antonym"
+      "agreement",
+      "harmony",
+      "consensus"
     ],
-    "example": "The student learned how to use disputation correctly in a sentence."
+    "example": "The scientific community engaged in a lengthy disputation over the new theory."
   },
   "dissipate": {
     "word": "Dissipate",
     "pos": "verb",
-    "simpleDefinition": "To drive away, disperse.",
+    "simpleDefinition": "To gradually disappear or cause something to disappear, or to waste money, time, or energy.",
     "banglaMeaning": "দূর করা / অপচয় করা",
     "synonyms": [
-      "Related to dissipate",
-      "Similar"
+      "vanish",
+      "scatter",
+      "squander",
+      "waste"
     ],
     "antonyms": [
-      "No common antonym"
+      "accumulate",
+      "gather",
+      "conserve"
     ],
-    "example": "The teacher gave an insightful explanation of dissipate."
+    "example": "The morning fog began to dissipate as the sun rose higher."
   },
   "distasteful": {
     "word": "Distasteful",
     "pos": "adjective",
-    "simpleDefinition": "Unpleasant.",
+    "simpleDefinition": "Unpleasant or offensive, causing a feeling of dislike or disapproval.",
     "banglaMeaning": "অপছন্দনীয়",
     "synonyms": [
-      "wicked",
-      "loathsome",
-      "foul"
+      "unpleasant",
+      "offensive",
+      "objectionable",
+      "disagreeable"
     ],
     "antonyms": [
-      "No common antonym"
+      "pleasant",
+      "agreeable",
+      "delightful"
     ],
-    "example": "The student learned how to use distasteful correctly in a sentence."
+    "example": "Many found his comments about the situation to be quite distasteful."
   },
   "distract": {
     "word": "Distract",
     "pos": "verb",
-    "simpleDefinition": "To divert the attention of.",
+    "simpleDefinition": "To take someone's attention away from what they are doing or should be doing.",
     "banglaMeaning": "বিভ্রান্ত করা",
     "synonyms": [
-      "disquiet",
-      "trouble",
-      "deflect"
+      "divert",
+      "sidetrack",
+      "preoccupy",
+      "disturb"
     ],
     "antonyms": [
-      "No common antonym"
+      "focus",
+      "concentrate",
+      "engage"
     ],
-    "example": "The student learned how to use distract correctly in a sentence."
+    "example": "Loud music can easily distract me when I'm trying to study."
   },
   "distraught": {
     "word": "Distraught",
     "pos": "adjective",
-    "simpleDefinition": "Deeply hurt, saddened, or worried; incapacitated by distress.",
-    "banglaMeaning": "অত্যধিক বিমষর্",
+    "simpleDefinition": "So upset and worried that you cannot think clearly or behave normally.",
+    "banglaMeaning": "অত্যধিক বিমর্ষ",
     "synonyms": [
       "agitated",
-      "overwrought"
+      "distressed",
+      "frantic",
+      "overwhelmed"
     ],
     "antonyms": [
-      "No common antonym"
+      "calm",
+      "composed",
+      "serene"
     ],
-    "example": "The student learned how to use distraught correctly in a sentence."
+    "example": "She was distraught after losing her pet and couldn't stop crying."
   },
   "divergence": {
     "word": "Divergence",
     "pos": "noun",
-    "simpleDefinition": "The state or degree of being divergent: of diverging.",
-    "banglaMeaning": "কেন্দচু্যতি",
+    "simpleDefinition": "The process or fact of separating and going in different directions, or of becoming different.",
+    "banglaMeaning": "অপসরণ, বিচ্যুতি, কেন্দ্র থেকে দূরে সরে যাওয়া, মতপার্থক্য",
     "synonyms": [
-      "discrepancy",
+      "separation",
       "deviation",
-      "departure"
+      "difference",
+      "split"
     ],
     "antonyms": [
-      "No common antonym"
+      "convergence",
+      "agreement",
+      "similarity"
     ],
-    "example": "The student learned how to use divergence correctly in a sentence."
+    "example": "There was a clear divergence of opinion among the committee members on the new policy."
   },
   "diversion": {
     "word": "Diversion",
     "pos": "noun",
-    "simpleDefinition": "A hobby; an activity that distracts the mind.",
+    "simpleDefinition": "The act of changing the direction or use of something, or something that takes your attention away from serious matters.",
     "banglaMeaning": "গতিপরিবর্তন / অপসারণ",
     "synonyms": [
-      "deviation",
-      "recreation",
-      "digression"
+      "detour",
+      "distraction",
+      "entertainment",
+      "recreation"
     ],
     "antonyms": [
-      "No common antonym"
+      "focus",
+      "directness",
+      "concentration"
     ],
-    "example": "The student learned how to use diversion correctly in a sentence."
+    "example": "The road closure caused a diversion, making our journey longer."
   },
   "divine": {
     "word": "Divine",
     "pos": "adjective",
-    "simpleDefinition": "Of or pertaining to a god.",
-    "banglaMeaning": "স্বগর্শীয়",
+    "simpleDefinition": "Relating to or coming from God or a god, or extremely good or pleasing.",
+    "banglaMeaning": "ঈশ্বরীয়",
     "synonyms": [
-      "glorious",
+      "heavenly",
       "sacred",
-      "elysian"
+      "holy",
+      "sublime"
     ],
     "antonyms": [
-      "No common antonym"
+      "earthly",
+      "human",
+      "profane"
     ],
-    "example": "The student learned how to use divine correctly in a sentence."
+    "example": "Many ancient cultures believed in the divine power of nature."
   },
   "divulge": {
     "word": "Divulge",
@@ -5411,46 +6193,56 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "doctrine": {
     "word": "Doctrine",
     "pos": "noun",
-    "simpleDefinition": "The body of teachings of an ideology, most often a religion, or of an ideological or religious leader, organization, group, or text.",
+    "simpleDefinition": "A belief or set of beliefs held and taught by a church, political party, or other group.",
     "banglaMeaning": "মতবাদ",
     "synonyms": [
-      "philosophy",
-      "ism",
-      "school of thought"
+      "creed",
+      "dogma",
+      "principle",
+      "tenet"
     ],
     "antonyms": [
-      "No common antonym"
+      "heresy",
+      "disbelief",
+      "doubt"
     ],
-    "example": "The student learned how to use doctrine correctly in a sentence."
+    "example": "The political party's doctrine emphasized individual liberty and free markets."
   },
   "dotage": {
     "word": "Dotage",
     "pos": "noun",
-    "simpleDefinition": "Decline in judgment and other cognitive functions, associated with aging; senility.",
+    "simpleDefinition": "The period of life when a person is old and has become weak and confused.",
     "banglaMeaning": "ভীমরতি",
     "synonyms": [
-      "second childhood",
-      "senility"
+      "old age",
+      "senility",
+      "decline",
+      "feebleness"
     ],
     "antonyms": [
-      "No common antonym"
+      "youth",
+      "prime",
+      "vigor"
     ],
-    "example": "The student learned how to use dotage correctly in a sentence."
+    "example": "In his dotage, he often forgot where he had put his keys."
   },
   "drowsiness": {
     "word": "Drowsiness",
     "pos": "noun",
-    "simpleDefinition": "The state of being drowsy.",
+    "simpleDefinition": "A state of feeling sleepy and not fully awake.",
     "banglaMeaning": "আলস্য",
     "synonyms": [
-      "somnolence",
-      "sleepiness"
+      "sleepiness",
+      "lethargy",
+      "sluggishness",
+      "somnolence"
     ],
     "antonyms": [
-      "sleeplessness",
-      "wakefulness"
+      "alertness",
+      "wakefulness",
+      "vigor"
     ],
-    "example": "The student learned how to use drowsiness correctly in a sentence."
+    "example": "The medication caused a feeling of drowsiness, so she avoided driving."
   },
   "dubious": {
     "word": "Dubious",
@@ -5472,45 +6264,56 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "dubiousness": {
     "word": "Dubiousness",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being dubiousness.",
-    "banglaMeaning": "অনিহ্নয়তা",
+    "simpleDefinition": "The state of being doubtful or questionable, or not entirely trustworthy.",
+    "banglaMeaning": "অনিশ্চয়তা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "doubt",
+      "uncertainty",
+      "skepticism",
+      "unreliability"
     ],
     "antonyms": [
-      "No common antonym"
+      "certainty",
+      "reliability",
+      "trustworthiness"
     ],
-    "example": "The student learned how to use dubiousness correctly in a sentence."
+    "example": "The dubiousness of his claims made the jury question his testimony."
   },
   "duffer": {
     "word": "Duffer",
     "pos": "noun",
-    "simpleDefinition": "An incompetent, indolent, or clumsy person.",
-    "banglaMeaning": "নিবের্াধ লোক",
+    "simpleDefinition": "A person who is clumsy, incompetent, or stupid, especially at a particular activity.",
+    "banglaMeaning": "নির্বোধ লোক",
     "synonyms": [
-      "Related",
-      "Similar"
+      "bungler",
+      "amateur",
+      "incompetent",
+      "simpleton"
     ],
     "antonyms": [
-      "No common antonym"
+      "expert",
+      "master",
+      "prodigy"
     ],
-    "example": "The student learned how to use duffer correctly in a sentence."
+    "example": "He called himself a duffer at golf, always hitting the ball into the rough."
   },
   "dullard": {
     "word": "Dullard",
     "pos": "noun",
-    "simpleDefinition": "A stupid person; a fool.",
+    "simpleDefinition": "A slow or stupid person.",
     "banglaMeaning": "বোকা জাতীয়",
     "synonyms": [
-      "stupid",
+      "simpleton",
+      "blockhead",
       "dolt",
-      "bore"
+      "dunce"
     ],
     "antonyms": [
-      "No common antonym"
+      "genius",
+      "intellectual",
+      "prodigy"
     ],
-    "example": "The student learned how to use dullard correctly in a sentence."
+    "example": "The teacher patiently explained the concept again for the dullard in the back row."
   },
   "duplicity": {
     "word": "Duplicity",
@@ -5532,45 +6335,56 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "easygoing": {
     "word": "Easygoing",
     "pos": "adjective",
-    "simpleDefinition": "Calm, relaxed, casual and informal.",
+    "simpleDefinition": "Relaxed, tolerant, and not easily worried, annoyed, or upset.",
     "banglaMeaning": "বাধ্য / সহজে মেনে নেয়া",
     "synonyms": [
-      "mellow",
-      "leisurely",
-      "easy"
+      "relaxed",
+      "laid-back",
+      "calm",
+      "agreeable"
     ],
     "antonyms": [
-      "No common antonym"
+      "uptight",
+      "tense",
+      "demanding"
     ],
-    "example": "The student learned how to use easygoing correctly in a sentence."
+    "example": "Her easygoing nature made her a popular friend and colleague."
   },
   "eat drink and be merry": {
     "word": "Eat drink and be merry",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being eat drink and be merry.",
-    "banglaMeaning": "খাও / দাও ফুতির্ করা জাতীয় ব্যক্তি",
+    "pos": "idiom",
+    "simpleDefinition": "To enjoy oneself fully, especially without worrying about the future.",
+    "banglaMeaning": "খাওয়া-দাওয়া ও ফূর্তি করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "live it up",
+      "celebrate",
+      "revel",
+      "indulge"
     ],
     "antonyms": [
-      "No common antonym"
+      "worry",
+      "abstain",
+      "economize"
     ],
-    "example": "The student learned how to use eat drink and be merry correctly in a sentence."
+    "example": "After finishing the difficult project, they decided to eat, drink, and be merry for the evening."
   },
   "eat into vitals": {
     "word": "Eat into vitals",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being eat into vitals.",
+    "pos": "idiom",
+    "simpleDefinition": "To gradually destroy or weaken something essential, or to cause deep and lasting damage.",
     "banglaMeaning": "ছিন্ন করা / ব্যাঘাত করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "erode",
+      "undermine",
+      "corrode",
+      "debilitate"
     ],
     "antonyms": [
-      "No common antonym"
+      "strengthen",
+      "fortify",
+      "build up"
     ],
-    "example": "The student learned how to use eat into vitals correctly in a sentence."
+    "example": "The constant stress began to eat into his vitals, affecting his health."
   },
   "eccentric": {
     "word": "Eccentric",
@@ -5609,17 +6423,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "effeminacy": {
     "word": "Effeminacy",
     "pos": "noun",
-    "simpleDefinition": "The quality of being effeminate.",
+    "simpleDefinition": "The quality in a man of having characteristics that are traditionally considered feminine.",
     "banglaMeaning": "মেয়েলী স্বভাব",
     "synonyms": [
-      "effeminateness",
-      "womanishness",
+      "delicacy",
+      "softness",
+      "daintiness",
       "unmanliness"
     ],
     "antonyms": [
-      "No common antonym"
+      "masculinity",
+      "manliness",
+      "virility"
     ],
-    "example": "The student learned how to use effeminacy correctly in a sentence."
+    "example": "Some critics unfairly associated his artistic style with effeminacy."
   },
   "effervescent": {
     "word": "Effervescent",
@@ -5640,33 +6457,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "effusive": {
     "word": "Effusive",
     "pos": "adjective",
-    "simpleDefinition": "Gushy; unrestrained, extravagant or excessive (in emotional expression).",
-    "banglaMeaning": "উচ্ছাস প্রবণ",
+    "simpleDefinition": "Expressing feelings of gratitude, pleasure, or approval in an unrestrained or heartfelt manner.",
+    "banglaMeaning": "উচ্ছ্বাসপ্রবণ",
     "synonyms": [
-      "emotional",
       "gushing",
+      "enthusiastic",
+      "exuberant",
       "demonstrative"
     ],
     "antonyms": [
-      "No common antonym"
+      "reserved",
+      "restrained",
+      "subdued"
     ],
-    "example": "The student learned how to use effusive correctly in a sentence."
+    "example": "She gave an effusive thank-you speech after receiving the award."
   },
   "egoistic": {
     "word": "Egoistic",
     "pos": "adjective",
-    "simpleDefinition": "Egoistical.",
+    "simpleDefinition": "Excessively conceited or self-centered; concerned only with one's own interests.",
     "banglaMeaning": "স্বার্থপর",
     "synonyms": [
-      "egocentric",
+      "selfish",
       "self-centered",
-      "self-absorbed"
+      "conceited",
+      "narcissistic"
     ],
     "antonyms": [
       "altruistic",
-      "selfless"
+      "selfless",
+      "humble"
     ],
-    "example": "The student learned how to use egoistic correctly in a sentence."
+    "example": "His egoistic attitude made it difficult for him to work well in a team."
   },
   "egregious": {
     "word": "Egregious",
@@ -5688,104 +6510,123 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "elated": {
     "word": "Elated",
     "pos": "adjective",
-    "simpleDefinition": "Extremely happy and excited; delighted; pleased, euphoric.",
+    "simpleDefinition": "Extremely happy and excited, often because of a success or achievement.",
     "banglaMeaning": "অত্যন্ত আনন্দত",
     "synonyms": [
-      "sublime",
-      "joyful",
-      "high"
+      "overjoyed",
+      "thrilled",
+      "ecstatic",
+      "jubilant"
     ],
     "antonyms": [
-      "dejected"
+      "depressed",
+      "dejected",
+      "miserable"
     ],
-    "example": "The student learned how to use elated correctly in a sentence."
+    "example": "She was absolutely elated when she heard the news of her promotion."
   },
   "elective": {
     "word": "Elective",
     "pos": "adjective",
-    "simpleDefinition": "Of, or pertaining to voting or elections; involving a choice between options.",
+    "simpleDefinition": "chosen by election or by choice; not required.",
     "banglaMeaning": "নির্বাচক",
     "synonyms": [
       "optional",
-      "elected",
-      "electoral"
+      "discretionary",
+      "voluntary",
+      "non-compulsory"
     ],
     "antonyms": [
-      "appointed",
-      "appointive"
+      "compulsory",
+      "mandatory",
+      "required"
     ],
-    "example": "The student learned how to use elective correctly in a sentence."
+    "example": "Students can choose two elective courses in their final year."
   },
   "electorate": {
     "word": "Electorate",
     "pos": "noun",
-    "simpleDefinition": "The collective people of a country, state, or electoral district who are entitled to vote.",
+    "simpleDefinition": "all the people in a country or area who are allowed to vote in an election.",
     "banglaMeaning": "নির্বাচকমধ্নলী",
     "synonyms": [
-      "Related",
-      "Similar"
+      "voters",
+      "constituents",
+      "body of voters"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use electorate correctly in a sentence."
+    "example": "The electorate will decide the next leader in the upcoming election."
   },
   "electrify": {
     "word": "Electrify",
     "pos": "verb",
-    "simpleDefinition": "To make, perform, or engage in electrify.",
-    "banglaMeaning": "উতে্তজিত করা",
+    "simpleDefinition": "to make someone feel very excited or shocked; to supply with electricity.",
+    "banglaMeaning": "উত্তেজিত করা",
     "synonyms": [
-      "wire"
+      "excite",
+      "thrill",
+      "invigorate",
+      "charge"
     ],
     "antonyms": [
-      "No common antonym"
+      "bore",
+      "dull",
+      "calm"
     ],
-    "example": "The student learned how to use electrify correctly in a sentence."
+    "example": "The band's energetic performance truly electrified the crowd."
   },
   "elegy": {
     "word": "Elegy",
     "pos": "noun",
-    "simpleDefinition": "A mournful or plaintive poem; a funeral song; a poem of lamentation.",
-    "banglaMeaning": "শোকগাঁথা / বিষাদসণ্টীত",
+    "simpleDefinition": "a sad poem or song, often written to express sorrow for someone who has died.",
+    "banglaMeaning": "শোকগাথা / বিষাদসংগীত",
     "synonyms": [
-      "lament"
+      "lament",
+      "dirge",
+      "threnody",
+      "requiem"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use elegy correctly in a sentence."
+    "example": "The poet wrote a beautiful elegy for his departed friend."
   },
   "elevate": {
     "word": "Elevate",
     "pos": "verb",
-    "simpleDefinition": "To raise (something) to a higher position.",
+    "simpleDefinition": "to raise something or someone to a higher position or level; to improve the quality or status of something.",
     "banglaMeaning": "উত্তোলন করা / উন্নীত করা",
     "synonyms": [
-      "advance",
-      "promote",
-      "raise"
+      "raise",
+      "lift",
+      "hoist",
+      "promote"
     ],
     "antonyms": [
-      "break",
       "lower",
-      "relegate"
+      "depress",
+      "demote"
     ],
-    "example": "The student learned how to use elevate correctly in a sentence."
+    "example": "The company decided to elevate her to a managerial position."
   },
   "elocution": {
     "word": "Elocution",
     "pos": "noun",
-    "simpleDefinition": "The art of public speaking with expert control of gesture and voice, etc.",
-    "banglaMeaning": "বাচনভণি্ট",
+    "simpleDefinition": "the skill of clear and expressive speech, especially in public speaking.",
+    "banglaMeaning": "বাচনভঙ্গি",
     "synonyms": [
-      "Related to elocution",
-      "Similar"
+      "articulation",
+      "diction",
+      "rhetoric",
+      "oratory"
     ],
     "antonyms": [
-      "No common antonym"
+      "stammering",
+      "mumbling",
+      "inarticulateness"
     ],
-    "example": "The teacher gave an insightful explanation of elocution."
+    "example": "Her elocution was so perfect that every word she spoke was clear and impactful."
   },
   "eloquent": {
     "word": "Eloquent",
@@ -5824,44 +6665,55 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "elusiveness": {
     "word": "Elusiveness",
     "pos": "noun",
-    "simpleDefinition": "The state of being elusive.",
+    "simpleDefinition": "the quality of being difficult to find, catch, or achieve; the state of being hard to understand or remember.",
     "banglaMeaning": "বুঝতে বা ষ্মরণ করতে কষ্টকর এমন",
     "synonyms": [
-      "Related",
-      "Similar"
+      "evasiveness",
+      "slipperiness",
+      "intangibility",
+      "mystery"
     ],
     "antonyms": [
-      "No common antonym"
+      "clarity",
+      "tangibility",
+      "accessibility"
     ],
-    "example": "The student learned how to use elusiveness correctly in a sentence."
+    "example": "The elusiveness of the suspect made the police investigation very challenging."
   },
   "embezzlement": {
     "word": "Embezzlement",
     "pos": "noun",
-    "simpleDefinition": "The fraudulent conversion of property from a property owner.",
+    "simpleDefinition": "the act of secretly taking money that belongs to an organization or company where you work.",
     "banglaMeaning": "অর্থ আত্মসাৎ",
     "synonyms": [
-      "misappropriation"
+      "fraud",
+      "defalcation",
+      "misappropriation",
+      "theft"
     ],
     "antonyms": [
-      "No common antonym"
+      "restitution",
+      "repayment",
+      "honesty"
     ],
-    "example": "The teacher gave an insightful explanation of embezzlement."
+    "example": "He was arrested for embezzlement after stealing funds from the charity."
   },
   "emigrant": {
     "word": "Emigrant",
     "pos": "noun",
-    "simpleDefinition": "Someone who leaves a country to settle in a new country.",
+    "simpleDefinition": "a person who leaves their own country to live permanently in another.",
     "banglaMeaning": "দেশান্তরী",
     "synonyms": [
-      "outgoer",
-      "emigre",
-      "emigree"
+      "expatriate",
+      "migrant",
+      "defector",
+      "settler"
     ],
     "antonyms": [
-      "No common antonym"
+      "immigrant",
+      "native"
     ],
-    "example": "The student learned how to use emigrant correctly in a sentence."
+    "example": "Many emigrants sent money back to their families in their home country."
   },
   "eminent": {
     "word": "Eminent",
@@ -5900,118 +6752,144 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "empirical": {
     "word": "Empirical",
     "pos": "adjective",
-    "simpleDefinition": "Pertaining to or based on experience, as opposed to theory.",
+    "simpleDefinition": "based on, concerned with, or verifiable by observation or experience rather than theory or pure logic.",
     "banglaMeaning": "গবেষণামূলক",
     "synonyms": [
-      "Related",
-      "Similar"
+      "experimental",
+      "observational",
+      "practical",
+      "factual"
     ],
     "antonyms": [
-      "No common antonym"
+      "theoretical",
+      "hypothetical",
+      "unproven"
     ],
-    "example": "The student learned how to use empirical correctly in a sentence."
+    "example": "The scientist relied on empirical data to support her conclusions."
   },
   "emulation": {
     "word": "Emulation",
     "pos": "noun",
-    "simpleDefinition": "The endeavor or desire to equal or excel someone else in qualities or actions.",
+    "simpleDefinition": "the act of trying to be like someone or something else, often because you admire them.",
     "banglaMeaning": "অনুকরণীয়",
     "synonyms": [
-      "Related",
-      "Similar"
+      "imitation",
+      "copying",
+      "rivalry",
+      "mirroring"
     ],
     "antonyms": [
-      "No common antonym"
+      "originality",
+      "uniqueness",
+      "divergence"
     ],
-    "example": "The student learned how to use emulation correctly in a sentence."
+    "example": "Younger athletes often strive for emulation of their sports heroes."
   },
   "enamoured": {
     "word": "Enamoured",
     "pos": "adjective",
-    "simpleDefinition": "UK, Australia, New Zealand, and Canada spelling of enamored.",
-    "banglaMeaning": "পে্রমমুঞ্ছ",
+    "simpleDefinition": "filled with a feeling of love for someone or a strong liking for something.",
+    "banglaMeaning": "প্রেমমুগ্ধ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "captivated",
+      "charmed",
+      "smitten",
+      "infatuated"
     ],
     "antonyms": [
-      "No common antonym"
+      "repulsed",
+      "disgusted",
+      "indifferent"
     ],
-    "example": "The student learned how to use enamoured correctly in a sentence."
+    "example": "He became completely enamoured with the beautiful scenery of the mountains."
   },
   "encomium": {
     "word": "Encomium",
     "pos": "noun",
-    "simpleDefinition": "Warm praise, especially a formal expression of such praise; a tribute.",
+    "simpleDefinition": "a speech or piece of writing that praises someone or something highly.",
     "banglaMeaning": "উচ্চ প্রশংসা",
     "synonyms": [
+      "praise",
+      "tribute",
       "eulogy",
-      "paean",
-      "panegyric"
+      "commendation"
     ],
     "antonyms": [
-      "No common antonym"
+      "criticism",
+      "denunciation",
+      "condemnation"
     ],
-    "example": "The student learned how to use encomium correctly in a sentence."
+    "example": "The mayor delivered an encomium for the retiring police chief."
   },
   "encumber": {
     "word": "Encumber",
     "pos": "verb",
-    "simpleDefinition": "To restrict or block something with a hindrance or impediment.",
+    "simpleDefinition": "to make it difficult for someone to move or do something; to burden or hinder.",
     "banglaMeaning": "পথরোধ করা",
     "synonyms": [
-      "constrain",
-      "restrain",
-      "cumber"
+      "burden",
+      "hinder",
+      "impede",
+      "obstruct"
     ],
     "antonyms": [
-      "No common antonym"
+      "assist",
+      "facilitate",
+      "lighten"
     ],
-    "example": "The student learned how to use encumber correctly in a sentence."
+    "example": "The heavy backpack encumbered her movements as she climbed the steep hill."
   },
   "encyclopedia": {
     "word": "Encyclopedia",
     "pos": "noun",
-    "simpleDefinition": "A comprehensive reference work (often spanning several printed volumes) with articles (usually arranged in alphabetical order, or sometimes arranged by category) on a range of subjects, sometimes general, sometimes limited to a particular field.",
+    "simpleDefinition": "a book or set of books giving information on many subjects or on many aspects of one subject, typically arranged alphabetically.",
     "banglaMeaning": "বিশ্বকোষ",
     "synonyms": [
-      "Related to encyclopedia",
-      "Similar"
+      "compendium",
+      "lexicon",
+      "thesaurus",
+      "reference work"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "His life's work was a four-volume encyclopedia of aviation topics."
+    "example": "She looked up the definition of the word in the encyclopedia."
   },
   "endurable": {
     "word": "Endurable",
     "pos": "adjective",
-    "simpleDefinition": "Able to be endured; tolerable; bearable.",
+    "simpleDefinition": "able to be tolerated or borne; capable of being sustained.",
     "banglaMeaning": "সহনীয় / টেকসই",
     "synonyms": [
       "tolerable",
+      "bearable",
       "sufferable",
-      "supportable"
+      "sustainable"
     ],
     "antonyms": [
-      "No common antonym"
+      "unbearable",
+      "intolerable",
+      "insufferable"
     ],
-    "example": "The student learned how to use endurable correctly in a sentence."
+    "example": "The pain was endurable, but she still wished it would go away."
   },
   "enduring": {
     "word": "Enduring",
     "pos": "adjective",
-    "simpleDefinition": "Long-lasting without significant alteration; continuing through time in the same relative state.",
+    "simpleDefinition": "lasting over a long period of time; continuing to exist.",
     "banglaMeaning": "স্থায়ী",
     "synonyms": [
-      "abiding",
       "lasting",
-      "imperishable"
+      "permanent",
+      "persistent",
+      "durable"
     ],
     "antonyms": [
-      "No common antonym"
+      "fleeting",
+      "temporary",
+      "transient"
     ],
-    "example": "The student learned how to use enduring correctly in a sentence."
+    "example": "The novel's enduring popularity proves its timeless appeal."
   },
   "enervate": {
     "word": "Enervate",
@@ -6050,22 +6928,26 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "enhance": {
     "word": "Enhance",
     "pos": "verb",
-    "simpleDefinition": "To augment or make something greater.",
-    "banglaMeaning": "বৃদি্ধ করা",
+    "simpleDefinition": "to improve the quality, value, or extent of something.",
+    "banglaMeaning": "বৃদ্ধি করা",
     "synonyms": [
-      "raise",
-      "heighten"
+      "improve",
+      "boost",
+      "augment",
+      "elevate"
     ],
     "antonyms": [
-      "No common antonym"
+      "diminish",
+      "reduce",
+      "worsen"
     ],
-    "example": "The student learned how to use enhance correctly in a sentence."
+    "example": "Good lighting can greatly enhance the atmosphere of a room."
   },
   "enigmatic": {
     "word": "Enigmatic",
     "pos": "adjective",
     "simpleDefinition": "Difficult to interpret, understand, or explain; mysterious",
-    "banglaMeaning": "রহস্যময় / বিভ্রান্তিকর / বিভ্রানি্তকর",
+    "banglaMeaning": "রহস্যময় / বিভ্রান্তিকর / বিভ্রান্তিকর",
     "synonyms": [
       "Mysterious",
       "Puzzling",
@@ -6081,76 +6963,91 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "enlarge": {
     "word": "Enlarge",
     "pos": "verb",
-    "simpleDefinition": "To make (something) larger.",
-    "banglaMeaning": "দীঘর্ায়িত করা",
+    "simpleDefinition": "to make something bigger or more extensive.",
+    "banglaMeaning": "দীর্ঘায়িত করা",
     "synonyms": [
-      "expound",
-      "expatiate",
-      "expand"
+      "expand",
+      "extend",
+      "magnify",
+      "broaden"
     ],
     "antonyms": [
+      "shrink",
       "reduce",
-      "scale down"
+      "contract"
     ],
-    "example": "The student learned how to use enlarge correctly in a sentence."
+    "example": "They decided to enlarge their house by adding another room."
   },
   "enormous": {
     "word": "Enormous",
     "pos": "adjective",
-    "simpleDefinition": "Extremely large; greatly exceeding the common size, extent, etc.",
+    "simpleDefinition": "very large in size, quantity, or extent.",
     "banglaMeaning": "বিশাল",
     "synonyms": [
-      "tremendous",
-      "large",
-      "big"
+      "huge",
+      "massive",
+      "colossal",
+      "gigantic"
     ],
     "antonyms": [
-      "No common antonym"
+      "tiny",
+      "small",
+      "miniature"
     ],
-    "example": "The student learned how to use enormous correctly in a sentence."
+    "example": "The company made an enormous profit last quarter."
   },
   "entertain": {
     "word": "Entertain",
     "pos": "verb",
-    "simpleDefinition": "To amuse (someone); to engage the attention of agreeably.",
+    "simpleDefinition": "to provide amusement or enjoyment for someone; to host guests.",
     "banglaMeaning": "আপ্যায়ন",
     "synonyms": [
-      "hold",
-      "nurse",
-      "think about"
+      "amuse",
+      "delight",
+      "host",
+      "divert"
     ],
     "antonyms": [
-      "No common antonym"
+      "bore",
+      "displease",
+      "neglect"
     ],
-    "example": "The student learned how to use entertain correctly in a sentence."
+    "example": "They often entertain friends at their home on weekends."
   },
   "enthralling": {
     "word": "Enthralling",
     "pos": "adjective",
-    "simpleDefinition": "Exciting and absorbing.",
-    "banglaMeaning": "বিমুঞ্ছ",
+    "simpleDefinition": "Capturing and holding one's full attention; utterly fascinating and charming.",
+    "banglaMeaning": "মুগ্ধকর",
     "synonyms": [
-      "captivating",
-      "attractive",
-      "enchanting"
+      "Fascinating",
+      "Charming",
+      "Captivating",
+      "Mesmerizing"
     ],
     "antonyms": [
-      "No common antonym"
+      "Boring",
+      "Dull",
+      "Tedious"
     ],
-    "example": "The student learned how to use enthralling correctly in a sentence."
+    "example": "The novelist gave an enthralling reading that kept the audience spellbound."
   },
   "entrepreneur": {
     "word": "Entrepreneur",
     "pos": "noun",
-    "simpleDefinition": "A person who sets up a business; generally, a person who owns and manages a business and assumes its financial risks.",
-    "banglaMeaning": "উদে্যাক্তা",
+    "simpleDefinition": "a person who starts a business, taking on financial risks in the hope of profit.",
+    "banglaMeaning": "উদ্যোক্তা",
     "synonyms": [
-      "enterpriser"
+      "businessperson",
+      "founder",
+      "innovator",
+      "capitalist"
     ],
     "antonyms": [
-      "No common antonym"
+      "employee",
+      "worker"
     ],
-    "example": "The student learned how to use entrepreneur correctly in a sentence."
+    "example": "She is a successful entrepreneur who launched several tech startups."
   },
   "enumerate": {
     "word": "Enumerate",
@@ -6172,17 +7069,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "enunciate": {
     "word": "Enunciate",
     "pos": "verb",
-    "simpleDefinition": "To articulate, pronounce.",
-    "banglaMeaning": "উচ্চারন করা",
+    "simpleDefinition": "to pronounce words clearly and distinctly; to express a theory or idea clearly.",
+    "banglaMeaning": "উচ্চারণ করা",
     "synonyms": [
       "articulate",
-      "enounce",
-      "pronounce"
+      "pronounce",
+      "vocalize",
+      "express"
     ],
     "antonyms": [
-      "No common antonym"
+      "mumble",
+      "stammer",
+      "slur"
     ],
-    "example": "The student learned how to use enunciate correctly in a sentence."
+    "example": "Please enunciate your words clearly so everyone can understand you."
   },
   "ephemeral": {
     "word": "Ephemeral",
@@ -6203,133 +7103,159 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "epicurean": {
     "word": "Epicurean",
-    "pos": "noun",
-    "simpleDefinition": "One who is devoted to pleasure.",
+    "pos": "adjective",
+    "simpleDefinition": "devoted to the pursuit of sensual pleasure, especially in fine food and drink.",
     "banglaMeaning": "ইন্দয় সুখে বিশ্বাসী",
     "synonyms": [
-      "voluptuous",
-      "indulgent",
-      "luxurious"
+      "hedonistic",
+      "gourmet",
+      "pleasure-seeking",
+      "sybaritic"
     ],
     "antonyms": [
-      "No common antonym"
+      "ascetic",
+      "abstemious",
+      "austere"
     ],
-    "example": "The student learned how to use epicurean correctly in a sentence."
+    "example": "He lived an epicurean lifestyle, always seeking out the finest culinary experiences."
   },
   "episodic": {
     "word": "Episodic",
     "pos": "adjective",
-    "simpleDefinition": "Relating to an episode.",
+    "simpleDefinition": "Happening or appearing at irregular intervals; not continuous.",
     "banglaMeaning": "অনিয়মিত",
     "synonyms": [
-      "impermanent",
-      "temporary",
-      "divided"
+      "intermittent",
+      "sporadic",
+      "occasional",
+      "irregular"
     ],
     "antonyms": [
-      "No common antonym"
+      "continuous",
+      "constant",
+      "regular"
     ],
-    "example": "The student learned how to use episodic correctly in a sentence."
+    "example": "Her memory loss was episodic, meaning she would forget things sometimes but not always."
   },
   "epitaph": {
     "word": "Epitaph",
     "pos": "noun",
-    "simpleDefinition": "An inscription on a gravestone in memory of the deceased.",
+    "simpleDefinition": "A short text written on a tombstone or monument in memory of a deceased person.",
     "banglaMeaning": "সমাধিস্তশ্র লিপি",
     "synonyms": [
-      "Related",
-      "Similar"
+      "inscription",
+      "memorial",
+      "elegy",
+      "commemoration"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use epitaph correctly in a sentence."
+    "example": "The epitaph on the old soldier's grave read, 'A life well-lived, a duty well-done.'"
   },
   "epithet": {
     "word": "Epithet",
     "pos": "noun",
-    "simpleDefinition": "A term used to characterize a person or thing.",
+    "simpleDefinition": "A descriptive word or phrase expressing a quality or characteristic of the person or thing mentioned. It can be used positively or negatively.",
     "banglaMeaning": "ডাকনাম / উপাধি",
     "synonyms": [
-      "name"
+      "appellation",
+      "designation",
+      "label",
+      "nickname"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use epithet correctly in a sentence."
+    "example": "'The Great' was an epithet often used to describe powerful rulers in history."
   },
   "epitome": {
     "word": "Epitome",
     "pos": "noun",
-    "simpleDefinition": "The embodiment or encapsulation of a class of items.",
-    "banglaMeaning": "সংকি্ষপ্ত",
+    "simpleDefinition": "A perfect example of a particular quality or type; a summary of a larger work.",
+    "banglaMeaning": "সংক্ষিপ্ত",
     "synonyms": [
-      "paradigm",
-      "image",
-      "prototype"
+      "embodiment",
+      "archetype",
+      "essence",
+      "model"
     ],
     "antonyms": [
-      "No common antonym"
+      "expansion",
+      "antithesis"
     ],
-    "example": "The student learned how to use epitome correctly in a sentence."
+    "example": "With her kindness and intelligence, she was the epitome of a perfect leader."
   },
   "equanimity": {
     "word": "Equanimity",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being equanimity.",
-    "banglaMeaning": "প্রশানি্ত",
+    "simpleDefinition": "Calmness and composure, especially in a difficult situation.",
+    "banglaMeaning": "মানসিক স্থিরতা, প্রশান্তি, ধীরস্থির ভাব",
     "synonyms": [
-      "Related",
-      "Similar"
+      "composure",
+      "serenity",
+      "tranquility",
+      "poise"
     ],
     "antonyms": [
-      "No common antonym"
+      "agitation",
+      "anxiety",
+      "panic"
     ],
-    "example": "The student learned how to use equanimity correctly in a sentence."
+    "example": "Despite the chaos around her, she maintained her equanimity and calmly solved the problem."
   },
   "equilibrate": {
     "word": "Equilibrate",
     "pos": "verb",
-    "simpleDefinition": "To balance, or bring into equilibrium.",
+    "simpleDefinition": "To bring into or be in a state of balance.",
     "banglaMeaning": "ভারসাম্য",
     "synonyms": [
       "balance",
-      "equilibrize"
+      "stabilize",
+      "equalize",
+      "poise"
     ],
     "antonyms": [
-      "unbalance"
+      "unbalance",
+      "destabilize"
     ],
-    "example": "The student learned how to use equilibrate correctly in a sentence."
+    "example": "The engineer worked to equilibrate the forces acting on the bridge to ensure its stability."
   },
   "equip": {
     "word": "Equip",
     "pos": "verb",
-    "simpleDefinition": "To supply with something necessary in order to carry out a specific action or task; to provide with (e.g. weapons, provisions, munitions, rigging).",
-    "banglaMeaning": "প্রশ্চত করা / সনি্ত্যত করা",
+    "simpleDefinition": "To provide someone or something with the necessary items for a particular purpose.",
+    "banglaMeaning": "প্রস্তুত করা / সজ্জিত করা",
     "synonyms": [
-      "fit",
+      "furnish",
+      "supply",
       "outfit",
-      "fit out"
+      "provide"
     ],
     "antonyms": [
-      "No common antonym"
+      "strip",
+      "disarm",
+      "divest"
     ],
-    "example": "The student learned how to use equip correctly in a sentence."
+    "example": "Before the expedition, they needed to equip themselves with warm clothing and camping gear."
   },
   "equitable": {
     "word": "Equitable",
     "pos": "adjective",
-    "simpleDefinition": "Fair, just, or impartial.",
-    "banglaMeaning": "ন্যায়সণ্টত",
+    "simpleDefinition": "Fair and impartial; treating everyone equally.",
+    "banglaMeaning": "ন্যায়সঙ্গত",
     "synonyms": [
+      "fair",
       "just",
-      "evenhanded"
+      "impartial",
+      "unbiased"
     ],
     "antonyms": [
-      "inequitable",
+      "unfair",
+      "biased",
       "unjust"
     ],
-    "example": "The student learned how to use equitable correctly in a sentence."
+    "example": "The judge made an equitable decision, ensuring both parties felt heard and respected."
   },
   "equivocal": {
     "word": "Equivocal",
@@ -6368,23 +7294,26 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "errant": {
     "word": "Errant",
     "pos": "adjective",
-    "simpleDefinition": "Straying from the proper course or standard, or outside established limits.",
-    "banglaMeaning": "ভ্রমণরত",
+    "simpleDefinition": "Straying from the proper course or standards; behaving wrongly.",
+    "banglaMeaning": "ভুল পথে চালিত, বিপথগামী, নৈতিকতা বর্জিত",
     "synonyms": [
-      "fallible",
-      "erring",
-      "error-prone"
+      "wandering",
+      "straying",
+      "wayward",
+      "misbehaving"
     ],
     "antonyms": [
-      "No common antonym"
+      "correct",
+      "proper",
+      "dutiful"
     ],
-    "example": "The student learned how to use errant correctly in a sentence."
+    "example": "The teacher disciplined the errant student for disrupting the class."
   },
   "erratic": {
     "word": "Erratic",
     "pos": "adjective",
     "simpleDefinition": "Not even or regular in pattern or movement; unpredictable",
-    "banglaMeaning": "অনিয়মিত / খেয়ালী / থটপিূণর্ / উস্নাপাস্না",
+    "banglaMeaning": "অনিয়মিত / খেয়ালী / খামখেয়ালী",
     "synonyms": [
       "Irregular",
       "Unpredictable",
@@ -6399,153 +7328,181 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "escape": {
     "word": "Escape",
     "pos": "verb",
-    "simpleDefinition": "To get free; to free oneself.",
+    "simpleDefinition": "To get away from a place or a dangerous or undesirable situation.",
     "banglaMeaning": "পালিয়ে যাওয়া",
     "synonyms": [
-      "elude",
-      "miss",
-      "flight"
+      "flee",
+      "evade",
+      "abscond",
+      "break free"
     ],
     "antonyms": [
-      "No common antonym"
+      "capture",
+      "confront",
+      "remain"
     ],
-    "example": "The student learned how to use escape correctly in a sentence."
+    "example": "The deer managed to escape the hunter by running deep into the forest."
   },
   "espy": {
     "word": "Espy",
     "pos": "verb",
-    "simpleDefinition": "To find out or observe (someone or something, especially if not easy to see) by spying or looking; to catch sight of; to see; to spot.",
+    "simpleDefinition": "To catch sight of something, often something distant or hidden.",
     "banglaMeaning": "পর্যবেক্ষণ করা",
     "synonyms": [
+      "discern",
       "spot",
-      "descry",
-      "spy"
+      "glimpse",
+      "perceive"
     ],
     "antonyms": [
-      "No common antonym"
+      "overlook",
+      "miss",
+      "ignore"
     ],
-    "example": "The student learned how to use espy correctly in a sentence."
+    "example": "From the top of the hill, we could espy the distant city lights twinkling in the darkness."
   },
   "esteem": {
     "word": "Esteem",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being esteem.",
+    "pos": "verb",
+    "simpleDefinition": "To regard someone with respect and admiration.",
     "banglaMeaning": "সম্মান করা",
     "synonyms": [
-      "regard",
-      "value",
-      "respect"
+      "respect",
+      "admire",
+      "revere",
+      "value"
     ],
     "antonyms": [
-      "disesteem",
-      "disrespect"
+      "disdain",
+      "scorn",
+      "despise"
     ],
-    "example": "The student learned how to use esteem correctly in a sentence."
+    "example": "We esteem our elders for their wisdom and experience."
   },
   "estimate": {
     "word": "Estimate",
-    "pos": "noun",
-    "simpleDefinition": "A rough calculation or assessment of the value, size, or cost of something.",
+    "pos": "verb",
+    "simpleDefinition": "To roughly calculate or judge the value, number, quantity, or extent of something.",
     "banglaMeaning": "হিসাব",
     "synonyms": [
-      "idea",
-      "reckon",
-      "figure"
+      "calculate",
+      "approximate",
+      "gauge",
+      "assess"
     ],
     "antonyms": [
-      "No common antonym"
+      "pinpoint",
+      "determine"
     ],
-    "example": "The student learned how to use estimate correctly in a sentence."
+    "example": "It's difficult to estimate the exact cost of the project without more detailed plans."
   },
   "eternal": {
     "word": "Eternal",
     "pos": "adjective",
-    "simpleDefinition": "Lasting forever; unending.",
+    "simpleDefinition": "Lasting or existing forever; without end or beginning.",
     "banglaMeaning": "চিরন্তন",
     "synonyms": [
-      "perpetual",
       "everlasting",
-      "aeonian"
+      "perpetual",
+      "timeless",
+      "unending"
     ],
     "antonyms": [
-      "No common antonym"
+      "temporary",
+      "fleeting",
+      "transient"
     ],
-    "example": "The student learned how to use eternal correctly in a sentence."
+    "example": "Many cultures believe in the concept of an eternal soul that lives on after death."
   },
   "eulogistic": {
     "word": "Eulogistic",
     "pos": "adjective",
-    "simpleDefinition": "Conveying praise or admiration, as in a eulogy.",
+    "simpleDefinition": "Expressing high praise or commendation, often in a formal speech or writing.",
     "banglaMeaning": "উচ্চ প্রশংসাযোগ্য",
     "synonyms": [
+      "laudatory",
       "complimentary",
-      "panegyrical",
-      "panegyric"
+      "praising",
+      "adulatory"
     ],
     "antonyms": [
-      "No common antonym"
+      "critical",
+      "condemnatory",
+      "disparaging"
     ],
-    "example": "The student learned how to use eulogistic correctly in a sentence."
+    "example": "The eulogistic speech at the retirement party highlighted all of her achievements and contributions."
   },
   "euphonious": {
     "word": "Euphonious",
     "pos": "adjective",
-    "simpleDefinition": "Of sounds, especially speech: demonstrating or possessing euphony; agreeable to the ear; pleasant-sounding.",
+    "simpleDefinition": "Pleasing or sweet to the ear; having a pleasant sound.",
     "banglaMeaning": "সুমধুর",
     "synonyms": [
-      "soft",
-      "golden",
-      "silvern"
+      "melodious",
+      "harmonious",
+      "dulcet",
+      "musical"
     ],
     "antonyms": [
       "cacophonous",
-      "cacophonic"
+      "harsh",
+      "discordant"
     ],
-    "example": "The student learned how to use euphonious correctly in a sentence."
+    "example": "The poet chose euphonious words to create a beautiful and flowing verse."
   },
   "evaluate": {
     "word": "Evaluate",
     "pos": "verb",
-    "simpleDefinition": "To draw conclusions from examining; to assess; to appraise.",
+    "simpleDefinition": "To assess the value, quality, importance, or condition of something.",
     "banglaMeaning": "মূল্যায়ন করা",
     "synonyms": [
       "assess",
       "appraise",
-      "value"
+      "judge",
+      "gauge"
     ],
     "antonyms": [
-      "No common antonym"
+      "ignore",
+      "neglect",
+      "disregard"
     ],
-    "example": "The student learned how to use evaluate correctly in a sentence."
+    "example": "The committee will evaluate all the proposals before making a final decision."
   },
   "evanescent": {
     "word": "Evanescent",
     "pos": "adjective",
-    "simpleDefinition": "Disappearing, vanishing.",
+    "simpleDefinition": "Soon passing out of sight, memory, or existence; quickly fading or disappearing.",
     "banglaMeaning": "ক্ষনস্থায়ী",
     "synonyms": [
-      "impermanent",
-      "temporary"
+      "fleeting",
+      "transient",
+      "ephemeral",
+      "momentary"
     ],
     "antonyms": [
-      "No common antonym"
+      "permanent",
+      "lasting",
+      "enduring"
     ],
-    "example": "The student learned how to use evanescent correctly in a sentence."
+    "example": "The beauty of the sunset was evanescent, fading quickly as night approached."
   },
   "evasion": {
     "word": "Evasion",
     "pos": "noun",
-    "simpleDefinition": "The act of eluding or evading or avoiding, particularly the pressure of an argument, accusation, charge, or interrogation; artful means of eluding.",
+    "simpleDefinition": "The act of avoiding something, especially something unpleasant or difficult.",
     "banglaMeaning": "এড়িয়ে যাওয়া",
     "synonyms": [
-      "escape",
-      "equivocation",
-      "dodging"
+      "avoidance",
+      "dodging",
+      "circumvention",
+      "elusion"
     ],
     "antonyms": [
-      "No common antonym"
+      "confrontation",
+      "directness",
+      "honesty"
     ],
-    "example": "The student learned how to use evasion correctly in a sentence."
+    "example": "His constant evasion of the question made it clear he was hiding something."
   },
   "evasive": {
     "word": "Evasive",
@@ -6567,31 +7524,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "evenhanded": {
     "word": "Evenhanded",
     "pos": "adjective",
-    "simpleDefinition": "Fair and having no partiality; unbiased; just.",
+    "simpleDefinition": "Treating all rivals or disputants equally; fair and impartial.",
     "banglaMeaning": "নিরপেক্ষ",
     "synonyms": [
-      "just",
-      "equitable"
+      "impartial",
+      "fair",
+      "unbiased",
+      "objective"
     ],
     "antonyms": [
-      "No common antonym"
+      "biased",
+      "prejudiced",
+      "unfair"
     ],
-    "example": "The student learned how to use evenhanded correctly in a sentence."
+    "example": "The referee was praised for his evenhanded approach to the game, making calls fairly for both teams."
   },
   "evident": {
     "word": "Evident",
     "pos": "adjective",
-    "simpleDefinition": "Obviously true by simple observation.",
+    "simpleDefinition": "Clearly seen or understood; obvious.",
     "banglaMeaning": "স্পষ্ট",
     "synonyms": [
-      "manifest",
-      "plain",
-      "apparent"
+      "obvious",
+      "apparent",
+      "clear",
+      "manifest"
     ],
     "antonyms": [
-      "No common antonym"
+      "hidden",
+      "obscure",
+      "unclear"
     ],
-    "example": "The student learned how to use evident correctly in a sentence."
+    "example": "It was evident from her smile that she was happy with the news."
   },
   "exacerbate": {
     "word": "Exacerbate",
@@ -6613,135 +7577,164 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "exaggeration": {
     "word": "Exaggeration",
     "pos": "noun",
-    "simpleDefinition": "The act of exaggerating; the act of doing or representing in an excessive manner; a going beyond the bounds of truth, reason, or justice; a hyperbolical representation; hyperbole; overstatement.",
+    "simpleDefinition": "A statement that represents something as better or worse than it really is; overstating the truth.",
     "banglaMeaning": "বাড়িয়ে বলা",
     "synonyms": [
-      "hyperbole",
       "overstatement",
+      "hyperbole",
+      "embellishment",
       "magnification"
     ],
     "antonyms": [
-      "understatement"
+      "understatement",
+      "minimization",
+      "truth"
     ],
-    "example": "The student learned how to use exaggeration correctly in a sentence."
+    "example": "His story about catching a fish 'as big as a car' was a clear exaggeration."
   },
   "exaltation": {
     "word": "Exaltation",
     "pos": "noun",
-    "simpleDefinition": "The act of exalting or raising high; also, the state of being exalted; elevation.",
-    "banglaMeaning": "পর্দমযাদায় উন্নতিসাধন",
+    "simpleDefinition": "The action of elevating someone or something in rank, power, or character; a feeling of extreme happiness or joy.",
+    "banglaMeaning": "পদমর্যাদায় উন্নতিসাধন",
     "synonyms": [
-      "apotheosis",
-      "ecstasy",
-      "deification"
+      "elevation",
+      "glorification",
+      "praise",
+      "elation"
     ],
     "antonyms": [
-      "No common antonym"
+      "demotion",
+      "degradation",
+      "humiliation"
     ],
-    "example": "The student learned how to use exaltation correctly in a sentence."
+    "example": "The team felt a sense of exaltation after winning the championship."
   },
   "excessive": {
     "word": "Excessive",
     "pos": "adjective",
-    "simpleDefinition": "Exceeding the usual bounds of something; too much (of amount); extravagant; immoderate.",
+    "simpleDefinition": "More than is necessary, normal, or desirable; too much.",
     "banglaMeaning": "অতিরিক্ত",
     "synonyms": [
-      "exuberant",
-      "extravagant",
-      "unrestrained"
+      "immoderate",
+      "undue",
+      "extreme",
+      "superfluous"
     ],
     "antonyms": [
-      "No common antonym"
+      "insufficient",
+      "moderate",
+      "minimal"
     ],
-    "example": "The student learned how to use excessive correctly in a sentence."
+    "example": "The doctor warned him that excessive sugar consumption could lead to health problems."
   },
   "exclusion": {
     "word": "Exclusion",
     "pos": "noun",
-    "simpleDefinition": "The act of excluding or shutting out; removal from consideration or taking part.",
+    "simpleDefinition": "The act of preventing someone or something from being included or participating.",
     "banglaMeaning": "বজর্ন",
     "synonyms": [
-      "censure",
-      "expulsion",
-      "exception"
+      "omission",
+      "rejection",
+      "barring",
+      "prohibition"
     ],
     "antonyms": [
-      "inclusion"
+      "inclusion",
+      "admission",
+      "acceptance"
     ],
-    "example": "The student learned how to use exclusion correctly in a sentence."
+    "example": "The club's policy led to the exclusion of several potential members."
   },
   "exculpate": {
     "word": "Exculpate",
     "pos": "verb",
-    "simpleDefinition": "To clear of or to free from guilt; exonerate.",
+    "simpleDefinition": "To declare someone not guilty of wrongdoing; to clear from blame.",
     "banglaMeaning": "অভিযোগ হতে মুক্তি দেয়া",
     "synonyms": [
-      "clear",
-      "discharge",
-      "acquit"
+      "absolve",
+      "acquit",
+      "exonerate",
+      "vindicate"
     ],
     "antonyms": [
-      "convict"
+      "incriminate",
+      "accuse",
+      "blame"
     ],
-    "example": "The student learned how to use exculpate correctly in a sentence."
+    "example": "The new evidence helped to exculpate the suspect from all charges."
   },
   "exempt": {
     "word": "Exempt",
-    "pos": "noun",
-    "simpleDefinition": "One who has been released from something.",
+    "pos": "verb",
+    "simpleDefinition": "To free someone from an obligation or duty that others have.",
     "banglaMeaning": "রেহাই / অব্যাহতি দেয়া",
     "synonyms": [
-      "Related to exempt",
-      "Similar"
+      "excuse",
+      "release",
+      "absolve",
+      "relieve"
     ],
     "antonyms": [
-      "No common antonym"
+      "liable",
+      "responsible",
+      "subject"
     ],
-    "example": "The teacher gave an insightful explanation of exempt."
+    "example": "Students with perfect attendance were exempt from the final exam."
   },
   "exhausted": {
     "word": "Exhausted",
     "pos": "adjective",
-    "simpleDefinition": "Very tired; zonked (out).",
+    "simpleDefinition": "Extremely tired or completely used up.",
     "banglaMeaning": "নিঃশেষ হওয়া",
     "synonyms": [
+      "weary",
       "fatigued",
-      "tired",
-      "drained"
+      "drained",
+      "spent"
     ],
     "antonyms": [
-      "unexhausted"
+      "energetic",
+      "refreshed",
+      "invigorated"
     ],
-    "example": "The student learned how to use exhausted correctly in a sentence."
+    "example": "After running the marathon, the athlete felt completely exhausted."
   },
   "exhort": {
     "word": "Exhort",
     "pos": "verb",
-    "simpleDefinition": "To urge; to advise earnestly.",
-    "banglaMeaning": "উ্সাহিত করা / প্রণোদিত করা / আষ্ণান করা",
+    "simpleDefinition": "To strongly encourage or urge someone to do something.",
+    "banglaMeaning": "উৎসাহিত করা / আহ্বান করা",
     "synonyms": [
       "urge",
-      "press",
-      "cheer"
+      "advise",
+      "encourage",
+      "persuade"
     ],
     "antonyms": [
-      "No common antonym"
+      "deter",
+      "discourage",
+      "dissuade"
     ],
-    "example": "The student learned how to use exhort correctly in a sentence."
+    "example": "The coach exhorted his team to give their best effort in the second half."
   },
   "exigency": {
     "word": "Exigency",
     "pos": "noun",
-    "simpleDefinition": "The demands or requirements of a situation.",
+    "simpleDefinition": "An urgent need or demand; a situation requiring immediate attention.",
     "banglaMeaning": "জরুরী প্রয়োজন",
     "synonyms": [
-      "pinch",
-      "emergency"
+      "urgency",
+      "crisis",
+      "necessity",
+      "demand"
     ],
     "antonyms": [
-      "No common antonym"
+      "leisure",
+      "comfort",
+      "luxury"
     ],
-    "example": "The student learned how to use exigency correctly in a sentence."
+    "example": "The exigency of the situation required immediate action from the emergency services."
   },
   "exonerate": {
     "word": "Exonerate",
@@ -6763,32 +7756,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "exorbitant": {
     "word": "Exorbitant",
     "pos": "adjective",
-    "simpleDefinition": "Exceeding proper limits; excessive or unduly high; extravagant.",
+    "simpleDefinition": "(Of a price or amount) unreasonably high or excessive.",
     "banglaMeaning": "অতিরিক্ত",
     "synonyms": [
-      "outrageous",
+      "excessive",
+      "extravagant",
       "steep",
-      "immoderate"
+      "unreasonable"
     ],
     "antonyms": [
-      "No common antonym"
+      "reasonable",
+      "cheap",
+      "moderate"
     ],
-    "example": "The student learned how to use exorbitant correctly in a sentence."
+    "example": "The hotel charged an exorbitant price for a single night's stay."
   },
   "expand": {
     "word": "Expand",
     "pos": "verb",
-    "simpleDefinition": "To increase the extent, number, volume or scope of (something).",
-    "banglaMeaning": "আয়তনে বৃদি্ধ করা / বিস্তৃত করা",
+    "simpleDefinition": "To become or make larger or more extensive.",
+    "banglaMeaning": "আয়তনে বৃদ্ধি করা / বিস্তৃত করা",
     "synonyms": [
-      "expound",
-      "flourish",
-      "expatiate"
+      "enlarge",
+      "broaden",
+      "extend",
+      "grow"
     ],
     "antonyms": [
-      "No common antonym"
+      "contract",
+      "shrink",
+      "reduce"
     ],
-    "example": "The student learned how to use expand correctly in a sentence."
+    "example": "The company plans to expand its operations into new markets next year."
   },
   "expedient": {
     "word": "Expedient",
@@ -6810,30 +7809,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "expedite": {
     "word": "Expedite",
     "pos": "verb",
-    "simpleDefinition": "To accelerate the progress of.",
-    "banglaMeaning": "অগ্রগতি ধরাি:ত করা",
+    "simpleDefinition": "To make an action or process happen much faster.",
+    "banglaMeaning": "অগ্রগতি ত্বরান্বিত করা",
     "synonyms": [
-      "hasten"
+      "Speed up",
+      "Accelerate",
+      "Hasten",
+      "Quicken"
     ],
     "antonyms": [
-      "No common antonym"
+      "Delay",
+      "Hinder",
+      "Impede"
     ],
-    "example": "The student learned how to use expedite correctly in a sentence."
+    "example": "Paying an extra delivery fee will expedite the shipping of your package."
   },
   "expel": {
     "word": "Expel",
     "pos": "verb",
-    "simpleDefinition": "To eject.",
-    "banglaMeaning": "বহিগ্ধার করা",
+    "simpleDefinition": "To force someone to leave a place, especially a country or organization.",
+    "banglaMeaning": "বহিষ্কার করা",
     "synonyms": [
-      "discharge",
-      "rout",
-      "release"
+      "eject",
+      "banish",
+      "oust",
+      "remove"
     ],
     "antonyms": [
-      "No common antonym"
+      "admit",
+      "welcome",
+      "include"
     ],
-    "example": "The student learned how to use expel correctly in a sentence."
+    "example": "The student was expelled from school for repeated violations of the rules."
   },
   "explicit": {
     "word": "Explicit",
@@ -6855,60 +7862,72 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "exploration": {
     "word": "Exploration",
     "pos": "noun",
-    "simpleDefinition": "The process of exploring.",
+    "simpleDefinition": "The act of traveling in or through an unfamiliar area in order to learn about it.",
     "banglaMeaning": "অনুসন্ধান",
     "synonyms": [
-      "geographic expedition"
+      "discovery",
+      "investigation",
+      "survey",
+      "reconnaissance"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use exploration correctly in a sentence."
+    "example": "The deep-sea exploration revealed many new species of marine life."
   },
   "expose": {
     "word": "Expose",
     "pos": "verb",
-    "simpleDefinition": "To reveal, uncover, make visible, bring to light, introduce (to).",
+    "simpleDefinition": "To make something visible or known, especially something hidden or secret.",
     "banglaMeaning": "প্রকাশ করা",
     "synonyms": [
-      "impart",
-      "exhibit",
-      "display"
+      "reveal",
+      "uncover",
+      "disclose",
+      "unveil"
     ],
     "antonyms": [
+      "conceal",
+      "hide",
       "cover"
     ],
-    "example": "The student learned how to use expose correctly in a sentence."
+    "example": "The journalist worked to expose the corruption within the local government."
   },
   "expound": {
     "word": "Expound",
     "pos": "verb",
-    "simpleDefinition": "To set out the meaning of; to explain or discuss at length.",
+    "simpleDefinition": "To explain something in detail, often a theory or idea.",
     "banglaMeaning": "ব্যাখ্যা করা",
     "synonyms": [
-      "expatiate",
-      "expand",
-      "elaborate"
+      "explain",
+      "elaborate",
+      "clarify",
+      "interpret"
     ],
     "antonyms": [
-      "No common antonym"
+      "condense",
+      "simplify",
+      "obscure"
     ],
-    "example": "The student learned how to use expound correctly in a sentence."
+    "example": "The professor took time to expound on the complex philosophical concepts."
   },
   "extempore": {
     "word": "Extempore",
     "pos": "adjective",
-    "simpleDefinition": "Carried out with no preparation; impromptu.",
-    "banglaMeaning": "পূর্বপ্রশ্চতি ছাড়া কোন বক্তব্য দেয়া",
+    "simpleDefinition": "Spoken or done without preparation; impromptu.",
+    "banglaMeaning": "পূর্বপ্রস্তুতি ছাড়া দেওয়া বক্তব্য",
     "synonyms": [
-      "offhand",
-      "extemporaneous",
-      "off-the-cuff"
+      "impromptu",
+      "spontaneous",
+      "unrehearsed",
+      "improvised"
     ],
     "antonyms": [
-      "No common antonym"
+      "prepared",
+      "rehearsed",
+      "planned"
     ],
-    "example": "The student learned how to use extempore correctly in a sentence."
+    "example": "She delivered an impressive extempore speech at the conference."
   },
   "extol": {
     "word": "Extol",
@@ -6930,31 +7949,35 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "extradition": {
     "word": "Extradition",
     "pos": "noun",
-    "simpleDefinition": "A formal process by which a criminal suspect held by one government or jurisdiction is handed over to another government or jurisdiction for trial or, if the suspect has already been tried and found guilty, to serve his or her sentence.",
+    "simpleDefinition": "The official process by which a country sends a person accused or convicted of a crime to another country where the crime was committed.",
     "banglaMeaning": "আসামী হস্তান্তর",
     "synonyms": [
-      "Related",
-      "Similar"
+      "deportation",
+      "rendition",
+      "transfer"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use extradition correctly in a sentence."
+    "example": "The two nations signed a treaty to facilitate the extradition of criminals."
   },
   "extravagance": {
     "word": "Extravagance",
     "pos": "noun",
-    "simpleDefinition": "Excessive or superfluous expenditure of money.",
-    "banglaMeaning": "অমিতব্যয়ি / সীমালণ্ঠন",
+    "simpleDefinition": "The act of spending too much money or using too much of something; lack of restraint in spending.",
+    "banglaMeaning": "অমিতব্যয়িতা / অপব্যয়",
     "synonyms": [
-      "luxury",
+      "lavishness",
       "profligacy",
-      "prodigality"
+      "wastefulness",
+      "excess"
     ],
     "antonyms": [
-      "No common antonym"
+      "frugality",
+      "economy",
+      "moderation"
     ],
-    "example": "The student learned how to use extravagance correctly in a sentence."
+    "example": "Her extravagance led her to buy designer clothes she didn't need."
   },
   "extravagant": {
     "word": "Extravagant",
@@ -6976,17 +7999,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "extreme": {
     "word": "Extreme",
     "pos": "adjective",
-    "simpleDefinition": "In the greatest or highest degree; intense.",
+    "simpleDefinition": "Reaching the highest or greatest degree; very great.",
     "banglaMeaning": "চরম",
     "synonyms": [
       "intense",
-      "distant",
+      "severe",
+      "radical",
       "utmost"
     ],
     "antonyms": [
-      "No common antonym"
+      "moderate",
+      "mild",
+      "slight"
     ],
-    "example": "The student learned how to use extreme correctly in a sentence."
+    "example": "The climbers faced extreme weather conditions on the mountain."
   },
   "exuberant": {
     "word": "Exuberant",
@@ -7008,17 +8034,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "exult": {
     "word": "Exult",
     "pos": "verb",
-    "simpleDefinition": "To rejoice; to be very happy, especially in triumph; to triumph (over).",
+    "simpleDefinition": "To show great pleasure and excitement, especially after a victory or success.",
     "banglaMeaning": "অত্যন্ত আনন্দত",
     "synonyms": [
       "rejoice",
-      "jump for joy",
-      "walk on air"
+      "triumph",
+      "celebrate",
+      "gloat"
     ],
     "antonyms": [
-      "No common antonym"
+      "mourn",
+      "lament",
+      "grieve"
     ],
-    "example": "The student learned how to use exult correctly in a sentence."
+    "example": "The fans exulted as their team scored the winning goal in the final minute."
   },
   "fabricate": {
     "word": "Fabricate",
@@ -7040,76 +8069,90 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "facile": {
     "word": "Facile",
     "pos": "adjective",
-    "simpleDefinition": "Easy; contemptibly easy.",
+    "simpleDefinition": "Appearing neat and comprehensive only by ignoring the true complexities of an issue; easily achieved but often superficial.",
     "banglaMeaning": "সাবলীল",
     "synonyms": [
-      "articulate",
+      "simplistic",
       "superficial",
-      "eloquent"
+      "effortless",
+      "glib"
     ],
     "antonyms": [
-      "No common antonym"
+      "profound",
+      "complex",
+      "difficult"
     ],
-    "example": "The student learned how to use facile correctly in a sentence."
+    "example": "The politician offered a facile solution to a very complicated economic problem."
   },
   "facilitate": {
     "word": "Facilitate",
     "pos": "verb",
-    "simpleDefinition": "To make easy or easier.",
+    "simpleDefinition": "To make an action or process easier or less difficult.",
     "banglaMeaning": "সহজতর",
     "synonyms": [
-      "alleviate",
       "ease",
-      "help"
+      "simplify",
+      "assist",
+      "enable"
     ],
     "antonyms": [
-      "No common antonym"
+      "hinder",
+      "impede",
+      "obstruct"
     ],
-    "example": "The student learned how to use facilitate correctly in a sentence."
+    "example": "The new software will facilitate communication among team members."
   },
   "faculty": {
     "word": "Faculty",
     "pos": "noun",
-    "simpleDefinition": "The academic staff at schools, colleges, universities or not-for-profit research institutes, as opposed to the students or support staff.",
+    "simpleDefinition": "An inherent mental or physical power; also, a department or group of teachers in a university.",
     "banglaMeaning": "অনুষদ / র্কমদক্ষতা",
     "synonyms": [
-      "staff",
-      "module",
-      "mental faculty"
+      "ability",
+      "capacity",
+      "power",
+      "department"
     ],
     "antonyms": [
-      "No common antonym"
+      "inability",
+      "incapacity"
     ],
-    "example": "The student learned how to use faculty correctly in a sentence."
+    "example": "She has a remarkable faculty for learning new languages quickly."
   },
   "fade": {
     "word": "Fade",
     "pos": "verb",
-    "simpleDefinition": "To grow weak; to lose strength; to decay; to perish gradually; to wither, as a plant.",
-    "banglaMeaning": "বিবণর্ হওয়া",
+    "simpleDefinition": "To gradually grow faint, disappear, or lose color or brightness.",
+    "banglaMeaning": "বিবর্ণ হওয়া",
     "synonyms": [
-      "languish",
-      "pass",
-      "evanesce"
+      "diminish",
+      "vanish",
+      "wane",
+      "bleach"
     ],
     "antonyms": [
-      "No common antonym"
+      "brighten",
+      "intensify",
+      "appear"
     ],
-    "example": "The student learned how to use fade correctly in a sentence."
+    "example": "The old photographs had started to fade over time."
   },
   "famish": {
     "word": "Famish",
     "pos": "verb",
-    "simpleDefinition": "To suffer extreme hunger or thirst, so as to be exhausted in strength, or to nearly perish.",
+    "simpleDefinition": "To suffer severely from hunger; to starve.",
     "banglaMeaning": "প্রচধ্ন ক্ষুধায় মৃতপ্রায় হওয়া",
     "synonyms": [
-      "Related",
-      "Similar"
+      "starve",
+      "hunger",
+      "crave"
     ],
     "antonyms": [
-      "No common antonym"
+      "satiate",
+      "satisfy",
+      "gorge"
     ],
-    "example": "The student learned how to use famish correctly in a sentence."
+    "example": "After a long hike, they were famished and eager for a meal."
   },
   "fanatical": {
     "word": "Fanatical",
@@ -7130,34 +8173,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "fanciful schemes": {
     "word": "Fanciful schemes",
-    "pos": "noun",
-    "simpleDefinition": "Impractical or unrealistic plans driven by imagination",
-    "banglaMeaning": "কাস্ফনিক পরিকস্ফনা",
+    "pos": "idiom",
+    "simpleDefinition": "Plans or ideas that are imaginative and unrealistic, often impractical.",
+    "banglaMeaning": "কাল্পনিক পরিকল্পনা",
     "synonyms": [
-      "pipe dreams",
-      "unrealistic plans"
+      "impractical plans",
+      "utopian ideas",
+      "wild dreams",
+      "pipe dreams"
     ],
     "antonyms": [
-      "practical plans",
-      "feasible ideas"
+      "realistic plans",
+      "practical proposals"
     ],
-    "example": "His financial troubles began with several fanciful schemes."
+    "example": "His business proposal was full of fanciful schemes that lacked any real financial backing."
   },
-  "far": {
-    "word": "Far",
+  "far-fetched": {
+    "word": "Far-fetched",
     "pos": "adjective",
-    "simpleDefinition": "Distant; remote in space.",
-    "banglaMeaning": "fetched -অস্বাভাবিক / সনে্দহজনক",
+    "simpleDefinition": "Very unlikely to be true or difficult to believe; improbable.",
+    "banglaMeaning": "অস্বাভাবিক, যা সহজে বিশ্বাসযোগ্য নয়",
     "synonyms": [
-      "cold",
-      "right",
-      "distant"
+      "Unlikely",
+      "Improbable",
+      "Incredible",
+      "Doubtful"
     ],
     "antonyms": [
-      "close",
-      "near"
+      "Plausible",
+      "Believable",
+      "Convincing"
     ],
-    "example": "The student learned how to use far correctly in a sentence."
+    "example": "His explanation for why he was late seemed completely far-fetched."
   },
   "fastidious": {
     "word": "Fastidious",
@@ -7179,61 +8226,71 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "fatalist": {
     "word": "Fatalist",
     "pos": "noun",
-    "simpleDefinition": "One who maintains that all things happen by inevitable necessity; a person who believes in fatalism.",
+    "simpleDefinition": "A person who believes that all events are predetermined and therefore inevitable, and that human beings are powerless to change them.",
     "banglaMeaning": "অদৃষ্টবাদী",
     "synonyms": [
-      "fatalistic",
       "determinist",
-      "predestinationist"
+      "predestinarian"
     ],
     "antonyms": [
-      "No common antonym"
+      "free-will advocate",
+      "voluntarist"
     ],
-    "example": "The student learned how to use fatalist correctly in a sentence."
+    "example": "As a fatalist, he accepted his misfortunes with a sense of resignation."
   },
   "fathom": {
     "word": "Fathom",
     "pos": "verb",
-    "simpleDefinition": "(figurative) Often followed by out: to deeply understand (someone or something); to get to the bottom of.",
-    "banglaMeaning": "গভীরতা নিণর্য় করা",
+    "simpleDefinition": "To understand a difficult problem or a mysterious person after much thought.",
+    "banglaMeaning": "গভীরতা নির্ণয় করা",
     "synonyms": [
-      "sound",
-      "bottom",
-      "penetrate"
+      "comprehend",
+      "grasp",
+      "understand",
+      "decipher"
     ],
     "antonyms": [
-      "No common antonym"
+      "misunderstand",
+      "confuse",
+      "perplex"
     ],
-    "example": "The student learned how to use fathom correctly in a sentence."
+    "example": "It was hard to fathom the true depth of her sadness."
   },
   "fawn": {
     "word": "Fawn",
     "pos": "verb",
-    "simpleDefinition": "To display exaggerated flattery or affection, typically to gain favor",
-    "banglaMeaning": "তোষামোদ করা / পা চাটা",
+    "simpleDefinition": "To give excessive flattery, attention, or affection to gain an advantage.",
+    "banglaMeaning": "তোষামোদ করা / তৈলমর্দন করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Flatter",
+      "Grovel",
+      "Cower",
+      "Court"
     ],
     "antonyms": [
-      "No common antonym"
+      "Scorn",
+      "Disdain",
+      "Defy"
     ],
-    "example": "The candidate understood the meaning of fawn."
+    "example": "Some employees fawn over the manager hoping for a quick promotion."
   },
   "feeble": {
     "word": "Feeble",
     "pos": "adjective",
-    "simpleDefinition": "Deficient in physical strength.",
+    "simpleDefinition": "Lacking physical strength, especially as a result of age or illness; weak.",
     "banglaMeaning": "দুর্বল",
     "synonyms": [
+      "weak",
       "frail",
-      "sapless",
-      "decrepit"
+      "delicate",
+      "infirm"
     ],
     "antonyms": [
-      "No common antonym"
+      "strong",
+      "robust",
+      "vigorous"
     ],
-    "example": "The student learned how to use feeble correctly in a sentence."
+    "example": "The old man's voice was feeble, but his words were clear."
   },
   "feign": {
     "word": "Feign",
@@ -7272,70 +8329,90 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "fiasco": {
     "word": "Fiasco",
     "pos": "noun",
-    "simpleDefinition": "A sudden or unexpected failure.",
+    "simpleDefinition": "A complete and embarrassing failure, especially of something planned.",
     "banglaMeaning": "বড় ধরনের ব্যর্থতা",
     "synonyms": [
+      "failure",
+      "disaster",
+      "catastrophe",
       "debacle"
     ],
     "antonyms": [
-      "No common antonym"
+      "success",
+      "triumph",
+      "achievement"
     ],
-    "example": "The student learned how to use fiasco correctly in a sentence."
+    "example": "The elaborate plan to launch the new product turned into a complete fiasco when the main server crashed."
   },
   "fiddling": {
     "word": "Fiddling",
-    "pos": "verb",
-    "simpleDefinition": "To play aimlessly.",
-    "banglaMeaning": "তুজ্ঞ",
+    "pos": "adjective",
+    "simpleDefinition": "Dealing with something in a trivial or unimportant way; also, making small, unnecessary adjustments.",
+    "banglaMeaning": "তুচ্ছ; নগণ্য",
     "synonyms": [
-      "fudge"
+      "trivial",
+      "minor",
+      "petty",
+      "insignificant"
     ],
     "antonyms": [
-      "No common antonym"
+      "important",
+      "significant",
+      "major"
     ],
-    "example": "You're fiddling your life away."
+    "example": "He spent hours fiddling with the settings on his phone instead of focusing on his urgent work."
   },
   "finagle": {
     "word": "Finagle",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being finagle.",
+    "pos": "verb",
+    "simpleDefinition": "To get something by using clever or dishonest methods.",
     "banglaMeaning": "প্রতারণা করা",
     "synonyms": [
-      "manage",
-      "wangle"
+      "wangle",
+      "manipulate",
+      "trick",
+      "scheme"
     ],
     "antonyms": [
-      "No common antonym"
+      "earn",
+      "obtain honestly"
     ],
-    "example": "The student learned how to use finagle correctly in a sentence."
+    "example": "She managed to finagle a free ticket to the concert by telling the organizer she was a journalist."
   },
   "fire and brimstone": {
     "word": "Fire and brimstone",
-    "pos": "adjective",
-    "simpleDefinition": "Referencing or emphasizing the power and wrath of God.",
-    "banglaMeaning": "জাহান্নামের অনুমিত শাসি্ত",
+    "pos": "idiom",
+    "simpleDefinition": "A phrase referring to the torments of hell, often used to describe a very angry or passionate speech about punishment.",
+    "banglaMeaning": "জাহান্নামের অনুমিত শাস্তি",
     "synonyms": [
-      "Related",
-      "Similar"
+      "hellfire",
+      "damnation",
+      "wrathful sermon"
     ],
     "antonyms": [
-      "No common antonym"
+      "mercy",
+      "forgiveness",
+      "salvation"
     ],
-    "example": "The student learned how to use fire and brimstone correctly in a sentence."
+    "example": "The preacher delivered a fire and brimstone sermon, warning the congregation about the consequences of sin."
   },
   "flagitious": {
     "word": "Flagitious",
     "pos": "adjective",
-    "simpleDefinition": "Having the qualities or characteristics of flagitious.",
+    "simpleDefinition": "Extremely wicked or criminal; villainous.",
     "banglaMeaning": "নিষ্ঠুর",
     "synonyms": [
-      "Related",
-      "Similar"
+      "villainous",
+      "heinous",
+      "atrocious",
+      "wicked"
     ],
     "antonyms": [
-      "No common antonym"
+      "virtuous",
+      "righteous",
+      "honorable"
     ],
-    "example": "The student learned how to use flagitious correctly in a sentence."
+    "example": "The flagitious act of poisoning the community's water supply shocked everyone."
   },
   "flagrant": {
     "word": "Flagrant",
@@ -7357,47 +8434,56 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "flashy": {
     "word": "Flashy",
     "pos": "adjective",
-    "simpleDefinition": "Showy; visually impressive, attention-getting, or appealing.",
+    "simpleDefinition": "Attracting attention because of being bright, expensive, or showy, often in a way that lacks good taste.",
     "banglaMeaning": "লোক দেখানো",
     "synonyms": [
-      "garish",
-      "tawdry",
-      "brassy"
+      "showy",
+      "gaudy",
+      "ostentatious",
+      "flamboyant"
     ],
     "antonyms": [
-      "No common antonym"
+      "subtle",
+      "understated",
+      "modest"
     ],
-    "example": "The student learned how to use flashy correctly in a sentence."
+    "example": "He drove a flashy sports car that always turned heads wherever he went."
   },
   "flat out": {
     "word": "Flat out",
     "pos": "adverb",
-    "simpleDefinition": "At top speed or maximum effort; completely direct",
-    "banglaMeaning": "সোজা",
+    "simpleDefinition": "At maximum speed or effort; also, directly and without hesitation.",
+    "banglaMeaning": "সম্পূর্ণভাবে; সর্বোচ্চ প্রচেষ্টায়",
     "synonyms": [
-      "at full speed",
+      "fully",
       "completely",
+      "directly",
       "unequivocally"
     ],
     "antonyms": [
+      "slowly",
       "partially",
-      "slowly"
+      "indirectly"
     ],
-    "example": "The mechanics worked flat out all night to repair the engine."
+    "example": "The athlete ran flat out for the entire race, determined to win."
   },
   "flatten": {
     "word": "Flatten",
     "pos": "verb",
-    "simpleDefinition": "To make something flat or flatter.",
+    "simpleDefinition": "To make something flat or flatter; to knock something down or defeat it completely.",
     "banglaMeaning": "সমতল হয়ে যাওয়া",
     "synonyms": [
-      "drop",
-      "flatten out"
+      "level",
+      "smooth",
+      "crush",
+      "demolish"
     ],
     "antonyms": [
-      "sharpen"
+      "raise",
+      "inflate",
+      "build"
     ],
-    "example": "The student learned how to use flatten correctly in a sentence."
+    "example": "The strong winds threatened to flatten the old wooden fence."
   },
   "flaunt": {
     "word": "Flaunt",
@@ -7419,33 +8505,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "fleeting": {
     "word": "Fleeting",
     "pos": "adjective",
-    "simpleDefinition": "Passing quickly; of short duration.",
+    "simpleDefinition": "Lasting for a very short time.",
     "banglaMeaning": "ক্ষনস্থায়ী",
     "synonyms": [
-      "short",
-      "fugitive",
-      "moving"
+      "brief",
+      "transient",
+      "momentary",
+      "ephemeral"
     ],
     "antonyms": [
-      "No common antonym"
+      "lasting",
+      "enduring",
+      "permanent"
     ],
-    "example": "The student learned how to use fleeting correctly in a sentence."
+    "example": "They shared a fleeting moment of eye contact before looking away."
   },
   "flexible": {
     "word": "Flexible",
     "pos": "adjective",
-    "simpleDefinition": "Capable of adapting or changing to suit new or modified conditions or situations.",
+    "simpleDefinition": "Able to bend or be bent easily without breaking; also, able to change or be changed easily according to the situation.",
     "banglaMeaning": "নমনীয়",
     "synonyms": [
-      "pliant",
+      "pliable",
+      "adaptable",
       "versatile",
-      "pliable"
+      "adjustable"
     ],
     "antonyms": [
-      "inflexible",
-      "uncompromising"
+      "rigid",
+      "stiff",
+      "inflexible"
     ],
-    "example": "The student learned how to use flexible correctly in a sentence."
+    "example": "The company offers flexible working hours, allowing employees to choose their own schedule."
   },
   "flimsy": {
     "word": "Flimsy",
@@ -7501,47 +8592,55 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "forecast": {
     "word": "Forecast",
     "pos": "noun",
-    "simpleDefinition": "A prediction of the weather.",
+    "simpleDefinition": "A statement about what is likely to happen in the future, especially concerning the weather or a financial trend.",
     "banglaMeaning": "পূর্বাভাস",
     "synonyms": [
-      "presage",
-      "augur",
-      "reckon"
+      "prediction",
+      "projection",
+      "prognosis",
+      "outlook"
     ],
     "antonyms": [
-      "No common antonym"
+      "hindsight",
+      "retrospect"
     ],
-    "example": "The student learned how to use forecast correctly in a sentence."
+    "example": "The weather forecast predicts heavy rain for tomorrow afternoon."
   },
   "formless": {
     "word": "Formless",
     "pos": "adjective",
-    "simpleDefinition": "Without form; shapeless.",
+    "simpleDefinition": "Without a definite or regular shape or structure.",
     "banglaMeaning": "আকৃতিহীন",
     "synonyms": [
       "amorphous",
-      "unbodied",
-      "unformed"
+      "shapeless",
+      "unformed",
+      "unstructured"
     ],
     "antonyms": [
-      "No common antonym"
+      "structured",
+      "defined",
+      "distinct"
     ],
-    "example": "The student learned how to use formless correctly in a sentence."
+    "example": "In the deep fog, the distant trees appeared as formless shadows."
   },
   "forsaken": {
     "word": "Forsaken",
     "pos": "adjective",
-    "simpleDefinition": "Deserted; abandoned.",
+    "simpleDefinition": "Abandoned or deserted; left alone and neglected.",
     "banglaMeaning": "পরিত্যক্ত করা",
     "synonyms": [
-      "forlorn",
-      "desolate",
-      "derelict"
+      "abandoned",
+      "deserted",
+      "neglected",
+      "desolate"
     ],
     "antonyms": [
-      "unforsaken"
+      "cherished",
+      "supported",
+      "embraced"
     ],
-    "example": "The student learned how to use forsaken correctly in a sentence."
+    "example": "The old, crumbling house stood forsaken at the edge of the village."
   },
   "fortitude": {
     "word": "Fortitude",
@@ -7563,17 +8662,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "fortuitous": {
     "word": "Fortuitous",
     "pos": "adjective",
-    "simpleDefinition": "Happening by a lucky chance; lucky or fortunate.",
+    "simpleDefinition": "Happening by chance, especially a lucky chance that brings a good result.",
     "banglaMeaning": "আকস্মিক",
     "synonyms": [
-      "fortunate",
-      "unintended",
-      "causeless"
+      "accidental",
+      "coincidental",
+      "serendipitous",
+      "lucky"
     ],
     "antonyms": [
-      "No common antonym"
+      "planned",
+      "intentional",
+      "deliberate"
     ],
-    "example": "The student learned how to use fortuitous correctly in a sentence."
+    "example": "It was a fortuitous meeting that led to their successful business partnership."
   },
   "foster": {
     "word": "Foster",
@@ -7595,62 +8697,74 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "fragile": {
     "word": "Fragile",
     "pos": "adjective",
-    "simpleDefinition": "Easily broken, not sturdy; of delicate material.",
+    "simpleDefinition": "Easily broken or damaged; delicate.",
     "banglaMeaning": "দুর্বল",
     "synonyms": [
       "delicate",
-      "frail",
+      "brittle",
+      "breakable",
       "weak"
     ],
     "antonyms": [
-      "No common antonym"
+      "sturdy",
+      "robust",
+      "strong"
     ],
-    "example": "The student learned how to use fragile correctly in a sentence."
+    "example": "The antique vase was so fragile that she handled it with extreme care."
   },
   "fragrance": {
     "word": "Fragrance",
     "pos": "noun",
-    "simpleDefinition": "A pleasant smell or odour.",
+    "simpleDefinition": "A pleasant, sweet smell.",
     "banglaMeaning": "সুগন্ধী",
     "synonyms": [
-      "redolence",
+      "scent",
       "aroma",
-      "scent"
+      "perfume",
+      "odor"
     ],
     "antonyms": [
-      "No common antonym"
+      "stench",
+      "reek",
+      "malodor"
     ],
-    "example": "The student learned how to use fragrance correctly in a sentence."
+    "example": "The fragrance of fresh roses filled the entire room."
   },
   "frank": {
     "word": "Frank",
     "pos": "adjective",
-    "simpleDefinition": "Honest, especially in a manner that seems slightly blunt; candid; not reserved or disguised.",
+    "simpleDefinition": "Open, honest, and direct in speech, sometimes in a way that might seem blunt.",
     "banglaMeaning": "অকপট / খোলাখুলি",
     "synonyms": [
       "candid",
-      "forthright",
-      "blunt"
+      "honest",
+      "direct",
+      "straightforward"
     ],
     "antonyms": [
-      "No common antonym"
+      "secretive",
+      "evasive",
+      "reserved"
     ],
-    "example": "The student learned how to use frank correctly in a sentence."
+    "example": "To be frank, I don't think that idea will work."
   },
   "frantic": {
     "word": "Frantic",
     "pos": "adjective",
-    "simpleDefinition": "In a state of panic, worry, frenzy, or rush.",
-    "banglaMeaning": "নিয়প্সণহীন",
+    "simpleDefinition": "Wildly excited or anxious, especially because of worry or fear.",
+    "banglaMeaning": "নিয়ন্ত্রণহীন",
     "synonyms": [
-      "wild",
+      "desperate",
+      "frenzied",
       "agitated",
-      "frenetic"
+      "distraught"
     ],
     "antonyms": [
-      "No common antonym"
+      "calm",
+      "composed",
+      "relaxed"
     ],
-    "example": "The student learned how to use frantic correctly in a sentence."
+    "example": "She made a frantic call to the police after realizing her child was missing."
   },
   "fraudulent": {
     "word": "Fraudulent",
@@ -7672,51 +8786,62 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "freak": {
     "word": "Freak",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being freak.",
+    "simpleDefinition": "An unusual or unexpected event or thing; also, a person who is obsessed with a particular activity or interest.",
     "banglaMeaning": "খামখেয়াল",
     "synonyms": [
-      "Related",
-      "Similar"
+      "anomaly",
+      "oddity",
+      "quirk",
+      "enthusiast"
     ],
     "antonyms": [
-      "No common antonym"
+      "norm",
+      "regularity",
+      "commonality"
     ],
-    "example": "The student learned how to use freak correctly in a sentence."
+    "example": "The sudden snowstorm in May was a complete freak of nature."
   },
   "friction": {
     "word": "Friction",
     "pos": "noun",
-    "simpleDefinition": "The rubbing of one object or surface against another.",
+    "simpleDefinition": "Disagreement or conflict between people or groups; also, the resistance that one surface or object encounters when moving over another.",
     "banglaMeaning": "বিরোধ",
     "synonyms": [
-      "clash",
-      "detrition",
-      "rubbing"
+      "conflict",
+      "tension",
+      "discord",
+      "antagonism"
     ],
     "antonyms": [
-      "No common antonym"
+      "harmony",
+      "agreement",
+      "accord"
     ],
-    "example": "The student learned how to use friction correctly in a sentence."
+    "example": "There has been a lot of friction between the two departments recently."
   },
   "frisky": {
     "word": "Frisky",
     "pos": "adjective",
-    "simpleDefinition": "Abounding in energy or playfulness.",
-    "banglaMeaning": "চন্ধল",
+    "simpleDefinition": "Playful and full of energy.",
+    "banglaMeaning": "চঞ্চল; প্রাণবন্ত",
     "synonyms": [
       "playful",
-      "kittenish"
+      "lively",
+      "spirited",
+      "energetic"
     ],
     "antonyms": [
-      "No common antonym"
+      "lethargic",
+      "sluggish",
+      "subdued"
     ],
-    "example": "The student learned how to use frisky correctly in a sentence."
+    "example": "The frisky puppy chased its tail around the living room."
   },
   "frivolous": {
     "word": "Frivolous",
     "pos": "adjective",
     "simpleDefinition": "Not having any serious purpose or value; carefree and superficial",
-    "banglaMeaning": "হালকা / অর্থহীন / তুচ্ছ / ছেলেমানুষীপূণর্ / নগণ্য",
+    "banglaMeaning": "হালকা / অর্থহীন / তুচ্ছ / ছেলেমানুষিপূর্ণ / নগণ্য",
     "synonyms": [
       "Trivial",
       "Silly",
@@ -7731,18 +8856,21 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "frown": {
     "word": "Frown",
-    "pos": "noun",
-    "simpleDefinition": "A wrinkling of the forehead with the eyebrows brought together, typically indicating displeasure, severity, or concentration.",
+    "pos": "verb",
+    "simpleDefinition": "To wrinkle your forehead, usually because you are angry, worried, or thinking hard; also, to disapprove of something.",
     "banglaMeaning": "তিরস্কার করা",
     "synonyms": [
       "scowl",
-      "glower",
-      "lower"
+      "glare",
+      "disapprove",
+      "grimace"
     ],
     "antonyms": [
-      "No common antonym"
+      "smile",
+      "approve",
+      "grin"
     ],
-    "example": "The student learned how to use frown correctly in a sentence."
+    "example": "The teacher frowned at the students who were talking during the lecture."
   },
   "frugal": {
     "word": "Frugal",
@@ -7764,76 +8892,92 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "fruitful": {
     "word": "Fruitful",
     "pos": "adjective",
-    "simpleDefinition": "Being productive in any sense; yielding benefits.",
+    "simpleDefinition": "Producing good or useful results; productive.",
     "banglaMeaning": "ফলপ্রসূ",
     "synonyms": [
-      "rich",
-      "verdant",
-      "prolific"
+      "productive",
+      "successful",
+      "beneficial",
+      "rewarding"
     ],
     "antonyms": [
-      "unfruitful"
+      "barren",
+      "unproductive",
+      "futile"
     ],
-    "example": "The student learned how to use fruitful correctly in a sentence."
+    "example": "Their collaboration proved to be very fruitful, leading to several new discoveries."
   },
   "furtive": {
     "word": "Furtive",
     "pos": "adjective",
-    "simpleDefinition": "Of a thing: done with evasive or guilty secrecy.",
+    "simpleDefinition": "Done in a quiet and secretive way to avoid being noticed, often suggesting guilt or nervousness.",
     "banglaMeaning": "চুপিচুপি",
     "synonyms": [
+      "secretive",
+      "stealthy",
       "surreptitious",
-      "sneak",
-      "skulking"
+      "clandestine"
     ],
     "antonyms": [
-      "No common antonym"
+      "open",
+      "overt",
+      "public"
     ],
-    "example": "The student learned how to use furtive correctly in a sentence."
+    "example": "He cast a furtive glance at his watch, hoping no one would notice he was bored."
   },
   "fussy": {
     "word": "Fussy",
     "pos": "adjective",
-    "simpleDefinition": "Anxious or particular about petty details; hard to please.",
-    "banglaMeaning": "অতিসর্তক",
+    "simpleDefinition": "Easily worried or upset; also, paying too much attention to small, unimportant details.",
+    "banglaMeaning": "অতিসতর্ক",
     "synonyms": [
+      "particular",
+      "picky",
       "fastidious",
-      "fancy",
-      "particular"
+      "finicky"
     ],
     "antonyms": [
-      "No common antonym"
+      "easygoing",
+      "unconcerned",
+      "undemanding"
     ],
-    "example": "The student learned how to use fussy correctly in a sentence."
+    "example": "She's very fussy about her food and won't eat anything she doesn't like."
   },
   "futile": {
     "word": "Futile",
     "pos": "adjective",
-    "simpleDefinition": "Incapable of producing any useful result; completely pointless",
-    "banglaMeaning": "অনর্থক / নিষ্ফল / পণ্ডশ্রম",
+    "simpleDefinition": "Incapable of producing any useful result; completely pointless and wasted.",
+    "banglaMeaning": "নিরর্থক / পণ্ডশ্রম",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Useless",
+      "Pointless",
+      "Fruitless",
+      "Vain"
     ],
     "antonyms": [
-      "No common antonym"
+      "Fruitful",
+      "Useful",
+      "Productive"
     ],
-    "example": "The candidate understood the meaning of futile."
+    "example": "Their futile attempts to revive the flooded engine proved exhausting."
   },
   "gargantuan": {
     "word": "Gargantuan",
     "pos": "adjective",
-    "simpleDefinition": "Huge; immense; tremendous.",
+    "simpleDefinition": "Extremely large in size or amount.",
     "banglaMeaning": "খুব বড়",
     "synonyms": [
-      "large",
-      "big",
-      "jumbo"
+      "enormous",
+      "colossal",
+      "immense",
+      "gigantic"
     ],
     "antonyms": [
-      "No common antonym"
+      "tiny",
+      "miniature",
+      "minuscule"
     ],
-    "example": "The student learned how to use gargantuan correctly in a sentence."
+    "example": "The company built a gargantuan new factory that covered several acres."
   },
   "garrulous": {
     "word": "Garrulous",
@@ -7855,49 +8999,56 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "generate": {
     "word": "Generate",
     "pos": "verb",
-    "simpleDefinition": "To bring into being; give rise to.",
+    "simpleDefinition": "To produce or create something, especially energy or ideas.",
     "banglaMeaning": "উৎপাদন করা",
     "synonyms": [
-      "yield",
-      "render",
-      "give"
+      "create",
+      "produce",
+      "make",
+      "form"
     ],
     "antonyms": [
-      "No common antonym"
+      "destroy",
+      "eliminate",
+      "stop"
     ],
-    "example": "The student learned how to use generate correctly in a sentence."
+    "example": "Wind turbines generate electricity from the power of the wind."
   },
   "generous": {
     "word": "Generous",
     "pos": "adjective",
-    "simpleDefinition": "Willing to give and share unsparingly; showing a readiness to give more (especially money) than is expected or needed.",
+    "simpleDefinition": "Willing to give money, help, or time freely; larger than usual or necessary.",
     "banglaMeaning": "উদার",
     "synonyms": [
       "benevolent",
-      "ample",
-      "lavish"
+      "charitable",
+      "liberal",
+      "unselfish"
     ],
     "antonyms": [
       "stingy",
-      "meanspirited",
-      "ungenerous"
+      "selfish",
+      "greedy"
     ],
-    "example": "The student learned how to use generous correctly in a sentence."
+    "example": "She was very generous and donated a large sum to the local charity."
   },
   "genesis": {
     "word": "Genesis",
     "pos": "noun",
-    "simpleDefinition": "The origin, start, or point at which something comes into being.",
-    "banglaMeaning": "শুরু",
+    "simpleDefinition": "The origin or beginning of something.",
+    "banglaMeaning": "উৎপত্তি; উদ্ভব; সূচনা",
     "synonyms": [
-      "inception",
-      "origination",
-      "origin"
+      "origin",
+      "beginning",
+      "start",
+      "inception"
     ],
     "antonyms": [
-      "No common antonym"
+      "end",
+      "conclusion",
+      "culmination"
     ],
-    "example": "The student learned how to use genesis correctly in a sentence."
+    "example": "The genesis of the idea came from a casual conversation between colleagues."
   },
   "genial": {
     "word": "Genial",
@@ -7935,37 +9086,45 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "get along": {
     "word": "Get along",
-    "pos": "verb",
-    "simpleDefinition": "To interact or coexist well, without argument or trouble.",
-    "banglaMeaning": "দুজনের মাঝে চমৎকার বন্ধুধপূণর্ সশ্মর্ক",
+    "pos": "idiom",
+    "simpleDefinition": "To have a friendly relationship with someone; to manage or cope in a situation.",
+    "banglaMeaning": "কারও সঙ্গে মিলেমিশে থাকা বা ভালো সম্পর্ক বজায় রাখা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "coexist",
+      "agree",
+      "harmonize",
+      "cooperate"
     ],
     "antonyms": [
-      "No common antonym"
+      "quarrel",
+      "clash",
+      "disagree"
     ],
-    "example": "The student learned how to use get along correctly in a sentence."
+    "example": "Despite their different personalities, the two brothers always get along well."
   },
   "gifted": {
     "word": "Gifted",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being gifted.",
+    "pos": "adjective",
+    "simpleDefinition": "Having exceptional natural ability or talent.",
     "banglaMeaning": "প্রতিভাধর",
     "synonyms": [
-      "Related",
-      "Similar"
+      "talented",
+      "brilliant",
+      "accomplished",
+      "skilled"
     ],
     "antonyms": [
-      "No common antonym"
+      "untalented",
+      "unskilled",
+      "ordinary"
     ],
-    "example": "The student learned how to use gifted correctly in a sentence."
+    "example": "The gifted musician began playing complex pieces at a very young age."
   },
   "gloomy": {
     "word": "Gloomy",
     "pos": "adjective",
     "simpleDefinition": "Dark, poorly lit, or causing feelings of depression and sadness",
-    "banglaMeaning": "অন্ধকারাচ্ছন্ন / বিষণ্ণ / অন্ধকারাজ্ঞন্ন",
+    "banglaMeaning": "অন্ধকারাচ্ছন্ন / বিষণ্ণ / অন্ধকারাচ্ছন্ন",
     "synonyms": [
       "Dark",
       "Depressing",
@@ -7981,48 +9140,54 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "glorious": {
     "word": "Glorious",
     "pos": "adjective",
-    "simpleDefinition": "Exhibiting attributes, qualities, or acts that are worthy of or receive glory.",
+    "simpleDefinition": "Having great beauty or splendor; deserving great praise.",
     "banglaMeaning": "জমকালো",
     "synonyms": [
-      "beautiful",
-      "lustrous",
-      "sublime"
+      "magnificent",
+      "splendid",
+      "superb",
+      "brilliant"
     ],
     "antonyms": [
-      "inglorious",
-      "dishonorable"
+      "terrible",
+      "awful",
+      "inglorious"
     ],
-    "example": "The student learned how to use glorious correctly in a sentence."
+    "example": "The sunset over the ocean was a truly glorious sight."
   },
   "gloss": {
     "word": "Gloss",
-    "pos": "verb",
-    "simpleDefinition": "To give a gloss or sheen to.",
-    "banglaMeaning": "উণ্ডল তল",
+    "pos": "noun",
+    "simpleDefinition": "A superficial luster or shiny finish, or an explanatory note or translation inserted in a text.",
+    "banglaMeaning": "উজ্জ্বলতা / চাকচিক্য / মসৃণতা / টীকা",
     "synonyms": [
-      "rubric",
-      "burnish",
-      "polish"
+      "Shine",
+      "Luster",
+      "Sheen",
+      "Annotation"
     ],
     "antonyms": [
-      "No common antonym"
+      "Dullness"
     ],
-    "example": "The student learned how to use gloss correctly in a sentence."
+    "example": "The freshly polished teak table had a warm golden gloss that shone in the morning light."
   },
   "glow": {
     "word": "Glow",
     "pos": "verb",
-    "simpleDefinition": "To emit heat and light without a flame.",
+    "simpleDefinition": "To emit a soft, steady light; to show deep pleasure or health.",
     "banglaMeaning": "খুশিতে ঝলমল করা",
     "synonyms": [
-      "gleam",
+      "shine",
+      "radiate",
       "beam",
-      "radiate"
+      "gleam"
     ],
     "antonyms": [
-      "No common antonym"
+      "dim",
+      "fade",
+      "darken"
     ],
-    "example": "The student learned how to use glow correctly in a sentence."
+    "example": "Her face began to glow with happiness when she heard the good news."
   },
   "glut": {
     "word": "Glut",
@@ -8044,52 +9209,60 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "goad": {
     "word": "Goad",
     "pos": "verb",
-    "simpleDefinition": "To prod with a goad.",
+    "simpleDefinition": "To provoke or annoy someone to stimulate an action or reaction.",
     "banglaMeaning": "অনুপ্রাণিত করা",
     "synonyms": [
-      "spur",
+      "provoke",
+      "incite",
       "prod",
-      "goading"
+      "urge"
     ],
     "antonyms": [
-      "No common antonym"
+      "deter",
+      "discourage",
+      "restrain"
     ],
-    "example": "The student learned how to use goad correctly in a sentence."
+    "example": "He tried to goad his sister into arguing with him, but she refused."
   },
   "gourmand": {
     "word": "Gourmand",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being gourmand.",
+    "simpleDefinition": "A person who enjoys eating and often eats too much.",
     "banglaMeaning": "পেটুক",
     "synonyms": [
-      "Related",
-      "Similar"
+      "glutton",
+      "overeater",
+      "foodie",
+      "epicure"
     ],
     "antonyms": [
-      "No common antonym"
+      "ascetic",
+      "dieter",
+      "abstainer"
     ],
-    "example": "The student learned how to use gourmand correctly in a sentence."
+    "example": "The gourmand always ordered the largest portion on the menu and often asked for seconds."
   },
   "gourmet": {
     "word": "Gourmet",
-    "pos": "adjective",
-    "simpleDefinition": "Fine; of superior quality.",
+    "pos": "noun",
+    "simpleDefinition": "A person who has a refined taste in food and drink and enjoys high-quality cuisine.",
     "banglaMeaning": "পান ও ভোজন রসিক ব্যক্তি",
     "synonyms": [
+      "connoisseur",
       "epicure",
-      "bon vivant",
+      "foodie",
       "gastronome"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use gourmet correctly in a sentence."
+    "example": "The gourmet traveled extensively to sample the finest dishes from around the world."
   },
   "gracious": {
     "word": "Gracious",
     "pos": "adjective",
     "simpleDefinition": "Courteous, kind, and pleasant, especially toward subordinates",
-    "banglaMeaning": "দয়ালু / মার্জিত / সদয় / সদয়",
+    "banglaMeaning": "দয়ালু; সদয়",
     "synonyms": [
       "Kind",
       "Generous",
@@ -8105,109 +9278,127 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "grain": {
     "word": "Grain",
     "pos": "noun",
-    "simpleDefinition": "The harvested seeds of various grass food crops eg: wheat, corn, barley.",
+    "simpleDefinition": "The small, hard seed of a cereal plant, such as wheat or rice; a very small amount of something.",
     "banglaMeaning": "শস্য / খাদ্যশস্য",
     "synonyms": [
-      "ingrain",
-      "caryopsis",
-      "granulate"
+      "kernel",
+      "seed",
+      "particle",
+      "speck"
     ],
     "antonyms": [
-      "No common antonym"
+      "mass",
+      "whole",
+      "bulk"
     ],
-    "example": "The student learned how to use grain correctly in a sentence."
+    "example": "Farmers harvest grain like corn and wheat to make bread and other foods."
   },
   "grandiose": {
     "word": "Grandiose",
     "pos": "adjective",
-    "simpleDefinition": "Large and impressive, in size, scope or extent.",
+    "simpleDefinition": "Impressive and magnificent in appearance or style, especially excessively so; intended to seem important or splendid.",
     "banglaMeaning": "জমকালো / সুবিশাল",
     "synonyms": [
-      "pretentious",
-      "impressive",
-      "highfalutin"
+      "magnificent",
+      "imposing",
+      "elaborate",
+      "ostentatious"
     ],
     "antonyms": [
-      "No common antonym"
+      "humble",
+      "modest",
+      "simple"
     ],
-    "example": "The student learned how to use grandiose correctly in a sentence."
+    "example": "The architect presented a grandiose plan for a new city hall with towering spires and marble columns."
   },
   "grant": {
     "word": "Grant",
-    "pos": "verb",
-    "simpleDefinition": "To give (permission or wish).",
+    "pos": "noun",
+    "simpleDefinition": "A sum of money given by an organization, especially a government, for a particular purpose.",
     "banglaMeaning": "অনুদান",
     "synonyms": [
-      "yield",
-      "concede",
-      "accord"
+      "subsidy",
+      "allowance",
+      "donation",
+      "endowment"
     ],
     "antonyms": [
-      "refuse",
-      "deny"
+      "loan",
+      "debt",
+      "withdrawal"
     ],
-    "example": "The student learned how to use grant correctly in a sentence."
+    "example": "The university received a research grant to study renewable energy sources."
   },
   "grasp accurately": {
     "word": "Grasp accurately",
-    "pos": "adverb",
-    "simpleDefinition": "In a grasp accurate manner.",
+    "pos": "idiom",
+    "simpleDefinition": "To understand something completely and correctly.",
     "banglaMeaning": "বুঝতে পারা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "comprehend",
+      "understand",
+      "perceive",
+      "apprehend"
     ],
     "antonyms": [
-      "No common antonym"
+      "misunderstand",
+      "misinterpret",
+      "confuse"
     ],
-    "example": "The student learned how to use grasp accurately correctly in a sentence."
+    "example": "It took him a while to grasp accurately the complex instructions for assembling the furniture."
   },
   "grateful": {
     "word": "Grateful",
     "pos": "adjective",
-    "simpleDefinition": "Of a person or their actions, feelings, etc.: expressing gratitude or appreciation; appreciative, thankful.",
-    "banglaMeaning": "কৃতন্ত্র",
+    "simpleDefinition": "Feeling or showing appreciation for something done or received.",
+    "banglaMeaning": "কৃতজ্ঞ",
     "synonyms": [
-      "pleasant",
+      "thankful",
       "appreciative",
-      "glad"
+      "obliged",
+      "indebted"
     ],
     "antonyms": [
       "ungrateful",
-      "thankless",
-      "unthankful"
+      "unappreciative",
+      "thankless"
     ],
-    "example": "The student learned how to use grateful correctly in a sentence."
+    "example": "She was truly grateful for all the help her friends offered during her difficult time."
   },
   "gratifying": {
     "word": "Gratifying",
     "pos": "adjective",
-    "simpleDefinition": "Pleasing, satisfying.",
-    "banglaMeaning": "তৃপি্তদায়ক",
+    "simpleDefinition": "Giving pleasure or satisfaction.",
+    "banglaMeaning": "তৃপ্তিদায়ক",
     "synonyms": [
-      "sweet",
-      "proud",
-      "pleasant"
+      "satisfying",
+      "pleasing",
+      "rewarding",
+      "fulfilling"
     ],
     "antonyms": [
-      "No common antonym"
+      "disappointing",
+      "frustrating",
+      "displeasing"
     ],
-    "example": "The student learned how to use gratifying correctly in a sentence."
+    "example": "It was gratifying to see all her hard work finally pay off with such excellent results."
   },
   "gratitude": {
     "word": "Gratitude",
     "pos": "noun",
-    "simpleDefinition": "The state of being grateful.",
-    "banglaMeaning": "কৃতন্ত্রবোধ",
+    "simpleDefinition": "The quality of being thankful; readiness to show appreciation for and to return kindness.",
+    "banglaMeaning": "কৃতজ্ঞতা, কৃতজ্ঞতা স্বীকার",
     "synonyms": [
-      "Related",
-      "Similar"
+      "thankfulness",
+      "appreciation",
+      "gratefulness",
+      "indebtedness"
     ],
     "antonyms": [
       "ingratitude",
       "ungratefulness"
     ],
-    "example": "The student learned how to use gratitude correctly in a sentence."
+    "example": "He expressed his deep gratitude to everyone who supported him during the challenging project."
   },
   "gratuitous": {
     "word": "Gratuitous",
@@ -8228,30 +9419,37 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "green eye": {
     "word": "Green eye",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being green eye.",
-    "banglaMeaning": "ঈষর্াি:ত",
+    "pos": "idiom",
+    "simpleDefinition": "A feeling of deep jealousy or envy towards another person.",
+    "banglaMeaning": "ঈর্ষান্বিত",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Jealousy",
+      "Envy",
+      "Resentment"
     ],
     "antonyms": [
-      "No common antonym"
+      "Contentment",
+      "Goodwill"
     ],
-    "example": "The student learned how to use green eye correctly in a sentence."
+    "example": "His promotion stirred the green eye of his less diligent colleagues."
   },
   "greeting": {
     "word": "Greeting",
     "pos": "noun",
-    "simpleDefinition": "The action of the verb to greet.",
+    "simpleDefinition": "An act of welcome or acknowledgment upon meeting someone.",
     "banglaMeaning": "অভিবাদন",
     "synonyms": [
-      "salutation"
+      "salutation",
+      "welcome",
+      "hello",
+      "acknowledgment"
     ],
     "antonyms": [
-      "No common antonym"
+      "farewell",
+      "goodbye",
+      "departure"
     ],
-    "example": "The student learned how to use greeting correctly in a sentence."
+    "example": "She offered a warm greeting to all the guests as they arrived at the party."
   },
   "gregarious": {
     "word": "Gregarious",
@@ -8290,46 +9488,54 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "grueling": {
     "word": "Grueling",
     "pos": "adjective",
-    "simpleDefinition": "Alternative spelling of gruelling. [Very difficult or taxing; exhausting; backbreaking.].",
-    "banglaMeaning": "কষ্টসাধ্য বা পরিঙ্কমসাধ্য কিছু",
+    "simpleDefinition": "Extremely tiring and demanding.",
+    "banglaMeaning": "কষ্টসাধ্য বা পরিশ্রমসাধ্য কিছু",
     "synonyms": [
+      "exhausting",
       "arduous",
-      "heavy",
-      "hard"
+      "strenuous",
+      "punishing"
     ],
     "antonyms": [
-      "No common antonym"
+      "easy",
+      "effortless",
+      "light"
     ],
-    "example": "The student learned how to use grueling correctly in a sentence."
+    "example": "The marathon was a grueling race that tested the endurance of every runner."
   },
   "haggler": {
     "word": "Haggler",
     "pos": "noun",
-    "simpleDefinition": "A person who haggles.",
+    "simpleDefinition": "A person who argues about the price of something in an attempt to get it at a lower cost.",
     "banglaMeaning": "যে ব্যক্তি দরকষাকষি করে",
     "synonyms": [
-      "Related",
-      "Similar"
+      "bargainer",
+      "negotiator",
+      "quibbler",
+      "chaffer"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use haggler correctly in a sentence."
+    "example": "The haggler spent an hour trying to get a better price for the antique vase at the market."
   },
   "halcyon": {
     "word": "Halcyon",
     "pos": "adjective",
-    "simpleDefinition": "Calm, undisturbed, peaceful, serene.",
-    "banglaMeaning": "শান্ত / শানি্তপূণর্",
+    "simpleDefinition": "Denoting a period of time in the past that was idyllically happy and peaceful.",
+    "banglaMeaning": "শান্ত / শান্তিপূর্ণ",
     "synonyms": [
-      "prosperous",
-      "happy",
-      "peaceful"
+      "peaceful",
+      "tranquil",
+      "serene",
+      "calm"
     ],
     "antonyms": [
-      "No common antonym"
+      "turbulent",
+      "chaotic",
+      "troubled"
     ],
-    "example": "The student learned how to use halcyon correctly in a sentence."
+    "example": "She often looked back fondly on the halcyon days of her childhood, free from worries."
   },
   "hamper": {
     "word": "Hamper",
@@ -8351,19 +9557,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "hang in balance": {
     "word": "Hang in balance",
     "pos": "idiom",
-    "simpleDefinition": "In a precarious state where the outcome is uncertain",
-    "banglaMeaning": "সাফলে্যর জন্য কোন কিছুর উপর নিভর্র করা",
+    "simpleDefinition": "To be in an uncertain or critical state, with the outcome not yet decided.",
+    "banglaMeaning": "সাফল্যের জন্য কোন কিছুর উপর নির্ভর করা",
     "synonyms": [
       "uncertain",
-      "in jeopardy",
-      "undecided"
+      "precarious",
+      "undecided",
+      "critical"
     ],
     "antonyms": [
-      "settled",
+      "certain",
       "decided",
-      "stable"
+      "resolved"
     ],
-    "example": "The future of the peace agreement was hanging in balance."
+    "example": "The future of the company hung in the balance after the unexpected financial losses."
   },
   "harass": {
     "word": "Harass",
@@ -8402,18 +9609,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "harmonious": {
     "word": "Harmonious",
     "pos": "adjective",
-    "simpleDefinition": "Melodious; in harmony.",
+    "simpleDefinition": "Forming a pleasing or consistent whole; free from disagreement or dissent.",
     "banglaMeaning": "সুরেলা",
     "synonyms": [
-      "sympathetic",
-      "congruent",
-      "appropriate"
+      "melodious",
+      "tuneful",
+      "agreeable",
+      "compatible"
     ],
     "antonyms": [
-      "unharmonious",
-      "inharmonious"
+      "discordant",
+      "clashing",
+      "conflicting"
     ],
-    "example": "The student learned how to use harmonious correctly in a sentence."
+    "example": "The choir sang in such a harmonious way that their voices blended perfectly."
   },
   "harmony": {
     "word": "Harmony",
@@ -8435,47 +9644,56 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "harsh": {
     "word": "Harsh",
     "pos": "adjective",
-    "simpleDefinition": "Unpleasantly rough to the touch or other senses.",
+    "simpleDefinition": "Rough, severe, or unpleasantly grating to the senses or feelings.",
     "banglaMeaning": "কর্কশ",
     "synonyms": [
-      "abrasive",
-      "heavy",
-      "hard"
+      "Severe",
+      "Rough",
+      "Cruel",
+      "Strict"
     ],
     "antonyms": [
-      "No common antonym"
+      "Gentle",
+      "Mild",
+      "Soft"
     ],
-    "example": "The student learned how to use harsh correctly in a sentence."
+    "example": "The harsh winter wind made walking outside unbearable."
   },
   "hastening": {
     "word": "Hastening",
-    "pos": "noun",
-    "simpleDefinition": "The act of speeding up; a growing faster.",
+    "pos": "verb",
+    "simpleDefinition": "Moving, acting, or causing something to happen with great speed.",
     "banglaMeaning": "দ্রুত চলা",
     "synonyms": [
-      "fast",
-      "speed",
-      "speeding"
+      "Hurrying",
+      "Speeding up",
+      "Quickening",
+      "Rushing"
     ],
     "antonyms": [
-      "No common antonym"
+      "Delaying",
+      "Slowing",
+      "Lingering"
     ],
-    "example": "The student learned how to use hastening correctly in a sentence."
+    "example": "She was hastening along the path to catch the last bus home."
   },
   "hasty": {
     "word": "Hasty",
     "pos": "adjective",
-    "simpleDefinition": "Acting or done in haste; hurried or too quick; speedy due to having little time.",
+    "simpleDefinition": "Done with excessive speed or without sufficient careful thought.",
     "banglaMeaning": "দ্রুতগতি",
     "synonyms": [
-      "headlong",
-      "precipitate",
-      "hurried"
+      "Hurried",
+      "Rash",
+      "Impulsive",
+      "Quick"
     ],
     "antonyms": [
-      "No common antonym"
+      "Careful",
+      "Deliberate",
+      "Slow"
     ],
-    "example": "The student learned how to use hasty correctly in a sentence."
+    "example": "Making a hasty decision often leads to regret later on."
   },
   "haughty": {
     "word": "Haughty",
@@ -8497,104 +9715,125 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "hazardous": {
     "word": "Hazardous",
     "pos": "adjective",
-    "simpleDefinition": "Risky; dangerous; with the nature of a hazard.",
-    "banglaMeaning": "বিপন্ত্যনক",
+    "simpleDefinition": "Involving serious risk, danger, or peril to safety or health.",
+    "banglaMeaning": "বিপজ্জনক; ঝুঁকিপূর্ণ",
     "synonyms": [
-      "dangerous",
-      "venturous",
-      "venturesome"
+      "Dangerous",
+      "Risky",
+      "Perilous",
+      "Unsafe"
     ],
     "antonyms": [
-      "No common antonym"
+      "Safe",
+      "Secure",
+      "Harmless"
     ],
-    "example": "The student learned how to use hazardous correctly in a sentence."
+    "example": "Working with toxic chemicals can be extremely hazardous without protective gear."
   },
   "head and ears": {
     "word": "Head and ears",
-    "pos": "adverb",
-    "simpleDefinition": "With the whole person; deeply; completely.",
+    "pos": "idiom",
+    "simpleDefinition": "Completely, deeply, or thoroughly involved in something.",
     "banglaMeaning": "পুরোপুরি",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Completely",
+      "Deeply",
+      "Thoroughly",
+      "Entirely"
     ],
     "antonyms": [
-      "No common antonym"
+      "Partially",
+      "Barely"
     ],
-    "example": "The student learned how to use head and ears correctly in a sentence."
+    "example": "He found himself head and ears in debt after starting the new venture."
   },
   "heckle": {
     "word": "Heckle",
     "pos": "verb",
-    "simpleDefinition": "To insult, tease, make fun of or badger, especially during a comedy performance.",
-    "banglaMeaning": "প্রহ্মবানে জজর্রিত করা",
+    "simpleDefinition": "To interrupt a public speaker with loud, rude, or aggressive comments.",
+    "banglaMeaning": "বক্তৃতার সময় বিরক্ত করা; প্রশ্ন তোলা",
     "synonyms": [
-      "harass",
-      "hackle",
-      "hatchel"
+      "Jeer",
+      "Disrupt",
+      "Taunt",
+      "Harass"
     ],
     "antonyms": [
-      "No common antonym"
+      "Cheer",
+      "Applaud",
+      "Encourage"
     ],
-    "example": "The student learned how to use heckle correctly in a sentence."
+    "example": "A few angry protesters tried to heckle the mayor during his speech."
   },
   "hedge": {
     "word": "Hedge",
     "pos": "noun",
-    "simpleDefinition": "Contract or arrangement reducing one's exposure to risk (for example the risk of price movements or interest rate movements).",
+    "simpleDefinition": "A boundary of bushes, or an action taken to protect against financial loss.",
     "banglaMeaning": "প্রতিবন্ধক",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Barrier",
+      "Protection",
+      "Safeguard",
+      "Shield"
     ],
     "antonyms": [
-      "No common antonym"
+      "Exposure",
+      "Risk"
     ],
-    "example": "The student learned how to use hedge correctly in a sentence."
+    "example": "Investing in gold is often used as a hedge against inflation."
   },
   "hefty": {
     "word": "Hefty",
     "pos": "adjective",
-    "simpleDefinition": "Heavy, weighing a lot.",
+    "simpleDefinition": "Large, heavy, powerfully built, or substantial in amount.",
     "banglaMeaning": "প্রবল / তাগড়া",
     "synonyms": [
-      "heavy",
-      "brawny",
-      "powerful"
+      "Heavy",
+      "Massive",
+      "Substantial",
+      "Sizable"
     ],
     "antonyms": [
-      "No common antonym"
+      "Light",
+      "Slight",
+      "Small"
     ],
-    "example": "The student learned how to use hefty correctly in a sentence."
+    "example": "He had to pay a hefty fine for speeding through the school zone."
   },
   "hegemony": {
     "word": "Hegemony",
     "pos": "noun",
-    "simpleDefinition": "Domination, influence, or authority over another, especially by one political group over a society or by one nation over others.",
+    "simpleDefinition": "Leadership or dominant influence exerted by one nation or social group over others.",
     "banglaMeaning": "আধিপত্য",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Dominance",
+      "Supremacy",
+      "Leadership",
+      "Authority"
     ],
     "antonyms": [
-      "No common antonym"
+      "Subordination",
+      "Self-government"
     ],
-    "example": "The student learned how to use hegemony correctly in a sentence."
+    "example": "The ancient empire maintained its political hegemony over neighboring territories."
   },
   "heinous": {
     "word": "Heinous",
     "pos": "adjective",
-    "simpleDefinition": "Bad, evil or villainous.",
+    "simpleDefinition": "Utterly wicked, evil, shocking, or deserving of strong condemnation.",
     "banglaMeaning": "জগন্য",
     "synonyms": [
-      "grievous",
-      "atrocious",
-      "evil"
+      "Atrocious",
+      "Monstrous",
+      "Abominable",
+      "Evil"
     ],
     "antonyms": [
-      "No common antonym"
+      "Admirable",
+      "Noble",
+      "Virtuous"
     ],
-    "example": "The student learned how to use heinous correctly in a sentence."
+    "example": "The criminal received a life sentence for committing such heinous acts."
   },
   "heresy": {
     "word": "Heresy",
@@ -8616,210 +9855,247 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "hexagon": {
     "word": "Hexagon",
     "pos": "noun",
-    "simpleDefinition": "A polygon with six sides and six angles.",
+    "simpleDefinition": "A flat geometric shape with six straight sides and six angles.",
     "banglaMeaning": "ষড়ভূজ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Six-sided polygon",
+      "Geometric shape"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use hexagon correctly in a sentence."
+    "example": "Bees construct their honeycombs out of tiny, perfect hexagon cells."
   },
   "hidebound": {
     "word": "Hidebound",
     "pos": "adjective",
-    "simpleDefinition": "Stubborn; narrow-minded; inflexible.",
-    "banglaMeaning": "সংকীণর্মনা",
+    "simpleDefinition": "Unwilling to change or consider new ideas due to rigid tradition.",
+    "banglaMeaning": "সংকীর্ণমনা",
     "synonyms": [
-      "traditionalist",
-      "conservative"
+      "Narrow-minded",
+      "Rigid",
+      "Inflexible",
+      "Orthodox"
     ],
     "antonyms": [
-      "No common antonym"
+      "Open-minded",
+      "Progressive",
+      "Flexible"
     ],
-    "example": "The student learned how to use hidebound correctly in a sentence."
+    "example": "The hidebound committee rejected every suggestion for modernizing the policy."
   },
   "highbrow": {
     "word": "Highbrow",
     "pos": "adjective",
-    "simpleDefinition": "Intellectually stimulating, highly cultured, sophisticated.",
+    "simpleDefinition": "Intellectual, scholarly, or appealing to refined and sophisticated tastes.",
     "banglaMeaning": "বড়াইকারী",
     "synonyms": [
-      "intellectual",
-      "highbrowed"
+      "Intellectual",
+      "Scholarly",
+      "Cultured",
+      "Sophisticated"
     ],
     "antonyms": [
-      "No common antonym"
+      "Lowbrow",
+      "Popular",
+      "Uncultured"
     ],
-    "example": "The student learned how to use highbrow correctly in a sentence."
+    "example": "He preferred reading highbrow historical essays over commercial magazines."
   },
   "hindrance": {
     "word": "Hindrance",
     "pos": "noun",
-    "simpleDefinition": "Something which hinders: something that holds back or causes problems with something else.",
+    "simpleDefinition": "A thing that provides resistance, delay, or obstruction to something.",
     "banglaMeaning": "বাঁধা",
     "synonyms": [
-      "impediment",
-      "hitch",
-      "encumbrance"
+      "Obstacle",
+      "Barrier",
+      "Impediment",
+      "Obstruction"
     ],
     "antonyms": [
-      "No common antonym"
+      "Help",
+      "Assistance",
+      "Aid"
     ],
-    "example": "The student learned how to use hindrance correctly in a sentence."
+    "example": "The lack of reliable internet was a major hindrance to her online studies."
   },
   "hit upon": {
     "word": "Hit upon",
     "pos": "verb",
-    "simpleDefinition": "To think of; to discover or invent.",
+    "simpleDefinition": "To discover, think of, or find something unexpectedly or by chance.",
     "banglaMeaning": "খুঁজে পাওয়া",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Discover",
+      "Come upon",
+      "Devise",
+      "Stumble upon"
     ],
     "antonyms": [
-      "No common antonym"
+      "Miss",
+      "Overlook",
+      "Ignore"
     ],
-    "example": "The student learned how to use hit upon correctly in a sentence."
+    "example": "After hours of brainstorming, the team finally hit upon a brilliant solution."
   },
   "hoard": {
     "word": "Hoard",
     "pos": "verb",
-    "simpleDefinition": "To amass, usually for one's own private collection.",
+    "simpleDefinition": "To accumulate and store away a large quantity of items secretly.",
     "banglaMeaning": "মজুতদারি",
     "synonyms": [
-      "cache",
-      "collect",
-      "amass"
+      "Amass",
+      "Store",
+      "Stockpile",
+      "Accumulate"
     ],
     "antonyms": [
-      "No common antonym"
+      "Spend",
+      "Distribute",
+      "Squander"
     ],
-    "example": "The student learned how to use hoard correctly in a sentence."
+    "example": "During the crisis, some merchants attempted to hoard essential food supplies."
   },
   "hole and corner": {
     "word": "Hole and corner",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being hole and corner.",
+    "pos": "idiom",
+    "simpleDefinition": "Done secretly, underhandedly, or in a deceitful manner.",
     "banglaMeaning": "গোপনীয়",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Secret",
+      "Underhanded",
+      "Clandestine",
+      "Covert"
     ],
     "antonyms": [
-      "No common antonym"
+      "Open",
+      "Public",
+      "Above board"
     ],
-    "example": "The student learned how to use hole and corner correctly in a sentence."
+    "example": "He refused to participate in such hole and corner business transactions."
   },
   "holocaust": {
     "word": "Holocaust",
     "pos": "noun",
-    "simpleDefinition": "(figuratively) Extensive destruction of a group of animals or (especially) people; a large-scale massacre or slaughter.",
-    "banglaMeaning": "ব্যাপক হত্যাকান্ম",
+    "simpleDefinition": "Destruction or slaughter on a mass scale, especially by fire or warfare.",
+    "banglaMeaning": "গণহত্যা; ব্যাপক ধ্বংসযজ্ঞ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Massacre",
+      "Catastrophe",
+      "Devastation",
+      "Destruction"
     ],
     "antonyms": [
-      "No common antonym"
+      "Peace",
+      "Preservation"
     ],
-    "example": "The student learned how to use holocaust correctly in a sentence."
+    "example": "The devastating conflict resulted in a humanitarian holocaust for civilians."
   },
   "homogeneous": {
     "word": "Homogeneous",
     "pos": "adjective",
-    "simpleDefinition": "Of the same kind; alike, similar.",
+    "simpleDefinition": "Consisting of parts or elements that are all of the same kind; uniform.",
     "banglaMeaning": "সমজাতীয়",
     "synonyms": [
-      "solid",
-      "uniform",
-      "consistent"
+      "Uniform",
+      "Consistent",
+      "Identical",
+      "Alike"
     ],
     "antonyms": [
-      "heterogeneous"
+      "Heterogeneous",
+      "Diverse",
+      "Varied"
     ],
-    "example": "The student learned how to use homogeneous correctly in a sentence."
+    "example": "The small island nation has a remarkably homogeneous culture and language."
   },
   "honorary": {
     "word": "Honorary",
     "pos": "adjective",
-    "simpleDefinition": "Given as an honor/honour, with no duties attached, and without payment.",
+    "simpleDefinition": "Given as an honor or title without the normal duties or regular payment.",
     "banglaMeaning": "বিনাবেতনে",
     "synonyms": [
-      "unearned"
+      "Unpaid",
+      "Nominal",
+      "Honorific",
+      "Complimentary"
     ],
     "antonyms": [
-      "No common antonym"
+      "Salaried",
+      "Paid",
+      "Official"
     ],
-    "example": "The student learned how to use honorary correctly in a sentence."
+    "example": "The university awarded him an honorary degree for his philanthropic work."
   },
   "hook": {
     "word": "Hook",
     "pos": "noun",
-    "simpleDefinition": "A rod bent into a curved shape, typically with one end free and the other end secured to a rope or other attachment.",
+    "simpleDefinition": "A curved device used for catching or holding, or an attractive feature.",
     "banglaMeaning": "ফাঁদ",
     "synonyms": [
-      "abstract",
-      "plume",
-      "draw"
+      "Snare",
+      "Catch",
+      "Trap",
+      "Fastener"
     ],
     "antonyms": [
-      "unhook",
-      "undercharge"
+      "Release"
     ],
-    "example": "The student learned how to use hook correctly in a sentence."
+    "example": "The catchy opening chorus served as the main hook of the song."
   },
   "horde": {
     "word": "Horde",
     "pos": "noun",
-    "simpleDefinition": "A large number of people or things.",
+    "simpleDefinition": "A very large, bustling crowd or moving group of people.",
     "banglaMeaning": "যাযাবর দল",
     "synonyms": [
-      "host",
-      "swarm",
-      "drove"
+      "Crowd",
+      "Multitude",
+      "Throng",
+      "Pack"
     ],
     "antonyms": [
-      "No common antonym"
+      "Handful",
+      "Few",
+      "Individual"
     ],
-    "example": "The student learned how to use horde correctly in a sentence."
+    "example": "A horde of eager shoppers rushed through the mall doors on sale day."
   },
   "horn": {
     "word": "Horn",
     "pos": "noun",
-    "simpleDefinition": "A hard growth of keratin that protrudes from the top of the head of certain animals, usually paired.",
+    "simpleDefinition": "A hard pointed growth on an animal's head, or a brass wind instrument.",
     "banglaMeaning": "শিঙা",
     "synonyms": [
-      "tusk",
-      "trumpet",
-      "cornet"
+      "Antler",
+      "Wind instrument"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use horn correctly in a sentence."
+    "example": "The loud horn of the arriving ship echoed across the quiet harbor."
   },
   "host in himself": {
     "word": "Host in himself",
     "pos": "idiom",
-    "simpleDefinition": "A capable person who possesses multiple skills alone",
-    "banglaMeaning": "আয়োজক",
+    "simpleDefinition": "A person with many skills who can manage everything independently.",
+    "banglaMeaning": "একাই একশ; নিজেই সবকিছু",
     "synonyms": [
-      "all-rounder",
-      "self-reliant person"
+      "All-rounder",
+      "Versatile person",
+      "Self-reliant"
     ],
     "antonyms": [
-      "dependent person"
+      "Dependent person",
+      "Helpless"
     ],
-    "example": "The experienced technician was a host in himself."
+    "example": "The resourceful technician was truly a host in himself on the expedition."
   },
   "hostile": {
     "word": "Hostile",
     "pos": "adjective",
     "simpleDefinition": "Showing or feeling active opposition or unfriendliness",
-    "banglaMeaning": "শত্রুভাবাপন্ন / প্রতিকূল / প্রতিহূল / বিরোধী",
+    "banglaMeaning": "শত্রুভাবাপন্ন / প্রতিকূল / প্রতিকূল / বিরোধী",
     "synonyms": [
       "Unfriendly",
       "Aggressive",
@@ -8835,208 +10111,249 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "humble": {
     "word": "Humble",
     "pos": "adjective",
-    "simpleDefinition": "Having a low opinion of oneself; not proud, arrogant, or assuming; modest.",
+    "simpleDefinition": "Having or showing a modest estimate of one's own importance; not proud.",
     "banglaMeaning": "বিনীত",
     "synonyms": [
-      "base",
-      "chagrin",
-      "modest"
+      "Modest",
+      "Meek",
+      "Unassuming",
+      "Respectful"
     ],
     "antonyms": [
-      "proud"
+      "Arrogant",
+      "Proud",
+      "Haughty"
     ],
-    "example": "The student learned how to use humble correctly in a sentence."
+    "example": "Despite winning the grand prize, she remained remarkably humble."
   },
   "humidity": {
     "word": "Humidity",
     "pos": "noun",
-    "simpleDefinition": "The amount of water vapour in the air.",
-    "banglaMeaning": "আদ্রতা",
+    "simpleDefinition": "The state or degree of moisture and dampness present in the air.",
+    "banglaMeaning": "আর্দ্রতা",
     "synonyms": [
-      "humidness"
+      "Moisture",
+      "Dampness",
+      "Wetness",
+      "Mugginess"
     ],
     "antonyms": [
-      "No common antonym"
+      "Dryness",
+      "Aridity"
     ],
-    "example": "The student learned how to use humidity correctly in a sentence."
+    "example": "The high humidity made the tropical afternoon feel uncomfortably hot."
   },
   "hyperbolic": {
     "word": "Hyperbolic",
     "pos": "adjective",
-    "simpleDefinition": "Using hyperbole: exaggerated.",
-    "banglaMeaning": "অতিরনি্নত করে বলা",
+    "simpleDefinition": "Deliberately exaggerated, or relating to a geometric hyperbola.",
+    "banglaMeaning": "অতিরঞ্জিত করে বলা",
     "synonyms": [
-      "exaggerated",
-      "inflated",
-      "increased"
+      "Exaggerated",
+      "Overstated",
+      "Inflated",
+      "Magnified"
     ],
     "antonyms": [
-      "No common antonym"
+      "Understated",
+      "Literal",
+      "Modest"
     ],
-    "example": "The student learned how to use hyperbolic correctly in a sentence."
+    "example": "The review was filled with hyperbolic praise about the new smartphone."
   },
   "hypocrite": {
     "word": "Hypocrite",
     "pos": "noun",
-    "simpleDefinition": "A person who pretends to have virtues, moral or religious beliefs that they do not possess",
-    "banglaMeaning": "ভণ্ড / কপট ব্যক্তি / ভধ্ন",
+    "simpleDefinition": "A person who claims to have moral standards or beliefs to which their behavior does not conform.",
+    "banglaMeaning": "ভণ্ড / কপট ব্যক্তি",
     "synonyms": [
       "Deceiver",
       "Pretender",
+      "Fraud",
       "Fake"
     ],
     "antonyms": [
-      "Sincere",
-      "Honest",
-      "Genuine"
+      "Honest person",
+      "Sincere person"
     ],
-    "example": "A hypocrite preaches goodness but behaves badly."
+    "example": "He is a hypocrite who preaches healthy eating while secretly gorging on junk food."
   },
   "hypothetical": {
     "word": "Hypothetical",
     "pos": "adjective",
-    "simpleDefinition": "Based upon a hypothesis; conjectural.",
-    "banglaMeaning": "অনুমান কৃত / প্রকসি্ফত",
+    "simpleDefinition": "Based on an assumption or imagined situation rather than factual evidence.",
+    "banglaMeaning": "অনুমান কৃত / প্রকল্পিত",
     "synonyms": [
-      "theoretical",
-      "theoretic",
-      "hypothetic"
+      "Theoretical",
+      "Supposed",
+      "Assumed",
+      "Imaginary"
     ],
     "antonyms": [
-      "No common antonym"
+      "Actual",
+      "Real",
+      "Factual"
     ],
-    "example": "The student learned how to use hypothetical correctly in a sentence."
+    "example": "The lawyer gave a hypothetical example to explain the complex legal concept."
   },
   "idealistic": {
     "word": "Idealistic",
     "pos": "adjective",
-    "simpleDefinition": "Of or pertaining to an idealist or to idealism.",
-    "banglaMeaning": "আদশর্বাদী",
+    "simpleDefinition": "Believing in high moral principles or ideals, sometimes unrealistically.",
+    "banglaMeaning": "আদর্শবাদী",
     "synonyms": [
-      "noble",
-      "lofty",
-      "exalted"
+      "Visionary",
+      "Utopian",
+      "Noble",
+      "Optimistic"
     ],
     "antonyms": [
-      "No common antonym"
+      "Pragmatic",
+      "Realistic",
+      "Cynical"
     ],
-    "example": "The student learned how to use idealistic correctly in a sentence."
+    "example": "Her idealistic vision inspired the team to work toward cleaner cities."
   },
   "identical": {
     "word": "Identical",
     "pos": "adjective",
-    "simpleDefinition": "Bearing full likeness by having precisely the same set of characteristics; indistinguishable.",
+    "simpleDefinition": "Exactly the same in appearance, character, or quality.",
     "banglaMeaning": "সমজাতীয়",
     "synonyms": [
-      "congruent",
-      "same",
-      "indistinguishable"
+      "Same",
+      "Duplicate",
+      "Matching",
+      "Equal"
     ],
     "antonyms": [
-      "fraternal",
-      "biovular"
+      "Different",
+      "Distinct",
+      "Dissimilar"
     ],
-    "example": "The student learned how to use identical correctly in a sentence."
+    "example": "The twins wore identical blue dresses to the school party."
   },
   "idolatrous": {
     "word": "Idolatrous",
     "pos": "adjective",
-    "simpleDefinition": "Partaking in idolatry; worshipping idols or false gods.",
+    "simpleDefinition": "Worshiping idols or showing excessive admiration and devotion to something.",
     "banglaMeaning": "পরম ভক্তিশীল",
     "synonyms": [
-      "loving"
+      "Worshipful",
+      "Adoring",
+      "Reverential",
+      "Devoted"
     ],
     "antonyms": [
-      "No common antonym"
+      "Iconoclastic",
+      "Critical",
+      "Disrespectful"
     ],
-    "example": "The student learned how to use idolatrous correctly in a sentence."
+    "example": "Their idolatrous obsession with celebrity culture distorted their values."
   },
   "idyllic": {
     "word": "Idyllic",
     "pos": "adjective",
-    "simpleDefinition": "Extremely happy, peaceful, or picturesque.",
+    "simpleDefinition": "Extremely pleasant, peaceful, and picturesque, especially in a rural setting.",
     "banglaMeaning": "শান্ত",
     "synonyms": [
-      "pleasant",
-      "pastoral",
-      "perfect"
+      "Peaceful",
+      "Serene",
+      "Picturesque",
+      "Pastoral"
     ],
     "antonyms": [
-      "No common antonym"
+      "Chaotic",
+      "Stressful",
+      "Troubled"
     ],
-    "example": "The student learned how to use idyllic correctly in a sentence."
+    "example": "They spent their summer holiday in an idyllic mountain cottage."
   },
   "illusive": {
     "word": "Illusive",
     "pos": "adjective",
-    "simpleDefinition": "Subject to or pertaining to an illusion, often used in the sense of an unrealistic expectation or an unreachable goal or outcome.",
+    "simpleDefinition": "Deceptive, misleading, or giving an illusion of reality that does not exist.",
     "banglaMeaning": "মায়াময়",
     "synonyms": [
-      "unreal",
-      "illusory"
+      "Illusory",
+      "Deceptive",
+      "Misleading",
+      "Fleeting"
     ],
     "antonyms": [
-      "No common antonym"
+      "Real",
+      "Genuine",
+      "Tangible"
     ],
-    "example": "The student learned how to use illusive correctly in a sentence."
+    "example": "Lasting peace in the region proved to be an illusive dream."
   },
   "imbecile": {
     "word": "Imbecile",
     "pos": "noun",
-    "simpleDefinition": "A fool, an idiot.",
+    "simpleDefinition": "A foolish, stupid, or silly person.",
     "banglaMeaning": "বোকা জাতীয়",
     "synonyms": [
-      "cretin",
-      "stupid",
-      "idiot"
+      "Fool",
+      "Idiot",
+      "Dolt",
+      "Dunce"
     ],
     "antonyms": [
-      "No common antonym"
+      "Genius",
+      "Intellectual"
     ],
-    "example": "The student learned how to use imbecile correctly in a sentence."
+    "example": "He felt like an imbecile when he realized he forgot his passport."
   },
   "imbecility": {
     "word": "Imbecility",
     "pos": "noun",
-    "simpleDefinition": "The quality of being imbecile; weakness; feebleness, especially of mind.",
+    "simpleDefinition": "Extreme foolishness, stupidity, or senseless behavior.",
     "banglaMeaning": "মূখর্তা",
     "synonyms": [
-      "folly",
-      "foolishness",
-      "betise"
+      "Stupidity",
+      "Folly",
+      "Foolishness",
+      "Absurdity"
     ],
     "antonyms": [
-      "No common antonym"
+      "Wisdom",
+      "Intelligence",
+      "Prudence"
     ],
-    "example": "The student learned how to use imbecility correctly in a sentence."
+    "example": "The imbecility of driving at high speed in dense fog shocked everyone."
   },
   "immigrant": {
     "word": "Immigrant",
     "pos": "noun",
-    "simpleDefinition": "A non-native person who comes to a country from another country to permanently settle there.",
+    "simpleDefinition": "A person who comes to live permanently in a foreign country.",
     "banglaMeaning": "অভিবাসী",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Settler",
+      "Newcomer",
+      "Migrant"
     ],
     "antonyms": [
-      "No common antonym"
+      "Native",
+      "Emigrant"
     ],
-    "example": "The student learned how to use immigrant correctly in a sentence."
+    "example": "Her grandparents were immigrants who built a new life in the country."
   },
   "impair": {
     "word": "Impair",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being impair.",
+    "pos": "verb",
+    "simpleDefinition": "To weaken, damage, or diminish the strength or quality of something.",
     "banglaMeaning": "দুর্বল করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Damage",
+      "Weaken",
+      "Harm",
+      "Diminish"
     ],
     "antonyms": [
-      "No common antonym"
+      "Improve",
+      "Enhance",
+      "Strengthen"
     ],
-    "example": "The student learned how to use impair correctly in a sentence."
+    "example": "Listening to music at excessive volume can permanently impair your hearing."
   },
   "impeccable": {
     "word": "Impeccable",
@@ -9075,31 +10392,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "impel": {
     "word": "Impel",
     "pos": "verb",
-    "simpleDefinition": "To drive forward; to propel an object, to provide an impetus for motion or action.",
+    "simpleDefinition": "To drive, force, or strongly urge someone to take a specific action.",
     "banglaMeaning": "অনুপ্রাণিত করা",
     "synonyms": [
-      "propel",
-      "force"
+      "Drive",
+      "Urge",
+      "Motivate",
+      "Prompt"
     ],
     "antonyms": [
-      "No common antonym"
+      "Deter",
+      "Discourage",
+      "Hinder"
     ],
-    "example": "The student learned how to use impel correctly in a sentence."
+    "example": "A strong sense of duty impelled the officer to rescue the trapped family."
   },
   "impertinence": {
     "word": "Impertinence",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being impertinence.",
-    "banglaMeaning": "অপ্রাসণি্টকতা",
+    "simpleDefinition": "Lack of respect or rude insolence towards someone who deserves deference.",
+    "banglaMeaning": "অপ্রাসঙ্গিকতা",
     "synonyms": [
-      "gall",
-      "insolence",
-      "cheek"
+      "Insolence",
+      "Rudeness",
+      "Impudence",
+      "Disrespect"
     ],
     "antonyms": [
-      "No common antonym"
+      "Politeness",
+      "Respect",
+      "Courtesy"
     ],
-    "example": "The student learned how to use impertinence correctly in a sentence."
+    "example": "The strict headmaster would not tolerate any impertinence from students."
   },
   "impertinent": {
     "word": "Impertinent",
@@ -9138,47 +10462,56 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "impetus": {
     "word": "Impetus",
     "pos": "noun",
-    "simpleDefinition": "Anything that impels; a stimulating factor.",
-    "banglaMeaning": "আবেগ / প্রেরণা",
+    "simpleDefinition": "The force or energy with which a body moves, or something that makes a process happen faster.",
+    "banglaMeaning": "চালিকাশক্তি; গতিবেগ; প্রেরণা",
     "synonyms": [
-      "impulse",
-      "drift",
-      "impulsion"
+      "Momentum",
+      "Driving force",
+      "Impulse",
+      "Stimulus"
     ],
     "antonyms": [
-      "No common antonym"
+      "Hindrance",
+      "Deterrent",
+      "Obstacle"
     ],
-    "example": "The student learned how to use impetus correctly in a sentence."
+    "example": "The government research grant provided the impetus for new discoveries."
   },
   "impinge": {
     "word": "Impinge",
     "pos": "verb",
-    "simpleDefinition": "To interfere with.",
+    "simpleDefinition": "To have an effect or impact, especially a negative one, or encroach upon.",
     "banglaMeaning": "আঘাত হানা",
     "synonyms": [
-      "encroach",
-      "infringe",
-      "trench"
+      "Encroach",
+      "Intrude",
+      "Impact",
+      "Infringe"
     ],
     "antonyms": [
-      "No common antonym"
+      "Respect",
+      "Avoid",
+      "Leave alone"
     ],
-    "example": "The student learned how to use impinge correctly in a sentence."
+    "example": "Unfair regulations began to impinge on the freedom of local business owners."
   },
   "implacable": {
     "word": "Implacable",
     "pos": "adjective",
-    "simpleDefinition": "Not able to be placated or appeased.",
+    "simpleDefinition": "Unable to be calmed, appeased, or stopped; relentlessly unyielding.",
     "banglaMeaning": "নির্দয় / ক্ষমাশীল",
     "synonyms": [
-      "inexorable",
-      "grim",
-      "stern"
+      "Relentless",
+      "Unyielding",
+      "Unforgiving",
+      "Grim"
     ],
     "antonyms": [
-      "placable"
+      "Forgiving",
+      "Merciful",
+      "Pliable"
     ],
-    "example": "The student learned how to use implacable correctly in a sentence."
+    "example": "The implacable rival refused all offers to resolve the dispute peacefully."
   },
   "implicit": {
     "word": "Implicit",
@@ -9200,92 +10533,105 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "impostor": {
     "word": "Impostor",
     "pos": "noun",
-    "simpleDefinition": "Someone who attempts to deceive by using an assumed name or identity.",
-    "banglaMeaning": "ভধ্ন",
+    "simpleDefinition": "A person who pretends to be someone else in order to deceive others.",
+    "banglaMeaning": "ভণ্ড / প্রতারক",
     "synonyms": [
-      "sham",
-      "pretender",
-      "fraud"
+      "Fraud",
+      "Pretender",
+      "Deceiver",
+      "Fake"
     ],
     "antonyms": [
-      "No common antonym"
+      "Authentic person"
     ],
-    "example": "The student learned how to use impostor correctly in a sentence."
+    "example": "The man was arrested when the hospital discovered he was an impostor."
   },
   "imprison": {
     "word": "Imprison",
     "pos": "verb",
-    "simpleDefinition": "To put in or as if in prison; confine somebody against their will.",
-    "banglaMeaning": "শৃড্ডলাবদ্ধ করা",
+    "simpleDefinition": "To put someone in prison or confine them against their will.",
+    "banglaMeaning": "শৃঙ্খলিত করা / কারারুদ্ধ করা",
     "synonyms": [
-      "gaol",
-      "jug",
-      "incarcerate"
+      "Incarcerate",
+      "Jail",
+      "Confine",
+      "Detain"
     ],
     "antonyms": [
-      "No common antonym"
+      "Release",
+      "Free",
+      "Liberate"
     ],
-    "example": "The student learned how to use imprison correctly in a sentence."
+    "example": "The court decided to imprison the criminal for five years."
   },
   "imprudent": {
     "word": "Imprudent",
     "pos": "adjective",
-    "simpleDefinition": "Not prudent; lacking prudence or discretion; indiscreet; injudicious; not paying attention to the consequences of one's actions.",
+    "simpleDefinition": "Not showing care for the consequences of an action; rash and unwise.",
     "banglaMeaning": "অবিবেচক",
     "synonyms": [
-      "rash",
-      "blind",
-      "improvident"
+      "Unwise",
+      "Rash",
+      "Careless",
+      "Reckless"
     ],
     "antonyms": [
-      "prudent"
+      "Prudent",
+      "Wise",
+      "Cautious"
     ],
-    "example": "The student learned how to use imprudent correctly in a sentence."
+    "example": "It is imprudent to invest all your savings in a single unproven venture."
   },
   "impulsive": {
     "word": "Impulsive",
     "pos": "adjective",
-    "simpleDefinition": "Actuated by impulse or by transient feelings; inclined to make rapid decisions without due consideration.",
+    "simpleDefinition": "Acting or done suddenly without thinking about the consequences.",
     "banglaMeaning": "আবেগপ্রবণ",
     "synonyms": [
-      "capricious",
-      "dynamic",
-      "arbitrary"
+      "Spontaneous",
+      "Hasty",
+      "Rash",
+      "Impulsive"
     ],
     "antonyms": [
-      "No common antonym"
+      "Cautious",
+      "Deliberate",
+      "Premeditated"
     ],
-    "example": "The student learned how to use impulsive correctly in a sentence."
+    "example": "His impulsive decision to quit his job surprised all his coworkers."
   },
   "impute": {
     "word": "Impute",
     "pos": "verb",
-    "simpleDefinition": "To attribute or ascribe (responsibility or fault) to a cause or source.",
+    "simpleDefinition": "To attribute or ascribe something (usually an error or fault) to someone.",
     "banglaMeaning": "আরোপ করা",
     "synonyms": [
-      "attribute",
-      "ascribe",
-      "assign"
+      "Attribute",
+      "Ascribe",
+      "Assign",
+      "Credit"
     ],
     "antonyms": [
-      "No common antonym"
+      "Absolve",
+      "Exonerate"
     ],
-    "example": "The student learned how to use impute correctly in a sentence."
+    "example": "They attempted to impute the project failure entirely to bad leadership."
   },
   "in deep water": {
     "word": "In deep water",
     "pos": "idiom",
-    "simpleDefinition": "In serious trouble or severe difficulty",
+    "simpleDefinition": "In a very difficult, stressful, or dangerous situation with serious trouble.",
     "banglaMeaning": "বিপদে থাকা",
     "synonyms": [
-      "in trouble",
-      "in distress"
+      "In trouble",
+      "In distress",
+      "In hot water"
     ],
     "antonyms": [
-      "safe",
-      "out of trouble"
+      "Safe",
+      "Out of danger"
     ],
-    "example": "The company found itself in deep water after losing its main client."
+    "example": "The company will be in deep water if it fails to pay back the bank loan."
   },
   "inadvertent": {
     "word": "Inadvertent",
@@ -9307,77 +10653,90 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "inamorata": {
     "word": "Inamorata",
     "pos": "noun",
-    "simpleDefinition": "A female lover or woman with whom one is in love; a mistress.",
-    "banglaMeaning": "প্রণয়ী",
+    "simpleDefinition": "A woman with whom someone is deeply in love; a female sweetheart.",
+    "banglaMeaning": "প্রেমিকা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Sweetheart",
+      "Beloved",
+      "Lover",
+      "Darling"
     ],
     "antonyms": [
-      "No common antonym"
+      "Enemy"
     ],
-    "example": "The student learned how to use inamorata correctly in a sentence."
+    "example": "The poet dedicated his most heartfelt sonnets to his secret inamorata."
   },
   "inaudible": {
     "word": "Inaudible",
     "pos": "adjective",
-    "simpleDefinition": "Unable to be heard or not loud enough to be heard.",
+    "simpleDefinition": "Unable to be heard because the sound is too soft or quiet.",
     "banglaMeaning": "যা শোনা যায় না",
     "synonyms": [
-      "silent",
-      "voiceless",
-      "unheard"
+      "Silent",
+      "Faint",
+      "Unheard",
+      "Muffled"
     ],
     "antonyms": [
-      "audible",
-      "hearable"
+      "Audible",
+      "Loud",
+      "Clear"
     ],
-    "example": "The student learned how to use inaudible correctly in a sentence."
+    "example": "Her voice was almost inaudible above the roar of the waterfall."
   },
   "inauspicious": {
     "word": "Inauspicious",
     "pos": "adjective",
-    "simpleDefinition": "Not auspicious; ill-omened.",
+    "simpleDefinition": "Not conducive to success; suggesting that bad luck will follow.",
     "banglaMeaning": "অশুভ / অকল্যাণসূচক",
     "synonyms": [
-      "ominous",
-      "harmful",
-      "unfortunate"
+      "Unfavorable",
+      "Unpromising",
+      "Ominous",
+      "Unlucky"
     ],
     "antonyms": [
-      "auspicious"
+      "Auspicious",
+      "Promising",
+      "Favorable"
     ],
-    "example": "The student learned how to use inauspicious correctly in a sentence."
+    "example": "A sudden thunderstorm proved to be an inauspicious start to their hike."
   },
   "incapacitate": {
     "word": "Incapacitate",
     "pos": "verb",
-    "simpleDefinition": "To make someone or something incapable of doing something; to disable.",
+    "simpleDefinition": "To deprive someone of strength, ability, or power; make unable to function.",
     "banglaMeaning": "অযোগ্য করা",
     "synonyms": [
-      "invalid",
-      "disable",
-      "handicap"
+      "Disable",
+      "Paralyze",
+      "Weaken",
+      "Cripple"
     ],
     "antonyms": [
-      "enable"
+      "Enable",
+      "Empower",
+      "Strengthen"
     ],
-    "example": "The student learned how to use incapacitate correctly in a sentence."
+    "example": "A serious back injury incapacitated the worker for three weeks."
   },
   "incautious": {
     "word": "Incautious",
     "pos": "adjective",
-    "simpleDefinition": "Careless, reckless, not exercising proper caution.",
+    "simpleDefinition": "Heedless of danger or risk; not cautious and careless.",
     "banglaMeaning": "অবিবেচক",
     "synonyms": [
-      "impetuous",
-      "impulsive",
-      "careless"
+      "Careless",
+      "Rash",
+      "Unwary",
+      "Reckless"
     ],
     "antonyms": [
-      "cautious"
+      "Cautious",
+      "Careful",
+      "Vigilant"
     ],
-    "example": "The student learned how to use incautious correctly in a sentence."
+    "example": "An incautious word during the negotiation offended the foreign delegates."
   },
   "incite": {
     "word": "Incite",
@@ -9399,113 +10758,144 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "inclusive": {
     "word": "Inclusive",
     "pos": "adjective",
-    "simpleDefinition": "Including (almost) everything within its scope.",
+    "simpleDefinition": "Including all the expected services, items, or types of people.",
     "banglaMeaning": "অন্তভুর্ক্তিমূলক",
     "synonyms": [
-      "comprehensive"
+      "Comprehensive",
+      "All-embracing",
+      "Broad",
+      "Complete"
     ],
     "antonyms": [
-      "exclusive"
+      "Exclusive",
+      "Selective",
+      "Narrow"
     ],
-    "example": "The student learned how to use inclusive correctly in a sentence."
+    "example": "The resort offers an inclusive package covering room, meals, and sports."
   },
   "incongruous": {
     "word": "Incongruous",
     "pos": "adjective",
-    "simpleDefinition": "Not similar or congruent; not matching or fitting in.",
+    "simpleDefinition": "Not in harmony or keeping with the surroundings or other aspects of something.",
     "banglaMeaning": "বেমানান",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Out of place",
+      "Mismatched",
+      "Inappropriate",
+      "Jarring"
     ],
     "antonyms": [
-      "No common antonym"
+      "Harmonious",
+      "Fitting",
+      "Compatible"
     ],
-    "example": "The student learned how to use incongruous correctly in a sentence."
+    "example": "A concrete high-rise looks incongruous among historic stone cottages."
   },
   "inconsiderate": {
     "word": "Inconsiderate",
     "pos": "adjective",
-    "simpleDefinition": "Not considerate of others.",
+    "simpleDefinition": "Thoughtlessly causing harm or inconvenience to others.",
     "banglaMeaning": "অবিবেচক",
     "synonyms": [
-      "thoughtless",
-      "careless",
-      "uncaring"
+      "Thoughtless",
+      "Selfish",
+      "Unkind",
+      "Tactless"
     ],
     "antonyms": [
-      "considerate"
+      "Considerate",
+      "Thoughtful",
+      "Polite"
     ],
-    "example": "The student learned how to use inconsiderate correctly in a sentence."
+    "example": "Playing loud video games while others are sleeping is very inconsiderate."
   },
   "inculcate": {
     "word": "Inculcate",
     "pos": "verb",
-    "simpleDefinition": "To teach by repeated instruction.",
+    "simpleDefinition": "To instill an attitude, idea, or habit by persistent instruction or repetition.",
     "banglaMeaning": "চিত্তনিষ্ঠ",
     "synonyms": [
-      "infuse",
-      "instill"
+      "Instill",
+      "Teach",
+      "Impart",
+      "Infuse"
     ],
     "antonyms": [
-      "No common antonym"
+      "Erase",
+      "Neglect",
+      "Remove"
     ],
-    "example": "The student learned how to use inculcate correctly in a sentence."
+    "example": "Good teachers try to inculcate respect and curiosity in their pupils."
   },
   "indebted": {
     "word": "Indebted",
     "pos": "adjective",
-    "simpleDefinition": "Obligated, especially financially.",
-    "banglaMeaning": "কৃতন্ত্র",
+    "simpleDefinition": "Owing gratitude or money to someone who has helped you.",
+    "banglaMeaning": "ঋণী,বাধিত; কৃতজ্ঞ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Grateful",
+      "Obligated",
+      "Beholden",
+      "Thankful"
     ],
     "antonyms": [
-      "No common antonym"
+      "Unindebted",
+      "Ungrateful"
     ],
-    "example": "The student learned how to use indebted correctly in a sentence."
+    "example": "I am deeply indebted to my doctor for her dedication during my recovery."
   },
   "indelible": {
     "word": "Indelible",
     "pos": "adjective",
-    "simpleDefinition": "Incapable of being canceled, lost, or forgotten.",
+    "simpleDefinition": "Making marks that cannot be removed, or leaving a permanent impression.",
     "banglaMeaning": "অমোচনীয়",
     "synonyms": [
-      "unerasable",
-      "ineradicable"
+      "Permanent",
+      "Unforgettable",
+      "Enduring",
+      "Lasting"
     ],
     "antonyms": [
-      "No common antonym"
+      "Erasable",
+      "Temporary",
+      "Fleeting"
     ],
-    "example": "The student learned how to use indelible correctly in a sentence."
+    "example": "Her heroic act left an indelible impression on the whole community."
   },
   "indict": {
     "word": "Indict",
     "pos": "verb",
-    "simpleDefinition": "To accuse of wrongdoing; charge.",
+    "simpleDefinition": "To formally charge or accuse someone with a serious crime in a court of law.",
     "banglaMeaning": "অভিযুক্ত করা",
     "synonyms": [
-      "Related to indict",
-      "Similar"
+      "Charge",
+      "Accuse",
+      "Prosecute",
+      "Arraign"
     ],
     "antonyms": [
-      "No common antonym"
+      "Acquit",
+      "Exonerate",
+      "Absolve"
     ],
-    "example": "a book that indicts modern values"
+    "example": "The grand jury decided to indict the corporate executive for bribery."
   },
   "indictment": {
     "word": "Indictment",
     "pos": "noun",
-    "simpleDefinition": "An official formal accusation for a criminal offence, or the process by which it is brought to a jury.",
+    "simpleDefinition": "A formal charge or accusation of a serious crime, or a sign of severe problems.",
     "banglaMeaning": "অভিযোগ",
     "synonyms": [
-      "bill of indictment"
+      "Accusation",
+      "Charge",
+      "Prosecution",
+      "Summons"
     ],
     "antonyms": [
-      "No common antonym"
+      "Acquittal",
+      "Exoneration"
     ],
-    "example": "The student learned how to use indictment correctly in a sentence."
+    "example": "The harsh investigative report was an indictment of the prison system."
   },
   "indifferent": {
     "word": "Indifferent",
@@ -9527,32 +10917,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "indigent": {
     "word": "Indigent",
     "pos": "adjective",
-    "simpleDefinition": "Poor; destitute; in need.",
+    "simpleDefinition": "Extremely poor, needy, and lacking the basic necessities of life.",
     "banglaMeaning": "অত্যন্ত গরীব",
     "synonyms": [
-      "destitute",
-      "impoverished",
-      "needy"
+      "Impoverished",
+      "Destitute",
+      "Needy",
+      "Penniless"
     ],
     "antonyms": [
-      "No common antonym"
+      "Wealthy",
+      "Affluent",
+      "Rich"
     ],
-    "example": "The student learned how to use indigent correctly in a sentence."
+    "example": "The free legal clinic assists indigent defendants who cannot afford a lawyer."
   },
   "indispensable": {
     "word": "Indispensable",
     "pos": "adjective",
-    "simpleDefinition": "Absolutely necessary or requisite; that one cannot do without.",
+    "simpleDefinition": "Absolutely necessary and impossible to be without.",
     "banglaMeaning": "অপরিহার্য",
     "synonyms": [
-      "critical",
-      "essential",
-      "necessary"
+      "Essential",
+      "Crucial",
+      "Vital",
+      "Necessary"
     ],
     "antonyms": [
-      "dispensable"
+      "Dispensable",
+      "Optional",
+      "Superfluous"
     ],
-    "example": "The student learned how to use indispensable correctly in a sentence."
+    "example": "A reliable internet connection has become indispensable for remote workers."
   },
   "indolent": {
     "word": "Indolent",
@@ -9574,47 +10970,53 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "indulgent": {
     "word": "Indulgent",
     "pos": "adjective",
-    "simpleDefinition": "Disposed or prone to indulge, humor, gratify, or yield to one's own or another's desires, etc., or to be compliant, lenient, or forbearing;.",
-    "banglaMeaning": "প্রঙ্কয় / ক্ষমাশীল",
+    "simpleDefinition": "Having or showing a readiness to be lenient and overly generous.",
+    "banglaMeaning": "প্রশ্রয়পূর্ণ; নমনীয়; অতিরিক্ত ছাড় দেওয়া",
     "synonyms": [
-      "soft",
-      "voluptuous",
-      "gay"
+      "Lenient",
+      "Permissive",
+      "Tolerant",
+      "Forgiving"
     ],
     "antonyms": [
-      "nonindulgent"
+      "Strict",
+      "Stern",
+      "Severe"
     ],
-    "example": "The student learned how to use indulgent correctly in a sentence."
+    "example": "Her indulgent father bought her whatever new gadget she asked for."
   },
   "inebriated": {
     "word": "Inebriated",
     "pos": "adjective",
-    "simpleDefinition": "Behaving as though affected by alcohol including exhilaration, and a dumbed or stupefied manner.",
+    "simpleDefinition": "Drunk or intoxicated after consuming alcoholic beverages.",
     "banglaMeaning": "মদ্যপ",
     "synonyms": [
-      "mellow",
-      "besotted",
-      "stiff"
+      "Drunk",
+      "Intoxicated",
+      "Tipsy"
     ],
     "antonyms": [
-      "sober"
+      "Sober"
     ],
-    "example": "The student learned how to use inebriated correctly in a sentence."
+    "example": "The police prevented an inebriated driver from operating his car."
   },
   "inertia": {
     "word": "Inertia",
     "pos": "noun",
-    "simpleDefinition": "The property of a body that resists any change to its uniform motion; equivalent to its mass.",
+    "simpleDefinition": "A tendency to do nothing or remain unchanged, or the resistance of an object to change motion.",
     "banglaMeaning": "জড়তা",
     "synonyms": [
-      "inactivity",
-      "inactiveness"
+      "Inactivity",
+      "Sluggishness",
+      "Lethargy",
+      "Apathy"
     ],
     "antonyms": [
-      "activity",
-      "activeness"
+      "Activity",
+      "Action",
+      "Dynamism"
     ],
-    "example": "The student learned how to use inertia correctly in a sentence."
+    "example": "Bureaucratic inertia prevented the urgent relief funds from reaching families quickly."
   },
   "inevitable": {
     "word": "Inevitable",
@@ -9636,17 +11038,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "inexplicable": {
     "word": "Inexplicable",
     "pos": "adjective",
-    "simpleDefinition": "Impossible to explain; not easily accounted for.",
-    "banglaMeaning": "বণর্নাতীত",
+    "simpleDefinition": "Unable to be explained or accounted for; baffling.",
+    "banglaMeaning": "বর্ণনাতীত",
     "synonyms": [
-      "inscrutable",
-      "cryptic",
-      "incomprehensible"
+      "Baffling",
+      "Mysterious",
+      "Unaccountable",
+      "Puzzling"
     ],
     "antonyms": [
-      "explicable"
+      "Explicable",
+      "Understandable",
+      "Clear"
     ],
-    "example": "The student learned how to use inexplicable correctly in a sentence."
+    "example": "His sudden change of mind remained completely inexplicable to his friends."
   },
   "infallible": {
     "word": "Infallible",
@@ -9668,62 +11073,70 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "inflated": {
     "word": "Inflated",
     "pos": "adjective",
-    "simpleDefinition": "Filled with air or fluid.",
+    "simpleDefinition": "Distended with air or gas, or exaggerated and excessively high.",
     "banglaMeaning": "অত্যধিক",
     "synonyms": [
-      "pretentious",
-      "hyperbolic",
-      "exaggerated"
+      "Exaggerated",
+      "Bloated",
+      "Excessive",
+      "Puffed"
     ],
     "antonyms": [
-      "deflated"
+      "Deflated",
+      "Modest",
+      "Reasonable"
     ],
-    "example": "The student learned how to use inflated correctly in a sentence."
+    "example": "Tourists were shocked by the inflated prices charged at the souvenir shop."
   },
   "influence": {
     "word": "Influence",
     "pos": "noun",
-    "simpleDefinition": "The power to affect, control or manipulate something or someone; the ability to change the development of fluctuating things such as conduct, thoughts or decisions.",
+    "simpleDefinition": "The capacity to have an effect on the character, development, or behavior of someone or something.",
     "banglaMeaning": "প্রভাব",
     "synonyms": [
-      "charm",
-      "shape",
-      "determine"
+      "Impact",
+      "Sway",
+      "Power",
+      "Control"
     ],
     "antonyms": [
-      "No common antonym"
+      "Helplessness",
+      "Weakness"
     ],
-    "example": "The student learned how to use influence correctly in a sentence."
+    "example": "A teacher's guidance can exert a lasting positive influence on young students."
   },
   "infrared": {
     "word": "Infrared",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being infrared.",
+    "pos": "adjective",
+    "simpleDefinition": "Relating to electromagnetic radiation with wavelengths longer than visible red light but shorter than microwaves.",
     "banglaMeaning": "অবলোহিত",
     "synonyms": [
-      "invisible",
-      "unseeable",
-      "infrared radiation"
+      "Thermal",
+      "Radiant",
+      "Invisible wave"
     ],
     "antonyms": [
-      "No common antonym"
+      "Ultraviolet"
     ],
-    "example": "The student learned how to use infrared correctly in a sentence."
+    "example": "Firefighters used infrared cameras to locate survivors trapped in the smoke."
   },
   "infuriate": {
     "word": "Infuriate",
     "pos": "verb",
-    "simpleDefinition": "To make furious or mad with anger; to fill with fury.",
-    "banglaMeaning": "কে্রোধে কি্ষপ্ত হওয়া",
+    "simpleDefinition": "To make someone extremely angry and outraged.",
+    "banglaMeaning": "ক্রোধে ক্ষিপ্ত হওয়া",
     "synonyms": [
-      "outrage",
-      "incense",
-      "exasperate"
+      "Enrage",
+      "Incense",
+      "Anger",
+      "Provoke"
     ],
     "antonyms": [
-      "No common antonym"
+      "Pacify",
+      "Soothe",
+      "Calm"
     ],
-    "example": "The student learned how to use infuriate correctly in a sentence."
+    "example": "Repeated train cancellations infuriate passengers on their daily commute."
   },
   "ingenious": {
     "word": "Ingenious",
@@ -9745,50 +11158,55 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "ingenuous": {
     "word": "Ingenuous",
     "pos": "adjective",
-    "simpleDefinition": "Straightforward, candid, open, frank.",
+    "simpleDefinition": "Innocent, unsuspecting, and openly honest without deceit.",
     "banglaMeaning": "অকপট",
     "synonyms": [
-      "candid",
-      "naive",
-      "naif"
+      "Naive",
+      "Innocent",
+      "Candid",
+      "Frank"
     ],
     "antonyms": [
-      "artful",
-      "disingenuous"
+      "Disingenuous",
+      "Cunning",
+      "Deceitful"
     ],
-    "example": "The student learned how to use ingenuous correctly in a sentence."
+    "example": "Her ingenuous smile showed that she bore no ill feelings toward anyone."
   },
   "ingest": {
     "word": "Ingest",
     "pos": "verb",
-    "simpleDefinition": "To take (a substance, e.g., food) into the body of an organism, especially through the mouth and into the gastrointestinal tract.",
+    "simpleDefinition": "To take food, liquid, or other substances into the body by swallowing or absorbing.",
     "banglaMeaning": "গলাধঃকরণ করা",
     "synonyms": [
-      "assimilate",
-      "have",
-      "take"
+      "Swallow",
+      "Consume",
+      "Eat",
+      "Absorb"
     ],
     "antonyms": [
-      "refrain",
-      "abstain",
-      "desist"
+      "Regurgitate",
+      "Expel"
     ],
-    "example": "The student learned how to use ingest correctly in a sentence."
+    "example": "Small children must be closely watched so they do not ingest tiny objects."
   },
   "inherent": {
     "word": "Inherent",
     "pos": "adjective",
-    "simpleDefinition": "Naturally as part or consequence of something.",
+    "simpleDefinition": "Existing in something as a permanent, essential, or characteristic attribute.",
     "banglaMeaning": "স্বাভাবিক",
     "synonyms": [
-      "intrinsic",
-      "implicit",
-      "intrinsical"
+      "Intrinsic",
+      "Innate",
+      "Essential",
+      "Natural"
     ],
     "antonyms": [
-      "No common antonym"
+      "Extrinsic",
+      "Acquired",
+      "External"
     ],
-    "example": "The student learned how to use inherent correctly in a sentence."
+    "example": "Every challenging adventure carries an inherent degree of physical risk."
   },
   "inimical": {
     "word": "Inimical",
@@ -9810,17 +11228,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "initiate": {
     "word": "Initiate",
     "pos": "verb",
-    "simpleDefinition": "To begin; to start.",
+    "simpleDefinition": "To cause a process or action to begin.",
     "banglaMeaning": "সূচনা করা",
     "synonyms": [
-      "enlightened",
-      "novice",
-      "tyro"
+      "Start",
+      "Begin",
+      "Launch",
+      "Commence"
     ],
     "antonyms": [
-      "uninitiate"
+      "End",
+      "Terminate",
+      "Halt"
     ],
-    "example": "The student learned how to use initiate correctly in a sentence."
+    "example": "The government will initiate a new vaccination campaign next Monday."
   },
   "innate": {
     "word": "Innate",
@@ -9842,61 +11263,68 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "innovate": {
     "word": "Innovate",
     "pos": "verb",
-    "simpleDefinition": "To introduce something new to a particular environment; to do something new.",
-    "banglaMeaning": "আবিগ্ধার করা",
+    "simpleDefinition": "To introduce new ideas, methods, or original products.",
+    "banglaMeaning": "নতুন কিছু প্রবর্তন করা; উদ্ভাবন করা",
     "synonyms": [
-      "introduce"
+      "Pioneer",
+      "Create",
+      "Modernize",
+      "Invent"
     ],
     "antonyms": [
-      "No common antonym"
+      "Stagnate",
+      "Copy"
     ],
-    "example": "The student learned how to use innovate correctly in a sentence."
+    "example": "Companies must continuously innovate to survive in the competitive tech market."
   },
   "inquisitive": {
     "word": "Inquisitive",
     "pos": "adjective",
-    "simpleDefinition": "Eager to acquire knowledge; acquisitive.",
+    "simpleDefinition": "Curious and eager to investigate or inquire about things.",
     "banglaMeaning": "সন্ধানী",
     "synonyms": [
-      "curious",
-      "inquiring",
-      "questioning"
+      "Curious",
+      "Inquiring",
+      "Probing",
+      "Interested"
     ],
     "antonyms": [
-      "No common antonym"
+      "Indifferent",
+      "Uninterested",
+      "Incurious"
     ],
-    "example": "The student learned how to use inquisitive correctly in a sentence."
+    "example": "The inquisitive young girl examined every insect she found in the garden."
   },
   "inscribe": {
     "word": "Inscribe",
     "pos": "verb",
-    "simpleDefinition": "To write or cut (words) onto (something, especially a hard surface, or a book to be given to another person); to engrave.",
+    "simpleDefinition": "To write or carve words or symbols on a surface or in a book.",
     "banglaMeaning": "অন্তলির্খিত",
     "synonyms": [
-      "cipher",
-      "enroll",
-      "cypher"
+      "Engrave",
+      "Carve",
+      "Etch",
+      "Write"
     ],
     "antonyms": [
-      "decode"
+      "Erase",
+      "Efface"
     ],
-    "example": "The student learned how to use inscribe correctly in a sentence."
+    "example": "The author kindly offered to inscribe a short note inside my book."
   },
   "insectivorous": {
     "word": "Insectivorous",
     "pos": "adjective",
-    "simpleDefinition": "Feeding on insects.",
-    "banglaMeaning": "পতণ্টভূক",
+    "simpleDefinition": "Feeding mainly or entirely on insects.",
+    "banglaMeaning": "পতঙ্গভুক",
     "synonyms": [
-      "apivorous",
-      "myrmecophagous"
+      "Insect-eating",
+      "Carnivorous"
     ],
     "antonyms": [
-      "carnivorous",
-      "omnivorous",
-      "herbivorous"
+      "Herbivorous"
     ],
-    "example": "The student learned how to use insectivorous correctly in a sentence."
+    "example": "Bats and swifts are insectivorous creatures that keep mosquito populations down."
   },
   "insidious": {
     "word": "Insidious",
@@ -9935,79 +11363,90 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "insouciance": {
     "word": "Insouciance",
     "pos": "noun",
-    "simpleDefinition": "Carelessness, heedlessness, indifference, or casual unconcern.",
+    "simpleDefinition": "A relaxed, casual lack of concern or carefree nonchalance.",
     "banglaMeaning": "ঔদাসীন্য",
     "synonyms": [
-      "lightheartedness",
-      "carefreeness",
-      "lightsomeness"
+      "Nonchalance",
+      "Carefreeness",
+      "Indifference",
+      "Lightheartedness"
     ],
     "antonyms": [
-      "No common antonym"
+      "Anxiety",
+      "Worry",
+      "Concern"
     ],
-    "example": "The student learned how to use insouciance correctly in a sentence."
+    "example": "He faced his final college examinations with surprising ease and insouciance."
   },
   "instability": {
     "word": "Instability",
     "pos": "noun",
-    "simpleDefinition": "The quality of being unstable.",
+    "simpleDefinition": "The state of being unstable, unpredictable, or liable to fail.",
     "banglaMeaning": "অস্থায়ীধ",
     "synonyms": [
-      "imbalance",
-      "unbalance",
-      "unstableness"
+      "Unsteadiness",
+      "Volatility",
+      "Insecurity",
+      "Fragility"
     ],
     "antonyms": [
-      "balance",
-      "stability",
-      "stableness"
+      "Stability",
+      "Steadiness",
+      "Security"
     ],
-    "example": "The student learned how to use instability correctly in a sentence."
+    "example": "Economic instability made it challenging for small businesses to obtain loans."
   },
   "instigation": {
     "word": "Instigation",
     "pos": "noun",
-    "simpleDefinition": "The act of instigating, or the state of being instigated; incitement; especially to evil or wickedness.",
-    "banglaMeaning": "উতে্তজনা",
+    "simpleDefinition": "The act of inciting or provoking someone to do something, often something bad.",
+    "banglaMeaning": "উত্তেজনা",
     "synonyms": [
-      "abetment",
-      "mounting",
-      "fomentation"
+      "Incitement",
+      "Provocation",
+      "Prompting",
+      "Urging"
     ],
     "antonyms": [
-      "No common antonym"
+      "Dissuasion",
+      "Prevention"
     ],
-    "example": "The student learned how to use instigation correctly in a sentence."
+    "example": "The unruly protest erupted at the instigation of an extremist faction."
   },
   "intake": {
     "word": "Intake",
     "pos": "noun",
-    "simpleDefinition": "The quantity taken in.",
+    "simpleDefinition": "An amount of food, air, liquid, or other substance taken into the body or a system.",
     "banglaMeaning": "পানাহার",
     "synonyms": [
-      "consumption",
-      "uptake",
-      "ingestion"
+      "Consumption",
+      "Ingestion",
+      "Absorption",
+      "Input"
     ],
     "antonyms": [
-      "No common antonym"
+      "Output",
+      "Discharge"
     ],
-    "example": "The student learned how to use intake correctly in a sentence."
+    "example": "Doctors recommend reducing daily sugar intake to maintain heart health."
   },
   "integral": {
     "word": "Integral",
     "pos": "adjective",
-    "simpleDefinition": "Constituting a whole together with other parts or factors; not omittable or removable.",
+    "simpleDefinition": "Necessary to make a whole complete; essential.",
     "banglaMeaning": "অপরিহার্য অংশ",
     "synonyms": [
-      "intrinsic",
-      "inherent",
-      "intact"
+      "Essential",
+      "Fundamental",
+      "Vital",
+      "Inherent"
     ],
     "antonyms": [
-      "No common antonym"
+      "Nonessential",
+      "Peripheral",
+      "Secondary"
     ],
-    "example": "The student learned how to use integral correctly in a sentence."
+    "example": "Hands-on laboratory work is an integral component of any chemistry degree."
   },
   "integrity": {
     "word": "Integrity",
@@ -10029,139 +11468,164 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "intellectual": {
     "word": "Intellectual",
     "pos": "adjective",
-    "simpleDefinition": "Endowed with intellect; having a keen sense of understanding; having the capacity for higher forms of knowledge or thought; characterized by intelligence or cleverness.",
-    "banglaMeaning": "বুদি্ধবৃতি্তক সংস্কৃতিবান",
+    "simpleDefinition": "Relating to the intellect, mental reasoning, and objective thinking.",
+    "banglaMeaning": "বুদ্ধিবৃত্তিক সংস্কৃতিবান",
     "synonyms": [
-      "good",
-      "rational",
-      "serious"
+      "Mental",
+      "Cerebral",
+      "Scholarly",
+      "Academic"
     ],
     "antonyms": [
-      "emotional",
-      "nonintellectual"
+      "Physical",
+      "Emotional",
+      "Thoughtless"
     ],
-    "example": "The student learned how to use intellectual correctly in a sentence."
+    "example": "Chess is an intellectual challenge that demands careful forward planning."
   },
   "intense": {
     "word": "Intense",
     "pos": "adjective",
-    "simpleDefinition": "Of a characteristic: extreme or very high or strong in degree; severe; also, excessive, towering.",
-    "banglaMeaning": "তীজ্ঞ",
+    "simpleDefinition": "Of extreme force, degree, emotion, or strength.",
+    "banglaMeaning": "তীব্র; প্রচন্ড",
     "synonyms": [
-      "profound",
-      "vehement",
-      "keen"
+      "Extreme",
+      "Severe",
+      "Fierce",
+      "Acute"
     ],
     "antonyms": [
-      "mild"
+      "Mild",
+      "Moderate",
+      "Weak"
     ],
-    "example": "The student learned how to use intense correctly in a sentence."
+    "example": "The athletes endured intense heat during the afternoon training session."
   },
   "intentional": {
     "word": "Intentional",
     "pos": "adjective",
-    "simpleDefinition": "Intended or planned; done deliberately or voluntarily.",
+    "simpleDefinition": "Done on purpose; deliberate and planned.",
     "banglaMeaning": "ইজ্ঞাকৃতভাবে",
     "synonyms": [
-      "deliberate",
-      "wilful",
-      "knowing"
+      "Deliberate",
+      "Purposeful",
+      "Calculated",
+      "Willful"
     ],
     "antonyms": [
-      "unintentional",
-      "undesigned"
+      "Accidental",
+      "Unintentional",
+      "Inadvertent"
     ],
-    "example": "The student learned how to use intentional correctly in a sentence."
+    "example": "Her rude remark was clearly intentional and aimed at embarrassing him."
   },
   "interminable": {
     "word": "Interminable",
     "pos": "adjective",
-    "simpleDefinition": "Existing or occurring without interruption or end; ceaseless, unending.",
+    "simpleDefinition": "Endless or seemingly endless, often in a boring or tiring way.",
     "banglaMeaning": "থামেনা এমন / অন্তহীন",
     "synonyms": [
-      "eternal",
-      "long",
-      "endless"
+      "Endless",
+      "Ceaseless",
+      "Never-ending",
+      "Perpetual"
     ],
     "antonyms": [
-      "No common antonym"
+      "Brief",
+      "Short",
+      "Finite"
     ],
-    "example": "The student learned how to use interminable correctly in a sentence."
+    "example": "We waited through an interminable flight delay at the crowded airport."
   },
   "intermittent": {
     "word": "Intermittent",
     "pos": "adjective",
-    "simpleDefinition": "Stopping and starting, occurring, or presenting at intervals; coming after a particular time span.",
+    "simpleDefinition": "Occurring at irregular intervals; not continuous or steady.",
     "banglaMeaning": "অনিয়মিতভাবে",
     "synonyms": [
-      "sporadic",
-      "periodic",
-      "periodical"
+      "Sporadic",
+      "Periodic",
+      "Irregular",
+      "Fitful"
     ],
     "antonyms": [
-      "No common antonym"
+      "Continuous",
+      "Constant",
+      "Steady"
     ],
-    "example": "The student learned how to use intermittent correctly in a sentence."
+    "example": "Intermittent rain showers disrupted the outdoor tennis championship."
   },
   "interpret": {
     "word": "Interpret",
     "pos": "verb",
-    "simpleDefinition": "To explain or tell the meaning of; to translate orally into intelligible or familiar language or terms. applied especially to language, but also to dreams, signs, conduct, mysteries, etc.",
+    "simpleDefinition": "To explain the meaning of words, actions, or data, or translate between languages.",
     "banglaMeaning": "ব্যাখ্যা করা",
     "synonyms": [
-      "render",
-      "understand",
-      "construe"
+      "Explain",
+      "Clarify",
+      "Translate",
+      "Decipher"
     ],
     "antonyms": [
-      "No common antonym"
+      "Misinterpret",
+      "Confuse",
+      "Obscure"
     ],
-    "example": "The student learned how to use interpret correctly in a sentence."
+    "example": "The statistician helped us interpret the complex survey results."
   },
   "interrupt": {
     "word": "Interrupt",
     "pos": "verb",
-    "simpleDefinition": "To disturb or halt (an ongoing process or action, or the person performing it) by interfering suddenly, especially by speaking.",
+    "simpleDefinition": "To stop the continuous progress of an activity or break into someone's speech.",
     "banglaMeaning": "ছিন্ন করা / ব্যাঘাত করা",
     "synonyms": [
-      "break",
-      "disrupt",
-      "disturb"
+      "Disrupt",
+      "Break in",
+      "Disturb",
+      "Halt"
     ],
     "antonyms": [
-      "No common antonym"
+      "Continue",
+      "Proceed",
+      "Resume"
     ],
-    "example": "The student learned how to use interrupt correctly in a sentence."
+    "example": "Please do not interrupt the lecturer while she is presenting the data."
   },
   "intimacy": {
     "word": "Intimacy",
     "pos": "noun",
-    "simpleDefinition": "Feeling or atmosphere of closeness and openness towards someone else, often but not necessarily involving sexuality.",
-    "banglaMeaning": "গভীর সুসশ্মর্ক",
+    "simpleDefinition": "Close familiarity, deep personal connection, or warm friendship.",
+    "banglaMeaning": "গভীর সুসম্পর্ক",
     "synonyms": [
-      "liaison",
-      "affair",
-      "familiarity"
+      "Closeness",
+      "Familiarity",
+      "Affection",
+      "Warmth"
     ],
     "antonyms": [
-      "No common antonym"
+      "Distance",
+      "Alienation",
+      "Coldness"
     ],
-    "example": "The student learned how to use intimacy correctly in a sentence."
+    "example": "Years of shared struggles created a deep intimacy between the teammates."
   },
   "intimate": {
     "word": "Intimate",
-    "pos": "noun",
-    "simpleDefinition": "A very close friend.",
-    "banglaMeaning": "অন্তরণ্ট",
+    "pos": "adjective",
+    "simpleDefinition": "Closely acquainted, familiar, or private and personal.",
+    "banglaMeaning": "অন্তরঙ্গ",
     "synonyms": [
-      "bosom buddy",
-      "bosom friend",
-      "cater-cousin"
+      "Close",
+      "Dear",
+      "Personal",
+      "Confidential"
     ],
     "antonyms": [
-      "No common antonym"
+      "Distant",
+      "Public",
+      "Formal"
     ],
-    "example": "Only a couple of intimates had ever read his writing."
+    "example": "Only a few intimate friends gathered for dinner at their modest home."
   },
   "intimidate": {
     "word": "Intimidate",
@@ -10183,47 +11647,53 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "intolerant": {
     "word": "Intolerant",
     "pos": "adjective",
-    "simpleDefinition": "Unable or indisposed to tolerate, endure or bear.",
+    "simpleDefinition": "Not willing to accept ways of thinking or behaving that are different from one's own.",
     "banglaMeaning": "অসহনীয়",
     "synonyms": [
-      "rigid",
-      "strict",
-      "narrow"
+      "Bigoted",
+      "Narrow-minded",
+      "Prejudiced",
+      "Inflexible"
     ],
     "antonyms": [
-      "tolerant"
+      "Tolerant",
+      "Open-minded",
+      "Accepting"
     ],
-    "example": "The student learned how to use intolerant correctly in a sentence."
+    "example": "A democratic society cannot thrive if people are intolerant of opposing ideas."
   },
   "intoxicated": {
     "word": "Intoxicated",
     "pos": "adjective",
-    "simpleDefinition": "Stupefied by alcohol, drunk.",
+    "simpleDefinition": "Losing control of one's faculties due to alcohol or drugs; drunk.",
     "banglaMeaning": "মদ্যপ",
     "synonyms": [
-      "mellow",
-      "besotted",
-      "stiff"
+      "Drunk",
+      "Inebriated",
+      "Impaired"
     ],
     "antonyms": [
-      "sober"
+      "Sober"
     ],
-    "example": "The student learned how to use intoxicated correctly in a sentence."
+    "example": "Driving while intoxicated poses grave danger to pedestrians and motorists."
   },
   "intractable": {
     "word": "Intractable",
     "pos": "adjective",
-    "simpleDefinition": "Difficult to deal with, solve, or manage. (of a problem).",
+    "simpleDefinition": "Hard to manage, control, or solve; obstinately stubborn.",
     "banglaMeaning": "অবাধ্য",
     "synonyms": [
-      "stubborn",
-      "recalcitrant",
-      "refractory"
+      "Stubborn",
+      "Unmanageable",
+      "Obstinate",
+      "Unyielding"
     ],
     "antonyms": [
-      "tractable"
+      "Manageable",
+      "Compliant",
+      "Docile"
     ],
-    "example": "The student learned how to use intractable correctly in a sentence."
+    "example": "Poverty in the remote mountainous region remained an intractable issue."
   },
   "intrepid": {
     "word": "Intrepid",
@@ -10245,108 +11715,126 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "intrinsic": {
     "word": "Intrinsic",
     "pos": "adjective",
-    "simpleDefinition": "Innate, inherent, inseparable from the thing itself, essential.",
-    "banglaMeaning": "স্বকীয় / জল্কগত",
+    "simpleDefinition": "Belonging naturally to something; essential and inherent.",
+    "banglaMeaning": "স্বকীয় / জন্মগত",
     "synonyms": [
-      "intimate",
-      "inherent",
-      "intrinsical"
+      "Inherent",
+      "Innate",
+      "Essential",
+      "Fundamental"
     ],
     "antonyms": [
-      "extrinsic"
+      "Extrinsic",
+      "External",
+      "Acquired"
     ],
-    "example": "The student learned how to use intrinsic correctly in a sentence."
+    "example": "Curiosity is an intrinsic characteristic of every young child."
   },
   "introverted": {
     "word": "Introverted",
     "pos": "adjective",
-    "simpleDefinition": "Of or characteristic of the personality of an introvert: thoughtful, reflective.",
+    "simpleDefinition": "Quiet, reserved, and enjoying solitary activities more than large social gatherings.",
     "banglaMeaning": "অন্তমুর্খী ব্যক্তি (আত্মকেন্দ্রিক চিন্তা চেতনা )",
     "synonyms": [
-      "introspective",
-      "introvert",
-      "introversive"
+      "Reserved",
+      "Shy",
+      "Quiet",
+      "Introspective"
     ],
     "antonyms": [
-      "extroverted",
-      "extrospective"
+      "Extroverted",
+      "Outgoing",
+      "Sociable"
     ],
-    "example": "The student learned how to use introverted correctly in a sentence."
+    "example": "An introverted artist often finds creative inspiration during hours of solitude."
   },
   "inundate": {
     "word": "Inundate",
     "pos": "verb",
-    "simpleDefinition": "To overwhelm.",
-    "banglaMeaning": "ল্গাবিত হওয়া",
+    "simpleDefinition": "To flood with water, or overwhelm someone with a huge volume of things.",
+    "banglaMeaning": "প্লাবিত হওয়া",
     "synonyms": [
-      "flood",
-      "swamp",
-      "submerge"
+      "Overwhelm",
+      "Flood",
+      "Swamp",
+      "Submerge"
     ],
     "antonyms": [
-      "No common antonym"
+      "Drain",
+      "Deplete"
     ],
-    "example": "The student learned how to use inundate correctly in a sentence."
+    "example": "Customers began to inundate customer support with inquiries during the sale."
   },
   "inveigle": {
     "word": "Inveigle",
     "pos": "verb",
-    "simpleDefinition": "To convert, convince, or win over with flattery or wiles.",
-    "banglaMeaning": "চাটুকারিতায় মুঞ্ছ করা",
+    "simpleDefinition": "To persuade someone to do something through deception, cunning, or flattery.",
+    "banglaMeaning": "চাটুকারিতায় মুগ্ধ করা",
     "synonyms": [
-      "cajole",
-      "palaver",
-      "coax"
+      "Entice",
+      "Cajole",
+      "Coax",
+      "Wheedle"
     ],
     "antonyms": [
-      "No common antonym"
+      "Dissuade",
+      "Force"
     ],
-    "example": "The student learned how to use inveigle correctly in a sentence."
+    "example": "He tried to inveigle his brother into lending him the sports car."
   },
   "invisible": {
     "word": "Invisible",
     "pos": "adjective",
-    "simpleDefinition": "Unable to be seen; out of sight; not visible.",
+    "simpleDefinition": "Unable to be seen by the human eye; hidden from vision.",
     "banglaMeaning": "অদৃশ্য",
     "synonyms": [
-      "obscure",
-      "inconspicuous",
-      "concealed"
+      "Unseen",
+      "Hidden",
+      "Imperceptible",
+      "Concealed"
     ],
     "antonyms": [
-      "conspicuous",
-      "obvious",
-      "visible"
+      "Visible",
+      "Apparent",
+      "Noticeable"
     ],
-    "example": "The student learned how to use invisible correctly in a sentence."
+    "example": "Microscopic bacteria are completely invisible without a magnifying lens."
   },
   "irk": {
     "word": "Irk",
     "pos": "verb",
-    "simpleDefinition": "To irritate; annoy; bother.",
+    "simpleDefinition": "To irritate, bother, or annoy someone.",
     "banglaMeaning": "বিরক্তি",
     "synonyms": [
-      "gall"
+      "Annoy",
+      "Irritate",
+      "Bother",
+      "Vex"
     ],
     "antonyms": [
-      "No common antonym"
+      "Please",
+      "Delight",
+      "Soothe"
     ],
-    "example": "The student learned how to use irk correctly in a sentence."
+    "example": "The endless paperwork began to irk the hard-working hospital staff."
   },
   "irresistible": {
     "word": "Irresistible",
     "pos": "adjective",
-    "simpleDefinition": "Impossible to resist.",
+    "simpleDefinition": "Too attractive, tempting, or powerful to be resisted.",
     "banglaMeaning": "অপ্রতিরোধ্য",
     "synonyms": [
-      "attractive",
-      "overwhelming",
-      "overpowering"
+      "Tempting",
+      "Compelling",
+      "Overpowering",
+      "Captivating"
     ],
     "antonyms": [
-      "resistible"
+      "Resistible",
+      "Unattractive",
+      "Repulsive"
     ],
-    "example": "The student learned how to use irresistible correctly in a sentence."
+    "example": "The smell of freshly baked sourdough bread was completely irresistible."
   },
   "irrevocable": {
     "word": "Irrevocable",
@@ -10368,46 +11856,55 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "irritate": {
     "word": "Irritate",
     "pos": "verb",
-    "simpleDefinition": "To provoke impatience, anger, or displeasure in.",
+    "simpleDefinition": "To make someone feel annoyed or angry, or cause physical inflammation.",
     "banglaMeaning": "বিরক্ত করা",
     "synonyms": [
-      "nettle",
-      "vex",
-      "nark"
+      "Annoy",
+      "Exasperate",
+      "Bother",
+      "Inflame"
     ],
     "antonyms": [
-      "soothe"
+      "Soothe",
+      "Calm",
+      "Pacify"
     ],
-    "example": "The student learned how to use irritate correctly in a sentence."
+    "example": "Harsh chemicals in the cleaning spray can irritate sensitive skin."
   },
   "isolation": {
     "word": "Isolation",
     "pos": "noun",
-    "simpleDefinition": "The state of being isolated, detached, or separated; the state of being away from other people.",
-    "banglaMeaning": "বিজি্ঞন্নতা",
+    "simpleDefinition": "The state of being separated from other people or things; solitude.",
+    "banglaMeaning": "বিচ্ছিন্নতা",
     "synonyms": [
-      "reclusiveness",
-      "closing off"
+      "Solitude",
+      "Seclusion",
+      "Separation",
+      "Detachment"
     ],
     "antonyms": [
-      "No common antonym"
+      "Companionship",
+      "Inclusion",
+      "Socializing"
     ],
-    "example": "The student learned how to use isolation correctly in a sentence."
+    "example": "Living in isolation on a remote island gave him peace to finish his novel."
   },
   "jaunt": {
     "word": "Jaunt",
     "pos": "noun",
-    "simpleDefinition": "A short excursion for pleasure or refreshment; a ramble; a short journey.",
+    "simpleDefinition": "A short, pleasant excursion or trip taken primarily for pleasure.",
     "banglaMeaning": "লঘু প্রমোদ ভ্রমণ",
     "synonyms": [
-      "excursion",
-      "expedition",
-      "trip"
+      "Outing",
+      "Excursion",
+      "Trip",
+      "Stroll"
     ],
     "antonyms": [
-      "No common antonym"
+      "Stay",
+      "Station"
     ],
-    "example": "The student learned how to use jaunt correctly in a sentence."
+    "example": "We took a leisurely jaunt to the countryside to enjoy the autumn leaves."
   },
   "jeopardize": {
     "word": "Jeopardize",
@@ -10463,32 +11960,36 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "jubilate": {
     "word": "Jubilate",
     "pos": "verb",
-    "simpleDefinition": "To show elation or triumph; to rejoice.",
+    "simpleDefinition": "To show or express great joy, celebration, and triumph.",
     "banglaMeaning": "আনন্দ করা",
     "synonyms": [
-      "rejoice",
-      "exult",
-      "triumph"
+      "Rejoice",
+      "Celebrate",
+      "Exult",
+      "Triumph"
     ],
     "antonyms": [
-      "No common antonym"
+      "Mourn",
+      "Grieve",
+      "Lament"
     ],
-    "example": "The student learned how to use jubilate correctly in a sentence."
+    "example": "The crowd began to jubilate as the hometown hero crossed the finish line."
   },
   "judiciary": {
     "word": "Judiciary",
     "pos": "noun",
-    "simpleDefinition": "The collective body of judges, justices, etc.",
+    "simpleDefinition": "The judicial branch of government, including courts, magistrates, and judges.",
     "banglaMeaning": "আইন বিভাগ",
     "synonyms": [
-      "judicature",
-      "bench",
-      "judicatory"
+      "Bench",
+      "Court system",
+      "Judicature",
+      "Magistracy"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use judiciary correctly in a sentence."
+    "example": "An honest judiciary ensures that laws are applied equally to everyone."
   },
   "judicious": {
     "word": "Judicious",
@@ -10510,44 +12011,53 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "jurisdiction": {
     "word": "Jurisdiction",
     "pos": "noun",
-    "simpleDefinition": "The power, right, or authority to interpret and apply the law.",
+    "simpleDefinition": "The legal power, authority, or territory to administer justice.",
     "banglaMeaning": "আইনগত অধিকার",
     "synonyms": [
-      "legal power"
+      "Authority",
+      "Control",
+      "Power",
+      "Sovereignty"
     ],
     "antonyms": [
-      "No common antonym"
+      "Powerlessness",
+      "Incompetence"
     ],
-    "example": "The student learned how to use jurisdiction correctly in a sentence."
+    "example": "The federal court has jurisdiction over matters involving interstate commerce."
   },
   "jury": {
     "word": "Jury",
     "pos": "noun",
-    "simpleDefinition": "A group of individuals chosen from the general population to hear and decide a case in a court of law.",
-    "banglaMeaning": "নিণর্ায়ক সভা",
+    "simpleDefinition": "A group of sworn citizens who decide the verdict in a legal trial.",
+    "banglaMeaning": "নির্ণায়ক সভা",
     "synonyms": [
-      "Related to jury",
-      "Similar"
+      "Panel",
+      "Tribunal",
+      "Judges",
+      "Arbitrators"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The teacher gave an insightful explanation of jury."
+    "example": "The jury took two days of deliberation to reach their unanimous verdict."
   },
   "keen": {
     "word": "Keen",
     "pos": "adjective",
-    "simpleDefinition": "Often with a prepositional phrase, or with to and an infinitive: showing a quick and ardent responsiveness or willingness; eager, enthusiastic, interested.",
-    "banglaMeaning": "তীজ্ঞ",
+    "simpleDefinition": "Having sharp perception, intellect, eagerness, or intense enthusiasm.",
+    "banglaMeaning": "ধারাল; তীক্ষ্ণ",
     "synonyms": [
-      "lament",
-      "exquisite",
-      "sharp"
+      "Sharp",
+      "Eager",
+      "Acute",
+      "Enthusiastic"
     ],
     "antonyms": [
-      "No common antonym"
+      "Dull",
+      "Reluctant",
+      "Apathetic"
     ],
-    "example": "The student learned how to use keen correctly in a sentence."
+    "example": "She displayed a keen interest in learning ancient history and languages."
   },
   "kindle": {
     "word": "Kindle",
@@ -10569,215 +12079,246 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "kleptomania": {
     "word": "Kleptomania",
     "pos": "noun",
-    "simpleDefinition": "A psychological disorder that causes an uncontrollable obsession with stealing without economic or material need.",
-    "banglaMeaning": "চৌর্য উল্কাদ",
+    "simpleDefinition": "A mental health disorder characterized by an uncontrollable urge to steal.",
+    "banglaMeaning": "চুরির রোগ; একটি মানসিক ব্যাধি যা ব্যক্তিকে চুরি করতে বাধ্য করে",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Compulsive stealing",
+      "Impulse control disorder"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use kleptomania correctly in a sentence."
+    "example": "He received professional psychotherapy to help treat his kleptomania."
   },
   "knotty": {
     "word": "Knotty",
     "pos": "adjective",
-    "simpleDefinition": "Complicated or tricky; complex, difficult.",
+    "simpleDefinition": "Complex, full of difficulties, and very tricky or hard to solve.",
     "banglaMeaning": "ঝামেলাযুক্ত",
     "synonyms": [
-      "byzantine",
-      "intricate",
-      "convoluted"
+      "Complex",
+      "Tricky",
+      "Tangled",
+      "Complicated"
     ],
     "antonyms": [
-      "No common antonym"
+      "Simple",
+      "Straightforward",
+      "Easy"
     ],
-    "example": "The student learned how to use knotty correctly in a sentence."
+    "example": "The ambassadors spent hours negotiating the knotty border dispute."
   },
   "laborious": {
     "word": "Laborious",
     "pos": "adjective",
-    "simpleDefinition": "Requiring much physical effort; toilsome.",
-    "banglaMeaning": "কষ্টসাধ্য বা পরিঙ্কমসাধ্য কিছু",
+    "simpleDefinition": "Requiring hard work, considerable physical or mental effort, and time.",
+    "banglaMeaning": "কষ্টসাধ্য বা পরিশ্রমসাধ্য কিছু",
     "synonyms": [
-      "arduous",
-      "heavy",
-      "hard"
+      "Arduous",
+      "Strenuous",
+      "Tiresome",
+      "Demanding"
     ],
     "antonyms": [
-      "No common antonym"
+      "Easy",
+      "Effortless",
+      "Simple"
     ],
-    "example": "The student learned how to use laborious correctly in a sentence."
+    "example": "Transcribing the old manuscript word by word was a laborious task."
   },
   "laconic": {
     "word": "Laconic",
     "pos": "adjective",
-    "simpleDefinition": "Using as few words as possible; pithy and concise.",
-    "banglaMeaning": "স্বস্ফভাষী",
+    "simpleDefinition": "Using very few words in speech or writing; brief and concise.",
+    "banglaMeaning": "স্বল্পভাষী",
     "synonyms": [
-      "concise",
-      "pithy",
-      "terse"
+      "Brief",
+      "Concise",
+      "Terse",
+      "Succinct"
     ],
     "antonyms": [
-      "bombastic",
-      "long-winded",
-      "loquacious"
+      "Verbose",
+      "Wordy",
+      "Talkative"
     ],
-    "example": "The teacher gave an insightful explanation of laconic."
+    "example": "His laconic reply of 'No' signaled that the discussion was completely over."
   },
   "laggard": {
     "word": "Laggard",
     "pos": "noun",
-    "simpleDefinition": "One who lags behind; one who takes more time than is necessary or than the others in a group.",
+    "simpleDefinition": "A person who moves very slowly and continually falls behind others.",
     "banglaMeaning": "পিছিয়ে পড়া ব্যক্তি",
     "synonyms": [
-      "Related to laggard",
-      "Similar"
+      "Slowpoke",
+      "Straggler",
+      "Loiterer",
+      "Sluggard"
     ],
     "antonyms": [
-      "No common antonym"
+      "Leader",
+      "Pioneer",
+      "Trailblazer"
     ],
-    "example": "The teacher gave an insightful explanation of laggard."
+    "example": "The company introduced incentives to encourage corporate laggards to modernize."
   },
   "laid back": {
     "word": "Laid back",
     "pos": "adjective",
-    "simpleDefinition": "Calm, relaxed, and not easily stressed",
+    "simpleDefinition": "Calm, relaxed, unhurried, and not easily worried or stressed.",
     "banglaMeaning": "অলস",
     "synonyms": [
-      "easygoing",
-      "relaxed",
-      "unhurried"
+      "Relaxed",
+      "Easygoing",
+      "Unruffled",
+      "Casual"
     ],
     "antonyms": [
-      "tense",
-      "anxious",
-      "uptight"
+      "Tense",
+      "Stressed",
+      "Anxious"
     ],
-    "example": "He has a laid back personality and never panics."
+    "example": "His laid back temperament helped keep the entire team calm under pressure."
   },
   "lament": {
     "word": "Lament",
     "pos": "verb",
-    "simpleDefinition": "To express passionate grief, sorrow, or regret",
+    "simpleDefinition": "To express deep sorrow, grief, or regret for someone or something.",
     "banglaMeaning": "বিলাপ করা / শোক প্রকাশ করা",
     "synonyms": [
       "Mourn",
       "Grieve",
-      "Regret"
+      "Bemoan",
+      "Weep"
     ],
     "antonyms": [
       "Celebrate",
       "Rejoice",
-      "Exult"
+      "Praise"
     ],
-    "example": "She lamented the loss of her childhood home."
+    "example": "Poets from across the country wrote touching verses to lament his passing."
   },
   "landscape": {
     "word": "Landscape",
     "pos": "noun",
-    "simpleDefinition": "A portion of land or territory as defined by its landform, its geographical (and architectural) features.",
-    "banglaMeaning": "প্রাকৃতিক ভূ –দৃশ্য",
+    "simpleDefinition": "All the visible features of an area of countryside or land.",
+    "banglaMeaning": "প্রাকৃতিক ভূ-দৃশ্য",
     "synonyms": [
-      "landscape painting"
+      "Scenery",
+      "Terrain",
+      "Panorama",
+      "View"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use landscape correctly in a sentence."
+    "example": "The artist captured the beautiful mountain landscape in his oil painting."
   },
   "languor": {
     "word": "Languor",
     "pos": "noun",
-    "simpleDefinition": "A state of the body or mind caused by exhaustion or disease and characterized by a languid or weary feeling; lassitude; (countable) an instance of this.",
+    "simpleDefinition": "A pleasant feeling of tiredness or inertia, or lack of physical energy.",
     "banglaMeaning": "অলস",
     "synonyms": [
-      "lethargy",
-      "lassitude",
-      "listlessness"
+      "Lethargy",
+      "Sluggishness",
+      "Lassitude",
+      "Inertia"
     ],
     "antonyms": [
-      "No common antonym"
+      "Vigor",
+      "Energy",
+      "Vitality"
     ],
-    "example": "The student learned how to use languor correctly in a sentence."
+    "example": "After a day swimming under the sun, a sweet languor came over us all."
   },
   "lassitude": {
     "word": "Lassitude",
     "pos": "noun",
-    "simpleDefinition": "Lethargy or lack of energy; fatigue, languor, listlessness.",
+    "simpleDefinition": "A state of physical or mental weariness; complete lack of energy.",
     "banglaMeaning": "অলস",
     "synonyms": [
-      "languor",
-      "lethargy",
-      "inanition"
+      "Fatigue",
+      "Weariness",
+      "Lethargy",
+      "Exhaustion"
     ],
     "antonyms": [
-      "No common antonym"
+      "Energy",
+      "Vitality",
+      "Vigor"
     ],
-    "example": "The student learned how to use lassitude correctly in a sentence."
+    "example": "A strange lassitude overcame the patient following several days of fever."
   },
   "lawn": {
     "word": "Lawn",
     "pos": "noun",
-    "simpleDefinition": "Ground (generally in front of or around a house) covered with grass kept closely mown.",
-    "banglaMeaning": "বনভূমি",
+    "simpleDefinition": "An area of manicured green grass near a house, park, or public building.",
+    "banglaMeaning": "তৃণভূমি; ঘাসের জমি",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Turf",
+      "Grassland",
+      "Meadow",
+      "Green"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use lawn correctly in a sentence."
+    "example": "We sat on the manicured lawn enjoying cold lemonade in the sunshine."
   },
   "leaning": {
     "word": "Leaning",
     "pos": "noun",
-    "simpleDefinition": "A tendency or propensity.",
+    "simpleDefinition": "A tendency, inclination, or personal preference towards something.",
     "banglaMeaning": "ঝোঁক",
     "synonyms": [
-      "inclination",
-      "proclivity",
-      "propensity"
+      "Inclination",
+      "Tendency",
+      "Bias",
+      "Predilection"
     ],
     "antonyms": [
-      "No common antonym"
+      "Neutrality",
+      "Indifference",
+      "Impartiality"
     ],
-    "example": "The student learned how to use leaning correctly in a sentence."
+    "example": "He has a noticeable political leaning toward environmental conservation."
   },
   "legible": {
     "word": "Legible",
     "pos": "adjective",
-    "simpleDefinition": "Clear enough to be read; readable, particularly of handwriting.",
+    "simpleDefinition": "Clear, neat, and readable enough to be easily deciphered.",
     "banglaMeaning": "সহজপাঠ্য",
     "synonyms": [
-      "clear",
-      "fair",
-      "clean"
+      "Readable",
+      "Clear",
+      "Decipherable",
+      "Intelligible"
     ],
     "antonyms": [
-      "illegible"
+      "Illegible",
+      "Unreadable",
+      "Messy"
     ],
-    "example": "The student learned how to use legible correctly in a sentence."
+    "example": "Please make sure your handwriting is legible when filling out the form."
   },
   "legitimate": {
     "word": "Legitimate",
     "pos": "adjective",
-    "simpleDefinition": "In accordance with the law or established legal forms and requirements.",
+    "simpleDefinition": "Conforming to recognized laws, established rules, or sound logic.",
     "banglaMeaning": "আইনসম্মত",
     "synonyms": [
-      "established",
-      "valid",
-      "logical"
+      "Lawful",
+      "Legal",
+      "Valid",
+      "Authentic"
     ],
     "antonyms": [
-      "illegitimate",
-      "outlaw",
-      "criminalize"
+      "Illegitimate",
+      "Illegal",
+      "Unlawful"
     ],
-    "example": "The student learned how to use legitimate correctly in a sentence."
+    "example": "The customer had a legitimate complaint regarding the broken warranty."
   },
   "lenient": {
     "word": "Lenient",
@@ -10816,100 +12357,121 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "lethargic": {
     "word": "Lethargic",
     "pos": "adjective",
-    "simpleDefinition": "Sluggish, slow.",
+    "simpleDefinition": "Sluggish, drowsy, tired, and lacking in normal vitality or enthusiasm.",
     "banglaMeaning": "অলস",
     "synonyms": [
-      "lazy",
-      "torpid",
-      "unmoving"
+      "Sluggish",
+      "Tired",
+      "Passive",
+      "Inactive"
     ],
     "antonyms": [
-      "No common antonym"
+      "Energetic",
+      "Active",
+      "Lively"
     ],
-    "example": "The teacher gave an insightful explanation of lethargic."
+    "example": "A heavy meal during the hot afternoon left everyone feeling lethargic."
   },
   "lexicographer": {
     "word": "Lexicographer",
     "pos": "noun",
-    "simpleDefinition": "One who writes or compiles a dictionary.",
+    "simpleDefinition": "A person who writes, compiles, or edits dictionaries.",
     "banglaMeaning": "অভিধান রচয়িতা",
     "synonyms": [
-      "lexicologist"
+      "Dictionary compiler",
+      "Glossarian",
+      "Vocabulist"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use lexicographer correctly in a sentence."
+    "example": "The lexicographer spent thirty years documenting regional English idioms."
   },
   "licentious": {
     "word": "Licentious",
     "pos": "adjective",
-    "simpleDefinition": "Lacking restraint, or ignoring societal standards, particularly in sexual conduct; sexually unprincipled.",
-    "banglaMeaning": "দুহ্নরিত্র লোক",
+    "simpleDefinition": "Lacking moral or sexual restraint; dissolute and unprincipled.",
+    "banglaMeaning": "দুশ্চরিত্র ব্যক্তি",
     "synonyms": [
-      "unchaste"
+      "Immoral",
+      "Dissolute",
+      "Debauched",
+      "Lustful"
     ],
     "antonyms": [
-      "No common antonym"
+      "Moral",
+      "Virtuous",
+      "Chaste"
     ],
-    "example": "The student learned how to use licentious correctly in a sentence."
+    "example": "The corrupt nobleman was widely condemned for his licentious behavior."
   },
   "limpid": {
     "word": "Limpid",
     "pos": "adjective",
-    "simpleDefinition": "Clear, transparent or bright.",
+    "simpleDefinition": "Completely clear, transparent, serene, and free from cloudiness.",
     "banglaMeaning": "স্পষ্ট",
     "synonyms": [
-      "pellucid",
-      "clear",
-      "luculent"
+      "Clear",
+      "Transparent",
+      "Lucid",
+      "Pure"
     ],
     "antonyms": [
-      "No common antonym"
+      "Turbid",
+      "Murky",
+      "Muddy"
     ],
-    "example": "The student learned how to use limpid correctly in a sentence."
+    "example": "You could see every smooth pebble at the bottom of the limpid stream."
   },
   "linguistic": {
     "word": "Linguistic",
     "pos": "adjective",
-    "simpleDefinition": "Of or relating to language.",
-    "banglaMeaning": "ভাষাবিন্ত্রান",
+    "simpleDefinition": "Relating to language, speech, or the scientific study of language.",
+    "banglaMeaning": "ভাষাবিজ্ঞান",
     "synonyms": [
-      "linguistical"
+      "Verbal",
+      "Grammatical",
+      "Semantic",
+      "Philological"
     ],
     "antonyms": [
-      "No common antonym"
+      "Nonverbal"
     ],
-    "example": "The teacher gave an insightful explanation of linguistic."
+    "example": "Children acquire impressive linguistic skills rapidly during their early years."
   },
   "lively": {
     "word": "Lively",
     "pos": "adjective",
-    "simpleDefinition": "Full of life; energetic, vivacious.",
+    "simpleDefinition": "Full of life, active energy, enthusiasm, and cheerful spirit.",
     "banglaMeaning": "প্রশান্ত / সজীব",
     "synonyms": [
-      "effusive",
-      "brisk",
-      "effervescent"
+      "Energetic",
+      "Vibrant",
+      "Animated",
+      "Spirited"
     ],
     "antonyms": [
-      "dull"
+      "Lifeless",
+      "Dull",
+      "Inert"
     ],
-    "example": "The student learned how to use lively correctly in a sentence."
+    "example": "The street market was bustling with lively music, aromas, and shoppers."
   },
   "lodge a complaint": {
     "word": "Lodge a complaint",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being lodge a complaint.",
+    "pos": "idiom",
+    "simpleDefinition": "To submit an official or formal grievance to an authority.",
     "banglaMeaning": "অফিসিয়ালি অভিযোগ করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "File a complaint",
+      "Register a grievance",
+      "Protest officially"
     ],
     "antonyms": [
-      "No common antonym"
+      "Withdraw a complaint",
+      "Accept"
     ],
-    "example": "The student learned how to use lodge a complaint correctly in a sentence."
+    "example": "The tenants decided to lodge a complaint against the landlord for neglect."
   },
   "loquacious": {
     "word": "Loquacious",
@@ -10931,108 +12493,128 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "lowest point": {
     "word": "Lowest point",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being lowest point.",
+    "simpleDefinition": "The nadir; the lowest level, stage, or time of greatest adversity.",
     "banglaMeaning": "র্সবনিল্ড বিন্দু",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Nadir",
+      "Rock bottom",
+      "Trough",
+      "Base"
     ],
     "antonyms": [
-      "No common antonym"
+      "Zenith",
+      "Peak",
+      "Pinnacle"
     ],
-    "example": "The student learned how to use lowest point correctly in a sentence."
+    "example": "Failing the entrance exam was the lowest point in an otherwise stellar year."
   },
   "lucid": {
     "word": "Lucid",
     "pos": "adjective",
-    "simpleDefinition": "Expressed clearly and easy to understand",
+    "simpleDefinition": "Expressed clearly and easy to understand; fully rational and clearheaded.",
     "banglaMeaning": "স্পষ্ট / প্রাঞ্জল",
     "synonyms": [
       "Clear",
-      "Transparent",
-      "Comprehensible"
+      "Articulate",
+      "Intelligible",
+      "Coherent"
     ],
     "antonyms": [
-      "Vague",
-      "Confusing",
-      "Obscure"
+      "Confused",
+      "Unclear",
+      "Murky"
     ],
-    "example": "The teacher gave a lucid explanation of the concept."
+    "example": "The professor gave a remarkably lucid explanation of the economic theorem."
   },
   "lucrative": {
     "word": "Lucrative",
     "pos": "adjective",
-    "simpleDefinition": "Producing a surplus; profitable.",
+    "simpleDefinition": "Producing a great deal of profit; financially rewarding.",
     "banglaMeaning": "লাভজনক",
     "synonyms": [
-      "remunerative",
-      "profitable",
-      "moneymaking"
+      "Profitable",
+      "Rewarding",
+      "Remunerative",
+      "Gainful"
     ],
     "antonyms": [
-      "No common antonym"
+      "Unprofitable",
+      "Loss-making",
+      "Disadvantageous"
     ],
-    "example": "The student learned how to use lucrative correctly in a sentence."
+    "example": "Exporting fresh fruit proved to be a highly lucrative venture."
   },
   "lukewarm": {
     "word": "Lukewarm",
     "pos": "adjective",
-    "simpleDefinition": "Unenthusiastic (about a proposal or an idea).",
+    "simpleDefinition": "Only slightly warm, or showing very little interest or enthusiasm.",
     "banglaMeaning": "উদাসীন",
     "synonyms": [
-      "tepid",
-      "warm",
-      "unenthusiastic"
+      "Tepid",
+      "Unenthusiastic",
+      "Apathetic",
+      "Halfhearted"
     ],
     "antonyms": [
-      "No common antonym"
+      "Enthusiastic",
+      "Warm",
+      "Passionate"
     ],
-    "example": "The student learned how to use lukewarm correctly in a sentence."
+    "example": "The board gave only a lukewarm response to the proposed office relocation."
   },
   "lumber": {
     "word": "Lumber",
-    "pos": "noun",
-    "simpleDefinition": "Wood sawn into planks or otherwise prepared for sale or use, especially as a building material.",
+    "pos": "verb",
+    "simpleDefinition": "To move along slowly, heavily, and clumsily.",
     "banglaMeaning": "খুব কষ্ট করে হাঁটা",
     "synonyms": [
-      "timber",
-      "pound",
-      "bat"
+      "Plod",
+      "Trudge",
+      "Lurch",
+      "Stumble"
     ],
     "antonyms": [
-      "No common antonym"
+      "Glide",
+      "Dart",
+      "Sprint"
     ],
-    "example": "The student learned how to use lumber correctly in a sentence."
+    "example": "The giant bear continued to lumber steadily across the rocky trail."
   },
   "luminous": {
     "word": "Luminous",
     "pos": "adjective",
-    "simpleDefinition": "Emitting light; glowing brightly; shining.",
-    "banglaMeaning": "উণ্ডল",
+    "simpleDefinition": "Emitting, glowing with, or reflecting bright and steady light.",
+    "banglaMeaning": "উজ্জ্বল",
     "synonyms": [
-      "lucent",
-      "bright",
-      "lambent"
+      "Radiant",
+      "Brilliant",
+      "Glowing",
+      "Bright"
     ],
     "antonyms": [
-      "No common antonym"
+      "Dark",
+      "Dim",
+      "Dull"
     ],
-    "example": "The student learned how to use luminous correctly in a sentence."
+    "example": "The luminous moon lit up our path as we walked along the quiet beach."
   },
   "magnanimous": {
     "word": "Magnanimous",
     "pos": "adjective",
-    "simpleDefinition": "Noble and generous in spirit.",
+    "simpleDefinition": "Very generous or forgiving, especially toward a rival or less powerful person.",
     "banglaMeaning": "দয়ালু",
     "synonyms": [
-      "noble",
-      "large",
-      "big"
+      "Generous",
+      "Forgiving",
+      "Noble",
+      "Charitable"
     ],
     "antonyms": [
-      "No common antonym"
+      "Petty",
+      "Vengeful",
+      "Spiteful"
     ],
-    "example": "The student learned how to use magnanimous correctly in a sentence."
+    "example": "She was magnanimous in victory and praised her opponent's determination."
   },
   "malicious": {
     "word": "Malicious",
@@ -11071,45 +12653,54 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "malingerer": {
     "word": "Malingerer",
     "pos": "noun",
-    "simpleDefinition": "A person who malingers.",
+    "simpleDefinition": "A person who pretends to be ill in order to avoid work or duty.",
     "banglaMeaning": "যে ব্যক্তি র্কতব্য এড়ানোর জন্য অসুস্থতার ভান করে",
     "synonyms": [
-      "skulker"
+      "Shirker",
+      "Slacker",
+      "Dodger",
+      "Loafer"
     ],
     "antonyms": [
-      "No common antonym"
+      "Hard worker"
     ],
-    "example": "The student learned how to use malingerer correctly in a sentence."
+    "example": "The manager suspected he was a malingerer when he called in sick every Friday."
   },
   "mammoth": {
     "word": "Mammoth",
-    "pos": "noun",
-    "simpleDefinition": "Any species of the extinct genus Mammuthus, of large, usually hairy, elephant-like mammals with long curved tusks and an inclined back, which became extinct with the last retreat of ice age glaciers during the late Pleistocene period, and are known from fossils, frozen carcasses, and Paleolithic cave paintings found in North America and Eurasia.",
+    "pos": "adjective",
+    "simpleDefinition": "Huge, gigantic, or colossal in size or scale.",
     "banglaMeaning": "বিশাল",
     "synonyms": [
-      "large",
-      "big",
-      "gigantic"
+      "Gigantic",
+      "Colossal",
+      "Huge",
+      "Immense"
     ],
     "antonyms": [
-      "No common antonym"
+      "Tiny",
+      "Miniature",
+      "Small"
     ],
-    "example": "The student learned how to use mammoth correctly in a sentence."
+    "example": "Building the suspension bridge was a mammoth engineering challenge."
   },
   "manifest": {
     "word": "Manifest",
     "pos": "adjective",
-    "simpleDefinition": "Evident to the senses, especially to the sight; apparent; distinctly perceived.",
+    "simpleDefinition": "Clear, plain, and obvious to the eye or mind.",
     "banglaMeaning": "স্পষ্ট",
     "synonyms": [
-      "demonstrate",
-      "plain",
-      "evident"
+      "Obvious",
+      "Clear",
+      "Apparent",
+      "Evident"
     ],
     "antonyms": [
-      "No common antonym"
+      "Hidden",
+      "Obscure",
+      "Unclear"
     ],
-    "example": "The student learned how to use manifest correctly in a sentence."
+    "example": "His nervous stutter made his anxiety manifest to everyone in the room."
   },
   "manifold": {
     "word": "Manifold",
@@ -11131,108 +12722,128 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "manliness": {
     "word": "Manliness",
     "pos": "noun",
-    "simpleDefinition": "The quality of being manly; the set of qualities, traits and abilities considered appropriate to men (as opposed to women or children); similarity to a man.",
+    "simpleDefinition": "Qualities traditionally associated with courage, strength, and noble character.",
     "banglaMeaning": "সাহসিকতা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Masculinity",
+      "Bravery",
+      "Fortitude",
+      "Courage"
     ],
     "antonyms": [
-      "No common antonym"
+      "Cowardice",
+      "Weakness"
     ],
-    "example": "The student learned how to use manliness correctly in a sentence."
+    "example": "He believed true manliness meant standing up gently for those in need."
   },
   "martinet": {
     "word": "Martinet",
     "pos": "noun",
-    "simpleDefinition": "A strict disciplinarian.",
+    "simpleDefinition": "A strict disciplinarian who demands total obedience to rules.",
     "banglaMeaning": "নিয়মনিষ্ঠ",
     "synonyms": [
-      "disciplinarian",
-      "moralist"
+      "Disciplinarian",
+      "Taskmaster",
+      "Stickler"
     ],
     "antonyms": [
-      "No common antonym"
+      "Lenient person"
     ],
-    "example": "The student learned how to use martinet correctly in a sentence."
+    "example": "The coach was a martinet who made athletes run laps for being one minute late."
   },
   "massive": {
     "word": "Massive",
     "pos": "adjective",
-    "simpleDefinition": "Very large in size or extent.",
+    "simpleDefinition": "Exceptionally large, heavy, and solid in construction.",
     "banglaMeaning": "বিশাল",
     "synonyms": [
-      "heavy",
-      "large",
-      "big"
+      "Enormous",
+      "Huge",
+      "Colossal",
+      "Bulky"
     ],
     "antonyms": [
-      "No common antonym"
+      "Tiny",
+      "Lightweight",
+      "Slender"
     ],
-    "example": "The student learned how to use massive correctly in a sentence."
+    "example": "The castle entrance was guarded by a massive iron door."
   },
   "masterful": {
     "word": "Masterful",
     "pos": "adjective",
-    "simpleDefinition": "Having the qualities or characteristics of masterful.",
+    "simpleDefinition": "Showing great skill, competence, or commanding authority.",
     "banglaMeaning": "দক্ষ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Skillful",
+      "Expert",
+      "Commanding",
+      "Authoritative"
     ],
     "antonyms": [
-      "No common antonym"
+      "Inept",
+      "Clumsy",
+      "Weak"
     ],
-    "example": "The student learned how to use masterful correctly in a sentence."
+    "example": "The conductor gave a masterful performance of the symphony."
   },
   "materialistic": {
     "word": "Materialistic",
     "pos": "adjective",
-    "simpleDefinition": "Having the qualities or characteristics of materialistic.",
+    "simpleDefinition": "Excessively focused on money and material possessions rather than spiritual values.",
     "banglaMeaning": "প্রকৃতিবাদী",
     "synonyms": [
-      "mercenary",
-      "worldly",
-      "middle-class"
+      "Consumerist",
+      "Acquisitive",
+      "Money-oriented",
+      "Worldly"
     ],
     "antonyms": [
-      "No common antonym"
+      "Spiritual",
+      "Altruistic",
+      "Idealistic"
     ],
-    "example": "The student learned how to use materialistic correctly in a sentence."
+    "example": "Society often critiques materialistic lifestyles that prioritize luxury over kindness."
   },
   "materialize": {
     "word": "Materialize",
     "pos": "verb",
-    "simpleDefinition": "To take physical form, to appear seemingly from nowhere.",
+    "simpleDefinition": "To become actual fact or happen, or appear suddenly.",
     "banglaMeaning": "দৃষ্টি গোচর হওয়া / বাস্তবে পরিণত হওয়া",
     "synonyms": [
-      "happen"
+      "Appear",
+      "Emerge",
+      "Happen",
+      "Occur"
     ],
     "antonyms": [
-      "dematerialize"
+      "Vanish",
+      "Disappear"
     ],
-    "example": "The student learned how to use materialize correctly in a sentence."
+    "example": "The predicted economic crisis did not materialize after the reforms."
   },
   "matrimony": {
     "word": "Matrimony",
     "pos": "noun",
-    "simpleDefinition": "Marriage; the state of being married.",
+    "simpleDefinition": "The state or ceremony of being married; wedlock.",
     "banglaMeaning": "বিবাহিত",
     "synonyms": [
-      "wedlock",
-      "marriage",
-      "union"
+      "Marriage",
+      "Wedlock",
+      "Nuptials",
+      "Union"
     ],
     "antonyms": [
-      "No common antonym"
+      "Divorce",
+      "Celibacy"
     ],
-    "example": "The student learned how to use matrimony correctly in a sentence."
+    "example": "The couple celebrated twenty-five years of happy matrimony."
   },
   "meager": {
     "word": "Meager",
     "pos": "adjective",
     "simpleDefinition": "Deficient in quantity, fullness, or extent; scanty",
-    "banglaMeaning": "অপ্রতুল / অতি সামান্য / স্বস্ফ",
+    "banglaMeaning": "অপ্রতুল / অতি সামান্য / স্বল্প",
     "synonyms": [
       "Scanty",
       "Insufficient",
@@ -11247,46 +12858,55 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "mean": {
     "word": "Mean",
-    "pos": "verb",
-    "simpleDefinition": "To intend.",
+    "pos": "adjective",
+    "simpleDefinition": "Unkind, spiteful, or unwilling to share or spend money.",
     "banglaMeaning": "নীচ",
     "synonyms": [
-      "base",
-      "spiteful",
-      "skilled"
+      "Unkind",
+      "Nasty",
+      "Spiteful",
+      "Stingy"
     ],
     "antonyms": [
-      "No common antonym"
+      "Kind",
+      "Generous",
+      "Pleasant"
     ],
-    "example": "The student learned how to use mean correctly in a sentence."
+    "example": "Making mean comments behind someone's back hurts people deeply."
   },
   "meddle": {
     "word": "Meddle",
     "pos": "verb",
-    "simpleDefinition": "To interfere in or with; to concern oneself with unduly.",
+    "simpleDefinition": "To interfere in or pry into something that is not one's concern.",
     "banglaMeaning": "হস্তক্ষেপ করা",
     "synonyms": [
-      "tamper"
+      "Interfere",
+      "Intrude",
+      "Pry",
+      "Tamper"
     ],
     "antonyms": [
-      "No common antonym"
+      "Leave alone",
+      "Ignore"
     ],
-    "example": "The student learned how to use meddle correctly in a sentence."
+    "example": "Parents should encourage independence rather than meddle in their adult children's choices."
   },
   "meditative": {
     "word": "Meditative",
     "pos": "adjective",
-    "simpleDefinition": "Of or pertaining to meditation.",
+    "simpleDefinition": "Deeply thoughtful, reflective, or absorbed in serious thought.",
     "banglaMeaning": "চিন্তাশীল",
     "synonyms": [
-      "pensive",
-      "musing",
-      "thoughtful"
+      "Reflective",
+      "Contemplative",
+      "Pensive",
+      "Thoughtful"
     ],
     "antonyms": [
-      "No common antonym"
+      "Frivolous",
+      "Thoughtless"
     ],
-    "example": "The student learned how to use meditative correctly in a sentence."
+    "example": "He spent a quiet meditative morning walking along the peaceful seashore."
   },
   "melancholy": {
     "word": "Melancholy",
@@ -11308,15 +12928,18 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "memento": {
     "word": "Memento",
     "pos": "noun",
-    "simpleDefinition": "A keepsake; an object kept as a reminder of a place or event.",
-    "banglaMeaning": "ষ্মারকচিস্র / অভিন্ত্র",
+    "simpleDefinition": "An object kept as a reminder or souvenir of a person, place, or event.",
+    "banglaMeaning": "স্মারকচিহ্ন; স্মৃতিচিহ্ন",
     "synonyms": [
-      "souvenir"
+      "Souvenir",
+      "Keepsake",
+      "Reminder",
+      "Token"
     ],
     "antonyms": [
-      "No common antonym"
+      "Discard"
     ],
-    "example": "The student learned how to use memento correctly in a sentence."
+    "example": "She bought a miniature porcelain figurine as a memento of her trip to Paris."
   },
   "menace": {
     "word": "Menace",
@@ -11337,63 +12960,68 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "mercenary": {
     "word": "Mercenary",
-    "pos": "noun",
-    "simpleDefinition": "A person employed to fight in an armed conflict who is not a member of the state or military group for which they are fighting and whose primary motivation is private gain.",
+    "pos": "adjective",
+    "simpleDefinition": "Primarily motivated by the desire for financial gain rather than ethics or duty.",
     "banglaMeaning": "ভাড়াটে বৈসনিক",
     "synonyms": [
-      "commercial",
-      "mercantile",
-      "worldly"
+      "Money-driven",
+      "Greedy",
+      "Acquisitive",
+      "Selfish"
     ],
     "antonyms": [
-      "No common antonym"
+      "Altruistic",
+      "Generous",
+      "Charitable"
     ],
-    "example": "The student learned how to use mercenary correctly in a sentence."
+    "example": "His mercenary attitude made him abandon the charity project when funds dropped."
   },
   "merchandise": {
     "word": "Merchandise",
     "pos": "noun",
-    "simpleDefinition": "Goods which are or were offered or intended for sale.",
+    "simpleDefinition": "Goods or commodities that are bought and sold in business.",
     "banglaMeaning": "মালপত্র",
     "synonyms": [
-      "product",
-      "trade",
-      "wares"
+      "Goods",
+      "Products",
+      "Commodities",
+      "Stock"
     ],
     "antonyms": [
-      "No common antonym"
+      "Services"
     ],
-    "example": "The student learned how to use merchandise correctly in a sentence."
+    "example": "The department store displays its newest merchandise in bright front windows."
   },
   "merchant prince": {
     "word": "Merchant prince",
     "pos": "noun",
-    "simpleDefinition": "A very wealthy and influential commercial merchant",
+    "simpleDefinition": "A wealthy, influential merchant or commercial business tycoon.",
     "banglaMeaning": "মহা ধনবান বণিক",
     "synonyms": [
-      "tycoon",
-      "magnate",
-      "baron"
+      "Tycoon",
+      "Magnate",
+      "Baron",
+      "Capitalist"
     ],
     "antonyms": [
-      "pauper"
+      "Laborer",
+      "Peasant"
     ],
-    "example": "The historical port city was run by merchant princes."
+    "example": "The coastal trading city was governed by a merchant prince who owned dozens of ships."
   },
   "mercury": {
     "word": "Mercury",
     "pos": "noun",
-    "simpleDefinition": "A silvery-colored, toxic, metallic chemical element, liquid at room temperature, with atomic number 80 and symbol Hg.",
+    "simpleDefinition": "A heavy silvery-white toxic liquid metallic element, also called quicksilver.",
     "banglaMeaning": "পারদ / বুধগ্রহ / দেবরাজের দেবতা",
     "synonyms": [
-      "quicksilver",
-      "atomic number 80",
-      "hg"
+      "Quicksilver",
+      "Liquid metal"
     ],
     "antonyms": [
-      "No common antonym"
+      "Solid metal"
     ],
-    "example": "The student learned how to use mercury correctly in a sentence."
+    "example": "Traditional medical thermometers used liquid mercury to measure body temperature."
   },
   "meritorious": {
     "word": "Meritorious",
@@ -11415,21 +13043,26 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "methodical": {
     "word": "Methodical",
     "pos": "adjective",
-    "simpleDefinition": "In an organized manner; proceeding with regard to method; systematic.",
+    "simpleDefinition": "Done according to a careful, systematic, and orderly procedure.",
     "banglaMeaning": "সুশৃঙ্খল",
     "synonyms": [
-      "organized"
+      "Systematic",
+      "Orderly",
+      "Structured",
+      "Organized"
     ],
     "antonyms": [
-      "No common antonym"
+      "Chaotic",
+      "Haphazard",
+      "Disorderly"
     ],
-    "example": "The student learned how to use methodical correctly in a sentence."
+    "example": "She solved the mystery through a careful and methodical examination of clues."
   },
   "meticulous": {
     "word": "Meticulous",
     "pos": "adjective",
     "simpleDefinition": "Very careful and paying great attention to detail",
-    "banglaMeaning": "খুঁতখুঁতে / অতি সতর্ক / অতিসর্তক",
+    "banglaMeaning": "খুঁতখুঁতে / অতি সতর্ক / অতিসতর্ক",
     "synonyms": [
       "Careful",
       "Precise",
@@ -11445,17 +13078,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "mild": {
     "word": "Mild",
     "pos": "adjective",
-    "simpleDefinition": "Not sharp or bitter; not strong in flavor.",
+    "simpleDefinition": "Not severe, harsh, or extreme; gentle and moderate.",
     "banglaMeaning": "শান্ত / হালকা / কোমল",
     "synonyms": [
-      "modest",
-      "balmy",
-      "moderate"
+      "Gentle",
+      "Moderate",
+      "Temperate",
+      "Calm"
     ],
     "antonyms": [
-      "intense"
+      "Harsh",
+      "Severe",
+      "Extreme"
     ],
-    "example": "The student learned how to use mild correctly in a sentence."
+    "example": "The patient experienced only mild symptoms and was discharged the next day."
   },
   "militant": {
     "word": "Militant",
@@ -11477,79 +13113,92 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "mine": {
     "word": "Mine",
     "pos": "noun",
-    "simpleDefinition": "An excavation from which ore or solid minerals are taken, especially one consisting of underground tunnels.",
+    "simpleDefinition": "An underground excavation from which coal, minerals, or precious metals are extracted.",
     "banglaMeaning": "খনি",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Quarry",
+      "Pit",
+      "Excavation",
+      "Colliery"
     ],
     "antonyms": [
-      "No common antonym"
+      "Surface"
     ],
-    "example": "The student learned how to use mine correctly in a sentence."
+    "example": "Miners descend hundreds of feet below ground to work in the coal mine."
   },
   "misanthrope": {
     "word": "Misanthrope",
     "pos": "noun",
-    "simpleDefinition": "Someone who distrusts or avoids other people.",
-    "banglaMeaning": "মানববিদে্ধষ",
+    "simpleDefinition": "A person who dislikes human society and avoids interaction with people.",
+    "banglaMeaning": "মানবজাতিকে ঘৃণা বা অবিশ্বাস করে এমন ব্যক্তি",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Cynic",
+      "Recluse",
+      "Loner",
+      "Skeptic"
     ],
     "antonyms": [
-      "No common antonym"
+      "Philanthropist",
+      "Humanitarian"
     ],
-    "example": "The student learned how to use misanthrope correctly in a sentence."
+    "example": "After repeated disappointments, the old hermit turned into a misanthrope."
   },
   "misconstrue": {
     "word": "Misconstrue",
     "pos": "verb",
-    "simpleDefinition": "To interpret erroneously, to understand incorrectly; to misunderstand.",
+    "simpleDefinition": "To interpret a person's words or actions wrongly.",
     "banglaMeaning": "ভূল বোঝা",
     "synonyms": [
-      "misunderstand",
-      "misinterpret",
-      "misconceive"
+      "Misinterpret",
+      "Misunderstand",
+      "Misjudge"
     ],
     "antonyms": [
-      "No common antonym"
+      "Understand",
+      "Comprehend",
+      "Grasp"
     ],
-    "example": "The student learned how to use misconstrue correctly in a sentence."
+    "example": "Please do not misconstrue my honest question as a personal criticism."
   },
   "miserable": {
     "word": "Miserable",
     "pos": "adjective",
-    "simpleDefinition": "In a state of misery: very sad, ill, or poor.",
+    "simpleDefinition": "Wretchedly unhappy, uncomfortable, or distressing.",
     "banglaMeaning": "শোচনীয়",
     "synonyms": [
-      "hapless",
-      "wretched",
-      "abject"
+      "Wretched",
+      "Unhappy",
+      "Depressed",
+      "Dejected"
     ],
     "antonyms": [
-      "No common antonym"
+      "Joyful",
+      "Happy",
+      "Cheerful"
     ],
-    "example": "The student learned how to use miserable correctly in a sentence."
+    "example": "Standing in the freezing downpour for hours made the passengers miserable."
   },
   "misogyny": {
     "word": "Misogyny",
     "pos": "noun",
-    "simpleDefinition": "Hatred of, contempt for, or prejudice against women.",
+    "simpleDefinition": "Dislike of, contempt for, or ingrained prejudice against women.",
     "banglaMeaning": "নারীদের ঘৃণা করে যে",
     "synonyms": [
-      "misogynism"
+      "Sexism",
+      "Anti-female bias",
+      "Chauvinism"
     ],
     "antonyms": [
-      "No common antonym"
+      "Gender equality",
+      "Feminism"
     ],
-    "example": "The student learned how to use misogyny correctly in a sentence."
+    "example": "The investigative report uncovered systemic misogyny within the organization."
   },
   "mitigate": {
     "word": "Mitigate",
     "pos": "verb",
     "simpleDefinition": "To make less severe, painful, harmful, or harsh",
-    "banglaMeaning": "প্রশমিত করা / লাঘব করা / প্রশমিত করা (কষ্ট / যপ্সণা )",
+    "banglaMeaning": "প্রশমিত করা / লাঘব করা / প্রশমিত করা (কষ্ট / যন্ত্রণা )",
     "synonyms": [
       "Reduce",
       "Lessen",
@@ -11582,60 +13231,70 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "modest": {
     "word": "Modest",
     "pos": "adjective",
-    "simpleDefinition": "Not bragging or boasting about oneself or one's achievements; unpretentious, humble.",
+    "simpleDefinition": "Unassuming or moderate in estimating one's abilities, or not showy.",
     "banglaMeaning": "বিনয়ী",
     "synonyms": [
-      "coy",
-      "demure",
-      "plain"
+      "Humble",
+      "Unassuming",
+      "Unpretentious",
+      "Simple"
     ],
     "antonyms": [
-      "immodest"
+      "Arrogant",
+      "Boastful",
+      "Pretentious"
     ],
-    "example": "The student learned how to use modest correctly in a sentence."
+    "example": "Despite winning the prestigious prize, the researcher remained remarkably modest."
   },
   "monopoly": {
     "word": "Monopoly",
     "pos": "noun",
-    "simpleDefinition": "A situation, by legal privilege or other agreement, in which solely one party (company, cartel etc.) exclusively provides a particular product or service, dominating that market and generally exerting powerful control over it.",
-    "banglaMeaning": "একচেটয়িা অধিকার",
+    "simpleDefinition": "Exclusive control or possession of the supply of or trade in a commodity or service.",
+    "banglaMeaning": "একচেটিয়া অধিকার",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Dominance",
+      "Sole control",
+      "Corner",
+      "Cartel"
     ],
     "antonyms": [
-      "No common antonym"
+      "Competition",
+      "Free market"
     ],
-    "example": "The student learned how to use monopoly correctly in a sentence."
+    "example": "Antitrust regulations prevent any one company from maintaining a monopoly on energy."
   },
   "monotheist": {
     "word": "Monotheist",
     "pos": "noun",
-    "simpleDefinition": "A believer of monotheism, the doctrine that there is a single divine being in the universe.",
+    "simpleDefinition": "A person who believes that there is only one supreme God.",
     "banglaMeaning": "একেশ্বরবাদী",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Believer in one God",
+      "Unitarian"
     ],
     "antonyms": [
-      "No common antonym"
+      "Polytheist",
+      "Atheist"
     ],
-    "example": "The student learned how to use monotheist correctly in a sentence."
+    "example": "A monotheist rejects the concept of multiple deities."
   },
   "monotonous": {
     "word": "Monotonous",
     "pos": "adjective",
-    "simpleDefinition": "Tedious, repetitious, or lacking in variety.",
+    "simpleDefinition": "Dull, tedious, and repetitious; lacking in variety or interest.",
     "banglaMeaning": "একঘেয়ে",
     "synonyms": [
-      "dull",
-      "humdrum",
-      "monotone"
+      "Repetitive",
+      "Tedious",
+      "Boring",
+      "Dull"
     ],
     "antonyms": [
-      "No common antonym"
+      "Varied",
+      "Exciting",
+      "Lively"
     ],
-    "example": "The student learned how to use monotonous correctly in a sentence."
+    "example": "Stamping envelopes all afternoon is a monotonous task that quickly bores workers."
   },
   "morose": {
     "word": "Morose",
@@ -11657,60 +13316,72 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "motionless": {
     "word": "Motionless",
     "pos": "adjective",
-    "simpleDefinition": "At rest, stationary, immobile, not moving.",
-    "banglaMeaning": "নিহ্নল",
+    "simpleDefinition": "Not moving at all; completely still.",
+    "banglaMeaning": "নিশ্চল",
     "synonyms": [
-      "static",
-      "unmoving",
-      "inactive"
+      "Still",
+      "Stationary",
+      "Immobile",
+      "Static"
     ],
     "antonyms": [
-      "No common antonym"
+      "Moving",
+      "Active",
+      "Dynamic"
     ],
-    "example": "The student learned how to use motionless correctly in a sentence."
+    "example": "The owl sat motionless on the tree branch, waiting for prey."
   },
   "mountebank": {
     "word": "Mountebank",
     "pos": "noun",
-    "simpleDefinition": "One who sells by deception; a con artist.",
+    "simpleDefinition": "A person who deceives others, especially by tricking them out of money with false promises.",
     "banglaMeaning": "যে ব্যক্তি চটকদার কথা বলে মানুষকে ঠকানোর চেষ্টা করে",
     "synonyms": [
-      "charlatan"
+      "Charlatan",
+      "Quack",
+      "Fraud",
+      "Swindler"
     ],
     "antonyms": [
-      "No common antonym"
+      "Honest person"
     ],
-    "example": "The student learned how to use mountebank correctly in a sentence."
+    "example": "The traveling mountebank sold bottled colored water as a miracle health cure."
   },
   "muddle": {
     "word": "Muddle",
-    "pos": "verb",
-    "simpleDefinition": "To mix together, to mix up; to confuse.",
-    "banglaMeaning": "বিষ্ণলতা",
+    "pos": "noun",
+    "simpleDefinition": "An untidy, disorganized state, or confusion.",
+    "banglaMeaning": "বিশৃঙ্খলা",
     "synonyms": [
-      "hole",
-      "welter",
-      "addle"
+      "Mess",
+      "Confusion",
+      "Disarray",
+      "Jumble"
     ],
     "antonyms": [
-      "No common antonym"
+      "Order",
+      "Clarity",
+      "System"
     ],
-    "example": "The student learned how to use muddle correctly in a sentence."
+    "example": "The sudden cancellation of flights caused a hopeless muddle at the terminal."
   },
   "multiple": {
     "word": "Multiple",
     "pos": "adjective",
-    "simpleDefinition": "Having more than one element, part, component, or function, having more than one instance, occurring more than once, usually contrary to expectations (can be followed by a singular).",
+    "simpleDefinition": "Having or involving several parts, individuals, or elements.",
     "banglaMeaning": "বস্থবিধ",
     "synonyms": [
-      "aggregate",
-      "treble",
-      "multiplex"
+      "Several",
+      "Numerous",
+      "Manifold",
+      "Various"
     ],
     "antonyms": [
-      "No common antonym"
+      "Single",
+      "Sole",
+      "Solitary"
     ],
-    "example": "The student learned how to use multiple correctly in a sentence."
+    "example": "The job candidate possesses multiple strengths, including fluency in French and German."
   },
   "mundane": {
     "word": "Mundane",
@@ -11732,88 +13403,107 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "murky": {
     "word": "Murky",
     "pos": "adjective",
-    "simpleDefinition": "Hard to see through, as a fog or mist.",
+    "simpleDefinition": "Dark and gloomy, or unclear and difficult to see through.",
     "banglaMeaning": "আবছা / অস্পষ্ট",
     "synonyms": [
-      "turbid",
-      "opaque",
-      "cloudy"
+      "Gloomy",
+      "Muddy",
+      "Cloudy",
+      "Dim"
     ],
     "antonyms": [
-      "No common antonym"
+      "Clear",
+      "Bright",
+      "Transparent"
     ],
-    "example": "The student learned how to use murky correctly in a sentence."
+    "example": "The search team could see nothing through the murky water of the pond."
   },
   "muster": {
     "word": "Muster",
-    "pos": "noun",
-    "simpleDefinition": "Gathering.",
+    "pos": "verb",
+    "simpleDefinition": "To summon up, gather, or assemble resources or courage.",
     "banglaMeaning": "সমবেশ",
     "synonyms": [
-      "rally"
+      "Gather",
+      "Summon",
+      "Rally",
+      "Mobilize"
     ],
     "antonyms": [
-      "No common antonym"
+      "Disperse",
+      "Disband",
+      "Scatter"
     ],
-    "example": "The teacher gave an insightful explanation of muster."
+    "example": "She managed to muster the courage to deliver the keynote address."
   },
   "mutation": {
     "word": "Mutation",
     "pos": "noun",
-    "simpleDefinition": "Any alteration or change.",
+    "simpleDefinition": "A change or alteration in form or genetic structure.",
     "banglaMeaning": "পরিবর্তন",
     "synonyms": [
-      "sport",
-      "mutant"
+      "Alteration",
+      "Change",
+      "Variation",
+      "Modification"
     ],
     "antonyms": [
-      "No common antonym"
+      "Constancy",
+      "Uniformity"
     ],
-    "example": "The student learned how to use mutation correctly in a sentence."
+    "example": "A genetic mutation enabled the desert plants to survive on very little rainfall."
   },
   "myopic": {
     "word": "Myopic",
     "pos": "adjective",
-    "simpleDefinition": "Shortsighted; improvident.",
-    "banglaMeaning": "ক্ষীনদৃষ্টি / সংকীণর্মনা",
+    "simpleDefinition": "Near-sighted, or lacking long-term foresight and realistic planning.",
+    "banglaMeaning": "ক্ষীণদৃষ্টি / সংকীর্ণমনা",
     "synonyms": [
-      "impaired",
-      "shortsighted",
-      "nearsighted"
+      "Short-sighted",
+      "Narrow-minded",
+      "Unimaginative"
     ],
     "antonyms": [
-      "No common antonym"
+      "Farsighted",
+      "Visionary"
     ],
-    "example": "The student learned how to use myopic correctly in a sentence."
+    "example": "Cutting school funding is a myopic decision that harms economic progress."
   },
   "myriad": {
     "word": "Myriad",
     "pos": "noun",
-    "simpleDefinition": "A countless number or multitude (of specified things).",
+    "simpleDefinition": "A countless or extremely large number of people or things.",
     "banglaMeaning": "অসংখ্য",
     "synonyms": [
-      "innumerable",
-      "multitudinous",
-      "infinite"
+      "Multitude",
+      "Abundance",
+      "Host",
+      "Plethora"
     ],
     "antonyms": [
-      "No common antonym"
+      "Few",
+      "Scarcity",
+      "Handful"
     ],
-    "example": "The student learned how to use myriad correctly in a sentence."
+    "example": "On clear desert nights, a myriad of stars lights up the sky."
   },
   "nadir": {
     "word": "Nadir",
     "pos": "noun",
-    "simpleDefinition": "The lowest point; time of greatest depression.",
-    "banglaMeaning": "র্সবনিল্ড বিন্দু",
+    "simpleDefinition": "The lowest point in the fortunes or success of a person or group.",
+    "banglaMeaning": "সর্বনিম্ন, চরম অবনতি",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Lowest point",
+      "Bottom",
+      "Rock-bottom",
+      "Depths"
     ],
     "antonyms": [
-      "No common antonym"
+      "Zenith",
+      "Peak",
+      "Pinnacle"
     ],
-    "example": "The student learned how to use nadir correctly in a sentence."
+    "example": "Losing his business was the nadir of his career, but he rebuilt it gradually."
   },
   "naive": {
     "word": "Naive",
@@ -11835,16 +13525,16 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "namesake": {
     "word": "Namesake",
     "pos": "noun",
-    "simpleDefinition": "A person with the same name as another.",
-    "banglaMeaning": "মিতা / অনে্যর নামের সাথে মিল",
+    "simpleDefinition": "A person or thing named after another person.",
+    "banglaMeaning": "একই নামধারী ব্যক্তি / মিতা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Named after someone",
+      "Cognomen"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use namesake correctly in a sentence."
+    "example": "The university library was dedicated to its generous benefactor, its namesake."
   },
   "nefarious": {
     "word": "Nefarious",
@@ -11883,74 +13573,88 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "negligible": {
     "word": "Negligible",
     "pos": "adjective",
-    "simpleDefinition": "Able to be neglected, ignored or excluded from consideration; too small or unimportant to be of concern.",
+    "simpleDefinition": "So small or unimportant as to be not worth considering.",
     "banglaMeaning": "অবহেলার যোগ্য",
     "synonyms": [
-      "paltry",
-      "trifling",
-      "minimal"
+      "Insignificant",
+      "Trivial",
+      "Minor",
+      "Trifling"
     ],
     "antonyms": [
-      "No common antonym"
+      "Significant",
+      "Substantial",
+      "Major"
     ],
-    "example": "The student learned how to use negligible correctly in a sentence."
+    "example": "The difference in price between the two brands was completely negligible."
   },
   "negotiation": {
     "word": "Negotiation",
     "pos": "noun",
-    "simpleDefinition": "The process of achieving agreement through discussion.",
+    "simpleDefinition": "Discussion aimed at reaching a mutual agreement or settlement.",
     "banglaMeaning": "আলাপালোচনা",
     "synonyms": [
-      "talks"
+      "Bargaining",
+      "Discussion",
+      "Mediation",
+      "Talks"
     ],
     "antonyms": [
-      "No common antonym"
+      "Deadlock",
+      "Conflict"
     ],
-    "example": "The student learned how to use negotiation correctly in a sentence."
+    "example": "After intense days of negotiation, the labor union signed the contract."
   },
   "newborn": {
     "word": "Newborn",
     "pos": "noun",
-    "simpleDefinition": "A recently born baby.",
+    "simpleDefinition": "A recently born child or young animal.",
     "banglaMeaning": "নবজাত",
     "synonyms": [
-      "immature",
-      "new",
-      "neonate"
+      "Infant",
+      "Baby",
+      "Neonate"
     ],
     "antonyms": [
-      "No common antonym"
+      "Adult",
+      "Elder"
     ],
-    "example": "The student learned how to use newborn correctly in a sentence."
+    "example": "The mother gently rocked the sleeping newborn in her arms."
   },
   "niggardly": {
     "word": "Niggardly",
     "pos": "adjective",
-    "simpleDefinition": "Withholding for the sake of meanness; stingy, miserly.",
+    "simpleDefinition": "Ungenerous, stingy, or reluctant to spend money.",
     "banglaMeaning": "মিতব্যয়ী / কিপটে",
     "synonyms": [
-      "grudging",
-      "stingy",
-      "ungenerous"
+      "Stingy",
+      "Miserly",
+      "Parsimonious",
+      "Tightfisted"
     ],
     "antonyms": [
-      "No common antonym"
+      "Generous",
+      "Lavish",
+      "Munificent"
     ],
-    "example": "The student learned how to use niggardly correctly in a sentence."
+    "example": "The miserly landlord gave a niggardly response to requests for repairs."
   },
   "ninny": {
     "word": "Ninny",
     "pos": "noun",
-    "simpleDefinition": "A silly or foolish person.",
+    "simpleDefinition": "A silly, foolish, or gullible person.",
     "banglaMeaning": "বোকা জাতীয়",
     "synonyms": [
-      "poop",
-      "nincompoop"
+      "Fool",
+      "Simpleton",
+      "Dunce",
+      "Blockhead"
     ],
     "antonyms": [
-      "No common antonym"
+      "Genius",
+      "Sage"
     ],
-    "example": "The student learned how to use ninny correctly in a sentence."
+    "example": "Do not be such a ninny and believe every wild rumor you read online."
   },
   "nonchalant": {
     "word": "Nonchalant",
@@ -11972,17 +13676,19 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "notion": {
     "word": "Notion",
     "pos": "noun",
-    "simpleDefinition": "Mental apprehension of whatever may be known, thought, or imagined; idea, concept.",
+    "simpleDefinition": "A conception of or belief about something; an idea or impulse.",
     "banglaMeaning": "ধারণা",
     "synonyms": [
-      "feeling",
-      "belief",
-      "impression"
+      "Idea",
+      "Belief",
+      "Concept",
+      "Impression"
     ],
     "antonyms": [
-      "No common antonym"
+      "Certainty",
+      "Fact"
     ],
-    "example": "The student learned how to use notion correctly in a sentence."
+    "example": "He dismissed the popular notion that money is the sole source of happiness."
   },
   "notorious": {
     "word": "Notorious",
@@ -12003,38 +13709,42 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "notwithstanding": {
     "word": "Notwithstanding",
-    "pos": "adverb",
-    "simpleDefinition": "Nevertheless, all the same.",
+    "pos": "preposition",
+    "simpleDefinition": "In spite of; despite.",
     "banglaMeaning": "তথাপি / যদিও",
     "synonyms": [
-      "nonetheless",
-      "nevertheless",
-      "withal"
+      "Despite",
+      "Regardless of",
+      "In spite of"
     ],
     "antonyms": [
-      "No common antonym"
+      "Because of"
     ],
-    "example": "The student learned how to use notwithstanding correctly in a sentence."
+    "example": "Notwithstanding the torrential rain, thousands of fans attended the stadium concert."
   },
   "nourishing": {
     "word": "Nourishing",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being nourishing.",
+    "pos": "adjective",
+    "simpleDefinition": "Containing substances necessary for health, growth, and vitality.",
     "banglaMeaning": "পুষ্টিকর",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Nutritious",
+      "Wholesome",
+      "Healthy",
+      "Sustaining"
     ],
     "antonyms": [
-      "No common antonym"
+      "Unwholesome",
+      "Deficient",
+      "Harmful"
     ],
-    "example": "The student learned how to use nourishing correctly in a sentence."
+    "example": "A hot bowl of vegetable soup is comforting and highly nourishing."
   },
   "novice": {
     "word": "Novice",
     "pos": "noun",
     "simpleDefinition": "A beginner who is new to a field, sport, or activity",
-    "banglaMeaning": "শিক্ষানবিস / আনাড়ি / নতুন নিয়োগপ্রাপ্ত অনভিন্ত্র র্কমশী",
+    "banglaMeaning": "শিক্ষানবিস / আনাড়ি / নতুন নিয়োগপ্রাপ্ত অনভিজ্ঞ কর্মী",
     "synonyms": [
       "Beginner",
       "Learner",
@@ -12050,74 +13760,89 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "nugatory": {
     "word": "Nugatory",
     "pos": "adjective",
-    "simpleDefinition": "Trivial, trifling or of little importance.",
+    "simpleDefinition": "Of no value or importance; useless or invalid.",
     "banglaMeaning": "বাদ দেয়া",
     "synonyms": [
-      "void",
-      "null",
-      "invalid"
+      "Worthless",
+      "Useless",
+      "Trifling",
+      "Futile"
     ],
     "antonyms": [
-      "No common antonym"
+      "Valuable",
+      "Important",
+      "Effective"
     ],
-    "example": "The student learned how to use nugatory correctly in a sentence."
+    "example": "The legal clause became nugatory once the treaty was annulled."
   },
   "oath": {
     "word": "Oath",
     "pos": "noun",
-    "simpleDefinition": "A solemn pledge or promise that invokes a deity, a ruler, or another entity (not necessarily present) to attest the truth of a statement or sincerity of one's desire to fulfill a contract or promise.",
+    "simpleDefinition": "A solemn promise, often calling upon a divine witness, to act truthfully.",
     "banglaMeaning": "শপথ করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Vow",
+      "Pledge",
+      "Promise"
     ],
     "antonyms": [
-      "No common antonym"
+      "Breach",
+      "Betrayal"
     ],
-    "example": "The student learned how to use oath correctly in a sentence."
+    "example": "The newly elected governor took an oath to uphold the constitution."
   },
   "obdurate": {
     "word": "Obdurate",
     "pos": "adjective",
-    "simpleDefinition": "Stubbornly persistent, generally in wrongdoing; refusing to reform or repent.",
+    "simpleDefinition": "Stubbornly refusing to change one's mind or soften one's attitude.",
     "banglaMeaning": "অনমনীয়",
     "synonyms": [
-      "obstinate",
-      "heartless",
-      "stony"
+      "Stubborn",
+      "Obstinate",
+      "Unyielding",
+      "Inflexible"
     ],
     "antonyms": [
-      "No common antonym"
+      "Pliable",
+      "Yielding",
+      "Submissive"
     ],
-    "example": "The student learned how to use obdurate correctly in a sentence."
+    "example": "Despite pleas from his closest advisors, the leader remained obdurate."
   },
   "obese": {
     "word": "Obese",
     "pos": "adjective",
-    "simpleDefinition": "Extremely overweight, especially: weighing more than 20% (for men) or 25% (for women) over their conventionally ideal weight determined by height and build; or, having a body mass index over 30 kg/m².",
+    "simpleDefinition": "Grossly fat or overweight to an extent that risks health.",
     "banglaMeaning": "মোটা / স্থূলকায়",
     "synonyms": [
-      "corpulent",
-      "weighty",
-      "rotund"
+      "Overweight",
+      "Corpulent",
+      "Stout",
+      "Portly"
     ],
     "antonyms": [
-      "No common antonym"
+      "Thin",
+      "Slender",
+      "Skinny"
     ],
-    "example": "The student learned how to use obese correctly in a sentence."
+    "example": "A balanced diet and daily exercise help obese patients shed excess weight."
   },
   "obliged": {
     "word": "Obliged",
-    "pos": "verb",
-    "simpleDefinition": "To constrain someone by force or by social, moral or legal means.",
+    "pos": "adjective",
+    "simpleDefinition": "Legally or morally bound to take action, or appreciative of help.",
     "banglaMeaning": "বাধিত বা ঋণী হয়েছে এমন",
     "synonyms": [
-      "obligated"
+      "Compelled",
+      "Obligated",
+      "Bound",
+      "Grateful"
     ],
     "antonyms": [
-      "No common antonym"
+      "Free",
+      "Unobligated"
     ],
-    "example": "I am obliged to report to the police station every week."
+    "example": "She felt obliged to return the wallet she found in the park to the police."
   },
   "oblique": {
     "word": "Oblique",
@@ -12139,16 +13864,19 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "obliquity": {
     "word": "Obliquity",
     "pos": "noun",
-    "simpleDefinition": "The quality of being oblique in direction, deviating from the horizontal or vertical; or the angle created by such a deviation.",
-    "banglaMeaning": "বক্রতো",
+    "simpleDefinition": "Deviation from moral rectitude, sound judgment, or straightforwardness.",
+    "banglaMeaning": "বক্রতা; নীতিভ্রংশ",
     "synonyms": [
-      "deceptiveness",
-      "asynclitism"
+      "Deviousness",
+      "Crookedness",
+      "Divergence"
     ],
     "antonyms": [
-      "No common antonym"
+      "Rectitude",
+      "Uprightness",
+      "Honesty"
     ],
-    "example": "The student learned how to use obliquity correctly in a sentence."
+    "example": "The financial audit exposed years of moral obliquity inside the firm."
   },
   "oblivious": {
     "word": "Oblivious",
@@ -12186,46 +13914,54 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "observant": {
     "word": "Observant",
     "pos": "adjective",
-    "simpleDefinition": "Alert and paying close attention; watchful.",
+    "simpleDefinition": "Quick to notice things; watchful, alert, and perceptive.",
     "banglaMeaning": "দৃষ্টিশীল / মনোযোগী",
     "synonyms": [
-      "perceptive",
-      "attentive",
-      "observing"
+      "Watchful",
+      "Alert",
+      "Perceptive",
+      "Attentive"
     ],
     "antonyms": [
-      "No common antonym"
+      "Inattentive",
+      "Unobservant",
+      "Careless"
     ],
-    "example": "The student learned how to use observant correctly in a sentence."
+    "example": "An observant security guard spotted the open back window right away."
   },
   "obsolescence": {
     "word": "Obsolescence",
     "pos": "noun",
-    "simpleDefinition": "The state of being obsolete—no longer in use; gone into disuse; disused or neglected.",
+    "simpleDefinition": "The process of becoming outdated, obsolete, or no longer useful.",
     "banglaMeaning": "অপ্রচলিত",
     "synonyms": [
-      "obsoleteness",
-      "superannuation"
+      "Disuse",
+      "Outdatedness",
+      "Decline"
     ],
     "antonyms": [
-      "No common antonym"
+      "Modernity",
+      "Currency"
     ],
-    "example": "The student learned how to use obsolescence correctly in a sentence."
+    "example": "Rapid advancements in digital audio led to the obsolescence of cassette tapes."
   },
   "obsolete": {
     "word": "Obsolete",
     "pos": "adjective",
-    "simpleDefinition": "No longer in use; gone into disuse; disused or neglected (often in favour of something newer).",
+    "simpleDefinition": "No longer produced or used; out of date.",
     "banglaMeaning": "পুরাতন / অপ্রচলিত",
     "synonyms": [
-      "outdated",
-      "superannuated",
-      "disused"
+      "Outdated",
+      "Archaic",
+      "Outmoded",
+      "Antique"
     ],
     "antonyms": [
-      "No common antonym"
+      "Modern",
+      "Current",
+      "Up to date"
     ],
-    "example": "The student learned how to use obsolete correctly in a sentence."
+    "example": "Typewriters are now largely obsolete in modern business offices."
   },
   "obstinate": {
     "word": "Obstinate",
@@ -12264,62 +14000,71 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "occupy": {
     "word": "Occupy",
     "pos": "verb",
-    "simpleDefinition": "To possess or use the time or capacity of; to engage the service of.",
+    "simpleDefinition": "To live in, fill, or take up space, time, or a position.",
     "banglaMeaning": "দখলে রাখা",
     "synonyms": [
-      "concern",
-      "engage",
-      "worry"
+      "Inhabit",
+      "Dwell in",
+      "Fill",
+      "Hold"
     ],
     "antonyms": [
-      "No common antonym"
+      "Vacate",
+      "Abandon",
+      "Leave"
     ],
-    "example": "The student learned how to use occupy correctly in a sentence."
+    "example": "The law firm will occupy the top two floors of the office building."
   },
   "odds and ends": {
     "word": "Odds and ends",
     "pos": "noun",
-    "simpleDefinition": "Various small remnants, miscellaneous items, or trivial objects",
+    "simpleDefinition": "Miscellaneous small items or tasks of low importance or value.",
     "banglaMeaning": "ছোটখাট জিনিস",
     "synonyms": [
-      "bits and pieces",
-      "sundries",
-      "miscellanea"
+      "Bits and pieces",
+      "Remnants",
+      "Sundries"
     ],
     "antonyms": [
-      "complete set"
+      "The whole",
+      "Bulk"
     ],
-    "example": "She kept needles, buttons, and odds and ends in the drawer."
+    "example": "She cleaned her desk drawer and threw out useless odds and ends."
   },
   "offended": {
     "word": "Offended",
     "pos": "adjective",
-    "simpleDefinition": "Hurt or upset.",
-    "banglaMeaning": "বিক্ষুল্ট",
+    "simpleDefinition": "Feeling upset, annoyed, or resentful as a result of an insult or slight.",
+    "banglaMeaning": "বিক্ষুব্ধ",
     "synonyms": [
-      "displeased",
-      "pained"
+      "Insulted",
+      "Hurt",
+      "Resentful",
+      "Affronted"
     ],
     "antonyms": [
-      "No common antonym"
+      "Pleased",
+      "Delighted",
+      "Flattered"
     ],
-    "example": "The student learned how to use offended correctly in a sentence."
+    "example": "He felt offended when his helpful suggestions were ignored during the meeting."
   },
   "offshore": {
     "word": "Offshore",
     "pos": "adjective",
-    "simpleDefinition": "Located in another country, especially one having beneficial tax laws or labor costs.",
+    "simpleDefinition": "Located at sea at a distance from the coast, or registered in a foreign country.",
     "banglaMeaning": "সাগরমুখী",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Seaborne",
+      "Overseas",
+      "Maritime"
     ],
     "antonyms": [
-      "onshore",
-      "inshore",
-      "seaward"
+      "Onshore",
+      "Inland",
+      "Domestic"
     ],
-    "example": "The student learned how to use offshore correctly in a sentence."
+    "example": "The energy company built giant offshore wind turbines in the sea."
   },
   "ominous": {
     "word": "Ominous",
@@ -12341,62 +14086,74 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "omission": {
     "word": "Omission",
     "pos": "noun",
-    "simpleDefinition": "The act of omitting.",
-    "banglaMeaning": "ভ্রানি্ত",
+    "simpleDefinition": "Someone or something that has been left out or excluded, either intentionally or accidentally.",
+    "banglaMeaning": "ভ্রান্তি",
     "synonyms": [
-      "deletion",
-      "skip"
+      "Exclusion",
+      "Oversight",
+      "Deletion",
+      "Neglect"
     ],
     "antonyms": [
-      "No common antonym"
+      "Inclusion",
+      "Addition",
+      "Insertion"
     ],
-    "example": "The student learned how to use omission correctly in a sentence."
+    "example": "Leaving his name off the project team was an accidental omission."
   },
   "omnipotent": {
     "word": "Omnipotent",
     "pos": "adjective",
-    "simpleDefinition": "Having unlimited power, force or authority.",
-    "banglaMeaning": "র্সবশক্তিমান (আহ্ণাহ )",
+    "simpleDefinition": "Having unlimited power; able to do anything.",
+    "banglaMeaning": "সর্বশক্তিমান (আল্লাহ)",
     "synonyms": [
-      "powerful",
-      "almighty",
-      "all-powerful"
+      "All-powerful",
+      "Almighty",
+      "Supreme",
+      "Invincible"
     ],
     "antonyms": [
-      "No common antonym"
+      "Powerless",
+      "Weak",
+      "Impotent"
     ],
-    "example": "The student learned how to use omnipotent correctly in a sentence."
+    "example": "In ancient mythology, Jupiter was worshipped as an omnipotent ruler."
   },
   "on their toes": {
     "word": "On their toes",
     "pos": "idiom",
-    "simpleDefinition": "Alert, active, and prepared for any sudden event",
-    "banglaMeaning": "সজাগ সর্তক হওয়া",
+    "simpleDefinition": "Alert, energetic, and ready to respond quickly to changes.",
+    "banglaMeaning": "সজাগ সতর্ক হওয়া",
     "synonyms": [
-      "alert",
-      "vigilant",
-      "watchful"
+      "Alert",
+      "Vigilant",
+      "Prepared",
+      "Watchful"
     ],
     "antonyms": [
-      "complacent",
-      "inattentive"
+      "Complacent",
+      "Careless",
+      "Unprepared"
     ],
-    "example": "The surprise inspections kept the employees on their toes."
+    "example": "The demanding coach kept the players on their toes with sudden drills."
   },
   "onerous": {
     "word": "Onerous",
     "pos": "adjective",
-    "simpleDefinition": "Imposing or constituting a physical, mental, or figurative load which can be borne only with effort; burdensome.",
-    "banglaMeaning": "কষ্টসাধ্য বা পরিঙ্কমসাধ্য কিছু",
+    "simpleDefinition": "Involving great effort, burden, or difficulty; oppressive.",
+    "banglaMeaning": "কষ্টসাধ্য বা পরিশ্রমসাধ্য কিছু",
     "synonyms": [
-      "heavy",
-      "burdensome",
-      "taxing"
+      "Burdensome",
+      "Arduous",
+      "Oppressive",
+      "Grueling"
     ],
     "antonyms": [
-      "No common antonym"
+      "Easy",
+      "Effortless",
+      "Light"
     ],
-    "example": "The student learned how to use onerous correctly in a sentence."
+    "example": "Auditing thousands of financial transactions proved to be an onerous task."
   },
   "opaque": {
     "word": "Opaque",
@@ -12435,73 +14192,86 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "optimist": {
     "word": "Optimist",
     "pos": "noun",
-    "simpleDefinition": "A person who expects a favourable outcome.",
+    "simpleDefinition": "A person who tends to be hopeful and confident about future outcomes.",
     "banglaMeaning": "আশাবাদী",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Positive thinker",
+      "Idealist",
+      "Dreamer"
     ],
     "antonyms": [
-      "pessimist"
+      "Pessimist",
+      "Cynic"
     ],
-    "example": "The student learned how to use optimist correctly in a sentence."
+    "example": "As an incurable optimist, she always finds something positive in tough times."
   },
   "oracular": {
     "word": "Oracular",
     "pos": "adjective",
-    "simpleDefinition": "Prophetic, foretelling the future.",
-    "banglaMeaning": "ন্ত্রানবিশিষ্ট",
+    "simpleDefinition": "Delivering wise, enigmatic, or authoritative prophecies or advice.",
+    "banglaMeaning": "জ্ঞানবিশিষ্ট",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Prophetic",
+      "Wise",
+      "Enigmatic",
+      "Authoritative"
     ],
     "antonyms": [
-      "No common antonym"
+      "Straightforward",
+      "Foolish"
     ],
-    "example": "The student learned how to use oracular correctly in a sentence."
+    "example": "The elder spoke in oracular statements that listeners took hours to decipher."
   },
   "orchestrate": {
     "word": "Orchestrate",
     "pos": "verb",
-    "simpleDefinition": "To arrange or direct diverse elements to achieve a desired effect.",
-    "banglaMeaning": "সুসমি:ত করা (সণ্টীত)",
+    "simpleDefinition": "To plan and organize something carefully, often behind the scenes.",
+    "banglaMeaning": "সমন্বিত করা / কৌশলে পরিকল্পনা করা",
     "synonyms": [
-      "direct",
-      "organize",
-      "engineer"
+      "Organize",
+      "Coordinate",
+      "Plan",
+      "Arrange"
     ],
     "antonyms": [
-      "No common antonym"
+      "Disorganize",
+      "Derange",
+      "Botch"
     ],
-    "example": "The student learned how to use orchestrate correctly in a sentence."
+    "example": "The general orchestrated a successful retreat without losing a single soldier."
   },
   "orderly": {
     "word": "Orderly",
     "pos": "adjective",
-    "simpleDefinition": "Neat and tidy; possessing order.",
+    "simpleDefinition": "Neatly and methodically arranged; well-behaved and disciplined.",
     "banglaMeaning": "গোছালো",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Neat",
+      "Tidy",
+      "Methodical",
+      "Disciplined"
     ],
     "antonyms": [
-      "disorderly"
+      "Chaotic",
+      "Disorderly",
+      "Messy"
     ],
-    "example": "The student learned how to use orderly correctly in a sentence."
+    "example": "The students formed an orderly queue before entering the museum."
   },
   "ore": {
     "word": "Ore",
     "pos": "noun",
-    "simpleDefinition": "Rock or other material that contains valuable or utilitarian materials; primarily a rock containing metals or gems for which it is typically mined and processed.",
+    "simpleDefinition": "A naturally occurring rock or mineral from which a valuable metal can be extracted.",
     "banglaMeaning": "আকরিক",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Mineral deposit",
+      "Raw metal",
+      "Deposit"
     ],
     "antonyms": [
-      "No common antonym"
+      "Refined metal"
     ],
-    "example": "The student learned how to use ore correctly in a sentence."
+    "example": "Smelters process iron ore at extreme temperatures to produce pure metal."
   },
   "ostracize": {
     "word": "Ostracize",
@@ -12523,60 +14293,71 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "outshine": {
     "word": "Outshine",
     "pos": "verb",
-    "simpleDefinition": "To exceed something or someone else, especially in an obvious or flamboyant manner.",
-    "banglaMeaning": "ঔস্থলে্য ছাপিয়ে যাওয়া",
+    "simpleDefinition": "To be much more impressive or successful than someone or something else.",
+    "banglaMeaning": "উজ্জ্বলতায় ছাপিয়ে যাওয়া",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Eclipse",
+      "Surpass",
+      "Outdo",
+      "Excel"
     ],
     "antonyms": [
-      "No common antonym"
+      "Be eclipsed",
+      "Fall behind"
     ],
-    "example": "The student learned how to use outshine correctly in a sentence."
+    "example": "Her outstanding violin solo managed to outshine every other performance that night."
   },
   "override": {
     "word": "Override",
     "pos": "verb",
-    "simpleDefinition": "To counteract the normal operation of something; to countermand with orders of higher priority.",
+    "simpleDefinition": "To use one's authority to reject, overrule, or cancel a decision.",
     "banglaMeaning": "অগ্রাহ্য করা",
     "synonyms": [
-      "reverse",
-      "overturn",
-      "overrule"
+      "Overrule",
+      "Cancel",
+      "Overturn",
+      "Supersede"
     ],
     "antonyms": [
-      "No common antonym"
+      "Enforce",
+      "Uphold",
+      "Confirm"
     ],
-    "example": "The student learned how to use override correctly in a sentence."
+    "example": "Congress can vote to override a presidential veto with a two-thirds majority."
   },
   "overt": {
     "word": "Overt",
     "pos": "adjective",
-    "simpleDefinition": "Open and not concealed or secret.",
+    "simpleDefinition": "Done or shown openly; plainly apparent and not secret.",
     "banglaMeaning": "প্রকাশ্য",
     "synonyms": [
-      "obvious",
-      "open",
-      "raw"
+      "Open",
+      "Obvious",
+      "Blatant",
+      "Conspicuous"
     ],
     "antonyms": [
-      "covert"
+      "Covert",
+      "Secret",
+      "Hidden"
     ],
-    "example": "The student learned how to use overt correctly in a sentence."
+    "example": "The company showed overt hostility towards worker unionization attempts."
   },
   "owe": {
     "word": "Owe",
     "pos": "verb",
-    "simpleDefinition": "To be under an obligation to give something back to someone or to perform some action for someone.",
+    "simpleDefinition": "To be required to pay or repay money or gratitude to someone.",
     "banglaMeaning": "ঋণী থাকা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Be indebted",
+      "Be obligated",
+      "Have a debt"
     ],
     "antonyms": [
-      "No common antonym"
+      "Repay",
+      "Settle"
     ],
-    "example": "The student learned how to use owe correctly in a sentence."
+    "example": "I still owe twenty dollars to the bookstore for the reference manual."
   },
   "pacify": {
     "word": "Pacify",
@@ -12598,45 +14379,51 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "pact": {
     "word": "Pact",
     "pos": "noun",
-    "simpleDefinition": "An agreement; a compact; a covenant.",
+    "simpleDefinition": "A formal agreement or treaty between individuals, groups, or nations.",
     "banglaMeaning": "চুক্তি",
     "synonyms": [
-      "accord",
-      "treaty"
+      "Agreement",
+      "Treaty",
+      "Accord",
+      "Compact"
     ],
     "antonyms": [
-      "No common antonym"
+      "Disagreement",
+      "Breach"
     ],
-    "example": "The student learned how to use pact correctly in a sentence."
+    "example": "The two nations signed a non-aggression pact to ensure lasting border peace."
   },
   "painstaking": {
     "word": "Painstaking",
     "pos": "adjective",
-    "simpleDefinition": "Carefully attentive to details; studious; diligent in performing a process or procedure.",
-    "banglaMeaning": "পরিঙ্কমী",
+    "simpleDefinition": "Done with or employing great care, thoroughness, and meticulous effort.",
+    "banglaMeaning": "পরিশ্রমসাধ্য, অত্যন্ত যত্নশীল; খুঁটিনাটি বিষয়ে সতর্ক",
     "synonyms": [
-      "conscientious",
-      "scrupulous",
-      "careful"
+      "Meticulous",
+      "Thorough",
+      "Careful",
+      "Diligent"
     ],
     "antonyms": [
-      "No common antonym"
+      "Careless",
+      "Slapdash",
+      "Negligent"
     ],
-    "example": "The student learned how to use painstaking correctly in a sentence."
+    "example": "Restoring the ancient oil painting took months of painstaking work."
   },
   "paleontology": {
     "word": "Paleontology",
     "pos": "noun",
-    "simpleDefinition": "Study of the forms of life existing in prehistoric or geologic times, especially as represented by fossils.",
-    "banglaMeaning": "জীবাহ্ল বিন্ত্রান",
+    "simpleDefinition": "The scientific study of fossil animals, plants, and ancient life forms.",
+    "banglaMeaning": "জীবাশ্ম বিজ্ঞান",
     "synonyms": [
-      "Related to paleontology",
-      "Similar"
+      "Fossil science",
+      "Prehistoric study"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The teacher gave an insightful explanation of paleontology."
+    "example": "Her childhood passion for dinosaur bones led her to study paleontology at university."
   },
   "palliate": {
     "word": "Palliate",
@@ -12658,57 +14445,68 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "pampered": {
     "word": "Pampered",
     "pos": "adjective",
-    "simpleDefinition": "Treated with excessive attention and care; spoiled or overindulged.",
+    "simpleDefinition": "Treated with excessive care, luxury, indulgence, or comfort.",
     "banglaMeaning": "অত্যাধিক প্রঙ্কয়",
     "synonyms": [
-      "soft",
-      "coddled",
-      "spoiled"
+      "Spoiled",
+      "Indulged",
+      "Coddled"
     ],
     "antonyms": [
-      "No common antonym"
+      "Neglected",
+      "Deprived"
     ],
-    "example": "The student learned how to use pampered correctly in a sentence."
+    "example": "The pampered house cat slept on velvet cushions and ate fresh salmon."
   },
   "panic": {
     "word": "Panic",
     "pos": "noun",
-    "simpleDefinition": "Overwhelming fear or fright, often affecting groups of people or animals; (countable) an instance of this; a fright, a scare.",
+    "simpleDefinition": "Sudden uncontrollable fear or anxiety, often causing wildly unthinking behavior.",
     "banglaMeaning": "ভয় পাওয়া",
     "synonyms": [
-      "scare",
-      "terror"
+      "Terror",
+      "Alarm",
+      "Fright",
+      "Hysteria"
     ],
     "antonyms": [
-      "No common antonym"
+      "Calm",
+      "Composure",
+      "Serenity"
     ],
-    "example": "The student learned how to use panic correctly in a sentence."
+    "example": "When the emergency alarm rang, the staff evacuated the building without panic."
   },
   "pantheist": {
     "word": "Pantheist",
     "pos": "noun",
-    "simpleDefinition": "A person who believes in pantheism.",
-    "banglaMeaning": "সবের্শ্বরবাদী",
+    "simpleDefinition": "A person who believes that God and the physical universe are one and the same.",
+    "banglaMeaning": "সর্বেশ্বরবাদী",
     "synonyms": [
-      "pantheistic"
+      "Nature worshiper"
     ],
     "antonyms": [
-      "No common antonym"
+      "Atheist",
+      "Monotheist"
     ],
-    "example": "The student learned how to use pantheist correctly in a sentence."
+    "example": "As a pantheist, the philosopher saw the divine spirit in forests, mountains, and rivers."
   },
   "parallelism": {
     "word": "Parallelism",
     "pos": "noun",
-    "simpleDefinition": "The state or condition of being parallel; agreement in direction, tendency, or character.",
+    "simpleDefinition": "The state of being parallel or showing clear structural or conceptual similarity.",
     "banglaMeaning": "সমান্তরাল",
     "synonyms": [
-      "correspondence"
+      "Similarity",
+      "Correspondence",
+      "Resemblance",
+      "Alignment"
     ],
     "antonyms": [
-      "No common antonym"
+      "Divergence",
+      "Disparity",
+      "Difference"
     ],
-    "example": "The student learned how to use parallelism correctly in a sentence."
+    "example": "Historians noted a striking parallelism between the political events of both eras."
   },
   "paramount": {
     "word": "Paramount",
@@ -12731,7 +14529,7 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
     "word": "Parsimonious",
     "pos": "adjective",
     "simpleDefinition": "Very unwilling to spend money or use resources; excessively frugal",
-    "banglaMeaning": "কৃপণ / মিতব্যয়ী / মিতব্যয়ী / মিতব্যয়ী / কিপটে",
+    "banglaMeaning": "অতিশয় মিতব্যয়ী; কৃপণ",
     "synonyms": [
       "Stingy",
       "Miserly",
@@ -12747,108 +14545,125 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "partial": {
     "word": "Partial",
     "pos": "adjective",
-    "simpleDefinition": "Existing as a part or portion; incomplete.",
+    "simpleDefinition": "Favoring one side over another unfairly, or existing only in part.",
     "banglaMeaning": "পক্ষপাতী",
     "synonyms": [
-      "fond",
-      "slanted",
-      "biased"
+      "Biased",
+      "Prejudiced",
+      "One-sided",
+      "Incomplete"
     ],
     "antonyms": [
-      "fair",
-      "impartial"
+      "Impartial",
+      "Fair",
+      "Complete"
     ],
-    "example": "The student learned how to use partial correctly in a sentence."
+    "example": "A sports referee must never appear partial toward the home team."
   },
   "partisan": {
     "word": "Partisan",
-    "pos": "noun",
-    "simpleDefinition": "A fervent, sometimes militant, supporter or proponent of a party, cause, faction, person, or idea.",
+    "pos": "adjective",
+    "simpleDefinition": "Prejudiced in favor of a particular political party, faction, or cause.",
     "banglaMeaning": "পক্ষপাতী",
     "synonyms": [
-      "irregular",
-      "aligned",
-      "sectarian"
+      "Biased",
+      "One-sided",
+      "Factional",
+      "Sectarian"
     ],
     "antonyms": [
-      "nonpartisan",
-      "nonpartizan"
+      "Nonpartisan",
+      "Impartial",
+      "Neutral"
     ],
-    "example": "The student learned how to use partisan correctly in a sentence."
+    "example": "The debate quickly degenerated into angry partisan bickering."
   },
   "pathetic": {
     "word": "Pathetic",
     "pos": "adjective",
-    "simpleDefinition": "Arousing pity, sympathy, or compassion; exciting pathos.",
+    "simpleDefinition": "Arousing pity, sorrow, or sympathy, or miserably inadequate and weak.",
     "banglaMeaning": "করুন / মর্মস্পশর্শী",
     "synonyms": [
-      "hapless",
-      "wretched",
-      "pitiful"
+      "Pitiful",
+      "Heartbreaking",
+      "Inadequate",
+      "Feeble"
     ],
     "antonyms": [
-      "No common antonym"
+      "Admirable",
+      "Impressive",
+      "Inspiring"
     ],
-    "example": "The student learned how to use pathetic correctly in a sentence."
+    "example": "The shivering stray puppy let out a pathetic whimper in the rain."
   },
   "patronage": {
     "word": "Patronage",
     "pos": "noun",
-    "simpleDefinition": "The act of providing approval and support; backing; championship.",
+    "simpleDefinition": "Financial support, backing, or encouragement given by a wealthy patron or customer.",
     "banglaMeaning": "সহযোগিতা",
     "synonyms": [
-      "disdain",
-      "support",
-      "condescension"
+      "Sponsorship",
+      "Backing",
+      "Support",
+      "Funding"
     ],
     "antonyms": [
-      "No common antonym"
+      "Opposition",
+      "Discouragement"
     ],
-    "example": "The student learned how to use patronage correctly in a sentence."
+    "example": "Renaissance painters flourished thanks to the generous patronage of aristocratic families."
   },
   "paucity": {
     "word": "Paucity",
     "pos": "noun",
-    "simpleDefinition": "A smallness in size or amount that is insufficient; meagerness, dearth.",
+    "simpleDefinition": "The presence of something in only tiny or insufficient quantities; scarcity.",
     "banglaMeaning": "অভাব",
     "synonyms": [
-      "dearth"
+      "Scarcity",
+      "Shortage",
+      "Dearth",
+      "Lack"
     ],
     "antonyms": [
-      "No common antonym"
+      "Abundance",
+      "Plethora",
+      "Surplus"
     ],
-    "example": "The student learned how to use paucity correctly in a sentence."
+    "example": "The investigation stalled due to a paucity of reliable eyewitness evidence."
   },
   "pay off old scores": {
     "word": "Pay off old scores",
     "pos": "idiom",
-    "simpleDefinition": "To get revenge for past injuries or grievances",
+    "simpleDefinition": "To settle a grudge or retaliate for past injuries or insults.",
     "banglaMeaning": "প্রতিশোধ নেয়া",
     "synonyms": [
-      "take revenge",
-      "settle scores",
-      "retaliate"
+      "Settle a grudge",
+      "Get revenge",
+      "Retaliate"
     ],
     "antonyms": [
-      "forgive",
-      "pardon"
+      "Forgive",
+      "Make peace"
     ],
-    "example": "He used the opportunity to pay off old scores with his rival."
+    "example": "He used his newly acquired political power to pay off old scores against his opponents."
   },
   "peak": {
     "word": "Peak",
     "pos": "noun",
-    "simpleDefinition": "The highest value reached by some quantity in a time period.",
-    "banglaMeaning": "সবের্াচ্চ চূড়া",
+    "simpleDefinition": "The pointed top of a mountain, or the highest level or climax of achievement.",
+    "banglaMeaning": "সর্বোচ্চ চূড়া",
     "synonyms": [
-      "flush",
-      "crest",
-      "point"
+      "Summit",
+      "Pinnacle",
+      "Crest",
+      "Climax"
     ],
     "antonyms": [
-      "off-peak"
+      "Base",
+      "Bottom",
+      "Nadir"
     ],
-    "example": "The student learned how to use peak correctly in a sentence."
+    "example": "She reached the peak of her scientific career when she won the Nobel Prize."
   },
   "pedantic": {
     "word": "Pedantic",
@@ -12869,60 +14684,70 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "pedestal": {
     "word": "Pedestal",
     "pos": "noun",
-    "simpleDefinition": "The base or foot of a column, statue, vase, lamp.",
-    "banglaMeaning": "স্তশে্রর পাদভূমি",
+    "simpleDefinition": "A base or support on which a statue stands, or an idealized position of admiration.",
+    "banglaMeaning": "স্তম্ভের পাদভূমি",
     "synonyms": [
-      "Related to pedestal",
-      "Similar"
+      "Plinth",
+      "Base",
+      "Podium",
+      "Support"
     ],
     "antonyms": [
-      "No common antonym"
+      "Base"
     ],
-    "example": "The teacher gave an insightful explanation of pedestal."
+    "example": "Do not place human leaders on a pedestal, because everyone makes mistakes."
   },
   "pedestrian": {
     "word": "Pedestrian",
-    "pos": "noun",
-    "simpleDefinition": "A walker; one who walks or goes on foot, especially as opposed to one who uses a vehicle.",
+    "pos": "adjective",
+    "simpleDefinition": "Lacking inspiration, excitement, or originality; dull and commonplace.",
     "banglaMeaning": "পথচারী",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Dull",
+      "Ordinary",
+      "Commonplace",
+      "Uninspired"
     ],
     "antonyms": [
-      "No common antonym"
+      "Exciting",
+      "Remarkable",
+      "Extraordinary"
     ],
-    "example": "The student learned how to use pedestrian correctly in a sentence."
+    "example": "The novel had a pedestrian plot that failed to surprise or thrill readers."
   },
   "pensive": {
     "word": "Pensive",
     "pos": "adjective",
-    "simpleDefinition": "Engaged in, involving, or reflecting deep or serious thought.",
-    "banglaMeaning": "চিন্তানিমঞ্জ",
+    "simpleDefinition": "Engaged in, involving, or reflecting deep, serious, or wistful thought.",
+    "banglaMeaning": "চিন্তানিমগ্ন",
     "synonyms": [
-      "wistful",
-      "musing",
-      "sad"
+      "Thoughtful",
+      "Reflective",
+      "Contemplative",
+      "Wistful"
     ],
     "antonyms": [
-      "No common antonym"
+      "Carefree",
+      "Unreflective",
+      "Cheerful"
     ],
-    "example": "The student learned how to use pensive correctly in a sentence."
+    "example": "He stared into the fireplace in a pensive mood, pondering the past year."
   },
   "perjury": {
     "word": "Perjury",
     "pos": "noun",
-    "simpleDefinition": "The deliberate giving of false or misleading testimony under oath.",
-    "banglaMeaning": "শপথভাণ্ট",
+    "simpleDefinition": "The offense of deliberately telling an untruth in a court of law after taking an oath.",
+    "banglaMeaning": "আদালতে মিথ্যা সাক্ষ্যদান / শপথভঙ্গ",
     "synonyms": [
-      "false",
-      "testimony",
-      "oathbreach"
+      "False testimony",
+      "Lying under oath",
+      "Mendacity"
     ],
     "antonyms": [
-      "No common antonym"
+      "Truthfulness",
+      "Honesty"
     ],
-    "example": "We declare under penalty of perjury that the foregoing is true and correct."
+    "example": "The witness was charged with perjury after surveillance footage disproved his testimony."
   },
   "pernicious": {
     "word": "Pernicious",
@@ -12944,47 +14769,56 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "perplex": {
     "word": "Perplex",
     "pos": "verb",
-    "simpleDefinition": "To cause to feel baffled; to puzzle.",
+    "simpleDefinition": "To make someone feel completely baffled, confused, or puzzled.",
     "banglaMeaning": "জটলি করা",
     "synonyms": [
-      "trounce",
-      "beat",
-      "get"
+      "Baffle",
+      "Puzzle",
+      "Confuse",
+      "Mystify"
     ],
     "antonyms": [
-      "simplify"
+      "Clarify",
+      "Explain",
+      "Enlighten"
     ],
-    "example": "The student learned how to use perplex correctly in a sentence."
+    "example": "The bizarre chemical reaction continued to perplex the university researchers."
   },
   "persevering": {
     "word": "Persevering",
     "pos": "adjective",
-    "simpleDefinition": "Tending to persevere.",
-    "banglaMeaning": "পরিঙ্কমী",
+    "simpleDefinition": "Continuing in a course of action despite difficulties, failures, or obstacles.",
+    "banglaMeaning": "অধ্যবসায়ী",
     "synonyms": [
-      "diligent",
-      "patient"
+      "Persistent",
+      "Tenacious",
+      "Determined",
+      "Steadfast"
     ],
     "antonyms": [
-      "No common antonym"
+      "Irresolute",
+      "Wavering",
+      "Faint-hearted"
     ],
-    "example": "The student learned how to use persevering correctly in a sentence."
+    "example": "Through persevering effort, the young entrepreneur turned her small bakery into a franchise."
   },
   "persistent": {
     "word": "Persistent",
     "pos": "adjective",
-    "simpleDefinition": "Obstinately refusing to give up or let go.",
+    "simpleDefinition": "Continuing firmly or obstinately; lasting for an enduring or long period.",
     "banglaMeaning": "নাছোড়বান্দা",
     "synonyms": [
-      "relentless",
-      "continual",
-      "unrelenting"
+      "Tenacious",
+      "Enduring",
+      "Relentless",
+      "Stubborn"
     ],
     "antonyms": [
-      "shed",
-      "caducous"
+      "Yielding",
+      "Intermittent",
+      "Temporary"
     ],
-    "example": "The student learned how to use persistent correctly in a sentence."
+    "example": "Her persistent cough finally convinced her to see a specialist for a checkup."
   },
   "pertinent": {
     "word": "Pertinent",
@@ -13006,140 +14840,166 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "pessimist": {
     "word": "Pessimist",
     "pos": "noun",
-    "simpleDefinition": "Someone who habitually expects the worst outcome; one who looks on the dark side of things.",
+    "simpleDefinition": "A person who tends to expect the worst possible outcome in any situation.",
     "banglaMeaning": "হতাশাবাদী",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Cynic",
+      "Defeatist",
+      "Gloom-monger"
     ],
     "antonyms": [
-      "optimist"
+      "Optimist",
+      "Idealist"
     ],
-    "example": "The student learned how to use pessimist correctly in a sentence."
+    "example": "A pessimist expects rain on every sunny day and forgets to enjoy the warmth."
   },
   "petrology": {
     "word": "Petrology",
     "pos": "noun",
-    "simpleDefinition": "The study of the origin, composition and structure of rock.",
-    "banglaMeaning": "শিলাতধ",
+    "simpleDefinition": "The scientific study of rocks, including their origins, composition, and structure.",
+    "banglaMeaning": "ভূতত্ত্ববিদ্যার একটি শাখা যেখানে শিলার উৎপত্তি, গঠন, বিন্যাস এবং এর পরিবর্তনের প্রক্রিয়া নিয়ে বৈজ্ঞানিক আলোচনা করা হয়",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Rock science",
+      "Lithology"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use petrology correctly in a sentence."
+    "example": "Students of petrology spend weeks examining crystalline volcanic rock formations."
   },
   "philanthropist": {
     "word": "Philanthropist",
     "pos": "noun",
-    "simpleDefinition": "A person or institution who seeks to improve the world, especially by monetary gifts.",
-    "banglaMeaning": "মানবহিৈতষী ব্যক্তি (বিশ্বপে্রমিক)",
+    "simpleDefinition": "A person who seeks to promote the welfare of others, especially by donating money.",
+    "banglaMeaning": "মানবহিতৈষী ব্যক্তি (বিশ্বপ্রেমিক)",
     "synonyms": [
-      "altruist"
+      "Benefactor",
+      "Donor",
+      "Humanitarian",
+      "Patron"
     ],
     "antonyms": [
-      "No common antonym"
+      "Miser",
+      "Misanthrope"
     ],
-    "example": "The student learned how to use philanthropist correctly in a sentence."
+    "example": "The generous philanthropist built libraries and healthcare clinics across the countryside."
   },
   "philatelist": {
     "word": "Philatelist",
     "pos": "noun",
-    "simpleDefinition": "A person who collects and studies postage stamps.",
-    "banglaMeaning": "ডাকটকিেট সংগ্রহকারী",
+    "simpleDefinition": "A person who collects, studies, and preserves postage stamps.",
+    "banglaMeaning": "ডাকটিকিট সংগ্রহকারী",
     "synonyms": [
-      "stamp collector"
+      "Stamp collector"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use philatelist correctly in a sentence."
+    "example": "The avid philatelist paid a large sum for a rare nineteenth-century postage stamp."
   },
   "pilferer": {
     "word": "Pilferer",
     "pos": "noun",
-    "simpleDefinition": "One who pilfers.",
+    "simpleDefinition": "A thief who repeatedly steals small or relatively worthless items.",
     "banglaMeaning": "ছিঁচকে চোর",
     "synonyms": [
-      "sneak thief"
+      "Petty thief",
+      "Shoplifter",
+      "Filcher"
     ],
     "antonyms": [
-      "No common antonym"
+      "Honest person"
     ],
-    "example": "The student learned how to use pilferer correctly in a sentence."
+    "example": "Security officers identified the pilferer who was taking stationery from the supply room."
   },
   "piquant": {
     "word": "Piquant",
     "pos": "adjective",
-    "simpleDefinition": "Having the qualities or characteristics of piquant.",
-    "banglaMeaning": "তীজ্ঞ / কটু",
+    "simpleDefinition": "Having a pleasantly sharp or spicy flavor, or pleasantly stimulating and exciting.",
+    "banglaMeaning": "ঝাল; মুখরোচক; তীব্র স্বাদযুক্ত",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Spicy",
+      "Tangy",
+      "Flavorful",
+      "Intriguing"
     ],
     "antonyms": [
-      "No common antonym"
+      "Bland",
+      "Tasteless",
+      "Dull"
     ],
-    "example": "The student learned how to use piquant correctly in a sentence."
+    "example": "The roasted fish was served with a piquant sauce made of lime and red chilies."
   },
   "pitfall": {
     "word": "Pitfall",
     "pos": "noun",
-    "simpleDefinition": "A potential, unsuspected, hidden problem, hazard, or danger that is easily encountered but not immediately obvious.",
+    "simpleDefinition": "A hidden or unsuspected danger, trap, or difficulty in a plan or action.",
     "banglaMeaning": "ফাঁদ",
     "synonyms": [
-      "pit"
+      "Hazard",
+      "Danger",
+      "Trap",
+      "Snare"
     ],
     "antonyms": [
-      "No common antonym"
+      "Advantage",
+      "Safety"
     ],
-    "example": "The student learned how to use pitfall correctly in a sentence."
+    "example": "Borrowing large amounts of credit card debt is a common financial pitfall for college graduates."
   },
   "pithy": {
     "word": "Pithy",
     "pos": "adjective",
-    "simpleDefinition": "Concise and meaningful.",
-    "banglaMeaning": "সংকি্ষপ্ত",
+    "simpleDefinition": "Concise, meaningful, and forcefully expressive in language.",
+    "banglaMeaning": "সংক্ষিপ্ত",
     "synonyms": [
-      "concise",
-      "sententious",
-      "sententiously"
+      "Concise",
+      "Succinct",
+      "Brief",
+      "Trenchant"
     ],
     "antonyms": [
-      "No common antonym"
+      "Verbose",
+      "Wordy",
+      "Rambling"
     ],
-    "example": "The student learned how to use pithy correctly in a sentence."
+    "example": "Her speech was short, pithy, and full of memorable practical wisdom."
   },
   "pittance": {
     "word": "Pittance",
     "pos": "noun",
-    "simpleDefinition": "A meagre allowance of money or wages.",
+    "simpleDefinition": "A very small or inadequate amount of money received as payment.",
     "banglaMeaning": "সামান্য বেতন",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Trifle",
+      "Small wage",
+      "Modicum",
+      "Tiny sum"
     ],
     "antonyms": [
-      "No common antonym"
+      "Fortune",
+      "Windfall",
+      "Wealth"
     ],
-    "example": "The student learned how to use pittance correctly in a sentence."
+    "example": "The migrant laborers worked twelve hours a day in harsh heat for a meager pittance."
   },
   "placatory": {
     "word": "Placatory",
     "pos": "adjective",
-    "simpleDefinition": "That placates; pacifying.",
+    "simpleDefinition": "Intended to calm, appease, or make someone less angry or hostile.",
     "banglaMeaning": "আপোস",
     "synonyms": [
-      "appeasing",
-      "conciliatory",
-      "placating"
+      "Conciliatory",
+      "Pacifying",
+      "Appeasing",
+      "Mollifying"
     ],
     "antonyms": [
-      "No common antonym"
+      "Provocative",
+      "Inflammatory",
+      "Antagonistic"
     ],
-    "example": "The student learned how to use placatory correctly in a sentence."
+    "example": "He offered a placatory apology to soothe the customer's legitimate frustration."
   },
   "placid": {
     "word": "Placid",
@@ -13161,46 +15021,54 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "plainness": {
     "word": "Plainness",
     "pos": "noun",
-    "simpleDefinition": "The condition of being plain (in all senses).",
+    "simpleDefinition": "The quality of being simple, clear, unadorned, or direct.",
     "banglaMeaning": "সরলতা",
     "synonyms": [
-      "perspicuity",
-      "homeliness",
-      "perspicuousness"
+      "Simplicity",
+      "Clarity",
+      "Directness",
+      "Modesty"
     ],
     "antonyms": [
-      "No common antonym"
+      "Complexity",
+      "Extravagance",
+      "Ornamentation"
     ],
-    "example": "The student learned how to use plainness correctly in a sentence."
+    "example": "The plainness of his speech made the difficult legal concept understandable to all."
   },
   "plaintiff": {
     "word": "Plaintiff",
     "pos": "noun",
-    "simpleDefinition": "A party bringing a suit in civil law against a defendant; accuser.",
+    "simpleDefinition": "A person who brings a lawsuit or legal accusation against another in court.",
     "banglaMeaning": "বাদী",
     "synonyms": [
-      "complainant"
+      "Complainant",
+      "Claimant",
+      "Petitioner",
+      "Accuser"
     ],
     "antonyms": [
-      "accused",
-      "defendant",
-      "suspect"
+      "Defendant"
     ],
-    "example": "The student learned how to use plaintiff correctly in a sentence."
+    "example": "The plaintiff presented signed contracts to prove the builder broke his promise."
   },
   "plausibility": {
     "word": "Plausibility",
     "pos": "noun",
-    "simpleDefinition": "The fact of being believable; believability, credibility.",
+    "simpleDefinition": "The quality of seeming reasonable, believable, or probable.",
     "banglaMeaning": "বিশ্বাসযোগ্যতা",
     "synonyms": [
-      "plausibleness"
+      "Credibility",
+      "Believability",
+      "Likelihood",
+      "Probability"
     ],
     "antonyms": [
-      "implausibility",
-      "implausibleness"
+      "Implausibility",
+      "Improbability",
+      "Absurdity"
     ],
-    "example": "The student learned how to use plausibility correctly in a sentence."
+    "example": "The detective scrutinized the plausibility of the suspect's unusual alibi."
   },
   "plausible": {
     "word": "Plausible",
@@ -13222,89 +15090,105 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "plenty": {
     "word": "Plenty",
     "pos": "noun",
-    "simpleDefinition": "A more-than-adequate amount; plenitude.",
+    "simpleDefinition": "A large or sufficient amount or quantity; abundance.",
     "banglaMeaning": "প্রচুর",
     "synonyms": [
-      "slew",
-      "spate",
-      "mass"
+      "Abundance",
+      "Sufficiency",
+      "Wealth",
+      "Profusion"
     ],
     "antonyms": [
-      "No common antonym"
+      "Scarcity",
+      "Lack",
+      "Shortage"
     ],
-    "example": "The student learned how to use plenty correctly in a sentence."
+    "example": "There was plenty of warm food and clean drinking water available at the relief camp."
   },
   "plethora": {
     "word": "Plethora",
     "pos": "noun",
-    "simpleDefinition": "An excessive amount or number; an abundance.",
+    "simpleDefinition": "A large or excessive amount of something; an overabundance.",
     "banglaMeaning": "আধিক্য বা প্রচুর পরিমাণ",
     "synonyms": [
-      "nimiety",
-      "superfluity",
-      "embarrassment"
+      "Excess",
+      "Abundance",
+      "Surplus",
+      "Surfeit"
     ],
     "antonyms": [
-      "No common antonym"
+      "Scarcity",
+      "Dearth",
+      "Paucity"
     ],
-    "example": "The student learned how to use plethora correctly in a sentence."
+    "example": "The bookstore features a plethora of study guides for standardized exams."
   },
   "plucky": {
     "word": "Plucky",
     "pos": "adjective",
-    "simpleDefinition": "Having or showing pluck, courage or spirit in trying circumstances.",
+    "simpleDefinition": "Showing brave and spirited courage in the face of difficulties.",
     "banglaMeaning": "সাহসী",
     "synonyms": [
-      "spirited",
-      "spunky",
-      "feisty"
+      "Brave",
+      "Courageous",
+      "Spirited",
+      "Bold"
     ],
     "antonyms": [
-      "No common antonym"
+      "Cowardly",
+      "Timid",
+      "Fearful"
     ],
-    "example": "The student learned how to use plucky correctly in a sentence."
+    "example": "The plucky little kitten climbed out of the ditch all on its own."
   },
   "poignant": {
     "word": "Poignant",
     "pos": "adjective",
-    "simpleDefinition": "Having the qualities or characteristics of poignant.",
-    "banglaMeaning": "জ্ঞানিকর / দুঃখ উদে্রককারী",
+    "simpleDefinition": "Evoking a keen, sharp sense of sadness, regret, or deep emotional empathy.",
+    "banglaMeaning": "জ্ঞানিকর / দুঃখ উদ্রেককারী",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Touching",
+      "Moving",
+      "Heartbreaking",
+      "Affecting"
     ],
     "antonyms": [
-      "No common antonym"
+      "Unemotional",
+      "Indifferent",
+      "Cheerful"
     ],
-    "example": "The student learned how to use poignant correctly in a sentence."
+    "example": "The war memorial contains poignant letters written by young soldiers to their mothers."
   },
   "polity": {
     "word": "Polity",
     "pos": "noun",
-    "simpleDefinition": "An organizational structure of the government of a state, church, etc.",
+    "simpleDefinition": "An organized society, state, or nation considered as a political entity.",
     "banglaMeaning": "রাজ্ঞ ব্যবস্থা",
     "synonyms": [
-      "Related to polity",
-      "Similar"
+      "Commonwealth",
+      "State",
+      "Civil society",
+      "Government"
     ],
     "antonyms": [
-      "No common antonym"
+      "Anarchy"
     ],
-    "example": "The teacher gave an insightful explanation of polity."
+    "example": "Democratic participation is essential for the healthy functioning of any modern polity."
   },
   "polyglot": {
     "word": "Polyglot",
     "pos": "noun",
-    "simpleDefinition": "One who has mastered, notably speaks, several languages.",
+    "simpleDefinition": "A person who knows and is able to speak or write multiple languages fluently.",
     "banglaMeaning": "বস্থভাষী",
     "synonyms": [
-      "Related to polyglot",
-      "Similar"
+      "Multilingual person",
+      "Linguist"
     ],
     "antonyms": [
-      "No common antonym"
+      "Monoglot",
+      "Monolingual person"
     ],
-    "example": "The teacher gave an insightful explanation of polyglot."
+    "example": "The international diplomat was a polyglot fluent in five distinct languages."
   },
   "pompous": {
     "word": "Pompous",
@@ -13326,149 +15210,179 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "ponder": {
     "word": "Ponder",
     "pos": "verb",
-    "simpleDefinition": "To consider (something) carefully and thoroughly.",
+    "simpleDefinition": "To think about something carefully and deeply, especially before making a decision.",
     "banglaMeaning": "গভীরভাবে চিন্তা করা",
     "synonyms": [
-      "ruminate",
-      "contemplate",
-      "speculate"
+      "Contemplate",
+      "Reflect",
+      "Meditate",
+      "Deliberate"
     ],
     "antonyms": [
-      "No common antonym"
+      "Ignore",
+      "Overlook",
+      "Dismiss"
     ],
-    "example": "The student learned how to use ponder correctly in a sentence."
+    "example": "She sat quietly by the serene lake to ponder her future career plans."
   },
   "pose": {
     "word": "Pose",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being pose.",
+    "pos": "verb",
+    "simpleDefinition": "To present or constitute a problem or question, or hold a particular posture.",
     "banglaMeaning": "জাহির করা",
     "synonyms": [
-      "present",
-      "set",
-      "model"
+      "Present",
+      "Cause",
+      "Constitute",
+      "Position"
     ],
     "antonyms": [
-      "No common antonym"
+      "Resolve",
+      "Alleviate"
     ],
-    "example": "The student learned how to use pose correctly in a sentence."
+    "example": "Rising carbon emissions pose an imminent danger to global marine ecosystems."
   },
   "possess": {
     "word": "Possess",
     "pos": "verb",
-    "simpleDefinition": "To have (something) as, or as if as, an owner; to have, to own.",
+    "simpleDefinition": "To have, hold, or own something as property, a trait, or a skill.",
     "banglaMeaning": "করায়ধ করা",
     "synonyms": [
-      "have",
-      "own"
+      "Own",
+      "Have",
+      "Hold",
+      "Retain"
     ],
     "antonyms": [
-      "No common antonym"
+      "Lack",
+      "Lose",
+      "Abandon"
     ],
-    "example": "The student learned how to use possess correctly in a sentence."
+    "example": "Applicants for the managerial role must possess strong organizational skills."
   },
   "possessed": {
     "word": "Possessed",
     "pos": "adjective",
-    "simpleDefinition": "Having; owning. [with of].",
+    "simpleDefinition": "Controlled by an evil spirit, or driven by a fierce, overpowering passion.",
     "banglaMeaning": "অধিকারী",
     "synonyms": [
-      "berserk",
-      "amok",
-      "amuck"
+      "Consumed",
+      "Obsessed",
+      "Enchanted",
+      "Driven"
     ],
     "antonyms": [
-      "No common antonym"
+      "Calm",
+      "Composed",
+      "Rational"
     ],
-    "example": "The student learned how to use possessed correctly in a sentence."
+    "example": "The sprinter ran the final hundred meters as if possessed by fierce determination."
   },
   "postscript": {
     "word": "Postscript",
     "pos": "noun",
-    "simpleDefinition": "An addendum to a letter, added after the author's signature.",
+    "simpleDefinition": "An additional message added at the end of a letter after the signature (P.S.).",
     "banglaMeaning": "অতিরিক্ত বা র্সবশেষ তথ্য",
     "synonyms": [
-      "supplement",
-      "addendum",
-      "ps"
+      "Addendum",
+      "Afterword",
+      "Supplement",
+      "Note"
     ],
     "antonyms": [
-      "No common antonym"
+      "Preface",
+      "Foreword"
     ],
-    "example": "The student learned how to use postscript correctly in a sentence."
+    "example": "In a brief postscript, she asked her brother to send her winter coat by post."
   },
   "postulate": {
     "word": "Postulate",
-    "pos": "noun",
-    "simpleDefinition": "Something assumed without proof as being self-evident or generally accepted, especially when used as a basis for an argument. Sometimes distinguished from axioms as being relevant to a particular science or context, rather than universally true, and following from other axioms rather than being an absolute assumption.",
+    "pos": "verb",
+    "simpleDefinition": "To suggest or assume the truth of something as the foundation for reasoning.",
     "banglaMeaning": "স্বীকার্য",
     "synonyms": [
-      "contend",
-      "posit"
+      "Hypothesize",
+      "Propose",
+      "Theorize",
+      "Assume"
     ],
     "antonyms": [
-      "No common antonym"
+      "Disprove",
+      "Refute",
+      "Deny"
     ],
-    "example": "The student learned how to use postulate correctly in a sentence."
+    "example": "Physicists postulate that dark matter constitutes most of the universe's mass."
   },
   "potty": {
     "word": "Potty",
-    "pos": "noun",
-    "simpleDefinition": "A small, usually plastic, chamber pot used to toilet-train small children.",
-    "banglaMeaning": "তুজ্ঞ",
+    "pos": "adjective",
+    "simpleDefinition": "Slightly crazy, eccentric, or silly; foolish.",
+    "banglaMeaning": "তুচ্ছ; গুরুত্বহীন; নগণ্য",
     "synonyms": [
-      "besotted",
-      "stiff",
-      "wet"
+      "Eccentric",
+      "Crazy",
+      "Silly",
+      "Mad"
     ],
     "antonyms": [
-      "No common antonym"
+      "Sane",
+      "Sensible",
+      "Rational"
     ],
-    "example": "The student learned how to use potty correctly in a sentence."
+    "example": "You must be potty to go hiking in the woods during a raging blizzard."
   },
   "pout": {
     "word": "Pout",
     "pos": "verb",
-    "simpleDefinition": "To be or pretend to be ill-tempered; to sulk.",
+    "simpleDefinition": "To push out one's lips in petulant annoyance, irritation, or disappointment.",
     "banglaMeaning": "বিরক্তিভাব / ঠোঁট ফুলিয়ে রাগ দেখানো",
     "synonyms": [
-      "brood",
-      "moue",
-      "sulk"
+      "Sulk",
+      "Scowl",
+      "Frown",
+      "Glower"
     ],
     "antonyms": [
-      "No common antonym"
+      "Smile",
+      "Grin"
     ],
-    "example": "The student learned how to use pout correctly in a sentence."
+    "example": "The little boy began to pout when his mother turned off the cartoon show."
   },
   "pragmatic": {
     "word": "Pragmatic",
     "pos": "adjective",
-    "simpleDefinition": "Practical, concerned with making decisions and actions that are useful in practice, not just theory.",
+    "simpleDefinition": "Dealing with things sensibly and realistically based on practical considerations.",
     "banglaMeaning": "বাস্তবধর্মশী প্রয়োগবাদী",
     "synonyms": [
-      "practical",
-      "realistic",
-      "hard-nosed"
+      "Practical",
+      "Realistic",
+      "Sensible",
+      "Down-to-earth"
     ],
     "antonyms": [
-      "No common antonym"
+      "Idealistic",
+      "Impractical",
+      "Unrealistic"
     ],
-    "example": "The student learned how to use pragmatic correctly in a sentence."
+    "example": "We need a pragmatic strategy that solves traffic congestion without bankrupting the city."
   },
   "preamble": {
     "word": "Preamble",
     "pos": "noun",
-    "simpleDefinition": "A short preliminary statement or remark, especially an explanatory introduction to a formal document or statute.",
+    "simpleDefinition": "A preliminary or introductory statement to an official document or speech.",
     "banglaMeaning": "প্রস্তাবনা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Introduction",
+      "Preface",
+      "Prologue",
+      "Foreword"
     ],
     "antonyms": [
-      "No common antonym"
+      "Epilogue",
+      "Conclusion",
+      "Afterword"
     ],
-    "example": "The student learned how to use preamble correctly in a sentence."
+    "example": "The preamble of the national constitution declares the fundamental rights of all citizens."
   },
   "precarious": {
     "word": "Precarious",
@@ -13490,45 +15404,54 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "precise": {
     "word": "Precise",
     "pos": "adjective",
-    "simpleDefinition": "Both exact and accurate.",
-    "banglaMeaning": "সংকি্ষপ্ত করা / অতিসর্তক",
+    "simpleDefinition": "Marked by exactness and accuracy of detail or expression.",
+    "banglaMeaning": "সংক্ষিপ্ত করা / অতিসতর্ক",
     "synonyms": [
-      "meticulous",
-      "dead",
-      "fine"
+      "Exact",
+      "Accurate",
+      "Specific",
+      "Detailed"
     ],
     "antonyms": [
-      "imprecise"
+      "Vague",
+      "Imprecise",
+      "Inaccurate"
     ],
-    "example": "The student learned how to use precise correctly in a sentence."
+    "example": "The laboratory technician gave precise instructions on how to measure the chemical solution."
   },
   "predominance": {
     "word": "Predominance",
     "pos": "noun",
-    "simpleDefinition": "The condition or state of being predominant; ascendancy, domination, preeminence, preponderance.",
+    "simpleDefinition": "The state or condition of being greater in power, influence, or quantity.",
     "banglaMeaning": "আধিপত্য",
     "synonyms": [
-      "predomination"
+      "Dominance",
+      "Superiority",
+      "Prevalence",
+      "Ascendancy"
     ],
     "antonyms": [
-      "No common antonym"
+      "Inferiority",
+      "Minority",
+      "Subordination"
     ],
-    "example": "The student learned how to use predominance correctly in a sentence."
+    "example": "The predominance of renewable solar energy has significantly reduced factory emissions."
   },
   "preface": {
     "word": "Preface",
     "pos": "noun",
-    "simpleDefinition": "A beginning or introductory portion that comes before the main text of a document or book, typically serving to contextualize or explain the writing of the book and sometimes to acknowledge others' contributions; especially, such a discussion written by the work's own author.",
+    "simpleDefinition": "An introductory explanation at the beginning of a book or publication.",
     "banglaMeaning": "প্রস্তাবনা",
     "synonyms": [
-      "premise",
-      "introduce",
-      "foreword"
+      "Foreword",
+      "Introduction",
+      "Prologue"
     ],
     "antonyms": [
-      "No common antonym"
+      "Afterword",
+      "Epilogue"
     ],
-    "example": "The student learned how to use preface correctly in a sentence."
+    "example": "In the author's preface, she explained what inspired her to write the historical novel."
   },
   "prejudice": {
     "word": "Prejudice",
@@ -13550,80 +15473,96 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "prejudiced": {
     "word": "Prejudiced",
     "pos": "adjective",
-    "simpleDefinition": "Having prejudices.",
+    "simpleDefinition": "Having or showing an unfair dislike or bias against a group of people.",
     "banglaMeaning": "পক্ষপাতী",
     "synonyms": [
-      "subjective",
-      "loaded",
-      "jaundiced"
+      "Biased",
+      "Bigoted",
+      "Discriminatory",
+      "Partial"
     ],
     "antonyms": [
-      "impartial",
-      "unprejudiced"
+      "Unbiased",
+      "Fair",
+      "Impartial"
     ],
-    "example": "The student learned how to use prejudiced correctly in a sentence."
+    "example": "A fair court must ensure jurors are not prejudiced against the defendant."
   },
   "preponderance": {
     "word": "Preponderance",
     "pos": "noun",
-    "simpleDefinition": "Superiority in amount or number; the bulk or majority; also, a large amount or number; an abundance, a profusion.",
+    "simpleDefinition": "The quality of being greater in weight, quantity, influence, or importance.",
     "banglaMeaning": "ভারাধিক্য",
     "synonyms": [
-      "prevalence"
+      "Majority",
+      "Dominance",
+      "Prevalence",
+      "Bulk"
     ],
     "antonyms": [
-      "No common antonym"
+      "Minority",
+      "Paucity",
+      "Deficit"
     ],
-    "example": "The student learned how to use preponderance correctly in a sentence."
+    "example": "The preponderance of clinical evidence indicates that regular exercise lengthens life."
   },
   "pressing": {
     "word": "Pressing",
     "pos": "adjective",
-    "simpleDefinition": "Needing urgent attention.",
+    "simpleDefinition": "Requiring immediate or prompt action; urgent and critical.",
     "banglaMeaning": "জরুরী",
     "synonyms": [
-      "imperative",
-      "press",
-      "pressure"
+      "Urgent",
+      "Crucial",
+      "Acute",
+      "Critical"
     ],
     "antonyms": [
-      "No common antonym"
+      "Unimportant",
+      "Trivial",
+      "Unhurried"
     ],
-    "example": "The student learned how to use pressing correctly in a sentence."
+    "example": "Providing clean water to drought-stricken villages is our most pressing duty."
   },
   "pressurizing": {
     "word": "Pressurizing",
-    "pos": "noun",
-    "simpleDefinition": "The act or process of increasing pressure within a volume of space.",
+    "pos": "verb",
+    "simpleDefinition": "Applying intense persuasion or coercion to force someone to act.",
     "banglaMeaning": "চাপ প্রয়োগ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Coercing",
+      "Compelling",
+      "Urging",
+      "Badgering"
     ],
     "antonyms": [
-      "No common antonym"
+      "Leaving alone",
+      "Releasing"
     ],
-    "example": "The student learned how to use pressurizing correctly in a sentence."
+    "example": "Aggressive lenders were pressurizing homeowners into taking high-interest loans."
   },
   "pretend": {
     "word": "Pretend",
     "pos": "verb",
-    "simpleDefinition": "To speak or behave so as to give a false or simulated appearance.",
-    "banglaMeaning": "সাজা / মিথ্যা বণর্না করা",
+    "simpleDefinition": "To act so as to make it appear that something is true when it is not.",
+    "banglaMeaning": "সাজা / মিথ্যা বর্ণনা করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Feign",
+      "Fake",
+      "Simulate",
+      "Dissemble"
     ],
     "antonyms": [
-      "No common antonym"
+      "Be genuine",
+      "Be truthful"
     ],
-    "example": "The student learned how to use pretend correctly in a sentence."
+    "example": "She tried to pretend she was calm despite her racing heart before the interview."
   },
   "pretentious": {
     "word": "Pretentious",
     "pos": "adjective",
     "simpleDefinition": "Attempting to impress by pretending to possess greater importance or skill",
-    "banglaMeaning": "ভণ্ডামিযুক্ত / আত্মম্ভরী / দাশি্রক",
+    "banglaMeaning": "ভণ্ডামিযুক্ত / আত্মম্ভরী / দাম্ভিক",
     "synonyms": [
       "Pompous",
       "Showy",
@@ -13638,165 +15577,192 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "pretty penny": {
     "word": "Pretty penny",
-    "pos": "noun",
-    "simpleDefinition": "A considerable or substantial sum of money",
+    "pos": "idiom",
+    "simpleDefinition": "A very large or substantial sum of money.",
     "banglaMeaning": "অত্যন্ত ব্যয় বস্থল",
     "synonyms": [
-      "fortune",
-      "large sum",
-      "tidy sum"
+      "A fortune",
+      "Tidy sum",
+      "Substantial sum"
     ],
     "antonyms": [
-      "pittance",
-      "small change"
+      "Pittance",
+      "Small change"
     ],
-    "example": "Renovating the vintage car cost a pretty penny."
+    "example": "Restoring that vintage sports car must have cost him a pretty penny."
   },
   "prevalent": {
     "word": "Prevalent",
     "pos": "adjective",
-    "simpleDefinition": "Widespread or preferred.",
+    "simpleDefinition": "Widespread in a particular area, community, or period of time.",
     "banglaMeaning": "প্রচলিত",
     "synonyms": [
-      "rife",
-      "prevailing",
-      "current"
+      "Widespread",
+      "Common",
+      "Prevailing",
+      "Frequent"
     ],
     "antonyms": [
-      "No common antonym"
+      "Rare",
+      "Uncommon",
+      "Scarce"
     ],
-    "example": "The student learned how to use prevalent correctly in a sentence."
+    "example": "Smartphone usage is prevalent among people of all ages today."
   },
   "prevaricator": {
     "word": "Prevaricator",
     "pos": "noun",
-    "simpleDefinition": "One who prevaricates.",
-    "banglaMeaning": "সতে্যর আলাপকারী",
+    "simpleDefinition": "A person who deliberately speaks falsely or avoids telling the whole truth.",
+    "banglaMeaning": "সত্য গোপনকারী",
     "synonyms": [
-      "liar"
+      "Liar",
+      "Fibber",
+      "Equivocator",
+      "Deceiver"
     ],
     "antonyms": [
-      "straight arrow",
-      "square shooter"
+      "Truth-teller",
+      "Honest person"
     ],
-    "example": "The student learned how to use prevaricator correctly in a sentence."
+    "example": "The cross-examination revealed the dishonest witness to be an untrustworthy prevaricator."
   },
   "prick": {
     "word": "Prick",
-    "pos": "noun",
-    "simpleDefinition": "A small hole or perforation, caused by piercing.",
+    "pos": "verb",
+    "simpleDefinition": "To make a tiny puncture with a sharp object, or feel a sudden sharp pinch.",
     "banglaMeaning": "ছিদ্র করা",
     "synonyms": [
-      "Related to prick",
-      "Similar"
+      "Puncture",
+      "Pierce",
+      "Poke",
+      "Stab"
     ],
     "antonyms": [
-      "No common antonym"
+      "Soothe",
+      "Heal"
     ],
-    "example": "The teacher gave an insightful explanation of prick."
+    "example": "Be mindful when harvesting wild blackberries so the sharp thorns do not prick your skin."
   },
   "prima facie": {
     "word": "Prima facie",
     "pos": "adjective",
-    "simpleDefinition": "Based on first impression; accepted as true until disproved",
+    "simpleDefinition": "Accepted as correct or sufficient upon initial inspection until disproved.",
     "banglaMeaning": "প্রথম দশর্নে",
     "synonyms": [
-      "apparent",
-      "evident",
-      "at first sight"
+      "Self-evident",
+      "Apparent",
+      "Presumptive"
     ],
     "antonyms": [
-      "doubtful",
-      "unproven"
+      "Conclusive",
+      "Proven false"
     ],
-    "example": "There was prima facie evidence that a fraud had occurred."
+    "example": "The recovered fingerprint provided prima facie evidence tying him to the burglary."
   },
   "procession": {
     "word": "Procession",
     "pos": "noun",
-    "simpleDefinition": "A group of people or things moving along in an orderly, stately, or solemn manner; a train of persons advancing in order; a retinue.",
+    "simpleDefinition": "A number of people or vehicles moving forward in an orderly, formal fashion.",
     "banglaMeaning": "মিছিল বা শোভাযাত্র",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Parade",
+      "March",
+      "Cavalcade",
+      "Column"
     ],
     "antonyms": [
-      "No common antonym"
+      "Dispersal"
     ],
-    "example": "The student learned how to use procession correctly in a sentence."
+    "example": "A joyful procession of graduates marched proudly across the university lawn."
   },
   "prodigal": {
     "word": "Prodigal",
     "pos": "adjective",
-    "simpleDefinition": "Wastefully extravagant.",
+    "simpleDefinition": "Spending money or resources wastefully and extravagantly.",
     "banglaMeaning": "বেহিসাবী ভাবে ব্যয় করা",
     "synonyms": [
-      "profligate",
-      "lavish",
-      "extravagant"
+      "Extravagant",
+      "Wasteful",
+      "Profligate",
+      "Spendthrift"
     ],
     "antonyms": [
-      "No common antonym"
+      "Frugal",
+      "Thrifty",
+      "Economical"
     ],
-    "example": "The student learned how to use prodigal correctly in a sentence."
+    "example": "The prodigal prince spent fortunes on lavish parties and ended up in heavy debt."
   },
   "prodigy": {
     "word": "Prodigy",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being prodigy.",
-    "banglaMeaning": "বৈদত্য",
+    "simpleDefinition": "A young person endowed with exceptional abilities, qualities, or genius.",
+    "banglaMeaning": "অসাধারণ প্রতিভাবান বালক",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Genius",
+      "Wunderkind",
+      "Phenomenon",
+      "Marvel"
     ],
     "antonyms": [
-      "No common antonym"
+      "Simpleton",
+      "Amateur"
     ],
-    "example": "The student learned how to use prodigy correctly in a sentence."
+    "example": "The nine-year-old piano prodigy amazed the audience with her flawless performance."
   },
   "profane": {
     "word": "Profane",
     "pos": "adjective",
-    "simpleDefinition": "Treating sacred things with contempt, disrespect, irreverence, or scorn; blasphemous, impious.",
+    "simpleDefinition": "Showing disrespect for sacred things, or secular rather than religious.",
     "banglaMeaning": "অপবিত্র করা",
     "synonyms": [
-      "vitiate",
-      "blue",
-      "outrage"
+      "Irreverent",
+      "Secular",
+      "Unholy",
+      "Disrespectful"
     ],
     "antonyms": [
-      "sacred"
+      "Sacred",
+      "Holy",
+      "Reverent"
     ],
-    "example": "The student learned how to use profane correctly in a sentence."
+    "example": "Visitors are politely asked to refrain from using profane language inside the ancient chapel."
   },
   "profligate": {
     "word": "Profligate",
     "pos": "adjective",
-    "simpleDefinition": "Inclined to waste resources or behave extravagantly.",
-    "banglaMeaning": "লশ্মট",
+    "simpleDefinition": "Recklessly extravagant or wasteful in the use of resources or money.",
+    "banglaMeaning": "লম্পট ব্যক্তি; দুশ্চরিত্র মানুষ",
     "synonyms": [
-      "libertine",
-      "extravagant",
-      "degenerate"
+      "Wasteful",
+      "Extravagant",
+      "Improvident",
+      "Spendthrift"
     ],
     "antonyms": [
-      "No common antonym"
+      "Frugal",
+      "Thrifty",
+      "Prudent"
     ],
-    "example": "The student learned how to use profligate correctly in a sentence."
+    "example": "Citizens protested against the municipality's profligate spending on luxury banquets."
   },
   "proliferate": {
     "word": "Proliferate",
     "pos": "verb",
-    "simpleDefinition": "To increase in number or spread rapidly; to multiply.",
-    "banglaMeaning": "সংখ্যায় বৃদি্ধ পাওয়া",
+    "simpleDefinition": "To increase rapidly in numbers; multiply and expand quickly.",
+    "banglaMeaning": "সংখ্যায় বৃদ্ধি পাওয়া",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Multiply",
+      "Mushroom",
+      "Spread",
+      "Burgeon"
     ],
     "antonyms": [
-      "No common antonym"
+      "Decrease",
+      "Dwindle",
+      "Diminish"
     ],
-    "example": "The student learned how to use proliferate correctly in a sentence."
+    "example": "Coffee shops and bakeries began to proliferate along the newly paved avenue."
   },
   "prolific": {
     "word": "Prolific",
@@ -13852,32 +15818,37 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "prompt": {
     "word": "Prompt",
     "pos": "adjective",
-    "simpleDefinition": "Quick; acting without delay.",
+    "simpleDefinition": "Done without delay; immediate, punctual, and timely.",
     "banglaMeaning": "দ্রুত",
     "synonyms": [
-      "incite",
-      "propel",
-      "instigate"
+      "Immediate",
+      "Quick",
+      "Punctual",
+      "Swift"
     ],
     "antonyms": [
-      "No common antonym"
+      "Slow",
+      "Tardy",
+      "Delayed"
     ],
-    "example": "The student learned how to use prompt correctly in a sentence."
+    "example": "Thank you for your prompt response to our emergency customer support ticket."
   },
   "propensity": {
     "word": "Propensity",
     "pos": "noun",
-    "simpleDefinition": "An inclination, disposition, tendency, preference, or attraction.",
+    "simpleDefinition": "An inclination or natural tendency to behave in a particular way.",
     "banglaMeaning": "প্রবণতা",
     "synonyms": [
-      "proclivity",
-      "tendency",
-      "leaning"
+      "Tendency",
+      "Inclination",
+      "Penchant",
+      "Leaning"
     ],
     "antonyms": [
-      "No common antonym"
+      "Aversion",
+      "Disinclination"
     ],
-    "example": "The student learned how to use propensity correctly in a sentence."
+    "example": "He has a recognized propensity to speak without thinking when put under pressure."
   },
   "propitious": {
     "word": "Propitious",
@@ -13899,77 +15870,90 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "proportionate": {
     "word": "Proportionate",
     "pos": "adjective",
-    "simpleDefinition": "In proportion; proportional; commensurable.",
+    "simpleDefinition": "Corresponding in size, degree, or intensity; commensurate.",
     "banglaMeaning": "আনুপাতিক",
     "synonyms": [
-      "harmonious",
-      "corresponding",
-      "relative"
+      "Proportional",
+      "Commensurate",
+      "Balanced",
+      "Equal"
     ],
     "antonyms": [
-      "disproportionate",
-      "disproportional"
+      "Disproportionate",
+      "Unequal"
     ],
-    "example": "The student learned how to use proportionate correctly in a sentence."
+    "example": "The bonus payment was proportionate to the number of successful sales achieved."
   },
   "protract": {
     "word": "Protract",
     "pos": "verb",
-    "simpleDefinition": "To draw out; to extend, especially in duration.",
-    "banglaMeaning": "দীঘর্ায়িত করা",
+    "simpleDefinition": "To prolong, extend, or drag out in duration.",
+    "banglaMeaning": "দীর্ঘায়িত করা",
     "synonyms": [
-      "extend",
-      "prolong",
-      "draw out"
+      "Prolong",
+      "Extend",
+      "Lengthen",
+      "Drag out"
     ],
     "antonyms": [
-      "No common antonym"
+      "Shorten",
+      "Curtail",
+      "Abbreviate"
     ],
-    "example": "The student learned how to use protract correctly in a sentence."
+    "example": "Do not protract the meeting unnecessarily when everyone has already agreed."
   },
   "provincial": {
     "word": "Provincial",
     "pos": "adjective",
-    "simpleDefinition": "Exhibiting the ways or manners of a province; characteristic of the inhabitants of a province.",
+    "simpleDefinition": "Belonging to a province, or narrow-minded, insular, and unsophisticated.",
     "banglaMeaning": "সীমাবদ্ধ",
     "synonyms": [
-      "bucolic",
-      "rustic",
-      "parochial"
+      "Parochial",
+      "Insular",
+      "Rural",
+      "Narrow-minded"
     ],
     "antonyms": [
-      "cosmopolitan"
+      "Cosmopolitan",
+      "Broad-minded",
+      "Sophisticated"
     ],
-    "example": "The student learned how to use provincial correctly in a sentence."
+    "example": "Living in different world capitals helped her outgrow her narrow provincial perspective."
   },
   "provocation": {
     "word": "Provocation",
     "pos": "noun",
-    "simpleDefinition": "The act of provoking, inciting or annoying someone into doing something.",
+    "simpleDefinition": "Action or speech that makes someone annoyed, angry, or retaliatory.",
     "banglaMeaning": "প্ররোচনা",
     "synonyms": [
-      "aggravation",
-      "irritation",
-      "incitement"
+      "Incitement",
+      "Goading",
+      "Affront",
+      "Stirring"
     ],
     "antonyms": [
-      "No common antonym"
+      "Pacification",
+      "Conciliation"
     ],
-    "example": "The student learned how to use provocation correctly in a sentence."
+    "example": "He kept his temper calmly despite repeated deliberate provocation from the opposition."
   },
   "proximate": {
     "word": "Proximate",
     "pos": "adjective",
-    "simpleDefinition": "Close or closest; adjacent.",
+    "simpleDefinition": "Closest in relationship, space, or time; immediately adjacent.",
     "banglaMeaning": "নিকটতম",
     "synonyms": [
-      "close",
-      "immediate"
+      "Nearest",
+      "Closest",
+      "Adjacent",
+      "Immediate"
     ],
     "antonyms": [
-      "ultimate"
+      "Distant",
+      "Remote",
+      "Far"
     ],
-    "example": "The student learned how to use proximate correctly in a sentence."
+    "example": "Faulty electrical wiring was identified as the proximate cause of the warehouse fire."
   },
   "prudent": {
     "word": "Prudent",
@@ -13991,59 +15975,71 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "pseudonym": {
     "word": "Pseudonym",
     "pos": "noun",
-    "simpleDefinition": "A fictitious name (more literally, a false name), as those used by writers and movie stars.",
+    "simpleDefinition": "A fictitious name used by an author or artist to conceal true identity.",
     "banglaMeaning": "ছদ্মনাম",
     "synonyms": [
-      "anonym",
-      "nom de guerre"
+      "Pen name",
+      "Alias",
+      "Assumed name"
     ],
     "antonyms": [
-      "No common antonym"
+      "Real name"
     ],
-    "example": "The student learned how to use pseudonym correctly in a sentence."
+    "example": "The famous Victorian author published several satirical novels under an anonymous pseudonym."
   },
   "publicize": {
     "word": "Publicize",
     "pos": "verb",
-    "simpleDefinition": "Alternative spelling of publicise. [To make widely known to the public.].",
+    "simpleDefinition": "To make something widely known to the public through media or advertisements.",
     "banglaMeaning": "প্রচার করা",
     "synonyms": [
-      "bare",
-      "air",
-      "advertize"
+      "Advertise",
+      "Promote",
+      "Announce",
+      "Broadcast"
     ],
     "antonyms": [
-      "No common antonym"
+      "Conceal",
+      "Suppress",
+      "Hide"
     ],
-    "example": "The student learned how to use publicize correctly in a sentence."
+    "example": "The community group placed banners across town to publicize the charity marathon."
   },
   "puerile": {
     "word": "Puerile",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being puerile.",
+    "pos": "adjective",
+    "simpleDefinition": "Childishly silly, immature, or trivial.",
     "banglaMeaning": "তুজ্ঞ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Childish",
+      "Immature",
+      "Infantile",
+      "Juvenile"
     ],
     "antonyms": [
-      "No common antonym"
+      "Mature",
+      "Sensible",
+      "Adult"
     ],
-    "example": "The student learned how to use puerile correctly in a sentence."
+    "example": "Throwing paper airplanes across the boardroom was an example of puerile behavior."
   },
   "punctilious": {
     "word": "Punctilious",
     "pos": "adjective",
-    "simpleDefinition": "Strictly attentive to detail; meticulous or fastidious, particularly to codes or conventions.",
-    "banglaMeaning": "খুঁটনিাটি ব্যাপারে অতি সর্তক",
+    "simpleDefinition": "Showing great attention to detail, strict etiquette, or correct behavior.",
+    "banglaMeaning": "খুঁটিনাটি ব্যাপারে অতি সতর্ক",
     "synonyms": [
-      "meticulous",
-      "precise"
+      "Meticulous",
+      "Conscientious",
+      "Scrupulous",
+      "Exact"
     ],
     "antonyms": [
-      "No common antonym"
+      "Careless",
+      "Sloppy",
+      "Negligent"
     ],
-    "example": "The student learned how to use punctilious correctly in a sentence."
+    "example": "The host was punctilious about seating each guest according to royal protocol."
   },
   "pungent": {
     "word": "Pungent",
@@ -14064,64 +16060,70 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "push sale": {
     "word": "Push sale",
-    "pos": "verb",
-    "simpleDefinition": "To promote or aggressively market goods for quick sale",
-    "banglaMeaning": "জোর করে বিকি্রে করা",
+    "pos": "noun",
+    "simpleDefinition": "An aggressive sales technique that pushes goods forcefully onto buyers.",
+    "banglaMeaning": "জোর করে বিক্রি করা",
     "synonyms": [
-      "promote",
-      "market",
-      "boost sales"
+      "Hard sell",
+      "Aggressive marketing"
     ],
     "antonyms": [
-      "discourage sales"
+      "Soft sell"
     ],
-    "example": "The store offered big discounts to push sale of old stock."
+    "example": "The electronics retailer used push sale incentives to clear old models off shelves."
   },
   "pusillanimous": {
     "word": "Pusillanimous",
     "pos": "adjective",
-    "simpleDefinition": "Showing ignoble cowardice, or contemptible timidity.",
+    "simpleDefinition": "Showing a lack of courage, boldness, or determination; timid.",
     "banglaMeaning": "ভীতু",
     "synonyms": [
-      "fearful",
-      "cowardly",
-      "unmanly"
+      "Cowardly",
+      "Timid",
+      "Fearful",
+      "Spineless"
     ],
     "antonyms": [
-      "No common antonym"
+      "Brave",
+      "Courageous",
+      "Bold"
     ],
-    "example": "The student learned how to use pusillanimous correctly in a sentence."
+    "example": "The pusillanimous manager refused to defend his team against baseless accusations."
   },
   "put up with": {
     "word": "Put up with",
-    "pos": "verb",
-    "simpleDefinition": "To tolerate or endure something unpleasant patiently",
+    "pos": "idiom",
+    "simpleDefinition": "To tolerate, endure, or bear an unpleasant person or situation without complaint.",
     "banglaMeaning": "সহ্য করা",
     "synonyms": [
-      "tolerate",
-      "bear",
-      "stand"
+      "Tolerate",
+      "Endure",
+      "Bear",
+      "Stand"
     ],
     "antonyms": [
-      "reject",
-      "forbid"
+      "Reject",
+      "Resist"
     ],
-    "example": "She refused to put up with his rude behavior any longer."
+    "example": "I do not know how she can put up with such noisy construction outside her office."
   },
   "puzzling": {
     "word": "Puzzling",
     "pos": "adjective",
-    "simpleDefinition": "Difficult to understand or explain; enigmatic or confusing; perplexing.",
-    "banglaMeaning": "বিভ্রানি্তকর",
+    "simpleDefinition": "Causing confusion or difficulty in understanding; perplexing.",
+    "banglaMeaning": "বিভ্রান্তিকর",
     "synonyms": [
-      "enigmatic",
-      "incomprehensible",
-      "perplexing"
+      "Perplexing",
+      "Baffling",
+      "Mystifying",
+      "Enigmatic"
     ],
     "antonyms": [
-      "No common antonym"
+      "Clear",
+      "Obvious",
+      "Simple"
     ],
-    "example": "The student learned how to use puzzling correctly in a sentence."
+    "example": "Her sudden change of heart remains a puzzling enigma to all her relatives."
   },
   "quandary": {
     "word": "Quandary",
@@ -14143,47 +16145,56 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "quarrelsome": {
     "word": "Quarrelsome",
     "pos": "adjective",
-    "simpleDefinition": "Argumentative; fond of or prone to quarreling.",
+    "simpleDefinition": "Given to or characterized by quarreling; argumentative and contentious.",
     "banglaMeaning": "ঝগড়াটে",
     "synonyms": [
-      "argumentative",
-      "arguing"
+      "Argumentative",
+      "Contentious",
+      "Belligerent",
+      "Pugnacious"
     ],
     "antonyms": [
-      "No common antonym"
+      "Peaceful",
+      "Agreeable",
+      "Friendly"
     ],
-    "example": "The student learned how to use quarrelsome correctly in a sentence."
+    "example": "The quarrelsome tenant was constantly complaining and fighting with neighbors."
   },
   "quash": {
     "word": "Quash",
     "pos": "verb",
-    "simpleDefinition": "To defeat decisively, to suppress.",
+    "simpleDefinition": "To reject or void by legal procedure, or suppress and put an end to.",
     "banglaMeaning": "বাতিল করা",
     "synonyms": [
-      "void",
-      "subjugate",
-      "subdue"
+      "Annul",
+      "Nullify",
+      "Suppress",
+      "Crush"
     ],
     "antonyms": [
-      "validate",
-      "formalize"
+      "Uphold",
+      "Validate",
+      "Enforce"
     ],
-    "example": "The student learned how to use quash correctly in a sentence."
+    "example": "The higher court moved to quash the wrongful conviction after new DNA evidence surfaced."
   },
   "queer": {
     "word": "Queer",
     "pos": "adjective",
-    "simpleDefinition": "Non-heterosexual or non-cisgender: homosexual, bisexual, asexual, transgender, etc.",
-    "banglaMeaning": "অদ্বুত",
+    "simpleDefinition": "Strange, odd, or unusual in character or appearance.",
+    "banglaMeaning": "অদ্ভুত",
     "synonyms": [
-      "peculiar",
-      "thwart",
-      "strange"
+      "Strange",
+      "Odd",
+      "Peculiar",
+      "Unusual"
     ],
     "antonyms": [
-      "No common antonym"
+      "Normal",
+      "Ordinary",
+      "Typical"
     ],
-    "example": "The student learned how to use queer correctly in a sentence."
+    "example": "The traveler heard a queer tapping noise coming from behind the locked wooden door."
   },
   "querulous": {
     "word": "Querulous",
@@ -14205,44 +16216,51 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "queue": {
     "word": "Queue",
     "pos": "noun",
-    "simpleDefinition": "A line of people, vehicles or other objects, usually one to be dealt with in sequence (i.e., the one at the front end is dealt with first, the one behind is dealt with next, and so on), and which newcomers join at the opposite end (the back).",
+    "simpleDefinition": "A line or sequence of people or vehicles awaiting their turn.",
     "banglaMeaning": "লাইন",
     "synonyms": [
-      "line up",
-      "waiting line",
-      "queue up"
+      "Line",
+      "Row",
+      "Column",
+      "File"
     ],
     "antonyms": [
-      "No common antonym"
+      "Mob",
+      "Crowd"
     ],
-    "example": "The student learned how to use queue correctly in a sentence."
+    "example": "An orderly queue of commuters formed in front of the ticket booth."
   },
   "raconteur": {
     "word": "Raconteur",
     "pos": "noun",
-    "simpleDefinition": "A storyteller, especially a person noted for telling stories with skill and wit.",
-    "banglaMeaning": "গস্ফকথক",
+    "simpleDefinition": "A person who tells anecdotes and stories in a skillful and amusing way.",
+    "banglaMeaning": "গল্পকথক",
     "synonyms": [
-      "anecdotist"
+      "Storyteller",
+      "Narrator",
+      "Anecdotist"
     ],
     "antonyms": [
-      "No common antonym"
+      "Listener"
     ],
-    "example": "The student learned how to use raconteur correctly in a sentence."
+    "example": "He was a charming raconteur who held the entire dinner party entertained with his tales."
   },
   "rampage": {
     "word": "Rampage",
     "pos": "noun",
-    "simpleDefinition": "A course of violent, frenzied action.",
-    "banglaMeaning": "উতে্তজিত অবস্থা",
+    "simpleDefinition": "A period of violent, wild, or uncontrolled behavior causing destruction.",
+    "banglaMeaning": "উত্তেজিত অবস্থা",
     "synonyms": [
-      "Related to rampage",
-      "Similar"
+      "Frenzy",
+      "Tear",
+      "Riot",
+      "Spree"
     ],
     "antonyms": [
-      "No common antonym"
+      "Calm",
+      "Peace"
     ],
-    "example": "The teacher gave an insightful explanation of rampage."
+    "example": "An escaped circus elephant went on a wild rampage through the village market."
   },
   "rancour": {
     "word": "Rancour",
@@ -14264,16 +16282,19 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "rank and file": {
     "word": "Rank and file",
     "pos": "noun",
-    "simpleDefinition": "The members of an organization, community, etc. who are not in leadership positions.",
+    "simpleDefinition": "The ordinary members of an organization as opposed to its leaders.",
     "banglaMeaning": "সাধারণ জনগণ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Ordinary members",
+      "Workforce",
+      "General membership"
     ],
     "antonyms": [
-      "No common antonym"
+      "Leadership",
+      "Executives",
+      "Elite"
     ],
-    "example": "The student learned how to use rank and file correctly in a sentence."
+    "example": "The union leaders consulted the rank and file before agreeing to the new contract."
   },
   "rash": {
     "word": "Rash",
@@ -14295,75 +16316,88 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "rational": {
     "word": "Rational",
     "pos": "adjective",
-    "simpleDefinition": "Capable of reasoning.",
-    "banglaMeaning": "যুক্তিসণ্টত / বিবেকী / যুক্তিসম্মত",
+    "simpleDefinition": "Based on or in accordance with reason or logic.",
+    "banglaMeaning": "যুক্তিসঙ্গত / বিবেকী / যুক্তিসম্মত",
     "synonyms": [
-      "intelligent",
-      "mental",
-      "reasonable"
+      "Logical",
+      "Reasonable",
+      "Sensible",
+      "Lucid"
     ],
     "antonyms": [
-      "irrational"
+      "Irrational",
+      "Illogical",
+      "Absurd"
     ],
-    "example": "The student learned how to use rational correctly in a sentence."
+    "example": "In moments of crisis, it is vital to stay calm and make rational decisions."
   },
   "ravages": {
     "word": "Ravages",
     "pos": "noun",
-    "simpleDefinition": "Harsh damage.",
-    "banglaMeaning": "’ংস বা নষ্ট করা",
+    "simpleDefinition": "The severely damaging or destructive effects of time, weather, or war.",
+    "banglaMeaning": "ধ্বংস বা নষ্ট করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Destruction",
+      "Devastation",
+      "Damage",
+      "Ruin"
     ],
     "antonyms": [
-      "No common antonym"
+      "Restoration",
+      "Preservation"
     ],
-    "example": "The student learned how to use ravages correctly in a sentence."
+    "example": "The ancient stone castle could not withstand the ravages of time and coastal storms."
   },
   "reasonable": {
     "word": "Reasonable",
     "pos": "adjective",
-    "simpleDefinition": "Not excessive or immoderate; within due limits; proper.",
-    "banglaMeaning": "যৌক্তিক",
+    "simpleDefinition": "Fair, practical, sensible, and not extreme or excessive.",
+    "banglaMeaning": "যৌক্তিক",
     "synonyms": [
-      "sensible",
-      "rational",
-      "intelligent"
+      "Fair",
+      "Sensible",
+      "Moderate",
+      "Equitable"
     ],
     "antonyms": [
-      "unreasonable"
+      "Unreasonable",
+      "Exorbitant",
+      "Irrational"
     ],
-    "example": "The student learned how to use reasonable correctly in a sentence."
+    "example": "The landlord agreed to a reasonable rent increase after discussions with tenants."
   },
   "reasoning": {
     "word": "Reasoning",
     "pos": "noun",
-    "simpleDefinition": "The deduction of inferences or interpretations from premises, abstract thought, ratiocination; (countable) any instance of this, especially as a process leading to an action, motive.",
+    "simpleDefinition": "The action of thinking about something in a logical and sensible way.",
     "banglaMeaning": "যুক্তিতর্ক",
     "synonyms": [
-      "intelligent",
-      "thinking",
-      "abstract thought"
+      "Logic",
+      "Deduction",
+      "Rationale",
+      "Thinking"
     ],
     "antonyms": [
-      "No common antonym"
+      "Irrationality"
     ],
-    "example": "The student learned how to use reasoning correctly in a sentence."
+    "example": "His sound mathematical reasoning convinced the professors of the theory's validity."
   },
   "reassurance": {
     "word": "Reassurance",
     "pos": "noun",
-    "simpleDefinition": "The feeling of being reassured, of having confidence restored, of having apprehensions dispelled.",
+    "simpleDefinition": "The action of saying or doing something to remove someone's doubts or fears.",
     "banglaMeaning": "পুনরায় নিহি্নত করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Comfort",
+      "Encouragement",
+      "Solace",
+      "Guarantee"
     ],
     "antonyms": [
-      "No common antonym"
+      "Discouragement",
+      "Doubt"
     ],
-    "example": "The student learned how to use reassurance correctly in a sentence."
+    "example": "The surgeon offered gentle words of reassurance to the nervous patient before the procedure."
   },
   "rebuke": {
     "word": "Rebuke",
@@ -14385,46 +16419,51 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "recapitulate": {
     "word": "Recapitulate",
     "pos": "verb",
-    "simpleDefinition": "To summarize or repeat in concise form.",
+    "simpleDefinition": "To summarize and state again the main points of something; recap.",
     "banglaMeaning": "আলোচনা করা",
     "synonyms": [
-      "reprise",
-      "repeat",
-      "recap"
+      "Summarize",
+      "Recap",
+      "Review",
+      "Restate"
     ],
     "antonyms": [
-      "No common antonym"
+      "Elaborate",
+      "Expand"
     ],
-    "example": "The student learned how to use recapitulate correctly in a sentence."
+    "example": "At the conclusion of the lecture, the professor took five minutes to recapitulate key findings."
   },
   "recapture": {
     "word": "Recapture",
-    "pos": "noun",
-    "simpleDefinition": "The act of capturing again.",
+    "pos": "verb",
+    "simpleDefinition": "To capture again, or recover a former feeling, state, or memory.",
     "banglaMeaning": "পুনরুদ্ধার করা",
     "synonyms": [
-      "retake",
-      "retaking"
+      "Recover",
+      "Regain",
+      "Retrieve",
+      "Retake"
     ],
     "antonyms": [
-      "No common antonym"
+      "Lose",
+      "Relinquish"
     ],
-    "example": "The student learned how to use recapture correctly in a sentence."
+    "example": "The film attempts to recapture the wonder and excitement of early space exploration."
   },
   "recidivist": {
     "word": "Recidivist",
     "pos": "noun",
-    "simpleDefinition": "One who falls back into prior habits, especially criminal habits.",
+    "simpleDefinition": "A convicted criminal who reoffends repeatedly; a habitual offender.",
     "banglaMeaning": "অপরাধপ্রবণ",
     "synonyms": [
-      "reversionist",
-      "repeater",
-      "backslider"
+      "Repeat offender",
+      "Habitual criminal",
+      "Chronic offender"
     ],
     "antonyms": [
-      "No common antonym"
+      "Law-abiding citizen"
     ],
-    "example": "The student learned how to use recidivist correctly in a sentence."
+    "example": "The court handed the recidivist a strict sentence after his fourth burglary offense."
   },
   "reckless": {
     "word": "Reckless",
@@ -14446,89 +16485,108 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "recluse": {
     "word": "Recluse",
     "pos": "noun",
-    "simpleDefinition": "A person who lives in self-imposed isolation or seclusion from the world, especially for religious purposes; a hermit.",
+    "simpleDefinition": "A person who lives a solitary life and tends to avoid other people.",
     "banglaMeaning": "সন্নাসী",
     "synonyms": [
-      "withdrawn",
-      "reclusive",
-      "troglodyte"
+      "Hermit",
+      "Loner",
+      "Solitary",
+      "Ascetic"
     ],
     "antonyms": [
-      "No common antonym"
+      "Socialite",
+      "Extrovert"
     ],
-    "example": "The student learned how to use recluse correctly in a sentence."
+    "example": "After retiring from public life, the billionaire lived as a recluse in his mountain estate."
   },
   "reclusive": {
     "word": "Reclusive",
     "pos": "adjective",
-    "simpleDefinition": "Of, characterized by, or preferring privacy and isolation; secluded.",
+    "simpleDefinition": "Avoiding the company of other people; living in quiet solitude.",
     "banglaMeaning": "সন্ন্যাসী",
     "synonyms": [
-      "sequestered",
-      "recluse",
-      "secluded"
+      "Solitary",
+      "Secluded",
+      "Withdrawn",
+      "Hermit-like"
     ],
     "antonyms": [
-      "No common antonym"
+      "Sociable",
+      "Outgoing",
+      "Gregarious"
     ],
-    "example": "The student learned how to use reclusive correctly in a sentence."
+    "example": "The reclusive author rarely gave interviews or made public appearances."
   },
   "reconcile": {
     "word": "Reconcile",
     "pos": "verb",
-    "simpleDefinition": "To restore a friendly relationship; to bring back or return to harmony.",
+    "simpleDefinition": "To restore friendly relations between people or make two ideas compatible.",
     "banglaMeaning": "মিলনসাধন করা",
     "synonyms": [
-      "conciliate",
-      "accommodate",
-      "settle"
+      "Harmonize",
+      "Settle",
+      "Resolve",
+      "Reunite"
     ],
     "antonyms": [
-      "No common antonym"
+      "Alienate",
+      "Divide",
+      "Estrange"
     ],
-    "example": "The student learned how to use reconcile correctly in a sentence."
+    "example": "The mediator worked patiently to reconcile the differing demands of labor and management."
   },
   "recruit": {
     "word": "Recruit",
     "pos": "verb",
-    "simpleDefinition": "To enroll or enlist new members or potential employees on behalf of an employer, organization, sports team, the military, etc.",
-    "banglaMeaning": "নতুন নিয়োগপ্রাপ্ত অনভিন্ত্র র্কমশী",
+    "simpleDefinition": "To enlist someone in the military or enroll new members into a company.",
+    "banglaMeaning": "নতুন নিয়োগপ্রাপ্ত অনভিজ্ঞ কর্মী",
     "synonyms": [
-      "raise",
-      "enroll",
-      "inscribe"
+      "Enlist",
+      "Hire",
+      "Enroll",
+      "Sign up"
     ],
     "antonyms": [
-      "No common antonym"
+      "Dismiss",
+      "Discharge",
+      "Fire"
     ],
-    "example": "The student learned how to use recruit correctly in a sentence."
+    "example": "The tech firm launched a campaign to recruit talented computer science graduates."
   },
   "recuperative": {
     "word": "Recuperative",
     "pos": "adjective",
-    "simpleDefinition": "In the way of recuperation.",
+    "simpleDefinition": "Having the effect of restoring health, vitality, or strength.",
     "banglaMeaning": "আরোগ্য হয় এমন / পুনরুদ্ধার হয় এমন",
     "synonyms": [
-      "restorative",
-      "healthful"
+      "Healing",
+      "Restorative",
+      "Curative",
+      "Therapeutic"
     ],
     "antonyms": [
-      "No common antonym"
+      "Harmful",
+      "Exhausting",
+      "Damaging"
     ],
-    "example": "The student learned how to use recuperative correctly in a sentence."
+    "example": "She spent two weeks in the countryside to enjoy the recuperative power of fresh air."
   },
   "redirect": {
     "word": "Redirect",
     "pos": "verb",
-    "simpleDefinition": "To give new direction to, change the direction of.",
+    "simpleDefinition": "To direct something to a different place, route, or purpose.",
     "banglaMeaning": "পুননিদের্শ",
     "synonyms": [
-      "airt"
+      "Divert",
+      "Reroute",
+      "Turn",
+      "Steer"
     ],
     "antonyms": [
-      "No common antonym"
+      "Maintain",
+      "Keep on track"
     ],
-    "example": "The student learned how to use redirect correctly in a sentence."
+    "example": "Heavy road construction forced traffic police to redirect commuters along side streets."
   },
   "redundant": {
     "word": "Redundant",
@@ -14549,52 +16607,57 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "reel": {
     "word": "Reel",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being reel.",
+    "pos": "verb",
+    "simpleDefinition": "To lose one's balance and stagger, or feel dizzy with shock or bewilderment.",
     "banglaMeaning": "নাটাই",
     "synonyms": [
-      "lurch",
-      "stagger",
-      "careen"
+      "Stagger",
+      "Lurch",
+      "Sway",
+      "Wobble"
     ],
     "antonyms": [
-      "No common antonym"
+      "Steady",
+      "Balance"
     ],
-    "example": "The student learned how to use reel correctly in a sentence."
+    "example": "The boxer began to reel backward after taking a heavy blow to the jaw."
   },
   "refinery": {
     "word": "Refinery",
     "pos": "noun",
-    "simpleDefinition": "A building, or a mass of machinery, used to produce refined products such as sugar, oil, or metals.",
+    "simpleDefinition": "An industrial installation where a raw substance like petroleum or sugar is purified.",
     "banglaMeaning": "পরিশোধনাগার",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Processing plant",
+      "Purifying plant",
+      "Smelter"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use refinery correctly in a sentence."
+    "example": "Crude oil is transported directly into the coastal refinery to produce automotive gasoline."
   },
   "refugees": {
     "word": "Refugees",
-    "pos": "adjective",
-    "simpleDefinition": "\"Refugees\" is the debut single by the Tears, released on 25 April 2005 on Independiente Records.",
+    "pos": "noun",
+    "simpleDefinition": "People who have been forced to leave their country to escape war, persecution, or disaster.",
     "banglaMeaning": "শরণার্থী",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Displaced persons",
+      "Asylum seekers",
+      "Exiles",
+      "Evacuees"
     ],
     "antonyms": [
-      "No common antonym"
+      "Native citizens"
     ],
-    "example": "The student learned how to use refugees correctly in a sentence."
+    "example": "International humanitarian organizations provided warm tents, food, and medicine to the displaced refugees."
   },
   "refute": {
     "word": "Refute",
     "pos": "verb",
     "simpleDefinition": "To prove an allegation, opinion, or argument to be false or incorrect",
-    "banglaMeaning": "খণ্ডন করা / ভুল প্রমাণ করা / যুক্তি / তর্ক খধ্নন করা / অস্বীকার করা",
+    "banglaMeaning": "খণ্ডন করা / ভুল প্রমাণ করা / যুক্তি বা তর্ক খণ্ডন করা / অস্বীকার করা",
     "synonyms": [
       "Disprove",
       "Deny",
@@ -14610,349 +16673,416 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "regicide": {
     "word": "Regicide",
     "pos": "noun",
-    "simpleDefinition": "The killing of a king.",
+    "simpleDefinition": "The action of killing a king, or a person who kills a king.",
     "banglaMeaning": "রাজহত্যা",
     "synonyms": [
-      "kingslayer"
+      "King-killing",
+      "Monarch murder"
     ],
     "antonyms": [
-      "No common antonym"
+      "Loyalty",
+      "Fealty"
     ],
-    "example": "The teacher gave an insightful explanation of regicide."
+    "example": "The conspirators were convicted of regicide after plotting against the reigning monarch."
   },
   "regime": {
     "word": "Regime",
     "pos": "noun",
-    "simpleDefinition": "A form of government, or the government in power, particularly an authoritarian or totalitarian one.",
+    "simpleDefinition": "A government, especially an authoritarian one, or an organized system of rules.",
     "banglaMeaning": "শাসন",
     "synonyms": [
-      "regimen",
-      "government",
-      "authorities"
+      "Government",
+      "Administration",
+      "Rule",
+      "Authority"
     ],
     "antonyms": [
-      "No common antonym"
+      "Anarchy"
     ],
-    "example": "The student learned how to use regime correctly in a sentence."
+    "example": "Citizens rejoiced in the city streets following the peaceful fall of the oppressive regime."
   },
   "regret": {
     "word": "Regret",
     "pos": "verb",
-    "simpleDefinition": "To feel sorry about (a thing that has or has not happened), afterthink: to wish that a thing had not happened, that something else had happened instead.",
+    "simpleDefinition": "To feel sad, repentant, or disappointed over something done or lost.",
     "banglaMeaning": "অনুশোচনা করা",
     "synonyms": [
-      "lament",
-      "bemoan",
-      "repent"
+      "Lament",
+      "Rue",
+      "Mourn",
+      "Repent"
     ],
     "antonyms": [
-      "No common antonym"
+      "Celebrate",
+      "Rejoice"
     ],
-    "example": "The student learned how to use regret correctly in a sentence."
+    "example": "He later came to deeply regret making that impulsive and hurtful remark to his friend."
   },
   "reimburse": {
     "word": "Reimburse",
     "pos": "verb",
-    "simpleDefinition": "To compensate with payment; especially, to repay money spent on one's behalf.",
+    "simpleDefinition": "To repay a person who has spent or lost money on official duties.",
     "banglaMeaning": "পরিশোধ করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Repay",
+      "Refund",
+      "Compensate",
+      "Remunerate"
     ],
     "antonyms": [
-      "No common antonym"
+      "Charge",
+      "Fine",
+      "Penalize"
     ],
-    "example": "The student learned how to use reimburse correctly in a sentence."
+    "example": "The company will reimburse employees for travel expenses incurred during the conference."
   },
   "reinstate": {
     "word": "Reinstate",
     "pos": "verb",
-    "simpleDefinition": "To restore to a former position or rank.",
+    "simpleDefinition": "To restore someone or something to their former position or condition.",
     "banglaMeaning": "পুনর্বহাল করা",
     "synonyms": [
-      "Related to reinstate",
-      "Similar"
+      "Restore",
+      "Rehire",
+      "Re-establish",
+      "Return"
     ],
     "antonyms": [
-      "No common antonym"
+      "Dismiss",
+      "Suspend",
+      "Abolish"
     ],
-    "example": "The teacher gave an insightful explanation of reinstate."
+    "example": "Following the inquiry, the university decided to reinstate the unfairly suspended professor."
   },
   "relevant": {
     "word": "Relevant",
     "pos": "adjective",
-    "simpleDefinition": "Related, connected, or pertinent to a topic.",
-    "banglaMeaning": "প্রাসণি্টক",
+    "simpleDefinition": "Closely connected or appropriate to the matter or topic at hand.",
+    "banglaMeaning": "প্রাসঙ্গিক",
     "synonyms": [
-      "crucial",
-      "pertinent",
-      "related"
+      "Pertinent",
+      "Applicable",
+      "Germane",
+      "Appropriate"
     ],
     "antonyms": [
-      "irrelevant"
+      "Irrelevant",
+      "Extraneous",
+      "Inapplicable"
     ],
-    "example": "The student learned how to use relevant correctly in a sentence."
+    "example": "Please include only relevant work experience on your two-page resume."
   },
   "relics": {
     "word": "Relics",
     "pos": "noun",
-    "simpleDefinition": "That which remains; that which is left after loss or decay; a remaining portion.",
-    "banglaMeaning": "পুরাতাতি্রক নিদশর্ন",
+    "simpleDefinition": "Objects surviving from an earlier time, especially of historical or sacred interest.",
+    "banglaMeaning": "প্রত্নতাত্ত্বিক নিদর্শন",
     "synonyms": [
-      "halidom",
-      "lave",
-      "remainder"
+      "Artifacts",
+      "Antiquities",
+      "Remains",
+      "Vestiges"
     ],
     "antonyms": [
-      "No common antonym"
+      "Novelties",
+      "Modern items"
     ],
-    "example": "The teacher gave an insightful explanation of relics."
+    "example": "Archaeologists uncovered ancient pottery relics from the Bronze Age ruins."
   },
   "remnants": {
     "word": "Remnants",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being remnants.",
-    "banglaMeaning": "’ংসাবশেষ",
+    "simpleDefinition": "Small remaining parts or quantities of something; leftover scraps.",
+    "banglaMeaning": "ধ্বংসাবশেষ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Leftovers",
+      "Scraps",
+      "Fragments",
+      "Remains"
     ],
     "antonyms": [
-      "No common antonym"
+      "Whole",
+      "Bulk"
     ],
-    "example": "The student learned how to use remnants correctly in a sentence."
+    "example": "The tailor used colorful remnants of fabric to stitch a decorative quilt."
   },
   "renowned": {
     "word": "Renowned",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being renowned.",
+    "pos": "adjective",
+    "simpleDefinition": "Known or talked about by many people; highly celebrated and famous.",
     "banglaMeaning": "বিখ্যাত",
     "synonyms": [
-      "illustrious",
-      "notable",
-      "noted"
+      "Famous",
+      "Celebrated",
+      "Distinguished",
+      "Acclaimed"
     ],
     "antonyms": [
-      "No common antonym"
+      "Unknown",
+      "Obscure",
+      "Anonymous"
     ],
-    "example": "The student learned how to use renowned correctly in a sentence."
+    "example": "The medical center is renowned for its groundbreaking research in heart disease."
   },
   "reparation": {
     "word": "Reparation",
     "pos": "noun",
-    "simpleDefinition": "A payment of time, effort or money to compensate for past transgression(s).",
+    "simpleDefinition": "The making of amends for a wrong done, often by paying money or helping.",
     "banglaMeaning": "ক্ষতিপূরণ",
     "synonyms": [
-      "repair",
-      "fix",
-      "amends"
+      "Compensation",
+      "Restitution",
+      "Amends",
+      "Redress"
     ],
     "antonyms": [
-      "No common antonym"
+      "Injury",
+      "Penalty",
+      "Harm"
     ],
-    "example": "The student learned how to use reparation correctly in a sentence."
+    "example": "The court ordered the company to pay substantial financial reparation for polluting the lake."
   },
   "repast": {
     "word": "Repast",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being repast.",
+    "simpleDefinition": "A meal or the food served for a meal.",
     "banglaMeaning": "আহার",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Meal",
+      "Feast",
+      "Banquet",
+      "Dinner"
     ],
     "antonyms": [
-      "No common antonym"
+      "Fast",
+      "Starvation"
     ],
-    "example": "The student learned how to use repast correctly in a sentence."
+    "example": "The tired hikers enjoyed a hearty evening repast of hot stew and freshly baked bread."
   },
   "repeal": {
     "word": "Repeal",
     "pos": "verb",
-    "simpleDefinition": "To cancel, invalidate, annul.",
+    "simpleDefinition": "To revoke, annul, or officially withdraw a law or legislative act.",
     "banglaMeaning": "বাতিল করা",
     "synonyms": [
-      "annul",
-      "lift",
-      "rescind"
+      "Revoke",
+      "Annul",
+      "Abolish",
+      "Invalidate"
     ],
     "antonyms": [
-      "No common antonym"
+      "Enact",
+      "Pass",
+      "Legislate"
     ],
-    "example": "The student learned how to use repeal correctly in a sentence."
+    "example": "Parliament voted overwhelmingly to repeal the unpopular tax legislation."
   },
   "repent": {
     "word": "Repent",
     "pos": "verb",
-    "simpleDefinition": "To feel pain, sorrow, or regret for what one has done or omitted to do; the cause for repenting may be indicated with \"of\".",
+    "simpleDefinition": "To feel or express sincere regret or remorse for one's sins or wrongdoings.",
     "banglaMeaning": "অনুশোচনা করা",
     "synonyms": [
-      "regret",
-      "atone",
-      "rue"
+      "Regret",
+      "Rue",
+      "Feel remorse",
+      "Lament"
     ],
     "antonyms": [
-      "No common antonym"
+      "Gloat",
+      "Persist in wrongdoing"
     ],
-    "example": "The student learned how to use repent correctly in a sentence."
+    "example": "The thief apologized tearfully and promised to repent and reform his ways."
   },
   "repercussion": {
     "word": "Repercussion",
     "pos": "noun",
-    "simpleDefinition": "A consequence or ensuing result of some action.",
-    "banglaMeaning": "প্রতিকি্রয়ো",
+    "simpleDefinition": "An unintended, often indirect consequence or reaction to an event or action.",
+    "banglaMeaning": "প্রতিক্রিয়া",
     "synonyms": [
-      "recoil",
-      "rebound",
-      "backlash"
+      "Consequence",
+      "Outcome",
+      "Aftermath",
+      "Ripple effect"
     ],
     "antonyms": [
-      "No common antonym"
+      "Cause"
     ],
-    "example": "The student learned how to use repercussion correctly in a sentence."
+    "example": "The sudden increase in fuel prices had severe economic repercussions across all industries."
   },
   "represent": {
     "word": "Represent",
     "pos": "verb",
-    "simpleDefinition": "To stand or act in the place of; to perform the duties, exercise the rights, or otherwise act on behalf of.",
-    "banglaMeaning": "চিতি্রত করা",
+    "simpleDefinition": "To act or speak on behalf of someone, or serve as a symbol or sign of something.",
+    "banglaMeaning": "চিত্রিত করা",
     "synonyms": [
-      "constitute",
-      "exemplify",
-      "comprise"
+      "Stand for",
+      "Symbolize",
+      "Signify",
+      "Act for"
     ],
     "antonyms": [
-      "prosecute"
+      "Misrepresent"
     ],
-    "example": "The student learned how to use represent correctly in a sentence."
+    "example": "A designated diplomat was appointed to represent the nation at the peace conference."
   },
   "repression": {
     "word": "Repression",
     "pos": "noun",
-    "simpleDefinition": "The act of repressing; state of being repressed.",
+    "simpleDefinition": "The action of subduing someone or something by force, or holding down desires.",
     "banglaMeaning": "দমন / নিপীড়ন",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Suppression",
+      "Oppression",
+      "Subjugation",
+      "Restraint"
     ],
     "antonyms": [
-      "No common antonym"
+      "Liberation",
+      "Freedom"
     ],
-    "example": "The student learned how to use repression correctly in a sentence."
+    "example": "Decades of political repression failed to diminish the citizens' desire for democracy."
   },
   "reprimand": {
     "word": "Reprimand",
     "pos": "verb",
-    "simpleDefinition": "To reprove in a formal or official way.",
+    "simpleDefinition": "To rebuke or express sharp disapproval of someone, especially officially.",
     "banglaMeaning": "তিরস্কার",
     "synonyms": [
-      "rebuke",
-      "chide",
-      "berate"
+      "Rebuke",
+      "Admonish",
+      "Scold",
+      "Censure"
     ],
     "antonyms": [
-      "No common antonym"
+      "Praise",
+      "Commend",
+      "Applaud"
     ],
-    "example": "The student learned how to use reprimand correctly in a sentence."
+    "example": "The supervisor had to reprimand the employee for arriving late three days in a row."
   },
   "reproach": {
     "word": "Reproach",
     "pos": "verb",
-    "simpleDefinition": "To criticize or rebuke (someone).",
+    "simpleDefinition": "To express one's disapproval of or disappointment with someone's actions.",
     "banglaMeaning": "তিরস্কার করা",
     "synonyms": [
-      "upbraid"
+      "Criticize",
+      "Blame",
+      "Censure",
+      "Scold"
     ],
     "antonyms": [
-      "No common antonym"
+      "Praise",
+      "Applaud",
+      "Commend"
     ],
-    "example": "The student learned how to use reproach correctly in a sentence."
+    "example": "Her mother reproached her gently for neglecting her school studies."
   },
   "reproof": {
     "word": "Reproof",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being reproof.",
+    "simpleDefinition": "An expression of blame, censure, or mild rebuke.",
     "banglaMeaning": "অর্সমথন",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Rebuke",
+      "Admonition",
+      "Scolding",
+      "Reproach"
     ],
     "antonyms": [
-      "No common antonym"
+      "Approval",
+      "Praise",
+      "Commendation"
     ],
-    "example": "The student learned how to use reproof correctly in a sentence."
+    "example": "The teacher cast a look of quiet reproof at the students whispering in the back."
   },
   "repugnance": {
     "word": "Repugnance",
     "pos": "noun",
-    "simpleDefinition": "Extreme aversion, repulsion.",
-    "banglaMeaning": "প্রতিকি্রয়ো",
+    "simpleDefinition": "Intense disgust, aversion, or incompatibility with one's moral values.",
+    "banglaMeaning": "প্রতিক্রিয়া",
     "synonyms": [
-      "revulsion",
-      "repulsion",
-      "horror"
+      "Disgust",
+      "Revulsion",
+      "Abhorrence",
+      "Aversion"
     ],
     "antonyms": [
-      "No common antonym"
+      "Attraction",
+      "Liking",
+      "Admiration"
     ],
-    "example": "The student learned how to use repugnance correctly in a sentence."
+    "example": "He felt deep moral repugnance toward the corrupt practices uncovered in the audit."
   },
   "repute": {
     "word": "Repute",
     "pos": "noun",
-    "simpleDefinition": "Reputation, especially a good reputation.",
+    "simpleDefinition": "The opinion generally held of someone or something; public reputation.",
     "banglaMeaning": "সুখ্যাতি",
     "synonyms": [
-      "Related to repute",
-      "Similar"
+      "Reputation",
+      "Renown",
+      "Standing",
+      "Prestige"
     ],
     "antonyms": [
-      "No common antonym"
+      "Disrepute",
+      "Notoriety"
     ],
-    "example": "The teacher gave an insightful explanation of repute."
+    "example": "The academy has established an enviable repute for academic excellence."
   },
   "rescind": {
     "word": "Rescind",
     "pos": "verb",
-    "simpleDefinition": "To repeal, annul, or declare void; to take (something such as a rule or contract) out of effect.",
+    "simpleDefinition": "To revoke, cancel, or repeal a law, agreement, or formal decision.",
     "banglaMeaning": "বাতিল করা",
     "synonyms": [
-      "annul",
-      "lift",
-      "revoke"
+      "Revoke",
+      "Cancel",
+      "Annul",
+      "Retract"
     ],
     "antonyms": [
-      "No common antonym"
+      "Enforce",
+      "Ratify",
+      "Uphold"
     ],
-    "example": "The student learned how to use rescind correctly in a sentence."
+    "example": "The school board agreed to rescind the controversial dress code policy after protests."
   },
   "resemble": {
     "word": "Resemble",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being resemble.",
-    "banglaMeaning": "অনু°প",
+    "pos": "verb",
+    "simpleDefinition": "To have a similar appearance, qualities, or traits in common with someone or something.",
+    "banglaMeaning": "অনুরূপ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Look like",
+      "Mirror",
+      "Take after",
+      "Echo"
     ],
     "antonyms": [
-      "No common antonym"
+      "Differ from"
     ],
-    "example": "The student learned how to use resemble correctly in a sentence."
+    "example": "The young girl grew up to strongly resemble her grandmother in appearance."
   },
   "resentment": {
     "word": "Resentment",
-    "pos": "adjective",
-    "simpleDefinition": "Having the qualities or characteristics of resentment.",
-    "banglaMeaning": "আকে্রোশ",
+    "pos": "noun",
+    "simpleDefinition": "Bitter indignation or ill will at having been treated unfairly.",
+    "banglaMeaning": "আক্রোশ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Bitterness",
+      "Indignation",
+      "Grudge",
+      "Rancor"
     ],
     "antonyms": [
-      "No common antonym"
+      "Goodwill",
+      "Forgiveness",
+      "Contentment"
     ],
-    "example": "The student learned how to use resentment correctly in a sentence."
+    "example": "Simmering resentment between the two business founders eventually broke their partnership."
   },
   "resilient": {
     "word": "Resilient",
@@ -14974,19 +17104,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "resist": {
     "word": "Resist",
     "pos": "verb",
-    "simpleDefinition": "To oppose; to refuse to accept.",
+    "simpleDefinition": "To withstand the action or effect of, or oppose and fight against something.",
     "banglaMeaning": "প্রতিরোধ করা",
     "synonyms": [
-      "dissent",
-      "refuse",
-      "defy"
+      "Withstand",
+      "Oppose",
+      "Defy",
+      "Combat"
     ],
     "antonyms": [
-      "apply",
-      "surrender",
-      "give up"
+      "Surrender",
+      "Yield",
+      "Submit"
     ],
-    "example": "The student learned how to use resist correctly in a sentence."
+    "example": "It was difficult to resist the tempting aroma of hot cinnamon rolls."
   },
   "resolute": {
     "word": "Resolute",
@@ -15008,17 +17139,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "restless": {
     "word": "Restless",
     "pos": "adjective",
-    "simpleDefinition": "Without rest; unable to be still or quiet; uneasy; continually moving.",
+    "simpleDefinition": "Unable to rest, relax, or stay still; fidgety, uneasy, or agitated.",
     "banglaMeaning": "অস্থির",
     "synonyms": [
-      "uneasy",
-      "fretful",
-      "moving"
+      "Fidgety",
+      "Uneasy",
+      "Agitated",
+      "Impatient"
     ],
     "antonyms": [
-      "No common antonym"
+      "Calm",
+      "Relaxed",
+      "Peaceful"
     ],
-    "example": "The student learned how to use restless correctly in a sentence."
+    "example": "After sitting inside all rainy afternoon, the restless children dashed into the yard."
   },
   "restrain": {
     "word": "Restrain",
@@ -15040,17 +17174,17 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "retail": {
     "word": "Retail",
     "pos": "noun",
-    "simpleDefinition": "The sale of goods directly to the consumer, encompassing the storefronts, mail-order, websites, etc., and the corporate mechanisms, branding, advertising, etc. that support them.",
+    "simpleDefinition": "The sale of goods to the public in small quantities for immediate consumption.",
     "banglaMeaning": "খুচরা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Merchandising",
+      "Selling",
+      "Commerce"
     ],
     "antonyms": [
-      "explain",
-      "wholesale"
+      "Wholesale"
     ],
-    "example": "The student learned how to use retail correctly in a sentence."
+    "example": "Supermarkets specialize in retail, providing groceries directly to households."
   },
   "reticent": {
     "word": "Reticent",
@@ -15072,15 +17206,18 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "retractable": {
     "word": "Retractable",
     "pos": "adjective",
-    "simpleDefinition": "Capable of being retracted; retractile.",
+    "simpleDefinition": "Able to be drawn back or in into a housing or casing.",
     "banglaMeaning": "সংকোচনীয়",
     "synonyms": [
-      "retractile"
+      "Collapsible",
+      "Foldaway",
+      "Withdrawable"
     ],
     "antonyms": [
-      "No common antonym"
+      "Fixed",
+      "Permanent"
     ],
-    "example": "The student learned how to use retractable correctly in a sentence."
+    "example": "The modern sports arena features a retractable glass roof that closes when it rains."
   },
   "retribution": {
     "word": "Retribution",
@@ -15101,46 +17238,56 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "revamp": {
     "word": "Revamp",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being revamp.",
+    "pos": "verb",
+    "simpleDefinition": "To give new and improved form, structure, or appearance to something.",
     "banglaMeaning": "পুনগর্ঠন",
     "synonyms": [
-      "vamp"
+      "Renovate",
+      "Overhaul",
+      "Remodel",
+      "Modernize"
     ],
     "antonyms": [
-      "No common antonym"
+      "Ruin",
+      "Neglect",
+      "Dismantle"
     ],
-    "example": "The student learned how to use revamp correctly in a sentence."
+    "example": "The company decided to revamp its online portal to make shopping faster and easier."
   },
   "reveal": {
     "word": "Reveal",
     "pos": "verb",
-    "simpleDefinition": "To uncover; to show and display that which was hidden.",
+    "simpleDefinition": "To make previously hidden, unknown, or secret information known.",
     "banglaMeaning": "প্রকাশ করা",
     "synonyms": [
-      "impart",
-      "display",
-      "break"
+      "Disclose",
+      "Uncover",
+      "Divulge",
+      "Expose"
     ],
     "antonyms": [
-      "No common antonym"
+      "Conceal",
+      "Hide",
+      "Suppress"
     ],
-    "example": "The student learned how to use reveal correctly in a sentence."
+    "example": "The historical documents reveal fascinating secrets about the founding of the city."
   },
   "revealing": {
     "word": "Revealing",
     "pos": "adjective",
-    "simpleDefinition": "Informative.",
+    "simpleDefinition": "Making interesting or significant information known, or disclosing.",
     "banglaMeaning": "প্রকাশ করা",
     "synonyms": [
-      "disclosure",
-      "informative",
-      "telltale"
+      "Informative",
+      "Telling",
+      "Disclosing",
+      "Eye-opening"
     ],
     "antonyms": [
-      "concealing"
+      "Concealing",
+      "Uninformative"
     ],
-    "example": "The student learned how to use revealing correctly in a sentence."
+    "example": "The investigative audit provided a revealing look into the firm's hidden expenses."
   },
   "reverence": {
     "word": "Reverence",
@@ -15162,61 +17309,72 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "reverential": {
     "word": "Reverential",
     "pos": "adjective",
-    "simpleDefinition": "Showing or characterized by reverence; respectful.",
-    "banglaMeaning": "ঙ্কদ্ধামিঙি্কত",
+    "simpleDefinition": "Feeling or showing deep respect, veneration, and solemn reverence.",
+    "banglaMeaning": "শ্রদ্ধামিশ্রিত",
     "synonyms": [
-      "reverent",
-      "venerating",
-      "respectful"
+      "Respectful",
+      "Devout",
+      "Reverent",
+      "Venerating"
     ],
     "antonyms": [
-      "No common antonym"
+      "Irreverent",
+      "Disrespectful",
+      "Insolent"
     ],
-    "example": "The student learned how to use reverential correctly in a sentence."
+    "example": "The audience maintained a reverential silence throughout the memorial service."
   },
   "revert": {
     "word": "Revert",
-    "pos": "noun",
-    "simpleDefinition": "One who, or that which, reverts.",
+    "pos": "verb",
+    "simpleDefinition": "To return to a previous state, condition, practice, or subject.",
     "banglaMeaning": "ফিরে আসা",
     "synonyms": [
-      "regress",
-      "return",
-      "turn back"
+      "Return",
+      "Relapse",
+      "Regress",
+      "Go back"
     ],
     "antonyms": [
-      "No common antonym"
+      "Progress",
+      "Advance"
     ],
-    "example": "The student learned how to use revert correctly in a sentence."
+    "example": "If the software crashes, the system will automatically revert to its default settings."
   },
   "revolution": {
     "word": "Revolution",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being revolution.",
-    "banglaMeaning": "বিল্গব",
+    "simpleDefinition": "A forcible overthrow of a government or social order, or a dramatic fundamental change.",
+    "banglaMeaning": "বিপ্লব",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Uprising",
+      "Rebellion",
+      "Transformation",
+      "Overturn"
     ],
     "antonyms": [
-      "No common antonym"
+      "Stagnation",
+      "Counterrevolution"
     ],
-    "example": "The student learned how to use revolution correctly in a sentence."
+    "example": "The introduction of the printing press caused a profound revolution in world education."
   },
   "revulsion": {
     "word": "Revulsion",
     "pos": "noun",
-    "simpleDefinition": "Abhorrence, a sense of loathing, intense aversion, repugnance, repulsion, horror.",
-    "banglaMeaning": "প্রতিকি্রয়ো",
+    "simpleDefinition": "A sense of intense disgust, loathing, and repulsive reaction.",
+    "banglaMeaning": "প্রতিক্রিয়া",
     "synonyms": [
-      "repulsion",
-      "repugnance",
-      "horror"
+      "Disgust",
+      "Repulsion",
+      "Abhorrence",
+      "Loathing"
     ],
     "antonyms": [
-      "No common antonym"
+      "Attraction",
+      "Liking",
+      "Delight"
     ],
-    "example": "The student learned how to use revulsion correctly in a sentence."
+    "example": "She recoiled in sudden revulsion when she spotted a slimy caterpillar on her sleeve."
   },
   "rhetoric": {
     "word": "Rhetoric",
@@ -15238,45 +17396,55 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "ridiculous": {
     "word": "Ridiculous",
     "pos": "adjective",
-    "simpleDefinition": "Deserving of ridicule; foolish, absurd.",
+    "simpleDefinition": "Deserving mockery or derision; absurd, unreasonable, and laughable.",
     "banglaMeaning": "হাস্যকর",
     "synonyms": [
-      "ludicrous",
-      "derisory",
-      "silly"
+      "Absurd",
+      "Preposterous",
+      "Ludicrous",
+      "Nonsensical"
     ],
     "antonyms": [
-      "No common antonym"
+      "Sensible",
+      "Reasonable",
+      "Serious"
     ],
-    "example": "The student learned how to use ridiculous correctly in a sentence."
+    "example": "Paying fifty dollars for a plain cup of water is completely ridiculous."
   },
   "rightfully": {
     "word": "Rightfully",
     "pos": "adverb",
-    "simpleDefinition": "Rightly, correctly.",
+    "simpleDefinition": "In accordance with what is right, just, legal, or deserved.",
     "banglaMeaning": "বৈবধ ভাবে",
     "synonyms": [
-      "truly"
+      "Lawfully",
+      "Justly",
+      "Legitimately",
+      "Properly"
     ],
     "antonyms": [
-      "No common antonym"
+      "Wrongfully",
+      "Illegitimately"
     ],
-    "example": "The student learned how to use rightfully correctly in a sentence."
+    "example": "The heirloom jewels were rightfully returned to their original owner."
   },
   "rigid": {
     "word": "Rigid",
     "pos": "adjective",
-    "simpleDefinition": "Stiff, rather than flexible.",
+    "simpleDefinition": "Unable to bend or be forced out of shape; not flexible, or strictly adhered to.",
     "banglaMeaning": "শক্ত",
     "synonyms": [
-      "set",
-      "stiff",
-      "strict"
+      "Stiff",
+      "Inflexible",
+      "Unbending",
+      "Strict"
     ],
     "antonyms": [
-      "nonrigid"
+      "Flexible",
+      "Supple",
+      "Pliable"
     ],
-    "example": "The student learned how to use rigid correctly in a sentence."
+    "example": "The builder reinforced the concrete structure with rigid steel beams."
   },
   "rigorous": {
     "word": "Rigorous",
@@ -15297,106 +17465,124 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "rise rapidly": {
     "word": "Rise rapidly",
-    "pos": "verb",
-    "simpleDefinition": "To increase or ascend very quickly",
-    "banglaMeaning": "দ্রুততার সাথে বৃদি্ধ",
+    "pos": "idiom",
+    "simpleDefinition": "To increase, soar, or ascend at great speed.",
+    "banglaMeaning": "দ্রুততার সাথে বৃদ্ধি",
     "synonyms": [
-      "soar",
-      "surge",
-      "rocket"
+      "Soar",
+      "Surge",
+      "Skyrocket",
+      "Escalate"
     ],
     "antonyms": [
-      "plummet",
-      "fall"
+      "Plummet",
+      "Drop",
+      "Decline"
     ],
-    "example": "Prices began to rise rapidly during the festive season."
+    "example": "Prices of fresh vegetables began to rise rapidly following the severe drought."
   },
   "rite": {
     "word": "Rite",
     "pos": "noun",
-    "simpleDefinition": "A religious custom.",
+    "simpleDefinition": "A formal religious or solemn social ceremony or act.",
     "banglaMeaning": "রীতিনীতি / প্রথা",
     "synonyms": [
-      "ritual",
-      "religious rite"
+      "Ritual",
+      "Ceremony",
+      "Sacrament",
+      "Observance"
     ],
     "antonyms": [
-      "No common antonym"
+      "Informal act"
     ],
-    "example": "The student learned how to use rite correctly in a sentence."
+    "example": "The initiation ceremony is viewed by the community as a sacred rite of passage."
   },
   "robbery": {
     "word": "Robbery",
     "pos": "noun",
-    "simpleDefinition": "The offense of taking or attempting to take the property of another by force or threat of force.",
+    "simpleDefinition": "The crime of taking property unlawfully from a person or place by force or threat.",
     "banglaMeaning": "ডাকাতি",
     "synonyms": [
-      "looting"
+      "Theft",
+      "Burglary",
+      "Heist",
+      "Mugging"
     ],
     "antonyms": [
-      "No common antonym"
+      "Donation",
+      "Gift"
     ],
-    "example": "The student learned how to use robbery correctly in a sentence."
+    "example": "Police responded immediately and arrested the suspects during the bank robbery."
   },
   "rookie": {
     "word": "Rookie",
     "pos": "noun",
-    "simpleDefinition": "An athlete either new to the sport or to a team or in his/her first year of professional competition, especially said of baseball, basketball, hockey and American football players.",
-    "banglaMeaning": "নতুন নিয়োগপ্রাপ্ত অনভিন্ত্র র্কমশী",
+    "simpleDefinition": "A new recruit, beginner, or novice, especially in sports or the police force.",
+    "banglaMeaning": "নতুন নিয়োগপ্রাপ্ত অনভিজ্ঞ কর্মী",
     "synonyms": [
-      "cub",
-      "greenhorn"
+      "Novice",
+      "Beginner",
+      "Newcomer",
+      "Trainee"
     ],
     "antonyms": [
-      "No common antonym"
+      "Veteran",
+      "Expert"
     ],
-    "example": "The student learned how to use rookie correctly in a sentence."
+    "example": "The rookie firefighter was paired with an experienced captain during his first emergency call."
   },
   "rotund": {
     "word": "Rotund",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being rotund.",
+    "pos": "adjective",
+    "simpleDefinition": "Round or plump in shape, or spherical in form.",
     "banglaMeaning": "গোলাকার",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Round",
+      "Plump",
+      "Chubby",
+      "Portly"
     ],
     "antonyms": [
-      "No common antonym"
+      "Slender",
+      "Thin",
+      "Skinny"
     ],
-    "example": "The student learned how to use rotund correctly in a sentence."
+    "example": "A cheerful rotund chef greeted guests warmly at the entrance of the restaurant."
   },
   "ruminative": {
     "word": "Ruminative",
     "pos": "adjective",
-    "simpleDefinition": "Causing rumination or prone to it; thoughtful.",
-    "banglaMeaning": "চিন্তানিমঞ্জ",
+    "simpleDefinition": "Deeply contemplative, thoughtful, or meditative.",
+    "banglaMeaning": "চিন্তানিমগ্ন",
     "synonyms": [
-      "pensive",
-      "musing",
-      "thoughtful"
+      "Contemplative",
+      "Reflective",
+      "Meditative",
+      "Pensive"
     ],
     "antonyms": [
-      "No common antonym"
+      "Thoughtless",
+      "Rash"
     ],
-    "example": "The student learned how to use ruminative correctly in a sentence."
+    "example": "He spent a quiet ruminative evening looking over old letters from his school days."
   },
   "rush": {
     "word": "Rush",
-    "pos": "noun",
-    "simpleDefinition": "A sudden forward motion.",
+    "pos": "verb",
+    "simpleDefinition": "To move or act with urgent speed or in a hurried manner.",
     "banglaMeaning": "দ্রুত ধাবন",
     "synonyms": [
-      "induce",
-      "surge",
-      "flush"
+      "Hurry",
+      "Dash",
+      "Speed",
+      "Sprint"
     ],
     "antonyms": [
-      "dawdle",
-      "detain",
-      "hold up"
+      "Dawdle",
+      "Linger",
+      "Delay"
     ],
-    "example": "The student learned how to use rush correctly in a sentence."
+    "example": "Commuters rush down the station stairs to catch the morning express train."
   },
   "ruthless": {
     "word": "Ruthless",
@@ -15418,106 +17604,124 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "sacrilegious": {
     "word": "Sacrilegious",
     "pos": "adjective",
-    "simpleDefinition": "Committing sacrilege; acting or speaking very disrespectfully toward what is held to be sacred.",
+    "simpleDefinition": "Showing great disrespect or irreverence toward something sacred or holy.",
     "banglaMeaning": "পবিত্র ব্যক্তির অসম্মানকারী",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Profane",
+      "Blasphemous",
+      "Irreverent",
+      "Impious"
     ],
     "antonyms": [
-      "No common antonym"
+      "Sacred",
+      "Reverent",
+      "Pious"
     ],
-    "example": "The student learned how to use sacrilegious correctly in a sentence."
+    "example": "Vandalizing the historic altar was condemned as a sacrilegious crime."
   },
   "sacrosanct": {
     "word": "Sacrosanct",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being sacrosanct.",
-    "banglaMeaning": "অলণ্ঠনীয়",
+    "pos": "adjective",
+    "simpleDefinition": "Regarded as too important, respected, or valuable to be interfered with.",
+    "banglaMeaning": "অলঙ্ঘনীয়",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Inviolable",
+      "Untouchable",
+      "Sacred",
+      "Hallowed"
     ],
     "antonyms": [
-      "No common antonym"
+      "Profane",
+      "Vulnerable"
     ],
-    "example": "The student learned how to use sacrosanct correctly in a sentence."
+    "example": "Freedom of speech is considered a sacrosanct principle in a healthy democracy."
   },
   "sagacity": {
     "word": "Sagacity",
     "pos": "noun",
-    "simpleDefinition": "The quality of being sage, wise, or able to make good decisions; the quality of being perceptive, astute or insightful.",
-    "banglaMeaning": "প্রখর ন্ত্রান",
+    "simpleDefinition": "Keen mental discernment, soundness of judgment, and deep wisdom.",
+    "banglaMeaning": "প্রখর জ্ঞান",
     "synonyms": [
-      "discernment",
-      "judgment",
-      "judgement"
+      "Wisdom",
+      "Insight",
+      "Discernment",
+      "Acumen"
     ],
     "antonyms": [
-      "No common antonym"
+      "Foolishness",
+      "Stupidity",
+      "Folly"
     ],
-    "example": "The student learned how to use sagacity correctly in a sentence."
+    "example": "The community respected the elderly judge for her remarkable wisdom and sagacity."
   },
   "sage": {
     "word": "Sage",
     "pos": "noun",
-    "simpleDefinition": "The plant Salvia officinalis and savory spice produced from it; also planted for ornamental purposes.",
-    "banglaMeaning": "ন্ত্রানী",
+    "simpleDefinition": "A profoundly wise person famed for sound judgment and learning.",
+    "banglaMeaning": "জ্ঞানী",
     "synonyms": [
-      "chromatic",
-      "wise",
-      "guru"
+      "Philosopher",
+      "Scholar",
+      "Wise person",
+      "Mentor"
     ],
     "antonyms": [
-      "No common antonym"
+      "Fool",
+      "Simpleton"
     ],
-    "example": "The student learned how to use sage correctly in a sentence."
+    "example": "Seekers traveled from distant lands to seek counsel from the revered mountain sage."
   },
   "salient": {
     "word": "Salient",
     "pos": "adjective",
-    "simpleDefinition": "Prominent; conspicuous.",
-    "banglaMeaning": "প্রধান বৈবশিষ্ট",
+    "simpleDefinition": "Most noticeable, prominent, or important.",
+    "banglaMeaning": "প্রধান বৈশিষ্ট্য",
     "synonyms": [
-      "conspicuous",
-      "prominent",
-      "obvious"
+      "Prominent",
+      "Noticeable",
+      "Conspicuous",
+      "Striking"
     ],
     "antonyms": [
-      "reentrant",
-      "re-entrant"
+      "Minor",
+      "Inconspicuous",
+      "Obscure"
     ],
-    "example": "The student learned how to use salient correctly in a sentence."
+    "example": "The speaker highlighted the salient points of the economic recovery plan."
   },
   "salubrious": {
     "word": "Salubrious",
     "pos": "adjective",
-    "simpleDefinition": "Promoting health or well-being; wholesome, especially relating to food or air.",
+    "simpleDefinition": "Health-giving, pleasant, and promoting good physical wellbeing.",
     "banglaMeaning": "স্বাস্থ্যকর",
     "synonyms": [
-      "healthy",
-      "wholesome",
-      "good for you"
+      "Healthy",
+      "Wholesome",
+      "Beneficial",
+      "Invigorating"
     ],
     "antonyms": [
-      "No common antonym"
+      "Unhealthy",
+      "Noxious",
+      "Unwholesome"
     ],
-    "example": "The student learned how to use salubrious correctly in a sentence."
+    "example": "The crisp alpine air and pure spring water provided a salubrious environment."
   },
   "sanatorium": {
     "word": "Sanatorium",
     "pos": "noun",
-    "simpleDefinition": "An institution that treats chronic diseases, and provides supervised recuperation and convalescence.",
+    "simpleDefinition": "A medical facility for the treatment of long-term illness or recuperation.",
     "banglaMeaning": "স্বাস্থ্যনিবাস",
     "synonyms": [
-      "madhouse",
-      "loony bin",
-      "nuthouse"
+      "Retreat",
+      "Infirmary",
+      "Rest home",
+      "Hospital"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use sanatorium correctly in a sentence."
+    "example": "Patients recovering from respiratory ailments spent months in a quiet mountain sanatorium."
   },
   "sanction": {
     "word": "Sanction",
@@ -15539,23 +17743,26 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "sane": {
     "word": "Sane",
     "pos": "adjective",
-    "simpleDefinition": "Mentally sound; possessing a rational mind; having the mental faculties in such condition as to be able to anticipate and judge the effect of one's actions in an ordinary manner.",
+    "simpleDefinition": "Of sound mind, rational, reasonable, and sensible.",
     "banglaMeaning": "বিবেকী / যুক্তিসম্মত",
     "synonyms": [
-      "rational",
-      "reasonable",
-      "lucid"
+      "Rational",
+      "Sound",
+      "Sensible",
+      "Lucid"
     ],
     "antonyms": [
-      "insane"
+      "Insane",
+      "Mad",
+      "Irrational"
     ],
-    "example": "The student learned how to use sane correctly in a sentence."
+    "example": "No sane person would attempt to cross that flooded river in a small rowboat."
   },
   "sardonic": {
     "word": "Sardonic",
     "pos": "adjective",
     "simpleDefinition": "Grimly mocking, cynical, or sarcastic",
-    "banglaMeaning": "বিদ্রূপাত্মক / তাচ্ছিল্যপূর্ণ / ঘৃণাপূণর্",
+    "banglaMeaning": "বিদ্রূপাত্মক / তাচ্ছিল্যপূর্ণ / ঘৃণাপূর্ণ",
     "synonyms": [
       "Sarcastic",
       "Mocking",
@@ -15571,131 +17778,157 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "saw": {
     "word": "Saw",
     "pos": "noun",
-    "simpleDefinition": "A tool with a toothed blade used for cutting hard substances, in particular wood or metal.",
+    "simpleDefinition": "An old proverb, maxim, or wise traditional saying.",
     "banglaMeaning": "করাত",
     "synonyms": [
-      "adage",
-      "proverb",
-      "byword"
+      "Proverb",
+      "Maxim",
+      "Adage",
+      "Aphorism"
     ],
     "antonyms": [
-      "No common antonym"
+      "Novelty"
     ],
-    "example": "The student learned how to use saw correctly in a sentence."
+    "example": "My grandfather often quoted the old saw that a stitch in time saves nine."
   },
   "scam": {
     "word": "Scam",
     "pos": "noun",
-    "simpleDefinition": "A fraudulent deal.",
+    "simpleDefinition": "A dishonest or fraudulent scheme designed to cheat people of money.",
     "banglaMeaning": "জালিয়াতি করা",
     "synonyms": [
-      "con game",
-      "confidence trick",
-      "swindle"
+      "Fraud",
+      "Swindle",
+      "Con",
+      "Racket"
     ],
     "antonyms": [
-      "No common antonym"
+      "Honest deal",
+      "Legitimate business"
     ],
-    "example": "That marketing scheme looks like a scam to me."
+    "example": "Police issued warnings to help elderly citizens avoid online email phishing scams."
   },
   "scanty": {
     "word": "Scanty",
     "pos": "adjective",
-    "simpleDefinition": "Somewhat less than is needed in amplitude or extent.",
-    "banglaMeaning": "স্বস্ফ",
+    "simpleDefinition": "Small or insufficient in quantity, size, or amount; meager.",
+    "banglaMeaning": "স্বল্প",
     "synonyms": [
-      "bare",
-      "meager",
-      "meagre"
+      "Meager",
+      "Sparse",
+      "Insufficient",
+      "Scarce"
     ],
     "antonyms": [
-      "No common antonym"
+      "Abundant",
+      "Ample",
+      "Plentiful"
     ],
-    "example": "The student learned how to use scanty correctly in a sentence."
+    "example": "The stranded hikers had to survive on scanty rations of water and dried fruit."
   },
   "scarcity": {
     "word": "Scarcity",
     "pos": "noun",
-    "simpleDefinition": "The condition of something being scarce or deficient.",
-    "banglaMeaning": "স্বস্ফ",
+    "simpleDefinition": "The state of being in short supply or scarce; shortage.",
+    "banglaMeaning": "স্বল্প",
     "synonyms": [
-      "scarceness"
+      "Shortage",
+      "Dearth",
+      "Lack",
+      "Deficiency"
     ],
     "antonyms": [
-      "abundance",
-      "copiousness"
+      "Abundance",
+      "Plenty",
+      "Surplus"
     ],
-    "example": "The student learned how to use scarcity correctly in a sentence."
+    "example": "Severe summer drought led to a critical scarcity of fresh drinking water."
   },
   "scatter": {
     "word": "Scatter",
     "pos": "verb",
-    "simpleDefinition": "To (cause to) separate and go in different directions; to disperse.",
+    "simpleDefinition": "To throw in random directions or cause to separate and disperse.",
     "banglaMeaning": "ছড়িয়ে যাওয়া",
     "synonyms": [
-      "disperse",
-      "dissipate",
-      "sprinkle"
+      "Disperse",
+      "Strew",
+      "Sprinkle",
+      "Spread"
     ],
     "antonyms": [
-      "No common antonym"
+      "Gather",
+      "Collect",
+      "Assemble"
     ],
-    "example": "The student learned how to use scatter correctly in a sentence."
+    "example": "A sudden gust of wind began to scatter dried leaves across the garden path."
   },
   "scenic": {
     "word": "Scenic",
     "pos": "adjective",
-    "simpleDefinition": "Having beautiful scenery; picturesque.",
+    "simpleDefinition": "Offering or relating to beautiful, impressive natural views.",
     "banglaMeaning": "দৃশ্যময়",
     "synonyms": [
-      "beautiful"
+      "Picturesque",
+      "Beautiful",
+      "Panoramic",
+      "Charming"
     ],
     "antonyms": [
-      "No common antonym"
+      "Ugly",
+      "Bleak",
+      "Unattractive"
     ],
-    "example": "The student learned how to use scenic correctly in a sentence."
+    "example": "We took the scenic coastal route to enjoy breathtaking panoramic views of the ocean."
   },
   "scissors": {
     "word": "Scissors",
     "pos": "noun",
-    "simpleDefinition": "A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed.",
+    "simpleDefinition": "A cutting tool with two crossed pivoted blades that slide against each other.",
     "banglaMeaning": "কাঁচি",
     "synonyms": [
-      "pair of scissors"
+      "Shears",
+      "Clippers",
+      "Cutters"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use scissors correctly in a sentence."
+    "example": "She used a sharp pair of stainless steel scissors to cut the ribbon."
   },
   "scold": {
     "word": "Scold",
     "pos": "verb",
-    "simpleDefinition": "To rebuke angrily.",
+    "simpleDefinition": "To rebuke, reprimand, or criticize someone angrily.",
     "banglaMeaning": "তিরস্কার করা",
     "synonyms": [
-      "grumble",
-      "rebuke",
-      "reprimand"
+      "Rebuke",
+      "Reprimand",
+      "Chide",
+      "Berate"
     ],
     "antonyms": [
-      "No common antonym"
+      "Praise",
+      "Commend",
+      "Applaud"
     ],
-    "example": "The student learned how to use scold correctly in a sentence."
+    "example": "The mother scolded her son for crossing the busy street without looking."
   },
   "screams": {
     "word": "Screams",
     "pos": "noun",
-    "simpleDefinition": "A loud, emphatic, exclamation of extreme emotion, especially horror, fear, excitement, or anger; it may comprise a word or a sustained, high-pitched vowel sound.",
+    "simpleDefinition": "Long, loud, piercing cries of fear, pain, or excitement.",
     "banglaMeaning": "আর্তনাদ করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Shrieks",
+      "Yells",
+      "Howls",
+      "Cries"
     ],
     "antonyms": [
-      "No common antonym"
+      "Whispers",
+      "Silence"
     ],
-    "example": "The student learned how to use screams correctly in a sentence."
+    "example": "Terrified screams rang out when the rollercoaster suddenly made a sharp drop."
   },
   "scrutinize": {
     "word": "Scrutinize",
@@ -15717,61 +17950,72 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "scurrilous": {
     "word": "Scurrilous",
     "pos": "adjective",
-    "simpleDefinition": "Coarse, vulgar, or abusive.",
+    "simpleDefinition": "Making scandalous, defamatory, or abusive claims to damage someone's reputation.",
     "banglaMeaning": "অমাজির্ত / অপমান করা",
     "synonyms": [
-      "scornful",
-      "opprobrious",
-      "offensive"
+      "Defamatory",
+      "Slanderous",
+      "Abusive",
+      "Insulting"
     ],
     "antonyms": [
-      "No common antonym"
+      "Complimentary",
+      "Respectful",
+      "Polite"
     ],
-    "example": "The student learned how to use scurrilous correctly in a sentence."
+    "example": "The tabloid newspaper faced legal action after printing scurrilous lies about the author."
   },
   "seething": {
     "word": "Seething",
-    "pos": "verb",
-    "simpleDefinition": "To boil.",
+    "pos": "adjective",
+    "simpleDefinition": "Filled with or characterized by intense, suppressed anger or rage.",
     "banglaMeaning": "ফুটে উপচে পড়া এমন",
     "synonyms": [
-      "Related to seething",
-      "Similar"
+      "Fuming",
+      "Boiling",
+      "Raging",
+      "Simmering"
     ],
     "antonyms": [
-      "No common antonym"
+      "Calm",
+      "Peaceful",
+      "Tranquil"
     ],
-    "example": "The teacher gave an insightful explanation of seething."
+    "example": "He sat in seething silence while his rival falsely claimed credit for the team's work."
   },
   "segregate": {
     "word": "Segregate",
     "pos": "verb",
-    "simpleDefinition": "To separate.",
+    "simpleDefinition": "To set apart from the rest; isolate, divide, or separate.",
     "banglaMeaning": "পৃথক করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Isolate",
+      "Separate",
+      "Divide",
+      "Quarantine"
     ],
     "antonyms": [
-      "integrate",
-      "mix",
-      "desegregate"
+      "Integrate",
+      "Combine",
+      "Unite"
     ],
-    "example": "The student learned how to use segregate correctly in a sentence."
+    "example": "Doctors had to segregate contagious patients to prevent the virus from spreading."
   },
   "senility": {
     "word": "Senility",
     "pos": "noun",
-    "simpleDefinition": "The bodily and mental deterioration associated with old age: Synonym of senescence.",
+    "simpleDefinition": "The condition of being senile; mental deterioration associated with old age.",
     "banglaMeaning": "বাধর্ক্য",
     "synonyms": [
-      "second childhood",
-      "dotage"
+      "Decrepitude",
+      "Dotage",
+      "Infirmity"
     ],
     "antonyms": [
-      "No common antonym"
+      "Youth",
+      "Vigor"
     ],
-    "example": "The student learned how to use senility correctly in a sentence."
+    "example": "Despite advancing years, the retired professor showed no signs of senility."
   },
   "serene": {
     "word": "Serene",
@@ -15793,134 +18037,158 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "sermon": {
     "word": "Sermon",
     "pos": "noun",
-    "simpleDefinition": "Religious discourse; a written or spoken address on a religious or moral matter.",
-    "banglaMeaning": "বৈনতিক বক্তৃ তা",
+    "simpleDefinition": "A religious or moral talk delivered during a church service.",
+    "banglaMeaning": "নৈতিক বক্তৃতা",
     "synonyms": [
-      "discourse",
-      "preaching"
+      "Homily",
+      "Address",
+      "Discourse",
+      "Lesson"
     ],
     "antonyms": [
-      "No common antonym"
+      "Casual chat"
     ],
-    "example": "The student learned how to use sermon correctly in a sentence."
+    "example": "The preacher delivered a powerful sermon emphasizing charity, forgiveness, and love."
   },
   "servile": {
     "word": "Servile",
     "pos": "adjective",
-    "simpleDefinition": "Excessively eager to please; obsequious.",
-    "banglaMeaning": "ক্রেীতদাস সুলভ",
+    "simpleDefinition": "Showing an excessive willingness to serve, grovel, or please others; fawning.",
+    "banglaMeaning": "ক্রীতদাস সুলভ",
     "synonyms": [
-      "obsequious",
-      "subservient",
-      "submissive"
+      "Submissive",
+      "Sycophantic",
+      "Groveling",
+      "Fawning"
     ],
     "antonyms": [
-      "unsubmissive",
-      "unservile"
+      "Assertive",
+      "Independent",
+      "Proud"
     ],
-    "example": "The student learned how to use servile correctly in a sentence."
+    "example": "His servile attitude toward the company president alienated his coworkers."
   },
   "severe": {
     "word": "Severe",
     "pos": "adjective",
-    "simpleDefinition": "Very bad or intense.",
+    "simpleDefinition": "Very great, intense, or strict; causing pain, distress, or hardship.",
     "banglaMeaning": "প্রকট / মারাত্মক",
     "synonyms": [
-      "austere",
-      "grievous",
-      "critical"
+      "Harsh",
+      "Strict",
+      "Acute",
+      "Stern"
     ],
     "antonyms": [
-      "No common antonym"
+      "Mild",
+      "Lenient",
+      "Gentle"
     ],
-    "example": "The student learned how to use severe correctly in a sentence."
+    "example": "A severe winter storm caused major power outages across the northern provinces."
   },
   "shaky": {
     "word": "Shaky",
     "pos": "adjective",
-    "simpleDefinition": "Shaking or trembling.",
+    "simpleDefinition": "Trembling or shaking, or unstable, unreliable, and weak.",
     "banglaMeaning": "দুর্বল",
     "synonyms": [
-      "precarious",
-      "unsteady",
-      "unstable"
+      "Unsteady",
+      "Trembling",
+      "Unstable",
+      "Precarious"
     ],
     "antonyms": [
-      "No common antonym"
+      "Steady",
+      "Stable",
+      "Firm"
     ],
-    "example": "The student learned how to use shaky correctly in a sentence."
+    "example": "Her shaky voice revealed how frightened she felt during the emergency."
   },
   "shallow": {
     "word": "Shallow",
     "pos": "adjective",
-    "simpleDefinition": "Having little depth; significantly less deep than wide.",
+    "simpleDefinition": "Having little depth from top to bottom, or lacking intellectual or emotional depth.",
     "banglaMeaning": "ভাসাভাসা",
     "synonyms": [
-      "light",
-      "superficial",
-      "shoal"
+      "Superficial",
+      "Skin-deep",
+      "Frivolous"
     ],
     "antonyms": [
-      "deep"
+      "Deep",
+      "Profound",
+      "Thoughtful"
     ],
-    "example": "The student learned how to use shallow correctly in a sentence."
+    "example": "The toddlers safely splashed water in the shallow end of the pool."
   },
   "shore": {
     "word": "Shore",
     "pos": "noun",
-    "simpleDefinition": "Land adjoining a non-flowing body of water, such as an ocean, lake or pond.",
+    "simpleDefinition": "The land along the edge of a sea, lake, ocean, or river.",
     "banglaMeaning": "তীরভূমি / হূল",
     "synonyms": [
-      "land",
-      "seashore",
-      "set ashore"
+      "Coast",
+      "Beach",
+      "Seaside",
+      "Bank"
     ],
     "antonyms": [
-      "No common antonym"
+      "Open sea",
+      "Inland"
     ],
-    "example": "The student learned how to use shore correctly in a sentence."
+    "example": "Fishermen pulled their wooden boats onto the sandy shore as dusk arrived."
   },
   "shortcoming": {
     "word": "Shortcoming",
     "pos": "noun",
-    "simpleDefinition": "A deficiency or falling short; failure to attain a goal or ideal.",
-    "banglaMeaning": "থটি / সীমাবদ্ধতা",
+    "simpleDefinition": "A failure, flaw, or defect to meet a required standard in character or ability.",
+    "banglaMeaning": "ত্রুটি / সীমাবদ্ধতা",
     "synonyms": [
-      "defect"
+      "Flaw",
+      "Defect",
+      "Weakness",
+      "Fault"
     ],
     "antonyms": [
-      "No common antonym"
+      "Strength",
+      "Virtue",
+      "Asset"
     ],
-    "example": "The student learned how to use shortcoming correctly in a sentence."
+    "example": "Impatience was his chief shortcoming during complicated negotiations."
   },
   "shortcomings": {
     "word": "Shortcomings",
     "pos": "noun",
-    "simpleDefinition": "A deficiency or falling short; failure to attain a goal or ideal.",
-    "banglaMeaning": "থটি",
+    "simpleDefinition": "Faults, flaws, or weaknesses in character, system, or performance.",
+    "banglaMeaning": "ত্রুটি",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Flaws",
+      "Defects",
+      "Weaknesses",
+      "Failings"
     ],
     "antonyms": [
-      "No common antonym"
+      "Strengths",
+      "Virtues"
     ],
-    "example": "The student learned how to use shortcomings correctly in a sentence."
+    "example": "The audit report highlighted several financial shortcomings in the current management system."
   },
   "shove": {
     "word": "Shove",
     "pos": "verb",
-    "simpleDefinition": "To push, especially roughly or with force.",
+    "simpleDefinition": "To push someone or something roughly or forcefully.",
     "banglaMeaning": "ধাঞ্চা মারা",
     "synonyms": [
-      "thrust",
-      "jostle",
-      "squeeze"
+      "Push",
+      "Thrust",
+      "Propel",
+      "Jostle"
     ],
     "antonyms": [
-      "No common antonym"
+      "Pull",
+      "Drag"
     ],
-    "example": "The student learned how to use shove correctly in a sentence."
+    "example": "Rude passengers began to shove their way forward onto the bus."
   },
   "shrewd": {
     "word": "Shrewd",
@@ -15942,49 +18210,56 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "shrink": {
     "word": "Shrink",
     "pos": "verb",
-    "simpleDefinition": "To become smaller; to contract.",
-    "banglaMeaning": "সংহৃচিত করা",
+    "simpleDefinition": "To become or make smaller in size, volume, or extent.",
+    "banglaMeaning": "সংকুচিত করা",
     "synonyms": [
-      "recoil",
-      "cringe",
-      "reduce"
+      "Contract",
+      "Diminish",
+      "Dwindle",
+      "Recede"
     ],
     "antonyms": [
-      "stretch"
+      "Expand",
+      "Enlarge",
+      "Grow"
     ],
-    "example": "The student learned how to use shrink correctly in a sentence."
+    "example": "Woolen sweaters will quickly shrink if washed with hot water."
   },
   "simplicity": {
     "word": "Simplicity",
     "pos": "noun",
-    "simpleDefinition": "The state or quality of being simple.",
+    "simpleDefinition": "The quality or condition of being easy to understand or do; unadorned elegance.",
     "banglaMeaning": "সরল",
     "synonyms": [
-      "ease",
-      "restraint",
-      "chasteness"
+      "Clarity",
+      "Plainness",
+      "Ease",
+      "Directness"
     ],
     "antonyms": [
-      "complexity",
-      "difficulty",
-      "complexness"
+      "Complexity",
+      "Intricacy",
+      "Extravagance"
     ],
-    "example": "The student learned how to use simplicity correctly in a sentence."
+    "example": "The beauty of the mobile application lies in its visual simplicity and speed."
   },
   "sinister": {
     "word": "Sinister",
     "pos": "adjective",
-    "simpleDefinition": "Evil or seemingly evil; indicating lurking danger or harm.",
+    "simpleDefinition": "Giving the impression that something harmful, evil, or menacing will happen.",
     "banglaMeaning": "অপকারী / অশুভ",
     "synonyms": [
-      "baleful",
-      "evil",
-      "wicked"
+      "Menacing",
+      "Ominous",
+      "Threatening",
+      "Dark"
     ],
     "antonyms": [
-      "No common antonym"
+      "Benign",
+      "Auspicious",
+      "Comforting"
     ],
-    "example": "The student learned how to use sinister correctly in a sentence."
+    "example": "The dilapidated house had a sinister look beneath the dark storm clouds."
   },
   "skeptical": {
     "word": "Skeptical",
@@ -16006,82 +18281,96 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "skepticism": {
     "word": "Skepticism",
     "pos": "noun",
-    "simpleDefinition": "A studied attitude of questioning and doubt.",
+    "simpleDefinition": "A questioning attitude, doubt, or disbelief regarding claims or facts.",
     "banglaMeaning": "সংশয়বাদ",
     "synonyms": [
-      "incredulity",
-      "disbelief",
-      "scepticism"
+      "Doubt",
+      "Disbelief",
+      "Distrust",
+      "Cynicism"
     ],
     "antonyms": [
-      "No common antonym"
+      "Belief",
+      "Faith",
+      "Conviction"
     ],
-    "example": "The student learned how to use skepticism correctly in a sentence."
+    "example": "The scientist greeted the miraculous healing claims with healthy skepticism."
   },
   "skinflint": {
     "word": "Skinflint",
     "pos": "noun",
-    "simpleDefinition": "One who is excessively stingy or cautious with money; a tightwad; a miser.",
+    "simpleDefinition": "A person who hates to spend money; a stingy miser.",
     "banglaMeaning": "মিতব্যয়ী / কিপটে",
     "synonyms": [
-      "churl",
-      "niggard",
-      "grabber"
+      "Miser",
+      "Penny-pincher",
+      "Scrooge",
+      "Cheapskate"
     ],
     "antonyms": [
-      "No common antonym"
+      "Spendthrift",
+      "Philanthropist"
     ],
-    "example": "The student learned how to use skinflint correctly in a sentence."
+    "example": "The wealthy skinflint refused to pay even five dollars for a warm coat."
   },
   "slackening": {
     "word": "Slackening",
-    "pos": "noun",
-    "simpleDefinition": "The act by which something slackens; loss of speed, tautness, etc.",
+    "pos": "verb",
+    "simpleDefinition": "Becoming or making slower, less active, or less tight; easing off.",
     "banglaMeaning": "ঝিমুনি",
     "synonyms": [
-      "relaxation",
-      "loosening"
+      "Slowing",
+      "Abating",
+      "Easing",
+      "Loosening"
     ],
     "antonyms": [
-      "No common antonym"
+      "Tightening",
+      "Accelerating",
+      "Quickening"
     ],
-    "example": "The student learned how to use slackening correctly in a sentence."
+    "example": "With the rain slackening, the workers stepped outside to continue building."
   },
   "slip": {
     "word": "Slip",
     "pos": "verb",
-    "simpleDefinition": "To lose one’s traction on a slippery surface; to slide due to a lack of friction.",
+    "simpleDefinition": "To lose one's footing and slide unintentionally.",
     "banglaMeaning": "পলায়ন / এড়িয়ে যাওয়া",
     "synonyms": [
-      "shift",
-      "case",
-      "slew"
+      "Slide",
+      "Skid",
+      "Stumble",
+      "Trip"
     ],
     "antonyms": [
-      "No common antonym"
+      "Stand firm",
+      "Grip"
     ],
-    "example": "The student learned how to use slip correctly in a sentence."
+    "example": "Walk slowly on the icy driveway so you do not slip and hurt yourself."
   },
   "slothful": {
     "word": "Slothful",
     "pos": "adjective",
-    "simpleDefinition": "Lazy; idle; tending to sloth.",
-    "banglaMeaning": "নিকি্ষ্ময়",
+    "simpleDefinition": "Lazy, sluggish, and disinclined to work or exert effort.",
+    "banglaMeaning": "নিষ্ক্রিয়",
     "synonyms": [
-      "otiose",
-      "indolent",
-      "faineant"
+      "Lazy",
+      "Sluggish",
+      "Idle",
+      "Lethargic"
     ],
     "antonyms": [
-      "No common antonym"
+      "Industrious",
+      "Diligent",
+      "Active"
     ],
-    "example": "The student learned how to use slothful correctly in a sentence."
+    "example": "His slothful lifestyle led him to spend entire weekends sleeping on the sofa."
   },
   "sluggish": {
     "word": "Sluggish",
     "pos": "adjective",
     "simpleDefinition": "Slow-moving, inactive, or lacking energy and vitality",
-    "banglaMeaning": "মন্থর / অলস / ধীরগতির / আলস্যপরায়ণ / হৃড়ে",
+    "banglaMeaning": "মন্থর / অলস / ধীরগতির / আলস্যপরায়ণ / কুঁড়ে",
     "synonyms": [
       "Slow",
       "Lazy",
@@ -16096,106 +18385,120 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "slumber": {
     "word": "Slumber",
-    "pos": "verb",
-    "simpleDefinition": "To be in a very light state of sleep, almost awake.",
-    "banglaMeaning": "তন্দা",
+    "pos": "noun",
+    "simpleDefinition": "A peaceful, deep, or restful sleep.",
+    "banglaMeaning": "গভীর ঘুম; নিদ্রা",
     "synonyms": [
-      "kip",
-      "sleep"
+      "Sleep",
+      "Rest",
+      "Doze",
+      "Nap"
     ],
     "antonyms": [
-      "wake"
+      "Wakefulness"
     ],
-    "example": "The student learned how to use slumber correctly in a sentence."
+    "example": "The gentle sound of falling rain lulled the child into a peaceful slumber."
   },
   "sneer": {
     "word": "Sneer",
     "pos": "noun",
-    "simpleDefinition": "A facial expression where one slightly raises one corner of the upper lip, generally indicating scorn.",
+    "simpleDefinition": "A contemptuous, mocking smile or remark expressing disdain.",
     "banglaMeaning": "বিদ্রুপ করা",
     "synonyms": [
-      "Related to sneer",
-      "Similar"
+      "Smirk",
+      "Jeer",
+      "Scoff",
+      "Taunt"
     ],
     "antonyms": [
-      "No common antonym"
+      "Smile",
+      "Compliment"
     ],
-    "example": "The teacher gave an insightful explanation of sneer."
+    "example": "He dismissed his colleague's idea with an arrogant sneer of contempt."
   },
   "snob": {
     "word": "Snob",
     "pos": "noun",
-    "simpleDefinition": "A person who wishes to be seen as a member of the upper classes and who looks down on those perceived to have inferior or unrefined tastes.",
-    "banglaMeaning": "উন্নাসিক লোক (যে ব্যক্তি নিল্ডতর সামাজিক ঙে্কণীর মানুষকে অবন্ত্রার",
+    "simpleDefinition": "A person who looks down on others they consider socially or culturally inferior.",
+    "banglaMeaning": "উন্নাসিক লোক (যে ব্যক্তি নিম্ন শ্রেণির মানুষকে অবজ্ঞা করে",
     "synonyms": [
-      "prig",
-      "snot"
+      "Elitist",
+      "Condescending person"
     ],
     "antonyms": [
-      "No common antonym"
+      "Humble person"
     ],
-    "example": "The student learned how to use snob correctly in a sentence."
+    "example": "Being an intellectual snob, he refused to read any modern popular fiction."
   },
   "sober": {
     "word": "Sober",
     "pos": "adjective",
-    "simpleDefinition": "Not drunk; not intoxicated.",
-    "banglaMeaning": "গাশ্রীর্যপূণর্",
+    "simpleDefinition": "Not drunk or affected by alcohol; serious, sensible, and solemn.",
+    "banglaMeaning": "গাম্ভীর্যপূর্ণ",
     "synonyms": [
-      "solemn",
-      "sombre",
-      "somber"
+      "Clearheaded",
+      "Temperate",
+      "Solemn",
+      "Sensible"
     ],
     "antonyms": [
-      "playful",
-      "inebriated",
-      "intoxicated"
+      "Intoxicated",
+      "Drunk",
+      "Frivolous"
     ],
-    "example": "The student learned how to use sober correctly in a sentence."
+    "example": "The physician delivered the sober medical diagnosis with great sensitivity."
   },
   "solace": {
     "word": "Solace",
     "pos": "noun",
-    "simpleDefinition": "Comfort or consolation in a time of loneliness or distress.",
-    "banglaMeaning": "সাপ্তনা",
+    "simpleDefinition": "Comfort, relief, or consolation in a time of distress or sadness.",
+    "banglaMeaning": "সান্ত্বনা",
     "synonyms": [
-      "consolation",
-      "comfort",
-      "console"
+      "Comfort",
+      "Consolation",
+      "Relief",
+      "Peace"
     ],
     "antonyms": [
-      "No common antonym"
+      "Distress",
+      "Anguish",
+      "Misery"
     ],
-    "example": "The student learned how to use solace correctly in a sentence."
+    "example": "She found solace in quiet evening walks through the countryside."
   },
   "solemn": {
     "word": "Solemn",
     "pos": "adjective",
-    "simpleDefinition": "Deeply serious and sombre; grave.",
+    "simpleDefinition": "Formal, dignified, and serious; characterized by deep sincerity.",
     "banglaMeaning": "আনুষ্ঠানিক",
     "synonyms": [
-      "earnest",
-      "sedate",
-      "serious"
+      "Serious",
+      "Grave",
+      "Somber",
+      "Formal"
     ],
     "antonyms": [
-      "No common antonym"
+      "Cheerful",
+      "Frivolous",
+      "Lighthearted"
     ],
-    "example": "The student learned how to use solemn correctly in a sentence."
+    "example": "The crowd held a solemn minute of silence in memory of fallen heroes."
   },
   "solvent": {
     "word": "Solvent",
-    "pos": "noun",
-    "simpleDefinition": "A fluid that dissolves a solid, liquid, or gaseous solute, resulting in a solution.",
+    "pos": "adjective",
+    "simpleDefinition": "Having sufficient assets to pay all one's debts; financially sound.",
     "banglaMeaning": "দেনা পরিশোধে সক্ষম",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Financially sound",
+      "Creditworthy",
+      "Stable"
     ],
     "antonyms": [
-      "No common antonym"
+      "Insolvent",
+      "Bankrupt"
     ],
-    "example": "The student learned how to use solvent correctly in a sentence."
+    "example": "Prudent financial management kept the company solvent during the economic downturn."
   },
   "somber": {
     "word": "Somber",
@@ -16217,33 +18520,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "soothe": {
     "word": "Soothe",
     "pos": "verb",
-    "simpleDefinition": "To restore to ease, comfort, or tranquility; relieve; calm; quiet; refresh.",
+    "simpleDefinition": "To gently calm someone, or relieve pain, irritation, or anxiety.",
     "banglaMeaning": "প্রশমিত করা / কমানো",
     "synonyms": [
-      "solace",
-      "comfort",
-      "console"
+      "Calm",
+      "Pacify",
+      "Ease",
+      "Alleviate"
     ],
     "antonyms": [
-      "irritate"
+      "Irritate",
+      "Inflame",
+      "Agitate"
     ],
-    "example": "The student learned how to use soothe correctly in a sentence."
+    "example": "A cup of warm chamomile tea helped soothe her sore throat and calm her nerves."
   },
   "sophisticated": {
     "word": "Sophisticated",
     "pos": "adjective",
-    "simpleDefinition": "Of a person: having obtained worldly experience, and lacking naiveté; cosmopolitan, worldly-wise.",
-    "banglaMeaning": "কৃতি্রম",
+    "simpleDefinition": "Having refined taste, worldly experience, or complex advanced design.",
+    "banglaMeaning": "কৃত্রিম",
     "synonyms": [
-      "refined",
-      "svelte",
-      "blase"
+      "Refined",
+      "Cultured",
+      "Advanced",
+      "Complex"
     ],
     "antonyms": [
-      "naive",
-      "naif"
+      "Unsophisticated",
+      "Crude",
+      "Naive"
     ],
-    "example": "The student learned how to use sophisticated correctly in a sentence."
+    "example": "Modern passenger jets are equipped with highly sophisticated autopilots."
   },
   "sophistry": {
     "word": "Sophistry",
@@ -16264,91 +18572,107 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "sparkle": {
     "word": "Sparkle",
-    "pos": "noun",
-    "simpleDefinition": "Brilliance; luster.",
-    "banglaMeaning": "স্থলস্থল করা",
+    "pos": "verb",
+    "simpleDefinition": "To shine brightly with flashes of light; glitter.",
+    "banglaMeaning": "ঝলমল করা; উজ্জ্বলভাবে চকমক করা",
     "synonyms": [
-      "light",
-      "spark",
-      "scintillation"
+      "Glitter",
+      "Twinkle",
+      "Shimmer",
+      "Flash"
     ],
     "antonyms": [
-      "No common antonym"
+      "Be dull",
+      "Darken"
     ],
-    "example": "The student learned how to use sparkle correctly in a sentence."
+    "example": "Clean glass windows sparkle in the early morning sunlight."
   },
   "splendid": {
     "word": "Splendid",
     "pos": "adjective",
-    "simpleDefinition": "Gorgeous; magnificent; sumptuous; of remarkable beauty.",
+    "simpleDefinition": "Magnificent, grand, very impressive, or excellent.",
     "banglaMeaning": "জমকালো",
     "synonyms": [
-      "beautiful",
-      "glorious",
-      "resplendent"
+      "Magnificent",
+      "Grand",
+      "Superb",
+      "Glorious"
     ],
     "antonyms": [
-      "No common antonym"
+      "Dismal",
+      "Terrible",
+      "Poor"
     ],
-    "example": "The student learned how to use splendid correctly in a sentence."
+    "example": "The mountain lodge offered a splendid view of the sun setting over the valley."
   },
   "spool": {
     "word": "Spool",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being spool.",
+    "simpleDefinition": "A cylindrical device on which thread, wire, or film is wound.",
     "banglaMeaning": "নাটাই",
     "synonyms": [
-      "bobbin",
-      "reel"
+      "Reel",
+      "Bobbin",
+      "Cylinder"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use spool correctly in a sentence."
+    "example": "The seamstress selected a spool of dark blue silk thread for the hem."
   },
   "spunky": {
     "word": "Spunky",
     "pos": "adjective",
-    "simpleDefinition": "Spirited or plucky.",
+    "simpleDefinition": "Courageous, lively, spirited, and determined.",
     "banglaMeaning": "সাহসী",
     "synonyms": [
-      "spirited",
-      "brave",
-      "feisty"
+      "Spirited",
+      "Feisty",
+      "Plucky",
+      "Brave"
     ],
     "antonyms": [
-      "No common antonym"
+      "Timid",
+      "Cowardly",
+      "Spiritless"
     ],
-    "example": "The student learned how to use spunky correctly in a sentence."
+    "example": "The spunky young girl refused to let a broken wrist keep her off the playground."
   },
   "spurious": {
     "word": "Spurious",
     "pos": "adjective",
-    "simpleDefinition": "False, not authentic, not genuine.",
+    "simpleDefinition": "False, bogus, or not genuine although claiming to be so.",
     "banglaMeaning": "ভেজাল",
     "synonyms": [
-      "specious",
-      "natural",
-      "counterfeit"
+      "Bogus",
+      "Counterfeit",
+      "Fake",
+      "False"
     ],
     "antonyms": [
-      "No common antonym"
+      "Genuine",
+      "Authentic",
+      "Real"
     ],
-    "example": "The student learned how to use spurious correctly in a sentence."
+    "example": "The art historian proved the painting was a spurious copy of the original masterpiece."
   },
   "squalor": {
     "word": "Squalor",
     "pos": "noun",
-    "simpleDefinition": "Filthiness and degradation, as from neglect or poverty.",
-    "banglaMeaning": "নোংরা / অস্বসি্তকর অবস্থা",
+    "simpleDefinition": "The state of being extremely dirty, foul, and unpleasant, usually from poverty.",
+    "banglaMeaning": "নোংরা / অস্বস্তিকর অবস্থা",
     "synonyms": [
-      "sordidness",
-      "squalidness"
+      "Filth",
+      "Dirtiness",
+      "Wretchedness",
+      "Misery"
     ],
     "antonyms": [
-      "No common antonym"
+      "Cleanliness",
+      "Luxury",
+      "Splendor"
     ],
-    "example": "The student learned how to use squalor correctly in a sentence."
+    "example": "Volunteers worked hard to clean up the neighborhood squalor and build fresh parks."
   },
   "squander": {
     "word": "Squander",
@@ -16369,74 +18693,85 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "square meal": {
     "word": "Square meal",
-    "pos": "noun",
-    "simpleDefinition": "A (nutritionally) complete and satisfying meal, especially one suitable for a person performing physical labour.",
+    "pos": "idiom",
+    "simpleDefinition": "A substantial, satisfying, and balanced meal providing good nourishment.",
     "banglaMeaning": "সুষম খাদ্য",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Hearty meal",
+      "Full meal",
+      "Nourishing meal"
     ],
     "antonyms": [
-      "No common antonym"
+      "Snack",
+      "Light bite"
     ],
-    "example": "The student learned how to use square meal correctly in a sentence."
+    "example": "After a grueling day of physical labor, the workers sat down to a hot square meal."
   },
   "stale": {
     "word": "Stale",
     "pos": "adjective",
-    "simpleDefinition": "No longer fresh, in reference to food, urine, straw, wounds, etc.",
+    "simpleDefinition": "No longer fresh, pleasant, or tasty to eat; or dull and repetitive.",
     "banglaMeaning": "টাটকা নয় (বাসি )",
     "synonyms": [
-      "cold",
-      "hard",
-      "bad"
+      "Dry",
+      "Hardened",
+      "Unfresh",
+      "Trite"
     ],
     "antonyms": [
-      "fresh"
+      "Fresh",
+      "Crisp",
+      "Novel"
     ],
-    "example": "The student learned how to use stale correctly in a sentence."
+    "example": "Leaving bread uncovered on the counter overnight will make it dry and stale."
   },
   "state of shock": {
     "word": "State of shock",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being state of shock.",
-    "banglaMeaning": "কিংর্কতব্যবিমূঢ়",
+    "pos": "idiom",
+    "simpleDefinition": "A state of severe emotional trauma, disbelief, or physical collapse following an event.",
+    "banglaMeaning": "কিংকর্তব্যবিমূঢ়",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Traumatized",
+      "Stunned",
+      "Dazed"
     ],
     "antonyms": [
-      "No common antonym"
+      "Calm",
+      "Composed"
     ],
-    "example": "The student learned how to use state of shock correctly in a sentence."
+    "example": "Survivors of the severe earthquake remained in a state of shock for several days."
   },
   "stated": {
     "word": "Stated",
-    "pos": "verb",
-    "simpleDefinition": "To declare to be a fact.",
+    "pos": "adjective",
+    "simpleDefinition": "Clearly expressed, declared, or officially designated.",
     "banglaMeaning": "প্রকাশিত হওয়া",
     "synonyms": [
-      "Related to stated",
-      "Similar"
+      "Declared",
+      "Specified",
+      "Expressed",
+      "Explicit"
     ],
     "antonyms": [
-      "No common antonym"
+      "Unstated",
+      "Implicit"
     ],
-    "example": "He stated that he was willing to help."
+    "example": "The construction was completed on schedule and within its stated budget."
   },
   "statesman": {
     "word": "Statesman",
     "pos": "noun",
-    "simpleDefinition": "A man who is a leader in national or international affairs.",
+    "simpleDefinition": "A skilled, respected, and experienced political leader devoted to the nation.",
     "banglaMeaning": "হূটনীতিন্ত্র ব্যক্তি",
     "synonyms": [
-      "national leader",
-      "solon"
+      "Diplomat",
+      "Political leader",
+      "Leader"
     ],
     "antonyms": [
-      "No common antonym"
+      "Demagogue"
     ],
-    "example": "The student learned how to use statesman correctly in a sentence."
+    "example": "The retired statesman mediated peace talks between the two neighboring countries."
   },
   "steadfast": {
     "word": "Steadfast",
@@ -16457,47 +18792,53 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "steal a march": {
     "word": "Steal a march",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being steal a march.",
-    "banglaMeaning": "ঔস্থলে্য ছাপিয়ে যাওয়া",
+    "pos": "idiom",
+    "simpleDefinition": "To gain an unexpected advantage over a rival by acting before them.",
+    "banglaMeaning": "উজ্জ্বলতায় ছাপিয়ে যাওয়া",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Gain advantage",
+      "Outmaneuver",
+      "Pre-empt"
     ],
     "antonyms": [
-      "No common antonym"
+      "Fall behind"
     ],
-    "example": "The student learned how to use steal a march correctly in a sentence."
+    "example": "By launching its mobile app early, the startup managed to steal a march on rivals."
   },
   "step on somebodys toes": {
     "word": "Step on somebodys toes",
     "pos": "idiom",
-    "simpleDefinition": "To insult or encroach upon another's privileges or authority",
+    "simpleDefinition": "To encroach upon or offend someone by interfering with their area of authority.",
     "banglaMeaning": "অনুভূতি বা সংস্কারে আঘাত হানা",
     "synonyms": [
-      "offend",
-      "encroach",
-      "intrude"
+      "Offend",
+      "Intrude",
+      "Encroach",
+      "Interfere"
     ],
     "antonyms": [
-      "respect boundaries"
+      "Respect boundaries",
+      "Cooperate"
     ],
-    "example": "Be careful not to step on somebody's toes when taking charge."
+    "example": "Be mindful of office boundaries so you do not step on your supervisor's toes."
   },
   "stern": {
     "word": "Stern",
     "pos": "adjective",
-    "simpleDefinition": "Having a hardness and severity of nature or manner.",
+    "simpleDefinition": "Serious, strict, and uncompromising in discipline or manner.",
     "banglaMeaning": "কঠোর",
     "synonyms": [
-      "austere",
-      "inexorable",
-      "grim"
+      "Strict",
+      "Severe",
+      "Harsh",
+      "Austere"
     ],
     "antonyms": [
-      "No common antonym"
+      "Lenient",
+      "Gentle",
+      "Forgiving"
     ],
-    "example": "The student learned how to use stern correctly in a sentence."
+    "example": "The principal gave a stern warning that bullying would lead to immediate suspension."
   },
   "stifle": {
     "word": "Stifle",
@@ -16519,91 +18860,107 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "stimulus": {
     "word": "Stimulus",
     "pos": "noun",
-    "simpleDefinition": "An external phenomenon that has an influence on a system, by triggering or modifying an internal phenomenon; for example, a spur or incentive that drives a person to take action or change behaviour.",
-    "banglaMeaning": "আবেগ / প্রেরণা",
+    "simpleDefinition": "Something that excites, provokes, or encourages activity, energy, or growth.",
+    "banglaMeaning": "উদ্দীপনা / উদ্দীপক / প্রণোদনা / প্রেরণা",
     "synonyms": [
-      "stimulant",
-      "stimulation",
-      "input"
+      "Incentive",
+      "Spur",
+      "Catalyst",
+      "Impetus"
     ],
     "antonyms": [
-      "No common antonym"
+      "Deterrent",
+      "Obstacle",
+      "Disincentive"
     ],
-    "example": "The student learned how to use stimulus correctly in a sentence."
+    "example": "Lower interest rates provided a powerful stimulus for local home construction and business growth."
   },
   "stir": {
     "word": "Stir",
     "pos": "verb",
-    "simpleDefinition": "To disturb the relative position of the particles (of a liquid or similar) by passing an object through it.",
+    "simpleDefinition": "To mix a liquid by moving an implement, or arouse an emotional reaction.",
     "banglaMeaning": "আলোড়িত করা",
     "synonyms": [
-      "turmoil",
-      "shift",
-      "touch"
+      "Mix",
+      "Agitate",
+      "Arouse",
+      "Provoke"
     ],
     "antonyms": [
-      "No common antonym"
+      "Leave still",
+      "Soothe"
     ],
-    "example": "The student learned how to use stir correctly in a sentence."
+    "example": "Gently stir the soup with a wooden ladle until the seasoning dissolves."
   },
   "stout": {
     "word": "Stout",
     "pos": "adjective",
-    "simpleDefinition": "Large; bulky.",
+    "simpleDefinition": "Heavily built, strong, and thick, or brave and determined.",
     "banglaMeaning": "শক্তিশালী / নিভর্শীক",
     "synonyms": [
-      "robust",
-      "fat",
-      "portly"
+      "Sturdy",
+      "Solid",
+      "Brave",
+      "Robust"
     ],
     "antonyms": [
-      "No common antonym"
+      "Slender",
+      "Thin",
+      "Frail"
     ],
-    "example": "The student learned how to use stout correctly in a sentence."
+    "example": "He carried a stout oak staff as he hiked along the rugged mountain trails."
   },
   "stream": {
     "word": "Stream",
     "pos": "noun",
-    "simpleDefinition": "Any steady flow or succession of material, such as water, air, radio signal or words.",
+    "simpleDefinition": "A small narrow river, or a continuous flow of water or things.",
     "banglaMeaning": "জলপ্রবাহ",
     "synonyms": [
-      "flow",
-      "pelt",
-      "swarm"
+      "Brook",
+      "Creek",
+      "Flow",
+      "Current"
     ],
     "antonyms": [
-      "No common antonym"
+      "Trickle"
     ],
-    "example": "The student learned how to use stream correctly in a sentence."
+    "example": "Clear cold water bubbled over the smooth stones of the forest stream."
   },
   "strict": {
     "word": "Strict",
     "pos": "adjective",
-    "simpleDefinition": "Governed or governing by exact rules; observing exact rules; severe; rigorous.",
+    "simpleDefinition": "Demanding that rules concerning discipline or behavior are obeyed exactly.",
     "banglaMeaning": "কঠোর",
     "synonyms": [
-      "stern",
-      "severe",
-      "rigid"
+      "Rigorous",
+      "Stringent",
+      "Firm",
+      "Severe"
     ],
     "antonyms": [
-      "No common antonym"
+      "Lenient",
+      "Permissive",
+      "Lax"
     ],
-    "example": "The student learned how to use strict correctly in a sentence."
+    "example": "The university laboratory follows strict safety protocols for handling chemicals."
   },
   "strident": {
     "word": "Strident",
-    "pos": "noun",
-    "simpleDefinition": "One of a class of s-like fricatives produced by an airstream directed at the upper teeth.",
+    "pos": "adjective",
+    "simpleDefinition": "Loud and harsh; grating, or expressing viewpoints forcefully and aggressively.",
     "banglaMeaning": "কর্কশ",
     "synonyms": [
-      "Related to strident",
-      "Similar"
+      "Harsh",
+      "Grating",
+      "Raucous",
+      "Shrill"
     ],
     "antonyms": [
-      "No common antonym"
+      "Soft",
+      "Mild",
+      "Pleasant"
     ],
-    "example": "The teacher gave an insightful explanation of strident."
+    "example": "The politician's strident voice echoed loudly across the echoing lecture hall."
   },
   "stringent": {
     "word": "Stringent",
@@ -16625,17 +18982,20 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "stubborn": {
     "word": "Stubborn",
     "pos": "adjective",
-    "simpleDefinition": "Refusing to move or to change one's opinion; obstinate; firmly resisting; persistent in doing something.",
+    "simpleDefinition": "Having or showing a determined refusal to change one's mind or position.",
     "banglaMeaning": "একগুঁয়ে",
     "synonyms": [
-      "dour",
-      "tenacious",
-      "obstinate"
+      "Obstinate",
+      "Unyielding",
+      "Headstrong",
+      "Persistent"
     ],
     "antonyms": [
-      "docile"
+      "Compliant",
+      "Yielding",
+      "Flexible"
     ],
-    "example": "The student learned how to use stubborn correctly in a sentence."
+    "example": "He was too stubborn to ask for directions even when he knew he was lost."
   },
   "subdue": {
     "word": "Subdue",
@@ -16657,42 +19017,52 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "subordination": {
     "word": "Subordination",
     "pos": "noun",
-    "simpleDefinition": "The property of being subordinate; inferiority of rank or position.",
+    "simpleDefinition": "The act of ranking below or being under the authority and control of another.",
     "banglaMeaning": "অধীনস্থ",
     "synonyms": [
-      "mastery",
-      "hyponymy"
+      "Subjection",
+      "Submission",
+      "Compliance"
     ],
     "antonyms": [
-      "insubordination"
+      "Autonomy",
+      "Independence",
+      "Dominance"
     ],
-    "example": "The student learned how to use subordination correctly in a sentence."
+    "example": "Military discipline requires the complete subordination of personal preferences to duty."
   },
   "subpoena": {
     "word": "Subpoena",
     "pos": "noun",
-    "simpleDefinition": "A writ (“written order”) requiring someone to appear in court, or at a deposition or some other legal proceeding, as a witness to give testimony (a subpoena ad testificandum) or to produce evidence (subpoena duces tecum), in default of which the person may be punished.",
+    "simpleDefinition": "A formal legal writ ordering a person to appear in court to give testimony.",
     "banglaMeaning": "আদালতে ডাকা",
     "synonyms": [
-      "subpoena ad testificandum"
+      "Summons",
+      "Court order",
+      "Writ"
     ],
     "antonyms": [
-      "No common antonym"
+      "Dismissal"
     ],
-    "example": "The student learned how to use subpoena correctly in a sentence."
+    "example": "The key witness received a subpoena ordering her to testify at the trial next Tuesday."
   },
   "subterfuge": {
     "word": "Subterfuge",
     "pos": "noun",
-    "simpleDefinition": "Deception; misrepresentation of the true nature of an activity.",
-    "banglaMeaning": "প্রতারনা",
+    "simpleDefinition": "Deceit used in order to achieve one's goal; clever trickery.",
+    "banglaMeaning": "প্রতারণা",
     "synonyms": [
-      "blind"
+      "Deceit",
+      "Trickery",
+      "Guile",
+      "Deception"
     ],
     "antonyms": [
-      "No common antonym"
+      "Honesty",
+      "Openness",
+      "Candor"
     ],
-    "example": "The student learned how to use subterfuge correctly in a sentence."
+    "example": "The spy obtained the classified documents through elaborate disguises and subterfuge."
   },
   "subtle": {
     "word": "Subtle",
@@ -16714,104 +19084,120 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "subtlety": {
     "word": "Subtlety",
     "pos": "noun",
-    "simpleDefinition": "The quality of being subtle.",
+    "simpleDefinition": "The quality of being subtle; delicate meaning, nuance, or refinement.",
     "banglaMeaning": "অস্পষ্ট",
     "synonyms": [
-      "nuance",
-      "refinement",
-      "niceness"
+      "Delicacy",
+      "Nuance",
+      "Refinement",
+      "Precision"
     ],
     "antonyms": [
-      "No common antonym"
+      "Obviousness",
+      "Crudeness"
     ],
-    "example": "The student learned how to use subtlety correctly in a sentence."
+    "example": "Appreciating classic literature requires an understanding of artistic subtlety and metaphor."
   },
   "subtraction": {
     "word": "Subtraction",
     "pos": "noun",
-    "simpleDefinition": "The process of subtracting a number from another.",
+    "simpleDefinition": "The mathematical operation of taking one number or quantity away from another.",
     "banglaMeaning": "বিয়োগ",
     "synonyms": [
-      "deduction",
-      "minus"
+      "Deduction",
+      "Removal",
+      "Diminution"
     ],
     "antonyms": [
-      "addition"
+      "Addition",
+      "Summation"
     ],
-    "example": "The student learned how to use subtraction correctly in a sentence."
+    "example": "Young students practice basic addition and subtraction with wooden counting blocks."
   },
   "subvert": {
     "word": "Subvert",
     "pos": "verb",
-    "simpleDefinition": "To overturn from the foundation; to overthrow; to ruin utterly.",
-    "banglaMeaning": "ক্ষমতা ’ংস করা",
+    "simpleDefinition": "To undermine the power, authority, or stability of an established system.",
+    "banglaMeaning": "ক্ষমতা ধ্বংস বা দুর্বল করা",
     "synonyms": [
-      "undermine",
-      "counteract",
-      "sabotage"
+      "Undermine",
+      "Destabilize",
+      "Overthrow",
+      "Sabotage"
     ],
     "antonyms": [
-      "No common antonym"
+      "Uphold",
+      "Support",
+      "Strengthen"
     ],
-    "example": "The student learned how to use subvert correctly in a sentence."
+    "example": "Corrupt officials attempted to subvert the election through bribery and vote-rigging."
   },
   "succinct": {
     "word": "Succinct",
     "pos": "adjective",
-    "simpleDefinition": "Briefly and clearly expressed; concise and to the point",
+    "simpleDefinition": "Briefly and clearly expressed; concise and directly to the point.",
     "banglaMeaning": "সংক্ষিপ্ত / প্রাঞ্জল",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Concise",
+      "Brief",
+      "Compact",
+      "Terse"
     ],
     "antonyms": [
-      "No common antonym"
+      "Verbose",
+      "Wordy",
+      "Lengthy"
     ],
-    "example": "The candidate understood the meaning of succinct."
+    "example": "He gave a succinct summary of the complex financial report."
   },
   "suffrage": {
     "word": "Suffrage",
     "pos": "noun",
-    "simpleDefinition": "The right or chance to vote, express an opinion, or participate in a decision, especially in a democratic election.",
+    "simpleDefinition": "The legal right to vote in political elections.",
     "banglaMeaning": "ভোটাধিকার",
     "synonyms": [
-      "right to vote",
-      "vote"
+      "Right to vote",
+      "Franchise",
+      "Voting rights"
     ],
     "antonyms": [
-      "No common antonym"
+      "Disenfranchisement"
     ],
-    "example": "The student learned how to use suffrage correctly in a sentence."
+    "example": "Activists fought dedicated battles throughout the twentieth century to achieve universal suffrage."
   },
   "sullen": {
     "word": "Sullen",
     "pos": "adjective",
-    "simpleDefinition": "Having a brooding ill temper; sulky.",
-    "banglaMeaning": "চাপা কে্রোধযুক্ত",
+    "simpleDefinition": "Bad-tempered, gloomy, and sulky in silent resentment.",
+    "banglaMeaning": "চাপা ক্রোধযুক্ত",
     "synonyms": [
-      "dour",
-      "morose",
-      "heavy"
+      "Sulky",
+      "Gloomy",
+      "Morose",
+      "Resentful"
     ],
     "antonyms": [
-      "No common antonym"
+      "Cheerful",
+      "Bright",
+      "Sociable"
     ],
-    "example": "The student learned how to use sullen correctly in a sentence."
+    "example": "The reprimanded teenager sat in sullen silence, refusing to say a word."
   },
   "summons": {
     "word": "Summons",
     "pos": "noun",
-    "simpleDefinition": "A call to do something, especially to come.",
+    "simpleDefinition": "An official legal order to appear before a judge or magistrate.",
     "banglaMeaning": "ডেকে পাঠানো",
     "synonyms": [
-      "process",
-      "summon",
-      "call for"
+      "Subpoena",
+      "Citation",
+      "Writ",
+      "Court order"
     ],
     "antonyms": [
-      "No common antonym"
+      "Dismissal"
     ],
-    "example": "The student learned how to use summons correctly in a sentence."
+    "example": "He received a court summons instructing him to appear as a juror next Monday."
   },
   "sumptuous": {
     "word": "Sumptuous",
@@ -16833,30 +19219,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "superannuate": {
     "word": "Superannuate",
     "pos": "verb",
-    "simpleDefinition": "To retire due to age.",
+    "simpleDefinition": "To retire someone with a pension, or discard something as too old or obsolete.",
     "banglaMeaning": "কাজ বা ব্যবহারের জন্য অতি প্রাচীন / বয়স উত্তীর্ন",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Pension off",
+      "Retire",
+      "Discard",
+      "Phase out"
     ],
     "antonyms": [
-      "No common antonym"
+      "Employ",
+      "Retain",
+      "Reactivate"
     ],
-    "example": "The student learned how to use superannuate correctly in a sentence."
+    "example": "The company decided to superannuate older machinery and install automated equipment."
   },
   "supercilious": {
     "word": "Supercilious",
     "pos": "adjective",
-    "simpleDefinition": "Having the qualities or characteristics of supercilious.",
-    "banglaMeaning": "অহংকৃত / গবির্ত",
+    "simpleDefinition": "Behaving or looking as though one thinks one is superior to others; arrogant.",
+    "banglaMeaning": "অহংকারী / গর্বিত",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Arrogant",
+      "Haughty",
+      "Condescending",
+      "Disdainful"
     ],
     "antonyms": [
-      "No common antonym"
+      "Humble",
+      "Modest",
+      "Unassuming"
     ],
-    "example": "The student learned how to use supercilious correctly in a sentence."
+    "example": "The clerk gave a supercilious smirk when the customer asked for a discount."
   },
   "superficial": {
     "word": "Superficial",
@@ -16878,33 +19272,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "superior": {
     "word": "Superior",
     "pos": "adjective",
-    "simpleDefinition": "Higher in rank, status, or quality.",
-    "banglaMeaning": "ঙে্কষ্ঠ",
+    "simpleDefinition": "Higher in rank, status, quality, or excellence than others.",
+    "banglaMeaning": "শ্রেষ্ঠ",
     "synonyms": [
-      "eminent",
-      "good",
-      "patronizing"
+      "Better",
+      "Higher",
+      "Exceptional",
+      "Premier"
     ],
     "antonyms": [
-      "inferior",
-      "adscript",
-      "subscript"
+      "Inferior",
+      "Subordinate",
+      "Poor"
     ],
-    "example": "The student learned how to use superior correctly in a sentence."
+    "example": "Handcrafted leather shoes are clearly superior in durability to synthetic footwear."
   },
   "supplant": {
     "word": "Supplant",
     "pos": "verb",
-    "simpleDefinition": "To take the place of; to replace, to supersede.",
-    "banglaMeaning": "স্থানচু্যত",
+    "simpleDefinition": "To supersede and replace someone or something, often through innovation or force.",
+    "banglaMeaning": "অন্যের স্থান দখল করা; প্রতিস্থাপন করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Replace",
+      "Supersede",
+      "Oust",
+      "Displace"
     ],
     "antonyms": [
-      "No common antonym"
+      "Retain",
+      "Keep",
+      "Maintain"
     ],
-    "example": "The student learned how to use supplant correctly in a sentence."
+    "example": "Modern smartphones have largely supplanted portable music players and calculators."
   },
   "suppress": {
     "word": "Suppress",
@@ -16926,48 +19325,54 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "surreal": {
     "word": "Surreal",
     "pos": "adjective",
-    "simpleDefinition": "Resembling a dream: fantastic and incongruous.",
-    "banglaMeaning": "পরাবাস্তব",
+    "simpleDefinition": "Having a bizarre, dreamlike, or unreal quality; strange.",
+    "banglaMeaning": "অবাস্তব মনে হওয়া",
     "synonyms": [
-      "unreal",
-      "phantasmagoric",
-      "dreamlike"
+      "Bizarre",
+      "Dreamlike",
+      "Otherworldly",
+      "Unreal"
     ],
     "antonyms": [
-      "No common antonym"
+      "Realistic",
+      "Conventional",
+      "Normal"
     ],
-    "example": "The student learned how to use surreal correctly in a sentence."
+    "example": "Walking through the completely empty airport at midnight felt quiet and surreal."
   },
   "susceptible": {
     "word": "Susceptible",
-    "pos": "noun",
-    "simpleDefinition": "A person who is vulnerable to being infected by a certain disease.",
+    "pos": "adjective",
+    "simpleDefinition": "Likely or liable to be influenced, harmed, or affected by a particular thing.",
     "banglaMeaning": "স্পশর্কাতর",
     "synonyms": [
-      "Related to susceptible",
-      "Similar"
+      "Vulnerable",
+      "Prone",
+      "Liable",
+      "Sensitive"
     ],
     "antonyms": [
-      "No common antonym"
+      "Resistant",
+      "Immune",
+      "Protected"
     ],
-    "example": "The teacher gave an insightful explanation of susceptible."
+    "example": "Young seedlings are especially susceptible to frost damage during chilly spring nights."
   },
   "suspect": {
     "word": "Suspect",
-    "pos": "verb",
-    "simpleDefinition": "To distrust or have doubts about (something or someone).",
-    "banglaMeaning": "সনে্দহভাজন",
+    "pos": "noun",
+    "simpleDefinition": "A person thought to be guilty of a crime or offense under investigation.",
+    "banglaMeaning": "সন্দেহভাজন",
     "synonyms": [
-      "surmise",
-      "queer",
-      "doubt"
+      "Accused",
+      "Defendant",
+      "Person of interest"
     ],
     "antonyms": [
-      "trust",
-      "bank",
-      "complainant"
+      "Victim",
+      "Innocent person"
     ],
-    "example": "The student learned how to use suspect correctly in a sentence."
+    "example": "Police questioned the suspect about his whereabouts at the time of the burglary."
   },
   "sustain": {
     "word": "Sustain",
@@ -16989,44 +19394,55 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "swindle": {
     "word": "Swindle",
     "pos": "verb",
-    "simpleDefinition": "To obtain (money or property) by fraudulent or deceitful methods.",
+    "simpleDefinition": "To cheat or defraud someone out of money or possessions using deception.",
     "banglaMeaning": "প্রতারণা করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Cheat",
+      "Defraud",
+      "Con",
+      "Fleece"
     ],
     "antonyms": [
-      "No common antonym"
+      "Treat honestly",
+      "Compensate"
     ],
-    "example": "The student learned how to use swindle correctly in a sentence."
+    "example": "The con artist attempted to swindle unsuspecting tourists with counterfeit jewelry."
   },
   "swollen": {
     "word": "Swollen",
-    "pos": "verb",
-    "simpleDefinition": "To become bigger, especially due to being engorged.",
+    "pos": "adjective",
+    "simpleDefinition": "Enlarged or puffed up, typically from injury, inflammation, or fluid buildup.",
     "banglaMeaning": "ফোলা বা ফুলে যাওয়া",
     "synonyms": [
-      "Related to swollen",
-      "Similar"
+      "Distended",
+      "Puffy",
+      "Enlarged",
+      "Bloated"
     ],
     "antonyms": [
-      "No common antonym"
+      "Shrunken",
+      "Deflated",
+      "Normal"
     ],
-    "example": "The teacher gave an insightful explanation of swollen."
+    "example": "Her ankle became painfully swollen after she twisted it during the soccer match."
   },
   "sycophancy": {
     "word": "Sycophancy",
     "pos": "noun",
-    "simpleDefinition": "The fawning behavior of a sycophant; servile flattery; fawningness.",
+    "simpleDefinition": "Obsequious, flattering behavior toward someone important in order to gain advantage.",
     "banglaMeaning": "তোষামুদি",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Flattery",
+      "Servility",
+      "Brown-nosing",
+      "Fawning"
     ],
     "antonyms": [
-      "No common antonym"
+      "Honesty",
+      "Sincerity",
+      "Frankness"
     ],
-    "example": "The student learned how to use sycophancy correctly in a sentence."
+    "example": "The vain executive was surrounded by sycophancy that concealed real corporate problems."
   },
   "sycophant": {
     "word": "Sycophant",
@@ -17048,32 +19464,37 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "synopsis": {
     "word": "Synopsis",
     "pos": "noun",
-    "simpleDefinition": "A brief summary of the major points of a written work, either as prose or as a table; an abridgment or condensation of a work.",
+    "simpleDefinition": "A brief summary or general overview of a book, play, or other work.",
     "banglaMeaning": "সারাংশ",
     "synonyms": [
-      "abstract",
-      "outline",
-      "precis"
+      "Summary",
+      "Outline",
+      "Abstract",
+      "Recap"
     ],
     "antonyms": [
-      "No common antonym"
+      "Full text",
+      "Expansion"
     ],
-    "example": "The student learned how to use synopsis correctly in a sentence."
+    "example": "The author submitted a two-page synopsis along with the first chapter of her manuscript."
   },
   "taciturn": {
     "word": "Taciturn",
     "pos": "adjective",
-    "simpleDefinition": "Silent; temperamentally untalkative; disinclined to speak.",
-    "banglaMeaning": "স্বস্ফভাষী",
+    "simpleDefinition": "Reserved, uncommunicative, and saying very little by nature.",
+    "banglaMeaning": "স্বল্পভাষী",
     "synonyms": [
-      "reticent",
-      "buttoned-up",
-      "untalkative"
+      "Untalkative",
+      "Reserved",
+      "Silent",
+      "Reticent"
     ],
     "antonyms": [
-      "voluble"
+      "Talkative",
+      "Loquacious",
+      "Voluble"
     ],
-    "example": "The student learned how to use taciturn correctly in a sentence."
+    "example": "The taciturn old farmer rarely spoke more than a few words at breakfast."
   },
   "tactful": {
     "word": "Tactful",
@@ -17095,58 +19516,67 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "tantamount": {
     "word": "Tantamount",
     "pos": "adjective",
-    "simpleDefinition": "Equivalent in meaning or effect; amounting to the same thing in practical terms, even if being technically distinct.",
+    "simpleDefinition": "Equivalent in seriousness, effect, or value to something.",
     "banglaMeaning": "সমপরিমাণ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Equivalent to",
+      "Equal to",
+      "As good as",
+      "Identical to"
     ],
     "antonyms": [
-      "No common antonym"
+      "Different from",
+      "Opposite"
     ],
-    "example": "The student learned how to use tantamount correctly in a sentence."
+    "example": "Refusing to testify was considered tantamount to an admission of guilt."
   },
   "taunting": {
     "word": "Taunting",
     "pos": "verb",
-    "simpleDefinition": "To make fun of (someone); to goad (a person) into responding, often in an aggressive manner.",
+    "simpleDefinition": "Provoking or challenging someone with insulting or contemptuous remarks.",
     "banglaMeaning": "বিদ্রুপ",
     "synonyms": [
-      "Related to taunting",
-      "Similar"
+      "Teasing",
+      "Mocker",
+      "Jeering",
+      "Goading"
     ],
     "antonyms": [
-      "No common antonym"
+      "Complimenting",
+      "Praising",
+      "Encouraging"
     ],
-    "example": "The teacher gave an insightful explanation of taunting."
+    "example": "The bully was caught taunting younger students on the playground."
   },
   "telepathy": {
     "word": "Telepathy",
     "pos": "noun",
-    "simpleDefinition": "The capability to communicate directly by psychic means; the sympathetic affection of one mind by the thoughts, feelings, or emotions of another at a distance, without communication through the ordinary channels of sensation.",
-    "banglaMeaning": "অনে্যর চিন্তার অনুভূতি দ্রুত বুঝে নেয়ার ক্ষমতা",
+    "simpleDefinition": "The supposed communication of thoughts or ideas by means other than the known senses.",
+    "banglaMeaning": "অন্যের চিন্তার অনুভূতি দ্রুত বুঝে নেয়ার ক্ষমতা",
     "synonyms": [
-      "thought transference"
+      "Mind-reading",
+      "Thought transference",
+      "ESP"
     ],
     "antonyms": [
-      "No common antonym"
+      "Sensory communication"
     ],
-    "example": "The student learned how to use telepathy correctly in a sentence."
+    "example": "Science fiction novels often portray alien species communicating through silent telepathy."
   },
   "teller": {
     "word": "Teller",
     "pos": "noun",
-    "simpleDefinition": "A bank clerk who receives and pays out money.",
+    "simpleDefinition": "A bank employee whose job is to pay out and take in money at the counter.",
     "banglaMeaning": "ব্যাংকের ক্যাশিয়ার",
     "synonyms": [
-      "cashier",
-      "bank clerk",
-      "vote counter"
+      "Bank clerk",
+      "Cashier",
+      "Bank teller"
     ],
     "antonyms": [
-      "No common antonym"
+      "Customer"
     ],
-    "example": "The student learned how to use teller correctly in a sentence."
+    "example": "The bank teller counted the cash carefully before handing over the receipt."
   },
   "temperate": {
     "word": "Temperate",
@@ -17185,193 +19615,224 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "tenacity": {
     "word": "Tenacity",
     "pos": "noun",
-    "simpleDefinition": "The quality or state of being tenacious, or persistence of purpose; tenaciousness.",
+    "simpleDefinition": "The quality or fact of being determined, persistent, and holding firmly to a goal.",
     "banglaMeaning": "কোন কিছুর প্রতি আগ্রহ / জিদ",
     "synonyms": [
-      "doggedness",
-      "tenaciousness",
-      "perseverence"
+      "Persistence",
+      "Determination",
+      "Perseverance",
+      "Doggedness"
     ],
     "antonyms": [
-      "No common antonym"
+      "Hesitation",
+      "Weakness",
+      "Irresolution"
     ],
-    "example": "The student learned how to use tenacity correctly in a sentence."
+    "example": "Her tenacity helped her overcome severe illness and graduate with highest honors."
   },
   "tenant": {
     "word": "Tenant",
     "pos": "noun",
-    "simpleDefinition": "One who holds a lease (a tenancy).",
-    "banglaMeaning": "ভাড়াটয়িা",
+    "simpleDefinition": "A person who occupies land or property rented from a landlord.",
+    "banglaMeaning": "ভাড়াটিয়া",
     "synonyms": [
-      "renter"
+      "Renter",
+      "Occupant",
+      "Resident",
+      "Leaseholder"
     ],
     "antonyms": [
-      "No common antonym"
+      "Landlord",
+      "Owner"
     ],
-    "example": "The student learned how to use tenant correctly in a sentence."
+    "example": "The tenant paid his monthly rent on the first day of every month."
   },
   "tender": {
     "word": "Tender",
     "pos": "adjective",
-    "simpleDefinition": "Sensitive or painful to the touch.",
+    "simpleDefinition": "Showing gentleness, kindness, and affection, or easy to cut and chew.",
     "banglaMeaning": "কোমল / পেশা / প্রস্তাব",
     "synonyms": [
-      "delicate",
-      "soft",
-      "crisp"
+      "Gentle",
+      "Caring",
+      "Soft",
+      "Affectionate"
     ],
     "antonyms": [
-      "tough",
-      "toughened"
+      "Tough",
+      "Harsh",
+      "Callous"
     ],
-    "example": "The student learned how to use tender correctly in a sentence."
+    "example": "The nurse dressed the child's wound with tender care and soothing words."
   },
   "tentative": {
     "word": "Tentative",
     "pos": "adjective",
-    "simpleDefinition": "Uncertain; subject to future change.",
-    "banglaMeaning": "অনিহি্নত / দোদুল্যমান",
+    "simpleDefinition": "Not certain or fixed; provisional, or done with hesitation.",
+    "banglaMeaning": "অনিশ্চিত / দোদুল্যমান",
     "synonyms": [
-      "unsettled",
-      "doubtful",
-      "provisionary"
+      "Provisional",
+      "Unconfirmed",
+      "Hesitant",
+      "Cautious"
     ],
     "antonyms": [
-      "No common antonym"
+      "Definite",
+      "Certain",
+      "Confident"
     ],
-    "example": "The student learned how to use tentative correctly in a sentence."
+    "example": "We made a tentative agreement to meet for coffee next Thursday afternoon."
   },
   "tenterhooks": {
     "word": "Tenterhooks",
-    "pos": "noun",
-    "simpleDefinition": "One of a series of hooks used to stretch cloth on a tenter.",
-    "banglaMeaning": "উদে্ধগপূণর্ অনিহি্নত অবস্থা",
+    "pos": "idiom",
+    "simpleDefinition": "In a state of painful suspense, acute tension, or anxiety.",
+    "banglaMeaning": "উদ্বেগপূর্ণ অনিশ্চিত অবস্থা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "On pins and needles",
+      "In suspense",
+      "Anxious",
+      "Edgy"
     ],
     "antonyms": [
-      "No common antonym"
+      "Calm",
+      "Relaxed",
+      "At ease"
     ],
-    "example": "The student learned how to use tenterhooks correctly in a sentence."
+    "example": "The candidate was on tenterhooks all evening waiting for election results."
   },
   "tenure": {
     "word": "Tenure",
     "pos": "noun",
-    "simpleDefinition": "A status of having a permanent post with enhanced job security within an academic institution.",
+    "simpleDefinition": "The conditions under which land or buildings are held, or permanent employment status.",
     "banglaMeaning": "কার্যকাল",
     "synonyms": [
-      "incumbency",
-      "land tenure",
-      "term of office"
+      "Term",
+      "Occupancy",
+      "Incumbency",
+      "Permanent status"
     ],
     "antonyms": [
-      "No common antonym"
+      "Temporary status",
+      "Probation"
     ],
-    "example": "The student learned how to use tenure correctly in a sentence."
+    "example": "After seven years of successful research, the university granted him academic tenure."
   },
   "tepid": {
     "word": "Tepid",
     "pos": "adjective",
-    "simpleDefinition": "Lukewarm; neither warm nor cool.",
-    "banglaMeaning": "অস্ফ গরম বা হৃসুম হৃসুম গরম",
+    "simpleDefinition": "Only slightly warm; lukewarm, or showing little enthusiasm.",
+    "banglaMeaning": "অল্প গরম বা কুসুম কুসুম গরম",
     "synonyms": [
-      "lukewarm",
-      "uninterested"
+      "Lukewarm",
+      "Warmish",
+      "Halfhearted",
+      "Unenthusiastic"
     ],
     "antonyms": [
-      "No common antonym"
+      "Hot",
+      "Boiling",
+      "Enthusiastic"
     ],
-    "example": "I'm drinking a cup of tepid water."
+    "example": "The new comedy film received only tepid applause from the opening night audience."
   },
   "thankless": {
     "word": "Thankless",
     "pos": "adjective",
-    "simpleDefinition": "Ungrateful or unappreciative.",
+    "simpleDefinition": "Difficult or unpleasant and unlikely to result in thanks or reward.",
     "banglaMeaning": "অকৃতন্ত্র",
     "synonyms": [
-      "ungrateful",
-      "unappreciated",
-      "unrewarding"
+      "Unappreciated",
+      "Ungrateful",
+      "Unrewarding"
     ],
     "antonyms": [
-      "grateful",
-      "thankful"
+      "Rewarding",
+      "Appreciated"
     ],
-    "example": "The student learned how to use thankless correctly in a sentence."
+    "example": "Cleaning up after the messy outdoor festival was a difficult and thankless job."
   },
   "theist": {
     "word": "Theist",
     "pos": "noun",
-    "simpleDefinition": "One who believes in the existence of a god or gods.",
-    "banglaMeaning": "আসি্তক",
+    "simpleDefinition": "A person who believes in the existence of a God or gods.",
+    "banglaMeaning": "আস্তিক",
     "synonyms": [
-      "Related to theist",
-      "Similar"
+      "Believer",
+      "Religious person"
     ],
     "antonyms": [
-      "atheist"
+      "Atheist",
+      "Agnostic"
     ],
-    "example": "The teacher gave an insightful explanation of theist."
+    "example": "As a devoted theist, he found meaning and comfort in daily prayer."
   },
   "theologist": {
     "word": "Theologist",
     "pos": "noun",
-    "simpleDefinition": "One who is skilled in, professes or practices that which relates or pertains to God.",
-    "banglaMeaning": "ধর্মতত্রবিৎ",
+    "simpleDefinition": "A person who studies religion, religious beliefs, and the divine.",
+    "banglaMeaning": "ধর্মতত্ত্ববিদ",
     "synonyms": [
-      "theologian",
-      "theologizer"
+      "Theologian",
+      "Religious scholar",
+      "Divine"
     ],
     "antonyms": [
-      "No common antonym"
+      "Secularist"
     ],
-    "example": "The student learned how to use theologist correctly in a sentence."
+    "example": "The theologist gave a fascinating lecture comparing ancient scriptures."
   },
   "thorough": {
     "word": "Thorough",
     "pos": "adjective",
-    "simpleDefinition": "Painstaking and careful not to miss or omit any detail.",
-    "banglaMeaning": "পুড্ডানুপুড্ড",
+    "simpleDefinition": "Complete with regard to every detail; meticulously rigorous.",
+    "banglaMeaning": "পুঙ্খানুপুঙ্খ",
     "synonyms": [
-      "complete",
-      "careful",
-      "exhaustive"
+      "Meticulous",
+      "Comprehensive",
+      "Detailed",
+      "Exhaustive"
     ],
     "antonyms": [
-      "No common antonym"
+      "Superficial",
+      "Cursory",
+      "Incomplete"
     ],
-    "example": "The student learned how to use thorough correctly in a sentence."
+    "example": "The mechanics performed a thorough inspection of the aircraft before takeoff."
   },
   "thread": {
     "word": "Thread",
     "pos": "noun",
-    "simpleDefinition": "A cord formed by spinning or twisting together textile fibers or filaments into one or more continuous strands, typically used in needlework.",
+    "simpleDefinition": "A long, thin strand of cotton, nylon, or other fibers used in sewing.",
     "banglaMeaning": "সুতা",
     "synonyms": [
-      "yarn",
-      "weave",
-      "string"
+      "Yarn",
+      "Fiber",
+      "Strand",
+      "Filament"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use thread correctly in a sentence."
+    "example": "She carefully guided the black thread through the eye of the sewing needle."
   },
   "thrifty": {
     "word": "Thrifty",
     "pos": "adjective",
-    "simpleDefinition": "Showing thrift; economical; frugal.",
+    "simpleDefinition": "Using money and other resources carefully and not wastefully; economical.",
     "banglaMeaning": "মিতব্যয়ী / কিপটে",
     "synonyms": [
-      "provident",
-      "careful",
-      "economical"
+      "Frugal",
+      "Economical",
+      "Prudent",
+      "Sparingly"
     ],
     "antonyms": [
-      "wasteful"
+      "Wasteful",
+      "Extravagant",
+      "Prodigal"
     ],
-    "example": "The student learned how to use thrifty correctly in a sentence."
+    "example": "Her thrifty shopping habits enabled the family to save money for a home."
   },
   "timid": {
     "word": "Timid",
@@ -17392,154 +19853,175 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "tiny in size": {
     "word": "Tiny in size",
-    "pos": "adjective",
-    "simpleDefinition": "Extremely small in physical dimensions",
+    "pos": "idiom",
+    "simpleDefinition": "Extremely small in physical dimensions or magnitude.",
     "banglaMeaning": "খুব ছোট",
     "synonyms": [
-      "miniature",
-      "microscopic",
-      "minute"
+      "Miniature",
+      "Minuscule",
+      "Diminutive",
+      "Microscopic"
     ],
     "antonyms": [
-      "massive",
-      "huge",
-      "gigantic"
+      "Enormous",
+      "Gigantic",
+      "Huge"
     ],
-    "example": "The insect was tiny in size and hard to spot."
+    "example": "The electronic microchip was tiny in size but packed immense computing power."
   },
   "tipped": {
     "word": "Tipped",
-    "pos": "adjective",
-    "simpleDefinition": "Having a tip; or having a tip as specified (used in combination).",
-    "banglaMeaning": "একপাশ বা প্রানে্ত উঠানো",
+    "pos": "verb",
+    "simpleDefinition": "Gave a sum of money to someone for service, or overturned or tilted.",
+    "banglaMeaning": "একপাশ বা প্রান্তে উঠানো",
     "synonyms": [
-      "inclined",
-      "canted",
-      "atilt"
+      "Rewarded",
+      "Compensated",
+      "Tilted",
+      "Overturned"
     ],
     "antonyms": [
-      "untipped"
+      "Underpaid",
+      "Straightened"
     ],
-    "example": "The student learned how to use tipped correctly in a sentence."
+    "example": "He tipped the polite restaurant waiter generously for exceptional service."
   },
   "tirade": {
     "word": "Tirade",
     "pos": "noun",
-    "simpleDefinition": "A long, angry or violent speech.",
-    "banglaMeaning": "তিরস্কারপূণর্ দীঘর্ বক্তৃ তা",
+    "simpleDefinition": "A long, angry speech of criticism, reprimand, or accusation.",
+    "banglaMeaning": "তিরস্কারপূর্ণ দীর্ঘ বক্তৃতা",
     "synonyms": [
-      "broadside",
-      "philippic"
+      "Diatribe",
+      "Rant",
+      "Harangue",
+      "Outburst"
     ],
     "antonyms": [
-      "No common antonym"
+      "Praise",
+      "Compliment",
+      "Eulogy"
     ],
-    "example": "The student learned how to use tirade correctly in a sentence."
+    "example": "The coach launched into an angry tirade after the team made sloppy defensive errors."
   },
   "titanic": {
     "word": "Titanic",
     "pos": "adjective",
-    "simpleDefinition": "(comparable) Having great size, or great force, power, or strength.",
+    "simpleDefinition": "Of exceptional strength, size, power, or influence; colossal.",
     "banglaMeaning": "বিশাল",
     "synonyms": [
-      "large",
-      "big"
+      "Colossal",
+      "Gigantic",
+      "Mammoth",
+      "Immense"
     ],
     "antonyms": [
-      "No common antonym"
+      "Tiny",
+      "Minuscule",
+      "Insignificant"
     ],
-    "example": "The student learned how to use titanic correctly in a sentence."
+    "example": "The two rival football clubs fought a titanic struggle for the championship cup."
   },
   "to blow hot and cold": {
     "word": "To blow hot and cold",
     "pos": "idiom",
-    "simpleDefinition": "To swing between enthusiasm and disinterest; vacillate",
-    "banglaMeaning": "অসামন্নস্যপূণর্ হওয়া",
+    "simpleDefinition": "To alternate between enthusiasm and indifference; be vacillating.",
+    "banglaMeaning": "অসামঞ্জস্যপূর্ণ হওয়া",
     "synonyms": [
-      "vacillate",
-      "waver",
-      "hesitate"
+      "Vacillate",
+      "Waver",
+      "Hedge",
+      "Hesitate"
     ],
     "antonyms": [
-      "remain steadfast",
-      "commit"
+      "Be consistent",
+      "Remain steadfast"
     ],
-    "example": "He keeps blowing hot and cold about joining the new startup."
+    "example": "The client keeps blowing hot and cold on whether to sign the software contract."
   },
   "to do away with": {
     "word": "To do away with",
-    "pos": "verb",
-    "simpleDefinition": "To abolish, terminate, or completely eliminate",
+    "pos": "idiom",
+    "simpleDefinition": "To abolish, discard, eliminate, or stop using something.",
     "banglaMeaning": "পরিহার করা",
     "synonyms": [
-      "abolish",
-      "eliminate",
-      "discard"
+      "Abolish",
+      "Eliminate",
+      "Discard",
+      "Scrap"
     ],
     "antonyms": [
-      "retain",
-      "preserve",
-      "keep"
+      "Establish",
+      "Retain",
+      "Keep"
     ],
-    "example": "The school decided to do away with the outdated uniform policy."
+    "example": "The city voted to do away with outdated paper parking tickets."
   },
   "to drive off": {
     "word": "To drive off",
-    "pos": "verb",
-    "simpleDefinition": "To force someone or something to leave; repel",
+    "pos": "idiom",
+    "simpleDefinition": "To force someone or something to leave or retreat, or depart in a car.",
     "banglaMeaning": "পরিহার করা",
     "synonyms": [
-      "repel",
-      "chase away",
-      "disperse"
+      "Repel",
+      "Repulse",
+      "Chase away",
+      "Fend off"
     ],
     "antonyms": [
-      "welcome",
-      "attract"
+      "Attract",
+      "Welcome"
     ],
-    "example": "The guards managed to drive off the intruders."
+    "example": "The brave guard dog barked loudly to drive off the wild coyotes."
   },
   "tomb": {
     "word": "Tomb",
     "pos": "noun",
-    "simpleDefinition": "A small building, or a room within one, for the remains of the dead, with walls, a roof, and (if it is to be used for more than one corpse) a door. It may be partly or wholly in the ground (except for its entrance) in a cemetery, or it may be inside a church proper or in its crypt. Single tombs may be permanently sealed; those for families (or other groups) have doors for access whenever needed.",
+    "simpleDefinition": "A large vault or chamber, typically underground, for burying the dead.",
     "banglaMeaning": "কবর",
     "synonyms": [
-      "grave"
+      "Grave",
+      "Vault",
+      "Mausoleum",
+      "Crypt"
     ],
     "antonyms": [
-      "No common antonym"
+      "Cradle"
     ],
-    "example": "The student learned how to use tomb correctly in a sentence."
+    "example": "Archaeologists carefully uncovered the ancient pharaoh's gilded tomb in Egypt."
   },
   "toot your own horn": {
     "word": "Toot your own horn",
     "pos": "idiom",
-    "simpleDefinition": "To boast, brag, or praise oneself ostentatiously",
-    "banglaMeaning": "গর্ব করা",
+    "simpleDefinition": "To talk boastfully about one's own achievements or skills.",
+    "banglaMeaning": "নিজের ঢাক নিজে পেটানো বা নিজের সাফল্য নিয়ে গর্ব বা বড়াই করা",
     "synonyms": [
-      "brag",
-      "boast",
-      "show off"
+      "Boast",
+      "Brag",
+      "Blow your own trumpet"
     ],
     "antonyms": [
-      "humble oneself",
-      "be modest"
+      "Be modest",
+      "Understate"
     ],
-    "example": "She is talented but dislikes having to toot her own horn."
+    "example": "I hate to toot my own horn, but I was the one who solved that complex problem."
   },
   "toppling": {
     "word": "Toppling",
-    "pos": "noun",
-    "simpleDefinition": "The act by which something is toppled.",
+    "pos": "verb",
+    "simpleDefinition": "Overbalancing or causing something to fall over; overthrowing.",
     "banglaMeaning": "ডিগবাজি খাইয়ে পড়া",
     "synonyms": [
-      "falling"
+      "Falling",
+      "Tumbling",
+      "Overturning",
+      "Overthrowing"
     ],
     "antonyms": [
-      "No common antonym"
+      "Stabilizing",
+      "Erecting"
     ],
-    "example": "The student learned how to use toppling correctly in a sentence."
+    "example": "Strong coastal winds were responsible for toppling the old oak tree."
   },
   "torment": {
     "word": "Torment",
@@ -17561,92 +20043,105 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "torpor": {
     "word": "Torpor",
     "pos": "noun",
-    "simpleDefinition": "A state of being inactive or stuporous.",
+    "simpleDefinition": "A state of physical or mental inactivity, lethargy, or sluggishness.",
     "banglaMeaning": "অলস",
     "synonyms": [
-      "listlessness",
-      "torpidity",
-      "torpidness"
+      "Lethargy",
+      "Sluggishness",
+      "Inertia",
+      "Apathy"
     ],
     "antonyms": [
-      "No common antonym"
+      "Vigor",
+      "Energy",
+      "Vitality"
     ],
-    "example": "The student learned how to use torpor correctly in a sentence."
+    "example": "The oppressive tropical heat plunged the entire village into an afternoon torpor."
   },
   "tough": {
     "word": "Tough",
     "pos": "adjective",
-    "simpleDefinition": "Strong and resilient; sturdy.",
+    "simpleDefinition": "Strong enough to withstand adverse conditions or rough handling; difficult.",
     "banglaMeaning": "শক্ত",
     "synonyms": [
-      "hard",
-      "difficult",
-      "rugged"
+      "Durable",
+      "Strong",
+      "Difficult",
+      "Resilient"
     ],
     "antonyms": [
-      "tender",
-      "untoughened"
+      "Fragile",
+      "Delicate",
+      "Easy"
     ],
-    "example": "The student learned how to use tough correctly in a sentence."
+    "example": "Hiking through the dense snowy mountains was a tough physical test."
   },
   "towered high": {
     "word": "Towered high",
-    "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being towered high.",
+    "pos": "idiom",
+    "simpleDefinition": "Rose or stood to an impressive, extraordinary height.",
     "banglaMeaning": "মাথা উঁচু করে দাড়ানো",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Soared",
+      "Loomed",
+      "Rose majestically"
     ],
     "antonyms": [
-      "No common antonym"
+      "Sank low",
+      "Crouched"
     ],
-    "example": "The student learned how to use towered high correctly in a sentence."
+    "example": "The snow-capped peaks of the Himalayas towered high above the clouds."
   },
   "tract": {
     "word": "Tract",
     "pos": "noun",
-    "simpleDefinition": "An area or expanse.",
-    "banglaMeaning": "ধর্ম বা বৈনতিকতা বিষয়ে পুসি্তকা",
+    "simpleDefinition": "An area of land, or a major passage in the body, or a short written pamphlet.",
+    "banglaMeaning": "ধর্ম বা নৈতিকতা বিষয়ে পুস্তিকা",
     "synonyms": [
-      "parcel",
-      "pathway",
-      "pamphlet"
+      "Area",
+      "Expanse",
+      "Plot",
+      "Pamphlet"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use tract correctly in a sentence."
+    "example": "The nature reserve covers a vast tract of pristine pine forest."
   },
   "traduce": {
     "word": "Traduce",
     "pos": "verb",
-    "simpleDefinition": "To malign a person or entity by making malicious and false or defamatory statements.",
+    "simpleDefinition": "To speak badly of or tell lies about someone so as to damage their reputation.",
     "banglaMeaning": "নিন্দা করা / অপবাদ দেয়া",
     "synonyms": [
-      "malign",
-      "badmouth",
-      "drag through the mud"
+      "Defame",
+      "Slander",
+      "Malign",
+      "Vilify"
     ],
     "antonyms": [
-      "No common antonym"
+      "Praise",
+      "Compliment",
+      "Laud"
     ],
-    "example": "The student learned how to use traduce correctly in a sentence."
+    "example": "The rival candidate attempted to traduce her good character through slanderous ads."
   },
   "traitor": {
     "word": "Traitor",
     "pos": "noun",
-    "simpleDefinition": "Someone who violates an allegiance and betrays their country; someone guilty of treason; one who, in breach of trust, delivers their country to an enemy, or yields up any fort or place entrusted to their defense, or surrenders an army or body of troops to the enemy, unless when vanquished.",
+    "simpleDefinition": "A person who betrays a friend, country, or principle.",
     "banglaMeaning": "বিশ্বাসঘাতক",
     "synonyms": [
-      "treasonist",
-      "double-dealer",
-      "double-crosser"
+      "Betrayer",
+      "Turncoat",
+      "Defector",
+      "Judas"
     ],
     "antonyms": [
-      "No common antonym"
+      "Loyalist",
+      "Patriot"
     ],
-    "example": "The student learned how to use traitor correctly in a sentence."
+    "example": "The military spy was court-martialed and condemned as a traitor to his nation."
   },
   "tranquil": {
     "word": "Tranquil",
@@ -17668,63 +20163,73 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "transient": {
     "word": "Transient",
     "pos": "adjective",
-    "simpleDefinition": "Remaining for only a brief time.",
+    "simpleDefinition": "Lasting only for a short time; impermanent and fleeting.",
     "banglaMeaning": "অস্থায়ী",
     "synonyms": [
-      "ephemeral",
-      "transitory",
-      "fugacious"
+      "Fleeting",
+      "Temporary",
+      "Short-lived",
+      "Ephemeral"
     ],
     "antonyms": [
-      "immanent",
-      "subjective"
+      "Permanent",
+      "Enduring",
+      "Lasting"
     ],
-    "example": "The student learned how to use transient correctly in a sentence."
+    "example": "Youth and spring blossoms are beautiful but transient stages of life."
   },
   "transmission": {
     "word": "Transmission",
     "pos": "noun",
-    "simpleDefinition": "The act of transmitting, e.g. data (signals) or electric power.",
+    "simpleDefinition": "The action of broadcasting or sending something, or the passing on of disease.",
     "banglaMeaning": "ছড়ানো / প্রচার",
     "synonyms": [
-      "contagion",
-      "infection",
-      "transmitting"
+      "Broadcasting",
+      "Transfer",
+      "Spread",
+      "Conveyance"
     ],
     "antonyms": [
-      "No common antonym"
+      "Reception",
+      "Containment"
     ],
-    "example": "The student learned how to use transmission correctly in a sentence."
+    "example": "Wearing masks helped prevent the airborne transmission of the seasonal flu."
   },
   "transmit": {
     "word": "Transmit",
     "pos": "verb",
-    "simpleDefinition": "To communicate (news or information, especially electronically).",
+    "simpleDefinition": "To cause something to pass on from one place or person to another.",
     "banglaMeaning": "প্রেরণ বা হস্তান্তর করা",
     "synonyms": [
-      "convey",
-      "conduct",
-      "beam"
+      "Convey",
+      "Transfer",
+      "Send",
+      "Broadcast"
     ],
     "antonyms": [
-      "No common antonym"
+      "Receive",
+      "Block",
+      "Hold"
     ],
-    "example": "The student learned how to use transmit correctly in a sentence."
+    "example": "Radio antennas transmit communication signals across thousands of miles."
   },
   "trapped": {
     "word": "Trapped",
     "pos": "adjective",
-    "simpleDefinition": "Caught in a trap.",
+    "simpleDefinition": "Caught in a trap or difficult situation from which escape is hard.",
     "banglaMeaning": "আটকা পরা",
     "synonyms": [
-      "treed",
-      "unfree",
-      "cornered"
+      "Ensnared",
+      "Cornered",
+      "Confined",
+      "Imprisoned"
     ],
     "antonyms": [
-      "No common antonym"
+      "Free",
+      "Liberated",
+      "Unconfined"
     ],
-    "example": "The student learned how to use trapped correctly in a sentence."
+    "example": "Firefighters used heavy ladders to rescue the families trapped on the third floor."
   },
   "treacherous": {
     "word": "Treacherous",
@@ -17746,92 +20251,103 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "treatise": {
     "word": "Treatise",
     "pos": "noun",
-    "simpleDefinition": "A formal, usually lengthy, systematic discourse on some subject.",
-    "banglaMeaning": "গবেষণামূলক আলোচনা গ্রব্দ",
+    "simpleDefinition": "A written work dealing formally and systematically with a subject.",
+    "banglaMeaning": "গবেষণামূলক আলোচনা গ্রন্থ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Dissertation",
+      "Essay",
+      "Thesis",
+      "Monograph"
     ],
     "antonyms": [
-      "No common antonym"
+      "Casual note"
     ],
-    "example": "The student learned how to use treatise correctly in a sentence."
+    "example": "The philosopher published a celebrated treatise on human ethics and political liberty."
   },
   "trespass": {
     "word": "Trespass",
     "pos": "verb",
-    "simpleDefinition": "To enter someone else's property illegally.",
-    "banglaMeaning": "পাপ / সীমালণ্টন",
+    "simpleDefinition": "To enter someone's land or property without permission.",
+    "banglaMeaning": "পাপ / সীমালঙ্ঘন",
     "synonyms": [
-      "encroachment",
-      "transgress",
-      "intrusion"
+      "Encroach",
+      "Intrude",
+      "Infringe",
+      "Invade"
     ],
     "antonyms": [
-      "No common antonym"
+      "Stay clear",
+      "Respect property"
     ],
-    "example": "The student learned how to use trespass correctly in a sentence."
+    "example": "Signs were posted along the boundary warning hikers not to trespass on private grounds."
   },
   "trial": {
     "word": "Trial",
     "pos": "noun",
-    "simpleDefinition": "An occasion on which a person or thing is tested to find out how well they perform or how suitable they are.",
+    "simpleDefinition": "A formal examination of evidence in court, or a test of performance or hardship.",
     "banglaMeaning": "চেষ্টা",
     "synonyms": [
-      "model",
-      "run",
-      "test"
+      "Court case",
+      "Hearing",
+      "Test",
+      "Ordeal"
     ],
     "antonyms": [
-      "No common antonym"
+      "Acquittal"
     ],
-    "example": "The student learned how to use trial correctly in a sentence."
+    "example": "The high-profile murder trial lasted four weeks before the jury reached a verdict."
   },
   "trick": {
     "word": "Trick",
     "pos": "noun",
-    "simpleDefinition": "Something designed to fool, dupe, outsmart, mislead or swindle.",
-    "banglaMeaning": "প্রতারনা",
+    "simpleDefinition": "A cunning or skillful act or scheme intended to deceive or entertain.",
+    "banglaMeaning": "প্রতারণা",
     "synonyms": [
-      "legerdemain",
-      "deception",
-      "antic"
+      "Prank",
+      "Illusion",
+      "Ruse",
+      "Deception"
     ],
     "antonyms": [
-      "maladroit"
+      "Honest action"
     ],
-    "example": "The student learned how to use trick correctly in a sentence."
+    "example": "The clever magician performed an astonishing card trick right in front of our eyes."
   },
   "trickery": {
     "word": "Trickery",
     "pos": "noun",
-    "simpleDefinition": "Deception, deceit or underhanded behavior.",
-    "banglaMeaning": "প্রতারনা",
+    "simpleDefinition": "The practice of deception, fraud, or cunning tricks.",
+    "banglaMeaning": "প্রতারণা",
     "synonyms": [
-      "chicanery",
-      "skulduggery",
-      "jiggery-pokery"
+      "Deception",
+      "Fraud",
+      "Guile",
+      "Subterfuge"
     ],
     "antonyms": [
-      "No common antonym"
+      "Honesty",
+      "Candor",
+      "Fairness"
     ],
-    "example": "The student learned how to use trickery correctly in a sentence."
+    "example": "The fraudster used clever trickery to persuade the victim to hand over her savings."
   },
   "triumph": {
     "word": "Triumph",
     "pos": "noun",
-    "simpleDefinition": "A conclusive success following an effort, conflict, or confrontation of obstacles; victory; conquest.",
+    "simpleDefinition": "A great victory, achievement, or success.",
     "banglaMeaning": "বিজয়",
     "synonyms": [
-      "prevail",
-      "wallow",
-      "rejoice"
+      "Victory",
+      "Success",
+      "Achievement",
+      "Conquest"
     ],
     "antonyms": [
-      "defeat",
-      "licking"
+      "Defeat",
+      "Failure",
+      "Loss"
     ],
-    "example": "The student learned how to use triumph correctly in a sentence."
+    "example": "Winning the championship tournament was the crowning triumph of her tennis career."
   },
   "trivial": {
     "word": "Trivial",
@@ -17853,275 +20369,320 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "troops": {
     "word": "Troops",
     "pos": "noun",
-    "simpleDefinition": "A collection of people; a number; a multitude (in general).",
+    "simpleDefinition": "Soldiers or armed forces grouped for military service.",
     "banglaMeaning": "দল বা পাল",
     "synonyms": [
-      "Related to troops",
-      "Similar"
+      "Soldiers",
+      "Armed forces",
+      "Forces",
+      "Army"
     ],
     "antonyms": [
-      "No common antonym"
+      "Civilians"
     ],
-    "example": "The teacher gave an insightful explanation of troops."
+    "example": "Peacekeeping troops were deployed to maintain calm in the border region."
   },
   "truant": {
     "word": "Truant",
-    "pos": "adjective",
-    "simpleDefinition": "Of a student: absent from school without permission.",
+    "pos": "noun",
+    "simpleDefinition": "A student who stays away from school without leave or explanation.",
     "banglaMeaning": "যে ব্যক্তি তার র্কমস্থল হতে পালায়",
     "synonyms": [
-      "absent",
-      "awol",
-      "no-show"
+      "Absentee",
+      "Runaway",
+      "Shirker"
     ],
     "antonyms": [
-      "No common antonym"
+      "Regular attendee"
     ],
-    "example": "The student learned how to use truant correctly in a sentence."
+    "example": "The truant officer returned the wandering boys to school before noon."
   },
   "trustworthy": {
     "word": "Trustworthy",
     "pos": "adjective",
-    "simpleDefinition": "Deserving of trust, reliable.",
+    "simpleDefinition": "Able to be relied on as honest, dependable, or truthful.",
     "banglaMeaning": "বিশ্বস্ত",
     "synonyms": [
-      "reliable",
-      "authentic",
-      "sure"
+      "Reliable",
+      "Dependable",
+      "Honest",
+      "Faithful"
     ],
     "antonyms": [
-      "untrustworthy",
-      "untrusty"
+      "Untrustworthy",
+      "Treacherous",
+      "Dishonest"
     ],
-    "example": "The student learned how to use trustworthy correctly in a sentence."
+    "example": "He has proven himself to be a completely trustworthy and diligent business partner."
   },
   "turbid": {
     "word": "Turbid",
     "pos": "adjective",
-    "simpleDefinition": "Having the lees or sediment disturbed; not clear.",
+    "simpleDefinition": "Cloudy, opaque, or thick with suspended matter (of a liquid); or confused.",
     "banglaMeaning": "ঘোলাটে",
     "synonyms": [
-      "ambiguous",
-      "equivocal",
-      "cloudy"
+      "Muddy",
+      "Cloudy",
+      "Murky",
+      "Opaque"
     ],
     "antonyms": [
-      "No common antonym"
+      "Clear",
+      "Lucid",
+      "Transparent"
     ],
-    "example": "turbid water"
+    "example": "Heavy torrential rains turned the mountain river turbid and brown."
   },
   "ubiquitous": {
     "word": "Ubiquitous",
     "pos": "adjective",
-    "simpleDefinition": "Present and found everywhere",
+    "simpleDefinition": "Present, appearing, or found everywhere at the same time.",
     "banglaMeaning": "সর্বব্যাপী / সর্বত্র বিদ্যমান",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Omnipresent",
+      "Pervasive",
+      "Widespread",
+      "Universal"
     ],
     "antonyms": [
-      "No common antonym"
+      "Rare",
+      "Scarce",
+      "Seldom"
     ],
-    "example": "The candidate understood the meaning of ubiquitous."
+    "example": "Smartphones have become ubiquitous in modern daily life."
   },
   "ulterior": {
     "word": "Ulterior",
     "pos": "adjective",
-    "simpleDefinition": "Situated beyond, or on the farther side.",
+    "simpleDefinition": "Existing beyond what is obvious or admitted; intentionally concealed.",
     "banglaMeaning": "গোপন বা অপ্রকাশিত",
     "synonyms": [
-      "Related to ulterior",
-      "Similar"
+      "Hidden",
+      "Concealed",
+      "Undisclosed",
+      "Secret"
     ],
     "antonyms": [
-      "prior",
-      "ostensible",
-      "citerior"
+      "Overt",
+      "Open",
+      "Frank"
     ],
-    "example": "The teacher gave an insightful explanation of ulterior."
+    "example": "She suspected that his unexpected generosity masked an ulterior selfish motive."
   },
   "uncover": {
     "word": "Uncover",
     "pos": "verb",
-    "simpleDefinition": "To show openly; to disclose; to reveal.",
+    "simpleDefinition": "To remove a cover or covering, or discover previously hidden facts.",
     "banglaMeaning": "প্রকাশ করা",
     "synonyms": [
-      "reveal",
-      "unveil",
-      "expose"
+      "Expose",
+      "Reveal",
+      "Discover",
+      "Disclose"
     ],
     "antonyms": [
-      "cover"
+      "Cover",
+      "Conceal",
+      "Hide"
     ],
-    "example": "The student learned how to use uncover correctly in a sentence."
+    "example": "Investigative reporters worked for months to uncover the truth behind the financial fraud."
   },
   "understatement": {
     "word": "Understatement",
     "pos": "noun",
-    "simpleDefinition": "A figure of speech whereby something is made to seem smaller or less important than it actually is, either through phrasing or lack of emphasis, often for ironic effect.",
+    "simpleDefinition": "The presentation of something as being smaller, worse, or less important than it actually is.",
     "banglaMeaning": "কমিয়ে বলা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Minimization",
+      "Trivialization",
+      "Softening"
     ],
     "antonyms": [
-      "exaggeration",
-      "overstatement",
-      "magnification"
+      "Exaggeration",
+      "Hyperbole",
+      "Overstatement"
     ],
-    "example": "The student learned how to use understatement correctly in a sentence."
+    "example": "Calling a category-five hurricane 'a bit of windy weather' is a massive understatement."
   },
   "undertake": {
     "word": "Undertake",
     "pos": "verb",
-    "simpleDefinition": "To take upon oneself; to start, to embark on (a specific task etc.).",
-    "banglaMeaning": "দায়িধভার গ্রহণকরা",
+    "simpleDefinition": "To commit oneself to and begin an enterprise or responsibility.",
+    "banglaMeaning": "দায়িত্ব গ্রহণ করা",
     "synonyms": [
-      "contract",
-      "attempt",
-      "guarantee"
+      "Take over",
+      "Assume responsibility",
+      "Embark on",
+      "Begin"
     ],
     "antonyms": [
-      "No common antonym"
+      "Abandon",
+      "Relinquish",
+      "Forgo"
     ],
-    "example": "The student learned how to use undertake correctly in a sentence."
+    "example": "She agreed to undertake full responsibility for leading the new research project."
   },
   "unearth": {
     "word": "Unearth",
     "pos": "verb",
-    "simpleDefinition": "To uncover or find; to bring out from concealment.",
+    "simpleDefinition": "To dig up something from the ground, or discover information after searching.",
     "banglaMeaning": "প্রকাশ করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Dig up",
+      "Excavate",
+      "Discover",
+      "Uncover"
     ],
     "antonyms": [
-      "No common antonym"
+      "Bury",
+      "Conceal",
+      "Hide"
     ],
-    "example": "The student learned how to use unearth correctly in a sentence."
+    "example": "Archaeologists managed to unearth golden artifacts buried for thousands of years."
   },
   "unequivocal": {
     "word": "Unequivocal",
     "pos": "adjective",
-    "simpleDefinition": "Unambiguous; without equivocation or ambiguity; singularly clear, unmistakable, or unquestionable.",
+    "simpleDefinition": "Leaving no doubt; completely clear, explicit, and unambiguous.",
     "banglaMeaning": "সুস্পষ্ট",
     "synonyms": [
-      "definitive",
-      "univocal",
-      "conclusive"
+      "Unambiguous",
+      "Clear",
+      "Definite",
+      "Unmistakable"
     ],
     "antonyms": [
-      "ambiguous",
-      "equivocal"
+      "Equivocal",
+      "Ambiguous",
+      "Vague"
     ],
-    "example": "The student learned how to use unequivocal correctly in a sentence."
+    "example": "The board gave its unequivocal support to the director's strategic vision."
   },
   "unfathomable": {
     "word": "Unfathomable",
     "pos": "adjective",
-    "simpleDefinition": "Impossible to fathom.",
+    "simpleDefinition": "Incapable of being fully explored, understood, or measured.",
     "banglaMeaning": "অতল / গভীর",
     "synonyms": [
-      "fathomless",
-      "bottomless",
-      "unsoundable"
+      "Incomprehensible",
+      "Baffling",
+      "Immeasurable",
+      "Mysterious"
     ],
     "antonyms": [
-      "comprehensible",
-      "fathomable"
+      "Fathomable",
+      "Comprehensible",
+      "Clear"
     ],
-    "example": "The student learned how to use unfathomable correctly in a sentence."
+    "example": "The motives behind the criminal's bizarre actions remained completely unfathomable."
   },
   "unforeseen": {
     "word": "Unforeseen",
     "pos": "adjective",
-    "simpleDefinition": "Not expected.",
+    "simpleDefinition": "Not anticipated or predicted; unexpected.",
     "banglaMeaning": "অপ্রত্যাশিত",
     "synonyms": [
-      "unexpected",
-      "sudden",
-      "unanticipated"
+      "Unexpected",
+      "Unanticipated",
+      "Unpredicted",
+      "Accidental"
     ],
     "antonyms": [
-      "No common antonym"
+      "Expected",
+      "Foreseen",
+      "Anticipated"
     ],
-    "example": "The student learned how to use unforeseen correctly in a sentence."
+    "example": "Due to unforeseen weather delays, the afternoon flight was postponed until morning."
   },
   "uniform": {
     "word": "Uniform",
-    "pos": "noun",
-    "simpleDefinition": "A distinctive outfit that serves to identify members of a group, company, prison inmates, etc.",
+    "pos": "adjective",
+    "simpleDefinition": "Remaining the same in all cases and at all times; consistent and unchanging.",
     "banglaMeaning": "সমজাতীয়",
     "synonyms": [
-      "regular",
-      "homogeneous",
-      "consistent"
+      "Consistent",
+      "Even",
+      "Regular",
+      "Unvarying"
     ],
     "antonyms": [
-      "multiform",
-      "differentiated"
+      "Varied",
+      "Irregular",
+      "Inconsistent"
     ],
-    "example": "The student learned how to use uniform correctly in a sentence."
+    "example": "The factory machines produced metal rods of strictly uniform thickness."
   },
   "unimaginable": {
     "word": "Unimaginable",
     "pos": "adjective",
-    "simpleDefinition": "Unable to be imagined; inconceivable or mind-boggling; beyond belief.",
-    "banglaMeaning": "অকস্ফনীয়",
+    "simpleDefinition": "Difficult or impossible to imagine or comprehend; beyond belief.",
+    "banglaMeaning": "অকল্পনীয়",
     "synonyms": [
-      "impossible",
-      "inconceivable",
-      "unthinkable"
+      "Inconceivable",
+      "Unthinkable",
+      "Incredible",
+      "Mind-boggling"
     ],
     "antonyms": [
-      "No common antonym"
+      "Imaginable",
+      "Conceivable",
+      "Believable"
     ],
-    "example": "The student learned how to use unimaginable correctly in a sentence."
+    "example": "The earthquake caused an almost unimaginable amount of structural damage to the city."
   },
   "uninfluenced": {
     "word": "Uninfluenced",
     "pos": "adjective",
-    "simpleDefinition": "Not influenced.",
+    "simpleDefinition": "Not affected, altered, or swayed by external pressure or bias.",
     "banglaMeaning": "প্রভাবমুক্ত",
     "synonyms": [
-      "unaffected",
-      "untouched",
-      "unswayed"
+      "Objective",
+      "Impartial",
+      "Neutral",
+      "Unbiased"
     ],
     "antonyms": [
-      "No common antonym"
+      "Influenced",
+      "Biased",
+      "Swayed"
     ],
-    "example": "The student learned how to use uninfluenced correctly in a sentence."
+    "example": "A judge must remain completely uninfluenced by media gossip or political pressure."
   },
   "unintended": {
     "word": "Unintended",
     "pos": "adjective",
-    "simpleDefinition": "Not intended; unplanned.",
+    "simpleDefinition": "Not planned or meant to happen; accidental.",
     "banglaMeaning": "অনিজ্ঞাকৃত",
     "synonyms": [
-      "inadvertent",
-      "fortuitous",
-      "unwitting"
+      "Accidental",
+      "Inadvertent",
+      "Unintentional",
+      "Unplanned"
     ],
     "antonyms": [
-      "intended"
+      "Intentional",
+      "Deliberate",
+      "Planned"
     ],
-    "example": "The student learned how to use unintended correctly in a sentence."
+    "example": "The new zoning regulation had the unintended consequence of raising house rents."
   },
   "unruly": {
     "word": "Unruly",
     "pos": "adjective",
-    "simpleDefinition": "Wild; uncontrolled.",
+    "simpleDefinition": "Disorderly, disruptive, and not amenable to discipline or control.",
     "banglaMeaning": "অবাধ্য",
     "synonyms": [
-      "boisterous",
-      "disorderly",
-      "insubordinate"
+      "Disorderly",
+      "Rowdy",
+      "Wild",
+      "Unmanageable"
     ],
     "antonyms": [
-      "No common antonym"
+      "Disciplined",
+      "Orderly",
+      "Obedient"
     ],
-    "example": "The student learned how to use unruly correctly in a sentence."
+    "example": "The teacher struggled to quiet down the noisy and unruly classroom."
   },
   "unscrupulous": {
     "word": "Unscrupulous",
@@ -18143,205 +20704,251 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "unstable": {
     "word": "Unstable",
     "pos": "adjective",
-    "simpleDefinition": "Not stable.",
+    "simpleDefinition": "Prone to change, fail, or sway; not firmly established or balanced.",
     "banglaMeaning": "অস্থির",
     "synonyms": [
-      "tender",
-      "precarious",
-      "volatile"
+      "Precarious",
+      "Insecure",
+      "Volatile",
+      "Wobbly"
     ],
     "antonyms": [
-      "stable"
+      "Stable",
+      "Secure",
+      "Steady"
     ],
-    "example": "The student learned how to use unstable correctly in a sentence."
+    "example": "Do not climb onto that wobbly stool because it is dangerously unstable."
   },
   "untamed": {
     "word": "Untamed",
     "pos": "adjective",
-    "simpleDefinition": "Wild, uncontrolled, especially of animals not domesticated or trained to human contact.",
+    "simpleDefinition": "Not domesticated, trained, or controlled; wild and natural.",
     "banglaMeaning": "অশান্ত / বন্য",
     "synonyms": [
-      "wild",
-      "feral",
-      "unbroken"
+      "Wild",
+      "Feral",
+      "Savage",
+      "Undomesticated"
     ],
     "antonyms": [
-      "tamed",
-      "tame"
+      "Tamed",
+      "Domesticated",
+      "Gentle"
     ],
-    "example": "The student learned how to use untamed correctly in a sentence."
+    "example": "The vast national park preserves miles of raw, untamed wilderness."
   },
   "untenable": {
     "word": "Untenable",
     "pos": "adjective",
-    "simpleDefinition": "Not able to be held or sustained, such as of an opinion or position.",
+    "simpleDefinition": "Not able to be maintained or defended against attack or objection.",
     "banglaMeaning": "টিকিয়ে রাখা যায়না এমন",
     "synonyms": [
-      "unreasonable",
-      "indefensible"
+      "Indefensible",
+      "Insupportable",
+      "Unjustifiable",
+      "Flawed"
     ],
     "antonyms": [
-      "No common antonym"
+      "Tenable",
+      "Defensible",
+      "Sound"
     ],
-    "example": "The student learned how to use untenable correctly in a sentence."
+    "example": "After new facts emerged, the politician's original argument became completely untenable."
   },
   "unwitting": {
     "word": "Unwitting",
     "pos": "adjective",
-    "simpleDefinition": "Unaware or uninformed; oblivious.",
+    "simpleDefinition": "Not done on purpose; unintentional, or not aware of the full facts.",
     "banglaMeaning": "অনিজ্ঞাকৃত",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Inadvertent",
+      "Unaware",
+      "Unconscious",
+      "Unintentional"
     ],
     "antonyms": [
-      "No common antonym"
+      "Conscious",
+      "Deliberate",
+      "Knowing"
     ],
-    "example": "The student learned how to use unwitting correctly in a sentence."
+    "example": "He became the unwitting accomplice in a scam when he forwarded a spoofed link."
   },
   "upheld": {
     "word": "Upheld",
     "pos": "verb",
-    "simpleDefinition": "To keep erect; to support; to sustain; to keep from falling.",
+    "simpleDefinition": "Maintained, supported, or confirmed a decision, custom, or principle.",
     "banglaMeaning": "উপরের দিকে নেওয়া",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Supported",
+      "Confirmed",
+      "Sustained",
+      "Endorsed"
     ],
     "antonyms": [
-      "No common antonym"
+      "Overturned",
+      "Rejected",
+      "Overruled"
     ],
-    "example": "The student learned how to use upheld correctly in a sentence."
+    "example": "The supreme court upheld the lower court's ruling regarding environmental protection."
   },
   "urban": {
     "word": "Urban",
     "pos": "adjective",
-    "simpleDefinition": "Of, pertaining to, characteristic of, or happening or located in, a city or town; of, pertaining to, or characteristic of life in such a place, especially when contrasted with the countryside.",
-    "banglaMeaning": "শস্থরে",
+    "simpleDefinition": "In, relating to, or characteristic of a town or city.",
+    "banglaMeaning": "শহুরে",
     "synonyms": [
-      "citified",
-      "urbanized",
-      "cityfied"
+      "City",
+      "Metropolitan",
+      "Civic",
+      "Town"
     ],
     "antonyms": [
-      "rural"
+      "Rural",
+      "Pastoral",
+      "Rustic"
     ],
-    "example": "The student learned how to use urban correctly in a sentence."
+    "example": "Many young professionals move to major urban centers in search of exciting career options."
   },
   "urgency": {
     "word": "Urgency",
     "pos": "noun",
-    "simpleDefinition": "The quality or condition of being urgent.",
+    "simpleDefinition": "Importance requiring swift, immediate action or attention.",
     "banglaMeaning": "জরুরী",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Promptness",
+      "Importance",
+      "Necessity",
+      "Imperativeness"
     ],
     "antonyms": [
-      "No common antonym"
+      "Laxity",
+      "Delay"
     ],
-    "example": "The student learned how to use urgency correctly in a sentence."
+    "example": "The doctor stressed the urgency of taking the medication right away."
   },
   "usurp": {
     "word": "Usurp",
     "pos": "verb",
-    "simpleDefinition": "To seize power from another, usually by illegitimate means.",
+    "simpleDefinition": "To take a position of power, throne, or authority illegally or by force.",
     "banglaMeaning": "জবরদখল",
     "synonyms": [
-      "arrogate",
-      "assume",
-      "take over"
+      "Seize",
+      "Take over",
+      "Arrogate",
+      "Appropriate"
     ],
     "antonyms": [
-      "No common antonym"
+      "Relinquish",
+      "Surrender",
+      "Abdicate"
     ],
-    "example": "The student learned how to use usurp correctly in a sentence."
+    "example": "The ruthless general led a military coup to usurp the presidency from the civilian leader."
   },
   "utopia": {
     "word": "Utopia",
     "pos": "noun",
-    "simpleDefinition": "A world in which everything and everyone works in perfect harmony.",
-    "banglaMeaning": "কস্ফরাজ্য",
+    "simpleDefinition": "An imagined community or society that possesses highly desirable or nearly perfect qualities.",
+    "banglaMeaning": "কল্পরাজ্য",
     "synonyms": [
-      "zion",
-      "new latin utopia"
+      "Paradise",
+      "Idyll",
+      "Ideal society",
+      "Shangri-La"
     ],
     "antonyms": [
-      "dystopia"
+      "Dystopia"
     ],
-    "example": "The student learned how to use utopia correctly in a sentence."
+    "example": "The novelist depicted a future utopia where poverty, disease, and war had been eradicated."
   },
   "vacillate": {
     "word": "Vacillate",
     "pos": "verb",
-    "simpleDefinition": "To swing indecisively from one course of action or opinion to another.",
-    "banglaMeaning": "দি্ধধা করা",
+    "simpleDefinition": "To alternate or waver between different opinions or actions; be indecisive.",
+    "banglaMeaning": "দ্বিধা করা",
     "synonyms": [
-      "hover",
-      "fluctuate",
-      "waver"
+      "Waver",
+      "Hesitate",
+      "Fluctuate",
+      "Oscillate"
     ],
     "antonyms": [
-      "No common antonym"
+      "Decide",
+      "Resolve",
+      "Remain firm"
     ],
-    "example": "The student learned how to use vacillate correctly in a sentence."
+    "example": "He continued to vacillate between studying law or pursuing a career in computer science."
   },
   "vague": {
     "word": "Vague",
     "pos": "adjective",
-    "simpleDefinition": "Not clearly expressed; stated in indefinite terms.",
+    "simpleDefinition": "Thinking or communicating in an unfocused, imprecise, or indefinite way.",
     "banglaMeaning": "অস্পষ্ট",
     "synonyms": [
-      "obscure",
-      "indistinct",
-      "dim"
+      "Unclear",
+      "Indistinct",
+      "Imprecise",
+      "Ambiguous"
     ],
     "antonyms": [
-      "defined"
+      "Clear",
+      "Precise",
+      "Explicit"
     ],
-    "example": "The student learned how to use vague correctly in a sentence."
+    "example": "His vague directions caused us to take two wrong turns on the way to the cabin."
   },
   "valiant": {
     "word": "Valiant",
-    "pos": "noun",
-    "simpleDefinition": "A person who acts with valor, showing hero-like characteristics in the midst of danger.",
+    "pos": "adjective",
+    "simpleDefinition": "Possessing or showing great courage, bravery, or determination.",
     "banglaMeaning": "সাহসী",
     "synonyms": [
-      "orped",
-      "valorous"
+      "Brave",
+      "Courageous",
+      "Valorous",
+      "Heroic"
     ],
     "antonyms": [
-      "No common antonym"
+      "Cowardly",
+      "Timid",
+      "Fearful"
     ],
-    "example": "The teacher gave an insightful explanation of valiant."
+    "example": "The valiant firefighters rushed into the burning building to rescue the trapped family."
   },
   "valley": {
     "word": "Valley",
     "pos": "noun",
-    "simpleDefinition": "An elongated depression cast between hills or mountains, often with a river flowing through it.",
+    "simpleDefinition": "A low area of land between hills or mountains, typically with a river flowing through it.",
     "banglaMeaning": "উপত্যকা",
     "synonyms": [
-      "vale"
+      "Vale",
+      "Dale",
+      "Gorge",
+      "Hollow"
     ],
     "antonyms": [
-      "No common antonym"
+      "Mountain",
+      "Peak",
+      "Ridge"
     ],
-    "example": "The student learned how to use valley correctly in a sentence."
+    "example": "The lush green valley was dotted with charming farmhouses and grazing cattle."
   },
   "valorous": {
     "word": "Valorous",
     "pos": "adjective",
-    "simpleDefinition": "Having or displaying valour.",
+    "simpleDefinition": "Showing great courage in the face of danger, especially in battle.",
     "banglaMeaning": "সাহসী",
     "synonyms": [
-      "valiant",
-      "brave",
-      "courageous"
+      "Brave",
+      "Courageous",
+      "Valiant",
+      "Heroic"
     ],
     "antonyms": [
-      "No common antonym"
+      "Cowardly",
+      "Timid",
+      "Pusillanimous"
     ],
-    "example": "The student learned how to use valorous correctly in a sentence."
+    "example": "The knight received a royal medal for his valorous defense of the castle gates."
   },
   "vehement": {
     "word": "Vehement",
@@ -18363,95 +20970,113 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "vehemently": {
     "word": "Vehemently",
     "pos": "adverb",
-    "simpleDefinition": "In a vehement manner; expressing with a strong or forceful attitude.",
-    "banglaMeaning": "তীজ্ঞভাবে",
+    "simpleDefinition": "In a forceful, passionate, or intense manner; with great feeling.",
+    "banglaMeaning": "তীব্রভাবে; প্রচণ্ড আবেগের সাথে",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Passionately",
+      "Forcefully",
+      "Fervently",
+      "Vigorously"
     ],
     "antonyms": [
-      "No common antonym"
+      "Mildly",
+      "Gently",
+      "Apathetically"
     ],
-    "example": "The student learned how to use vehemently correctly in a sentence."
+    "example": "The accused suspect vehemently denied having any involvement in the bank burglary."
   },
   "velocity": {
     "word": "Velocity",
     "pos": "noun",
-    "simpleDefinition": "A vector quantity that denotes the rate of change of position with respect to time, combining speed with a directional component.",
+    "simpleDefinition": "The speed of something in a given direction.",
     "banglaMeaning": "বেগ",
     "synonyms": [
-      "speed"
+      "Speed",
+      "Pace",
+      "Swiftness",
+      "Rapidity"
     ],
     "antonyms": [
-      "No common antonym"
+      "Slowness",
+      "Inertia"
     ],
-    "example": "The student learned how to use velocity correctly in a sentence."
+    "example": "The space rocket accelerated to orbital velocity within just a few minutes of launch."
   },
   "vendor": {
     "word": "Vendor",
     "pos": "noun",
-    "simpleDefinition": "A person or a company that vends or sells.",
-    "banglaMeaning": "বিকে্রতো",
+    "simpleDefinition": "A person or company offering something for sale, especially in the street.",
+    "banglaMeaning": "বিক্রেতা",
     "synonyms": [
-      "trafficker",
-      "vender",
-      "seller"
+      "Seller",
+      "Merchant",
+      "Dealer",
+      "Trader"
     ],
     "antonyms": [
-      "No common antonym"
+      "Buyer",
+      "Customer"
     ],
-    "example": "The student learned how to use vendor correctly in a sentence."
+    "example": "A street vendor was roasting sweet corn over charcoal on the busy sidewalk."
   },
   "venerate": {
     "word": "Venerate",
     "pos": "verb",
-    "simpleDefinition": "To treat with great respect and deference.",
-    "banglaMeaning": "সম্মান করা / ঙ্কদ্ধা করা",
+    "simpleDefinition": "To regard with great respect, admiration, or deep reverence.",
+    "banglaMeaning": "সম্মান করা / শ্রদ্ধা করা",
     "synonyms": [
-      "reverence",
-      "fear",
-      "revere"
+      "Revere",
+      "Worship",
+      "Honor",
+      "Respect"
     ],
     "antonyms": [
-      "No common antonym"
+      "Despise",
+      "Disdain",
+      "Scorn"
     ],
-    "example": "The student learned how to use venerate correctly in a sentence."
+    "example": "Traditional cultures venerate elders for their lifelong wisdom and guidance."
   },
   "venture": {
     "word": "Venture",
     "pos": "noun",
-    "simpleDefinition": "A risky or daring undertaking or journey.",
-    "banglaMeaning": "উদে্যাগ",
+    "simpleDefinition": "A risky or daring journey, or an undertaking involving financial uncertainty.",
+    "banglaMeaning": "উদ্যোগ",
     "synonyms": [
-      "brave",
-      "jeopardize",
-      "adventure"
+      "Enterprise",
+      "Undertaking",
+      "Project",
+      "Gamble"
     ],
     "antonyms": [
-      "No common antonym"
+      "Certainty",
+      "Safe bet"
     ],
-    "example": "The student learned how to use venture correctly in a sentence."
+    "example": "Investing in the new tech startup was a daring venture that ultimately paid off."
   },
   "venturesome": {
     "word": "Venturesome",
     "pos": "adjective",
-    "simpleDefinition": "Bold; willing to take risks; adventurous.",
+    "simpleDefinition": "Willing to take risks or embark on difficult adventures; daring.",
     "banglaMeaning": "সাহসী",
     "synonyms": [
-      "audacious",
-      "bold",
-      "dangerous"
+      "Daring",
+      "Adventurous",
+      "Bold",
+      "Audacious"
     ],
     "antonyms": [
-      "No common antonym"
+      "Cautious",
+      "Timid",
+      "Careful"
     ],
-    "example": "The student learned how to use venturesome correctly in a sentence."
+    "example": "The venturesome explorer traveled deep into uncharted Amazon rainforests."
   },
   "verbose": {
     "word": "Verbose",
     "pos": "adjective",
     "simpleDefinition": "Using far more words than necessary",
-    "banglaMeaning": "শব্দবহুল / বাগাড়ম্বরপূর্ণ / বার্কসবস্ব",
+    "banglaMeaning": "শব্দবহুল / বাগাড়ম্বরপূর্ণ / বাক্যসর্বস্ব",
     "synonyms": [
       "/ Wordy",
       "Long- winded",
@@ -18466,45 +21091,55 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "versatility": {
     "word": "Versatility",
     "pos": "noun",
-    "simpleDefinition": "The property of being versatile or having many different abilities.",
+    "simpleDefinition": "Ability to adapt or be adapted to many different functions or activities.",
     "banglaMeaning": "বস্থমুখী",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Adaptability",
+      "Flexibility",
+      "Resourcefulness",
+      "Multi-skilled"
     ],
     "antonyms": [
-      "No common antonym"
+      "Inflexibility",
+      "Rigidity"
     ],
-    "example": "The student learned how to use versatility correctly in a sentence."
+    "example": "Her versatility as an actress allowed her to play comedic and dramatic roles with equal skill."
   },
   "vicious": {
     "word": "Vicious",
     "pos": "adjective",
-    "simpleDefinition": "Violent, destructive and cruel.",
+    "simpleDefinition": "Deliberately cruel, violent, or malicious; savage.",
     "banglaMeaning": "ঘৃণ্য",
     "synonyms": [
-      "malevolent",
-      "evil",
-      "wicked"
+      "Cruel",
+      "Malicious",
+      "Savage",
+      "Fierce"
     ],
     "antonyms": [
-      "No common antonym"
+      "Gentle",
+      "Kind",
+      "Benevolent"
     ],
-    "example": "The student learned how to use vicious correctly in a sentence."
+    "example": "The hikers backed away slowly when they encountered a vicious guard dog."
   },
   "vicissitudes": {
     "word": "Vicissitudes",
-    "pos": "adjective",
-    "simpleDefinition": "An album by pianist Barry Harris recorded in 1972 and released on the German MPS label.",
-    "banglaMeaning": "উথানপতন",
+    "pos": "noun",
+    "simpleDefinition": "The unexpected changes, difficulties, and ups and downs that happen in life.",
+    "banglaMeaning": "উত্থান-পতন / জীবনের পরিবর্তন ও চড়াই-উতরাই",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Ups and downs",
+      "Fluctuations",
+      "Changes",
+      "Variations"
     ],
     "antonyms": [
-      "No common antonym"
+      "Stability",
+      "Constancy",
+      "Uniformity"
     ],
-    "example": "The student learned how to use vicissitudes correctly in a sentence."
+    "example": "Despite the vicissitudes of life, she remained hopeful and resilient."
   },
   "vigilant": {
     "word": "Vigilant",
@@ -18526,31 +21161,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "vigor": {
     "word": "Vigor",
     "pos": "noun",
-    "simpleDefinition": "Alternative form of vigour. [Active strength or force of body or mind; a capacity for exertion, physically, intellectually, or morally; energy.].",
+    "simpleDefinition": "Physical strength, good health, and energetic effort.",
     "banglaMeaning": "শারীরিক বা মানসিক শক্তি",
     "synonyms": [
-      "vigour",
-      "energy",
-      "vim"
+      "Energy",
+      "Vitality",
+      "Strength",
+      "Dynamism"
     ],
     "antonyms": [
-      "No common antonym"
+      "Lethargy",
+      "Weakness",
+      "Fragility"
     ],
-    "example": "The student learned how to use vigor correctly in a sentence."
+    "example": "Despite his advanced age, the gardener worked with remarkable vigor and cheerfulness."
   },
   "vigorous": {
     "word": "Vigorous",
     "pos": "adjective",
-    "simpleDefinition": "Physically strong and active.",
+    "simpleDefinition": "Strong, healthy, and full of energy, or characterized by force and effort.",
     "banglaMeaning": "সবল",
     "synonyms": [
-      "robust",
-      "energetic"
+      "Energetic",
+      "Robust",
+      "Dynamic",
+      "Spirited"
     ],
     "antonyms": [
-      "No common antonym"
+      "Frail",
+      "Feeble",
+      "Lethargic"
     ],
-    "example": "The student learned how to use vigorous correctly in a sentence."
+    "example": "Doctors recommend thirty minutes of vigorous physical exercise every day."
   },
   "vilify": {
     "word": "Vilify",
@@ -18606,94 +21248,107 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "visible": {
     "word": "Visible",
     "pos": "adjective",
-    "simpleDefinition": "Able to be seen.",
+    "simpleDefinition": "Able to be seen or noticed; apparent and obvious.",
     "banglaMeaning": "দৃশ্যমান",
     "synonyms": [
-      "conspicuous",
-      "overt",
-      "apparent"
+      "Perceptible",
+      "Noticeable",
+      "Apparent",
+      "Clear"
     ],
     "antonyms": [
-      "invisible",
-      "unseeable"
+      "Invisible",
+      "Hidden",
+      "Unseen"
     ],
-    "example": "The student learned how to use visible correctly in a sentence."
+    "example": "The snowy mountaintops were clearly visible from our hotel balcony."
   },
   "visionary": {
     "word": "Visionary",
-    "pos": "adjective",
-    "simpleDefinition": "Having vision or foresight.",
-    "banglaMeaning": "কাস্ফনিক",
+    "pos": "noun",
+    "simpleDefinition": "A person with original ideas about what the future will or could be like.",
+    "banglaMeaning": "কাল্পনিক",
     "synonyms": [
-      "airy",
-      "seer",
-      "impractical"
+      "Pioneer",
+      "Idealist",
+      "Dreamer",
+      "Innovator"
     ],
     "antonyms": [
-      "No common antonym"
+      "Traditionalist",
+      "Realist"
     ],
-    "example": "The student learned how to use visionary correctly in a sentence."
+    "example": "The computer company was founded by a true visionary who foresaw mobile computing."
   },
   "vital": {
     "word": "Vital",
     "pos": "adjective",
-    "simpleDefinition": "Necessary to the continuation of life; being the seat of life; being that on which life depends.",
+    "simpleDefinition": "Absolutely necessary or essential for life, success, or functioning.",
     "banglaMeaning": "অত্যাবশ্যক / সজীব",
     "synonyms": [
-      "critical",
-      "essential",
-      "indispensable"
+      "Essential",
+      "Crucial",
+      "Critical",
+      "Indispensable"
     ],
     "antonyms": [
-      "No common antonym"
+      "Unimportant",
+      "Trivial",
+      "Secondary"
     ],
-    "example": "The student learned how to use vital correctly in a sentence."
+    "example": "Clean drinking water and fresh food are vital for human health."
   },
   "vocation": {
     "word": "Vocation",
     "pos": "noun",
-    "simpleDefinition": "An occupation for which a person is suited, trained or qualified.",
-    "banglaMeaning": "বৃতি্ত / ব্যবসায়",
+    "simpleDefinition": "A strong feeling of suitability for a particular career, calling, or profession.",
+    "banglaMeaning": "বৃত্তি / ব্যবসায়",
     "synonyms": [
-      "calling",
-      "career",
-      "occupation"
+      "Calling",
+      "Profession",
+      "Career",
+      "Occupation"
     ],
     "antonyms": [
-      "No common antonym"
+      "Avocation",
+      "Hobby"
     ],
-    "example": "The student learned how to use vocation correctly in a sentence."
+    "example": "She felt a genuine calling and vocation to become a dedicated teacher."
   },
   "vociferous": {
     "word": "Vociferous",
     "pos": "adjective",
-    "simpleDefinition": "Making or characterized by a noisy outcry; clamorous.",
-    "banglaMeaning": "শল্পবস্থল / গোলমালকারী",
+    "simpleDefinition": "Expressing feelings or opinions loudly, passionately, and forcefully.",
+    "banglaMeaning": "সোচ্চার / চিৎকারকারী",
     "synonyms": [
-      "blatant",
-      "clamorous",
-      "strident"
+      "Clamorous",
+      "Outspoken",
+      "Vocal",
+      "Vehement"
     ],
     "antonyms": [
-      "No common antonym"
+      "Silent",
+      "Quiet",
+      "Subdued"
     ],
-    "example": "The student learned how to use vociferous correctly in a sentence."
+    "example": "There were vociferous protests outside city hall against the proposed budget cuts."
   },
   "void": {
     "word": "Void",
-    "pos": "adjective",
-    "simpleDefinition": "Containing nothing; empty; not occupied or filled.",
+    "pos": "noun",
+    "simpleDefinition": "A completely empty space, or a feeling of deep emptiness or loss.",
     "banglaMeaning": "বাতিল",
     "synonyms": [
-      "vitiate",
-      "nugatory",
-      "nullify"
+      "Vacuum",
+      "Emptiness",
+      "Gap",
+      "Chasm"
     ],
     "antonyms": [
-      "validate",
-      "formalize"
+      "Fullness",
+      "Abundance"
     ],
-    "example": "The student learned how to use void correctly in a sentence."
+    "example": "Her sudden retirement left an immense void in the research team."
   },
   "volatile": {
     "word": "Volatile",
@@ -18715,60 +21370,71 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "voluptuous": {
     "word": "Voluptuous",
     "pos": "adjective",
-    "simpleDefinition": "Having the qualities or characteristics of voluptuous.",
+    "simpleDefinition": "Relating to or characterized by luxury, sensual pleasure, or curvy fullness.",
     "banglaMeaning": "আনন্দবাদী",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Curvaceous",
+      "Sensuous",
+      "Luxurious"
     ],
     "antonyms": [
-      "No common antonym"
+      "Ascetic",
+      "Austere",
+      "Plain"
     ],
-    "example": "The student learned how to use voluptuous correctly in a sentence."
+    "example": "The banquet featured voluptuous feasts served on golden platters."
   },
   "vow": {
     "word": "Vow",
     "pos": "noun",
-    "simpleDefinition": "A solemn promise to perform some act, or behave in a specified manner, especially a promise to live and act in accordance with the rules of a religious order.",
+    "simpleDefinition": "A solemn promise, pledge, or commitment to do something.",
     "banglaMeaning": "শপথ করা",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Pledge",
+      "Promise",
+      "Oath",
+      "Commitment"
     ],
     "antonyms": [
-      "No common antonym"
+      "Betrayal",
+      "Breach"
     ],
-    "example": "The student learned how to use vow correctly in a sentence."
+    "example": "They exchanged marriage vows in front of family and close friends."
   },
   "voyage": {
     "word": "Voyage",
     "pos": "noun",
-    "simpleDefinition": "A long journey, especially by ship.",
+    "simpleDefinition": "A long journey involving travel by sea or in space.",
     "banglaMeaning": "সমুদ্র যাত্রা",
     "synonyms": [
-      "navigate",
-      "sail",
-      "ocean trip"
+      "Journey",
+      "Expedition",
+      "Cruise",
+      "Trip"
     ],
     "antonyms": [
-      "No common antonym"
+      "Stay",
+      "Station"
     ],
-    "example": "The student learned how to use voyage correctly in a sentence."
+    "example": "The ancient explorers embarked on a perilous voyage across the Atlantic."
   },
   "vulgarity": {
     "word": "Vulgarity",
     "pos": "noun",
-    "simpleDefinition": "An offensive or obscene act or expression.",
-    "banglaMeaning": "অহ্বীলতা",
+    "simpleDefinition": "The quality of lacking taste, refinement, decency, or good manners.",
+    "banglaMeaning": "অশ্লীলতা",
     "synonyms": [
-      "vulgarism",
-      "coarseness",
-      "commonness"
+      "Coarseness",
+      "Crudeness",
+      "Rudeness",
+      "Tastelessness"
     ],
     "antonyms": [
-      "No common antonym"
+      "Refinement",
+      "Elegance",
+      "Good taste"
     ],
-    "example": "The student learned how to use vulgarity correctly in a sentence."
+    "example": "The play was criticized by conservative reviewers for excessive vulgarity in its jokes."
   },
   "vulnerable": {
     "word": "Vulnerable",
@@ -18790,63 +21456,68 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "wagon": {
     "word": "Wagon",
     "pos": "noun",
-    "simpleDefinition": "A heavier four-wheeled (normally horse-drawn) vehicle designed to carry goods (or sometimes people).",
+    "simpleDefinition": "A four-wheeled vehicle for carrying heavy loads, typically drawn by horses or a tractor.",
     "banglaMeaning": "মালবাহী গাড়ি",
     "synonyms": [
-      "waggon",
-      "beach wagon",
-      "police van"
+      "Cart",
+      "Wain",
+      "Carriage",
+      "Trailer"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use wagon correctly in a sentence."
+    "example": "The farmer loaded bushels of freshly picked apples into the wooden wagon."
   },
   "waive": {
     "word": "Waive",
     "pos": "verb",
-    "simpleDefinition": "To relinquish (a right etc.); to give up claim to; to forgo.",
-    "banglaMeaning": "মওহৃফ করা",
+    "simpleDefinition": "To refrain from insisting on or using a legal right, claim, or fee.",
+    "banglaMeaning": "মওকুফ করা",
     "synonyms": [
-      "render",
-      "relinquish",
-      "forgo"
+      "Relinquish",
+      "Forgo",
+      "Surrender",
+      "Yield"
     ],
     "antonyms": [
-      "arrogate",
-      "claim",
-      "lay claim"
+      "Enforce",
+      "Claim",
+      "Demand"
     ],
-    "example": "The student learned how to use waive correctly in a sentence."
+    "example": "The university agreed to waive the application fee for low-income applicants."
   },
   "wallet": {
     "word": "Wallet",
     "pos": "noun",
-    "simpleDefinition": "A small case, often flat and often made of leather, for keeping money (especially paper money), credit cards, etc.",
+    "simpleDefinition": "A pocket-sized flat folding case for holding money and credit cards.",
     "banglaMeaning": "মানি ব্যাগ",
     "synonyms": [
-      "billfold",
-      "notecase"
+      "Billfold",
+      "Purse",
+      "Pouch"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use wallet correctly in a sentence."
+    "example": "He reached into his jacket pocket and pulled out his leather wallet."
   },
   "wander": {
     "word": "Wander",
     "pos": "verb",
-    "simpleDefinition": "To move without purpose or specified destination; often in search of livelihood.",
+    "simpleDefinition": "To walk or move in a leisurely, casual, or aimless way.",
     "banglaMeaning": "উদ্দেশ্যহীনভাবে ভ্রমণ করা",
     "synonyms": [
-      "cast",
-      "drift",
-      "ramble"
+      "Roam",
+      "Stroll",
+      "Meander",
+      "Rambling"
     ],
     "antonyms": [
-      "No common antonym"
+      "Stay put",
+      "Hurry"
     ],
-    "example": "The student learned how to use wander correctly in a sentence."
+    "example": "They loved to wander through the quiet cobblestone alleys of the historic village."
   },
   "wane": {
     "word": "Wane",
@@ -18868,29 +21539,35 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "warehouse": {
     "word": "Warehouse",
     "pos": "noun",
-    "simpleDefinition": "A place for storing large amounts of products. In logistics, a place where products go to from the manufacturer before going to the retailer.",
+    "simpleDefinition": "A large building where raw materials or manufactured goods are stored before sale.",
     "banglaMeaning": "মালপত্র রাখার স্থান",
     "synonyms": [
-      "storage warehouse"
+      "Storehouse",
+      "Depot",
+      "Repository",
+      "Stockroom"
     ],
     "antonyms": [
-      "No common antonym"
+      "Shop",
+      "Storefront"
     ],
-    "example": "The student learned how to use warehouse correctly in a sentence."
+    "example": "The distribution company stores pallets of electronics in a temperature-controlled warehouse."
   },
   "warlock": {
     "word": "Warlock",
     "pos": "noun",
-    "simpleDefinition": "The state, quality, or fact of being warlock.",
+    "simpleDefinition": "A man who practices witchcraft or black magic; a sorcerer.",
     "banglaMeaning": "মায়াবী",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Sorcerer",
+      "Wizard",
+      "Mage",
+      "Enchanter"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use warlock correctly in a sentence."
+    "example": "In fantasy tales, the dark warlock cast a spell over the sleeping kingdom."
   },
   "wary": {
     "word": "Wary",
@@ -18912,31 +21589,38 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "wayward": {
     "word": "Wayward",
     "pos": "adjective",
-    "simpleDefinition": "Given to wilful, perverse deviation from the expected norm; tending to stray.",
-    "banglaMeaning": "সে্বজ্ঞাচারী",
+    "simpleDefinition": "Difficult to control or predict because of willful or perverse behavior.",
+    "banglaMeaning": "স্বেচ্ছাচারী",
     "synonyms": [
-      "obstinate",
-      "contrary",
-      "perverse"
+      "Willful",
+      "Headstrong",
+      "Stubborn",
+      "Unruly"
     ],
     "antonyms": [
-      "No common antonym"
+      "Docile",
+      "Obedient",
+      "Manageable"
     ],
-    "example": "The student learned how to use wayward correctly in a sentence."
+    "example": "The novel recounts the story of a wayward youth who reformed and found purpose."
   },
   "wear out": {
     "word": "Wear out",
-    "pos": "verb",
-    "simpleDefinition": "To cause (something) to become damaged, useless, or ineffective through continued use, especially hard, heavy, or careless use.",
+    "pos": "idiom",
+    "simpleDefinition": "To use something until it is no longer usable, or tire someone completely.",
     "banglaMeaning": "ব্যবহারের ধারা ক্ষয় হওয়া",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Exhaust",
+      "Fray",
+      "Deplete",
+      "Tire"
     ],
     "antonyms": [
-      "No common antonym"
+      "Renew",
+      "Refresh",
+      "Energize"
     ],
-    "example": "The student learned how to use wear out correctly in a sentence."
+    "example": "Daily running on concrete will quickly wear out the soles of your sneakers."
   },
   "whimsical": {
     "word": "Whimsical",
@@ -18957,126 +21641,141 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   },
   "wholesale": {
     "word": "Wholesale",
-    "pos": "noun",
-    "simpleDefinition": "The sale of products, often in large quantities, to retailers or other merchants.",
+    "pos": "adjective",
+    "simpleDefinition": "The selling of goods in large quantities to retailers for resale, or extensive.",
     "banglaMeaning": "পাইকারী",
     "synonyms": [
-      "sweeping",
-      "indiscriminate",
-      "in large quantities"
+      "Bulk",
+      "Mass",
+      "Extensive",
+      "Comprehensive"
     ],
     "antonyms": [
-      "retail"
+      "Retail",
+      "Selective"
     ],
-    "example": "The student learned how to use wholesale correctly in a sentence."
+    "example": "The supermarket buys fresh dairy at wholesale prices directly from dairy farms."
   },
   "wicked": {
     "word": "Wicked",
-    "pos": "noun",
-    "simpleDefinition": "People who are wicked.",
-    "banglaMeaning": "দুহ্নরিত্র",
+    "pos": "adjective",
+    "simpleDefinition": "Evil or morally wrong; deliberately intending to do harm.",
+    "banglaMeaning": "দুশ্চরিত্র",
     "synonyms": [
-      "awesome",
-      "bad",
-      "cool"
+      "Evil",
+      "Sinful",
+      "Vile",
+      "Heinous"
     ],
     "antonyms": [
-      "No common antonym"
+      "Good",
+      "Virtuous",
+      "Moral"
     ],
-    "example": "The teacher gave an insightful explanation of wicked."
+    "example": "In folklore, the wicked queen attempted to trick the innocent princess."
   },
   "windy": {
     "word": "Windy",
-    "pos": "noun",
-    "simpleDefinition": "Fart.",
+    "pos": "adjective",
+    "simpleDefinition": "Marked by or exposed to strong winds and gusts of air.",
     "banglaMeaning": "ঝড়ো",
     "synonyms": [
-      "blowy",
-      "blustery",
-      "breezy"
+      "Breezy",
+      "Gusty",
+      "Blowy",
+      "Stormy"
     ],
     "antonyms": [
-      "calm",
-      "windless"
+      "Calm",
+      "Still",
+      "Windless"
     ],
-    "example": "The teacher gave an insightful explanation of windy."
+    "example": "A windy autumn day sent colorful leaves dancing across the lawn."
   },
   "withhold": {
     "word": "Withhold",
     "pos": "verb",
-    "simpleDefinition": "To keep (information, assent etc) to oneself rather than revealing it.",
-    "banglaMeaning": "পেছনে টেনে রাখা বা আটকিয়ে রাখা",
+    "simpleDefinition": "To refuse to give something that is due to or desired by another.",
+    "banglaMeaning": "আটকে রাখা / গোপন রাখা",
     "synonyms": [
-      "deduct",
-      "recoup",
-      "keep back"
+      "Keep back",
+      "Retain",
+      "Hold back",
+      "Suppress"
     ],
     "antonyms": [
-      "No common antonym"
+      "Give",
+      "Disclose",
+      "Grant"
     ],
-    "example": "The student learned how to use withhold correctly in a sentence."
+    "example": "It is a crime to withhold critical evidence from investigators during a trial."
   },
   "worsen": {
     "word": "Worsen",
     "pos": "verb",
-    "simpleDefinition": "To become worse; to get worse.",
+    "simpleDefinition": "To make or become worse in quality, condition, or severity.",
     "banglaMeaning": "শোচনীয় হওয়া",
     "synonyms": [
-      "decline",
-      "exacerbate",
-      "aggravate"
+      "Deteriorate",
+      "Degrade",
+      "Aggravate",
+      "Decline"
     ],
     "antonyms": [
-      "ameliorate",
-      "improve",
-      "meliorate"
+      "Improve",
+      "Better",
+      "Ameliorate"
     ],
-    "example": "The student learned how to use worsen correctly in a sentence."
+    "example": "Air pollution tends to worsen during humid and windless winter evenings."
   },
   "worship": {
     "word": "Worship",
-    "pos": "noun",
-    "simpleDefinition": "The devotion accorded to a deity or to a sacred object.",
+    "pos": "verb",
+    "simpleDefinition": "To show reverence and adoration for a deity, or honor deeply.",
     "banglaMeaning": "পূজা",
     "synonyms": [
-      "adoration",
-      "idolize",
-      "hero-worship"
+      "Revere",
+      "Venerate",
+      "Praise",
+      "Adore"
     ],
     "antonyms": [
-      "No common antonym"
+      "Despise",
+      "Disdain",
+      "Blaspheme"
     ],
-    "example": "The student learned how to use worship correctly in a sentence."
+    "example": "Devoted pilgrims travel across the country to worship at the ancient temple."
   },
   "worth yours": {
     "word": "Worth yours",
-    "pos": "adjective",
-    "simpleDefinition": "Valuable enough to justify time, money, or effort",
+    "pos": "idiom",
+    "simpleDefinition": "Worth your time, effort, attention, or investment.",
     "banglaMeaning": "দক্ষ",
     "synonyms": [
-      "worthwhile",
-      "valuable",
-      "beneficial"
+      "Worthwhile",
+      "Valuable",
+      "Rewarding"
     ],
     "antonyms": [
-      "worthless"
+      "Worthless",
+      "Pointless"
     ],
-    "example": "The workshop is informative and well worth yours."
+    "example": "Visiting the historical museum while in the capital is well worth your time."
   },
   "worthy of": {
     "word": "Worthy of",
-    "pos": "adjective",
-    "simpleDefinition": "Deserving of respect, attention, or praise",
+    "pos": "idiom",
+    "simpleDefinition": "Deserving of respect, praise, support, or consideration.",
     "banglaMeaning": "যোগ্য",
     "synonyms": [
-      "deserving of",
-      "meriting",
-      "eligible for"
+      "Deserving of",
+      "Entitled to",
+      "Meriting"
     ],
     "antonyms": [
-      "unworthy of"
+      "Unworthy of"
     ],
-    "example": "Her selfless dedication is truly worthy of recognition."
+    "example": "Her heroic volunteer efforts after the flood are truly worthy of public recognition."
   },
   "wrath": {
     "word": "Wrath",
@@ -19098,29 +21797,36 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "writ": {
     "word": "Writ",
     "pos": "noun",
-    "simpleDefinition": "A written order, issued by a court, ordering someone to do (or stop doing) something.",
-    "banglaMeaning": "কোন বিষয় সশ্মকের্ কোটের্র লিখিত অডর্ার",
+    "simpleDefinition": "A formal written legal order issued by a court or judicial authority.",
+    "banglaMeaning": "কোন বিষয় সম্পর্কে কোর্টের লিখিত অর্ডার",
     "synonyms": [
-      "judicial writ"
+      "Court order",
+      "Subpoena",
+      "Decree",
+      "Mandate"
     ],
     "antonyms": [
       "No common antonym"
     ],
-    "example": "The student learned how to use writ correctly in a sentence."
+    "example": "The judge issued a writ of habeas corpus directing that the prisoner be brought to court."
   },
   "xenophobia": {
     "word": "Xenophobia",
     "pos": "noun",
-    "simpleDefinition": "Deep dislike of or prejudice against people from other countries",
+    "simpleDefinition": "Deep dislike, distrust, or prejudice against people from other countries.",
     "banglaMeaning": "বিদেশি-বিদ্বেষ",
     "synonyms": [
-      "Related",
-      "Similar"
+      "Intolerance",
+      "Chauvinism",
+      "Prejudice",
+      "Bias"
     ],
     "antonyms": [
-      "No common antonym"
+      "Tolerance",
+      "Hospitality",
+      "Acceptance"
     ],
-    "example": "The candidate understood the meaning of xenophobia."
+    "example": "The educational program was created to eradicate prejudice and xenophobia."
   },
   "yearn": {
     "word": "Yearn",
@@ -19142,19 +21848,19 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "yield": {
     "word": "Yield",
     "pos": "verb",
-    "simpleDefinition": "To give as a result or outcome; to produce or render.",
+    "simpleDefinition": "To produce or provide a crop or profit, or give way to arguments or pressure.",
     "banglaMeaning": "বশ্যতা স্বীকার করা",
     "synonyms": [
-      "render",
-      "concede",
-      "issue"
+      "Produce",
+      "Provide",
+      "Surrender",
+      "Submit"
     ],
     "antonyms": [
-      "stand",
-      "survive",
-      "make it"
+      "Resist",
+      "Withstand"
     ],
-    "example": "The student learned how to use yield correctly in a sentence."
+    "example": "Careful fertilization helped the farm yield its largest wheat harvest in a decade."
   },
   "zeal": {
     "word": "Zeal",
@@ -19193,16 +21899,54 @@ export const DICTIONARY_LOOKUP: Record<string, WordEnrichmentData> = {
   "zest": {
     "word": "Zest",
     "pos": "noun",
-    "simpleDefinition": "The outer skin of a citrus fruit, used as a flavouring or garnish.",
-    "banglaMeaning": "রুচি / প্রানবন্ততা",
+    "simpleDefinition": "Great enthusiasm, energy, and eagerness, or lively exciting flavor.",
+    "banglaMeaning": "রুচি / প্রাণবন্ততা",
     "synonyms": [
-      "gusto",
-      "relish",
-      "punch"
+      "Enthusiasm",
+      "Eagerness",
+      "Passion",
+      "Gusto"
     ],
     "antonyms": [
-      "No common antonym"
+      "Apathy",
+      "Indifference",
+      "Lethargy"
     ],
-    "example": "The orange zest gives the strong flavor in this dish."
+    "example": "She brought tremendous zest and creativity to every new educational project."
+  },
+  "bona fide": {
+    "word": "Bona-fide",
+    "pos": "adjective",
+    "simpleDefinition": "Genuine, real, and made or done in good faith without deceit.",
+    "banglaMeaning": "আসল,খাঁটি",
+    "synonyms": [
+      "genuine",
+      "authentic"
+    ],
+    "antonyms": [
+      "fraudulent",
+      "deceitful",
+      "fake",
+      "counterfeit"
+    ],
+    "example": "He is a bona fide expert with decades of research experience."
+  },
+  "far fetched": {
+    "word": "Far-fetched",
+    "pos": "adjective",
+    "simpleDefinition": "Very unlikely to be true or difficult to believe; improbable.",
+    "banglaMeaning": "অস্বাভাবিক, যা সহজে বিশ্বাসযোগ্য নয়",
+    "synonyms": [
+      "Unlikely",
+      "Improbable",
+      "Incredible",
+      "Doubtful"
+    ],
+    "antonyms": [
+      "Plausible",
+      "Believable",
+      "Convincing"
+    ],
+    "example": "His explanation for why he was late seemed completely far-fetched."
   }
 };

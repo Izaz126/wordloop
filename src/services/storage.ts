@@ -51,139 +51,234 @@ const LS_KEYS = {
   STATS: 'wordloop_practice_stats',
   LOGS: 'wordloop_daily_logs',
   SETTINGS: 'wordloop_settings',
+  DATA_VERSION: 'wordloop_data_version',
 };
+
+const VOCAB_DATA_VERSION = 4; // Version 4: Exact Bengali corrections for 71 words, Bona-fide & Far-fetched replacements, and robust IndexedDB synchronization
+const VERSION_KEY = 'wordloop_data_version';
 
 export class StorageService {
   private static isInitialized = false;
 
-  // Initialize DB and safely merge vocabulary from PDFs
+  // Get current vocabulary data version
+  static async getDataVersion(): Promise<number> {
+    try {
+      const db = await openDB();
+      return new Promise((resolve) => {
+        const tx = db.transaction(STORES.SETTINGS, 'readonly');
+        const store = tx.objectStore(STORES.SETTINGS);
+        const req = store.get(VERSION_KEY);
+        req.onsuccess = () => resolve(req.result?.value ?? 0);
+        req.onerror = () => resolve(0);
+      });
+    } catch {
+      const raw = localStorage.getItem(LS_KEYS.DATA_VERSION);
+      return raw ? parseInt(raw, 10) : 0;
+    }
+  }
+
+  // Set vocabulary data version
+  static async setDataVersion(version: number): Promise<void> {
+    try {
+      const db = await openDB();
+      return new Promise((resolve, reject) => {
+        const tx = db.transaction(STORES.SETTINGS, 'readwrite');
+        const store = tx.objectStore(STORES.SETTINGS);
+        const req = store.put({ key: VERSION_KEY, value: version });
+        req.onsuccess = () => resolve();
+        req.onerror = () => reject(req.error);
+      });
+    } catch {
+      localStorage.setItem(LS_KEYS.DATA_VERSION, version.toString());
+    }
+  }
+
+  // Perform safe versioned migration from initialVocabulary.json into IndexedDB/localStorage
+  // Preserves 100% of user learning stages, intervals, review counts, logs, and quiz stats
+  static async migrateVocabulary(force = false): Promise<void> {
+    const existingWords = await this.getAllWords();
+    const initialWords = initialVocabData as unknown as VocabularyWord[];
+    const currentVersion = await this.getDataVersion();
+
+    if (existingWords.length === 0) {
+      console.log('Seeding initial vocabulary from master dataset...');
+      await this.saveWords(initialWords);
+      await this.setDataVersion(VOCAB_DATA_VERSION);
+      return;
+    }
+
+    if (!force && currentVersion >= VOCAB_DATA_VERSION) {
+      return;
+    }
+
+    console.log(`Migrating vocabulary to Version ${VOCAB_DATA_VERSION} (preserving all user learning progress)...`);
+
+    // Helper to normalize strings for comparison (removes spaces, hyphens, equals, underscores)
+    const normalizeKey = (str: string) => str.toLowerCase().replace(/[\s\-_=]+/g, '').trim();
+
+    // Map existing words by multiple lookup keys
+    const existingById = new Map<string, VocabularyWord>();
+    const existingByLower = new Map<string, VocabularyWord>();
+    const existingByNorm = new Map<string, VocabularyWord>();
+
+    for (const w of existingWords) {
+      if (w.id) existingById.set(w.id, w);
+      const lower = w.word.trim().toLowerCase();
+      existingByLower.set(lower, w);
+      existingByNorm.set(normalizeKey(w.word), w);
+    }
+
+    const mergedList: VocabularyWord[] = [];
+    const matchedExistingIds = new Set<string>();
+
+    // Aliases to resolve old variations, OCR artifacts, or split titles:
+    const aliasMap: Record<string, string[]> = {
+      'bona-fide': ['bona', 'bona fide', 'bona = fide', 'bonafide'],
+      'far-fetched': ['far', 'far fetched', 'far = fetched', 'farfetched'],
+    };
+
+    // 1. Process all verified words from master source
+    for (const newW of initialWords) {
+      const lower = newW.word.trim().toLowerCase();
+      const norm = normalizeKey(newW.word);
+
+      // Find best match in existing user data:
+      let existing: VocabularyWord | undefined = undefined;
+
+      // Check ID first
+      if (newW.id && existingById.has(newW.id)) {
+        existing = existingById.get(newW.id);
+      }
+
+      // Check exact lowercased word
+      if (!existing && existingByLower.has(lower)) {
+        existing = existingByLower.get(lower);
+      }
+
+      // Check normalized word (handles hyphens, equals signs, spaces)
+      if (!existing && existingByNorm.has(norm)) {
+        existing = existingByNorm.get(norm);
+      }
+
+      // Check known aliases (e.g. Bona-fide -> Bona / Bona = fide)
+      if (!existing && aliasMap[lower]) {
+        for (const alias of aliasMap[lower]) {
+          if (existingByLower.has(alias)) {
+            existing = existingByLower.get(alias);
+            break;
+          }
+          if (existingByNorm.has(normalizeKey(alias))) {
+            existing = existingByNorm.get(normalizeKey(alias));
+            break;
+          }
+        }
+      }
+
+      if (existing) {
+        matchedExistingIds.add(existing.id);
+
+        // Update lexical content from master source, STRICTLY PRESERVE all learning metrics
+        const merged: VocabularyWord = {
+          ...existing,
+          id: newW.id, // Ensure canonical ID from master dataset
+          word: newW.word,
+          pos: newW.pos,
+          simpleDefinition: newW.simpleDefinition,
+          banglaMeaning: newW.banglaMeaning,
+          synonyms: newW.synonyms,
+          antonyms: newW.antonyms,
+          example: newW.example,
+          exampleBangla: newW.exampleBangla || existing.exampleBangla,
+          source: newW.source || existing.source,
+          // Strictly preserve 100% of the user's learning history:
+          category: existing.category || 'Learning',
+          stage: existing.stage ?? 0,
+          consecutiveCorrect: existing.consecutiveCorrect ?? 0,
+          intervalDays: existing.intervalDays ?? 0,
+          nextReviewDate: existing.nextReviewDate || newW.nextReviewDate,
+          lastReviewedDate: existing.lastReviewedDate ?? null,
+          timesReviewed: existing.timesReviewed ?? 0,
+          timesCorrect: existing.timesCorrect ?? 0,
+          timesIncorrect: existing.timesIncorrect ?? 0,
+          isDifficult: existing.isDifficult ?? false,
+          createdAt: existing.createdAt || newW.createdAt,
+          updatedAt: new Date().toISOString(),
+        };
+        mergedList.push(merged);
+      } else {
+        // Brand new word from master dataset
+        mergedList.push({
+          ...newW,
+          category: 'Learning',
+        });
+      }
+    }
+
+    // 2. Preserve genuine custom words manually added by the user in the app
+    const allKnownAliases = new Set<string>();
+    Object.values(aliasMap).forEach((aliases) => {
+      aliases.forEach((a) => {
+        allKnownAliases.add(a.toLowerCase());
+        allKnownAliases.add(normalizeKey(a));
+      });
+    });
+
+    for (const w of existingWords) {
+      if (matchedExistingIds.has(w.id)) continue;
+      const lower = w.word.trim().toLowerCase();
+      const norm = normalizeKey(w.word);
+
+      // Skip obsolete aliases or duplicate old records
+      if (allKnownAliases.has(lower) || allKnownAliases.has(norm)) {
+        continue;
+      }
+
+      // Check if it's already in mergedList
+      const alreadyInList = mergedList.some(
+        (m) => m.id === w.id || m.word.trim().toLowerCase() === lower
+      );
+      if (!alreadyInList) {
+        mergedList.push(w);
+      }
+    }
+
+    // 3. Atomically overwrite STORES.WORDS with clean merged list
+    try {
+      const db = await openDB();
+      await new Promise<void>((resolve, reject) => {
+        const tx = db.transaction(STORES.WORDS, 'readwrite');
+        const store = tx.objectStore(STORES.WORDS);
+        store.clear(); // Clears STORES.WORDS only; STORES.STATS, STORES.LOGS, STORES.SETTINGS remain untouched
+        mergedList.forEach((w) => store.put(w));
+        tx.oncomplete = () => resolve();
+        tx.onerror = () => reject(tx.error);
+      });
+      await this.setDataVersion(VOCAB_DATA_VERSION);
+      console.log(`Successfully migrated ${mergedList.length} vocabulary words to data version ${VOCAB_DATA_VERSION}.`);
+    } catch {
+      localStorage.setItem(LS_KEYS.WORDS, JSON.stringify(mergedList));
+      localStorage.setItem(LS_KEYS.DATA_VERSION, VOCAB_DATA_VERSION.toString());
+    }
+  }
+
+  // Initialize DB and safely migrate vocabulary from master dataset
   static async init(): Promise<void> {
     if (this.isInitialized) return;
 
     try {
+      const currentVersion = await this.getDataVersion();
       const existingWords = await this.getAllWords();
-      const initialWords = initialVocabData as unknown as VocabularyWord[];
 
-      if (existingWords.length === 0) {
-        console.log('Seeding initial vocabulary from PDFs...');
-        await this.saveWords(initialWords);
-      } else {
-        // Smart non-destructive merge:
-        // Build map of existing words by lowercased word
-        const existingMap = new Map<string, VocabularyWord>();
-        for (const w of existingWords) {
-          existingMap.set(w.word.toLowerCase(), w);
-        }
-
-        const mergedList: VocabularyWord[] = [];
-        const processedSet = new Set<string>();
-
-        // 1. Process all verified words from both PDFs
-        for (const newW of initialWords) {
-          const lower = newW.word.toLowerCase();
-          processedSet.add(lower);
-          const existing = existingMap.get(lower);
-
-          if (existing) {
-            // Update vocabulary data (Bangla meaning, definition, synonyms, antonyms, example)
-            // BUT preserve all user learning history!
-            const merged: VocabularyWord = {
-              ...existing,
-              word: newW.word,
-              pos: newW.pos || existing.pos,
-              simpleDefinition: newW.simpleDefinition,
-              banglaMeaning: newW.banglaMeaning,
-              synonyms: newW.synonyms && newW.synonyms.length > 0 ? newW.synonyms : existing.synonyms,
-              antonyms: newW.antonyms && newW.antonyms.length > 0 ? newW.antonyms : existing.antonyms,
-              example: newW.example || existing.example,
-              source: newW.source || existing.source,
-              // Explicitly preserve learning state
-              category: existing.category,
-              stage: existing.stage,
-              consecutiveCorrect: existing.consecutiveCorrect,
-              intervalDays: existing.intervalDays,
-              nextReviewDate: existing.nextReviewDate,
-              lastReviewedDate: existing.lastReviewedDate,
-              timesReviewed: existing.timesReviewed,
-              timesCorrect: existing.timesCorrect,
-              timesIncorrect: existing.timesIncorrect,
-              isDifficult: existing.isDifficult,
-            };
-            mergedList.push(merged);
-          } else {
-            // Brand new word from the combined PDFs
-            mergedList.push({
-              ...newW,
-              category: 'Learning',
-            });
-          }
-        }
-
-        // 2. Also keep any custom words the user manually added in the app
-        for (const w of existingWords) {
-          const lower = w.word.toLowerCase();
-          if (!processedSet.has(lower)) {
-            mergedList.push(w);
-          }
-        }
-
-        await this.saveWords(mergedList);
+      if (existingWords.length === 0 || currentVersion < VOCAB_DATA_VERSION) {
+        await this.migrateVocabulary(false);
       }
       this.isInitialized = true;
     } catch (err) {
       console.warn('Falling back to localStorage for storage:', err);
-      const lsRaw = localStorage.getItem(LS_KEYS.WORDS);
-      const initialWords = initialVocabData as unknown as VocabularyWord[];
-      if (!lsRaw) {
-        localStorage.setItem(LS_KEYS.WORDS, JSON.stringify(initialWords));
-      } else {
-        try {
-          const existingWords: VocabularyWord[] = JSON.parse(lsRaw);
-          const existingMap = new Map<string, VocabularyWord>();
-          for (const w of existingWords) {
-            existingMap.set(w.word.toLowerCase(), w);
-          }
-          const mergedList: VocabularyWord[] = [];
-          const processedSet = new Set<string>();
-          for (const newW of initialWords) {
-            const lower = newW.word.toLowerCase();
-            processedSet.add(lower);
-            const existing = existingMap.get(lower);
-            if (existing) {
-              mergedList.push({
-                ...existing,
-                word: newW.word,
-                pos: newW.pos || existing.pos,
-                simpleDefinition: newW.simpleDefinition,
-                banglaMeaning: newW.banglaMeaning,
-                synonyms: newW.synonyms && newW.synonyms.length > 0 ? newW.synonyms : existing.synonyms,
-                antonyms: newW.antonyms && newW.antonyms.length > 0 ? newW.antonyms : existing.antonyms,
-                example: newW.example || existing.example,
-                source: newW.source || existing.source,
-                category: existing.category,
-                stage: existing.stage,
-                consecutiveCorrect: existing.consecutiveCorrect,
-                intervalDays: existing.intervalDays,
-                nextReviewDate: existing.nextReviewDate,
-                lastReviewedDate: existing.lastReviewedDate,
-                timesReviewed: existing.timesReviewed,
-                timesCorrect: existing.timesCorrect,
-                timesIncorrect: existing.timesIncorrect,
-                isDifficult: existing.isDifficult,
-              });
-            } else {
-              mergedList.push({ ...newW, category: 'Learning' });
-            }
-          }
-          for (const w of existingWords) {
-            if (!processedSet.has(w.word.toLowerCase())) {
-              mergedList.push(w);
-            }
-          }
-          localStorage.setItem(LS_KEYS.WORDS, JSON.stringify(mergedList));
-        } catch {
-          localStorage.setItem(LS_KEYS.WORDS, JSON.stringify(initialWords));
-        }
+      try {
+        await this.migrateVocabulary(false);
+      } catch (e) {
+        console.error('Migration failed in fallback:', e);
       }
       this.isInitialized = true;
     }
